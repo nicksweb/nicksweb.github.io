@@ -1,7 +1,7 @@
 ---
 title: Blog
 icon: fas fa-info-circle
-order: 4
+order: 3
 redirect_to: https://www.nickosullivan.id.au/blog
 ---
 
