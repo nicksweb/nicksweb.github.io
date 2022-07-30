@@ -1,13 +1,14 @@
 ---
-title: About
+title: Blog
 icon: fas fa-info-circle
-order: 1
+order: 4
+redirect_to: https://www.nickosullivan.id.au/blog
 ---
 
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
 
-Welcome
+Skills
 -------
 
 With over 10 years of experience in many areas of IT. Since, late 2019, Nicholas has achieved a Graduate Diploma of Information Technology from [CQUniversity](https://www.cqu.edu.au).
