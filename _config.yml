@@ -26,7 +26,7 @@ title: Nicholas O'Sullivan                          # the main title
 tagline: IT Consultancy and Systems Integration   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
- Reflections on Life with MS as a Christian
+ The Portfolio of Nicholas O'Sullivan, ICT Counsultant, TOwnsville. 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
 
@@ -72,7 +72,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark  # [light|dark]
+theme_mode: # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
