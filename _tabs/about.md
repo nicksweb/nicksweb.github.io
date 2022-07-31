@@ -1,14 +1,8 @@
 ---
-title: About
+title: Welcome
 icon: fas fa-info-circle
 order: 1
 ---
-
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
-
-Welcome
--------
 
 With over 10 years of experience in many areas of IT. Since, late 2019, Nicholas has achieved a Graduate Diploma of Information Technology from [CQUniversity](https://www.cqu.edu.au).
 
