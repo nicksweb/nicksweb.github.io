@@ -17,13 +17,14 @@ Soft Skills
 
 Technical Skills
 
-* Web Development - PHP, Javascript. 
-* DevOps - Ansible.
-* Virtualization / Containerization - Proxmox, Hyper-V, Docker.
+* Web Development - PHP, Javascript 
+* DevOps - Ansible
+* Virtualization / Containerization - Proxmox, Hyper-V, Docker
 * Scirpting - Bash, PowerShell
+* Coding - Python, C#
+* Networking - HP, Cisco, Ubiquiti, Dell, Huawei  
 
 OS Skills
 
 * Windows Server 2016, 2019
 * Ubuntu/Debian
-
