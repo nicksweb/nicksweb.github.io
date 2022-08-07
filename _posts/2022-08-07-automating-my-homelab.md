@@ -1,6 +1,6 @@
 ---
 title: Automating my Home Lab
-date: 2022-07-31 06:00:00 +1000
+date: 2022-08-07 06:00:00 +1000
 categories: [Linux, Ansible, Shell]
 tags: [homelab, ansible, github]     # TAG names should always be lowercase
 ---
