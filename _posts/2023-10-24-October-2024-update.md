@@ -1,6 +1,6 @@
 ---
 title: Home Lab Progress
-date: 2023-10-24 20:15:00 +1000
+date: 2023-10-24 06:00:00 +1000
 categories: [General]
 tags: [general]     # TAG names should always be lowercase
 ---
