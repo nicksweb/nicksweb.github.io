@@ -8,6 +8,7 @@ commit_message=""
 push_after=false
 skip_commit=false
 skip_publish=false
+trigger_pages=false
 
 usage() {
   cat <<'USAGE'
@@ -19,6 +20,7 @@ optionally commits/pushes source changes.
 Options:
   -m, --message "Text"   Commit message for source changes.
   --push                 Push committed source changes to origin/main.
+  --trigger-pages        Create an empty commit to trigger GitHub Actions.
   --skip-commit          Build and publish only.
   --skip-publish         Build and commit/push only.
   -h, --help             Show this help.
@@ -36,6 +38,11 @@ while (($#)); do
       shift 2
       ;;
     --push)
+      push_after=true
+      shift
+      ;;
+    --trigger-pages)
+      trigger_pages=true
       push_after=true
       shift
       ;;
@@ -92,6 +99,9 @@ if [[ "$skip_commit" == false ]]; then
     echo "==> Committing source changes"
     git add -A
     git commit -m "$commit_message"
+  elif [[ "$trigger_pages" == true ]]; then
+    echo "==> Creating empty commit to trigger GitHub Actions"
+    git commit --allow-empty -m "Trigger GitHub Pages build"
   else
     echo "==> No source changes to commit"
   fi

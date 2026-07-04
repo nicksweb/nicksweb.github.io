@@ -65,6 +65,12 @@ Build and commit/push without publishing to Apache:
 bin/publish-local --skip-publish -m "Update site content" --push
 ```
 
+Trigger GitHub Actions even when there are no content changes:
+
+```bash
+bin/publish-local --skip-publish --trigger-pages
+```
+
 ## GitHub Pages Build
 
 This repository also has a GitHub Actions workflow at:
@@ -84,5 +90,11 @@ To use GitHub Pages:
 5. Set **Build and deployment** to deploy from a branch.
 6. Select branch `gh-pages` and folder `/ (root)`.
 7. Push to `main` and check the workflow under **Actions**.
+
+If you need to manually trigger the GitHub Pages workflow without changing content:
+
+```bash
+bin/publish-local --skip-publish --trigger-pages
+```
 
 The local Apache publish script is still useful because this server serves the site directly from `/var/www/html/nickosullivan.id.au`.
