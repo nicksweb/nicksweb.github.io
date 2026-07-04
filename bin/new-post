@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ $# -lt 1 || "${1:-}" == "-h" || "${1:-}" == "--help" ]]; then
+  echo "Usage: bin/new-post \"Post title\""
+  exit 1
+fi
+
+repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+title="$*"
+date_slug="$(date +%Y-%m-%d)"
+
+slug="$(printf '%s' "$title" \
+  | tr '[:upper:]' '[:lower:]' \
+  | sed -E 's/[^a-z0-9]+/-/g; s/^-+//; s/-+$//')"
+
+post_path="$repo_root/_posts/${date_slug}-${slug}.md"
+
+if [[ -e "$post_path" ]]; then
+  echo "Post already exists: $post_path"
+  exit 1
+fi
+
+cat > "$post_path" <<POST
+---
+title: "$title"
+date: $(date '+%Y-%m-%d %H:%M:%S %z')
+categories: [General]
+tags: [general]
+---
+
+Write the post here.
+POST
+
+echo "$post_path"

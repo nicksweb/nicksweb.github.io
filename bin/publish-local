@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+webroot="${NICKOSULLIVAN_WEBROOT:-/var/www/html/nickosullivan.id.au}"
+backup_root="${NICKOSULLIVAN_BACKUP_ROOT:-/var/www/html/backups}"
+commit_message=""
+push_after=false
+skip_commit=false
+skip_publish=false
+
+usage() {
+  cat <<'USAGE'
+Usage: bin/publish-local [options]
+
+Builds the Jekyll site, publishes _site to the local Apache webroot, and
+optionally commits/pushes source changes.
+
+Options:
+  -m, --message "Text"   Commit message for source changes.
+  --push                 Push committed source changes to origin/main.
+  --skip-commit          Build and publish only.
+  --skip-publish         Build and commit/push only.
+  -h, --help             Show this help.
+
+Environment:
+  NICKOSULLIVAN_WEBROOT      Default: /var/www/html/nickosullivan.id.au
+  NICKOSULLIVAN_BACKUP_ROOT  Default: /var/www/html/backups
+USAGE
+}
+
+while (($#)); do
+  case "$1" in
+    -m|--message)
+      commit_message="${2:-}"
+      shift 2
+      ;;
+    --push)
+      push_after=true
+      shift
+      ;;
+    --skip-commit)
+      skip_commit=true
+      shift
+      ;;
+    --skip-publish)
+      skip_publish=true
+      shift
+      ;;
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    *)
+      echo "Unknown option: $1"
+      usage
+      exit 1
+      ;;
+  esac
+done
+
+cd "$repo_root"
+
+if [[ -z "$commit_message" ]]; then
+  commit_message="Update personal site $(date +%Y-%m-%d)"
+fi
+
+echo "==> Installing locked Ruby gems if needed"
+bundle config set path vendor/bundle >/dev/null
+bundle install
+
+echo "==> Building Jekyll site"
+JEKYLL_ENV=production bundle exec jekyll build
+
+if [[ "$skip_publish" == false ]]; then
+  if [[ ! -d "$webroot" ]]; then
+    echo "Webroot does not exist: $webroot"
+    exit 1
+  fi
+
+  backup_dir="$backup_root/nickosullivan.id.au-$(date +%Y%m%d-%H%M%S)"
+  echo "==> Backing up current webroot to $backup_dir"
+  sudo mkdir -p "$backup_dir"
+  sudo rsync -a "$webroot/" "$backup_dir/"
+
+  echo "==> Publishing _site to $webroot"
+  sudo rsync -a "$repo_root/_site/" "$webroot/"
+fi
+
+if [[ "$skip_commit" == false ]]; then
+  if [[ -n "$(git status --porcelain)" ]]; then
+    echo "==> Committing source changes"
+    git add -A
+    git commit -m "$commit_message"
+  else
+    echo "==> No source changes to commit"
+  fi
+fi
+
+if [[ "$push_after" == true ]]; then
+  echo "==> Pushing to origin/main"
+  git push origin main
+fi
+
+echo "==> Done"
