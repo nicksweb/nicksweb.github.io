@@ -1,46 +1,99 @@
-# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+# Nicholas O'Sullivan Personal Site
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `_includes`, `_layout`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
+This repository contains the Jekyll source for [www.nickosullivan.id.au](https://www.nickosullivan.id.au).
 
-The Jekyll organization claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
+The site uses the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) Jekyll theme and is published as a static site.
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
+## Common Editing Tasks
 
-```shell
-.
-├── _config.yml
-├── _data
-├── _plugins
-├── _tabs
-└── index.html
+Update profile pages:
+
+```bash
+_tabs/about.md
+_tabs/skills.md
 ```
 
-In order to save your time, and to prevent you from missing some files when copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+Add a new article:
 
-## Prerequisites
-
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll` and `Bundler`.
-
-## Installation
-
-[**Use this template**][use-template] to generate a brand new repository and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
-
-Then clone it to your local machine and run:
-
-```
-$ bundle
+```bash
+bin/new-post "Article title"
 ```
 
-## Usage
+The new post will be created in `_posts/` with the current date and a URL-friendly slug.
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+## Build Locally
+
+Install dependencies and build:
+
+```bash
+bundle install
+JEKYLL_ENV=production bundle exec jekyll build
+```
+
+Preview locally:
+
+```bash
+bundle exec jekyll serve
+```
+
+## Publishing Scripts
+
+This repo includes helper scripts for the regular publishing workflow.
+
+Build and publish to the configured local webroot:
+
+```bash
+bin/publish-local --skip-commit
+```
+
+Build, publish, commit and push:
+
+```bash
+bin/publish-local -m "Update personal site" --push
+```
+
+Build and push source changes without publishing to the local webroot:
+
+```bash
+bin/publish-local --skip-publish -m "Update site content" --push
+```
+
+Trigger GitHub Actions / GitHub Pages even when there are no content changes:
+
+```bash
+bin/publish-local --skip-publish --trigger-pages
+```
+
+The local publishing script supports these environment variables:
+
+```bash
+NICKOSULLIVAN_WEBROOT
+NICKOSULLIVAN_BACKUP_ROOT
+```
+
+See [docs/publishing.md](docs/publishing.md) for more workflow notes.
+
+## GitHub Pages
+
+The workflow in `.github/workflows/pages-deploy.yml` builds the Jekyll site on pushes to `main` and publishes the generated static site to the `gh-pages` branch.
+
+Repository settings needed:
+
+- **Settings > Actions > General > Workflow permissions**: read and write.
+- **Settings > Pages**: deploy from branch `gh-pages`, folder `/`.
+
+## Repository Structure
+
+```text
+_posts/       Articles
+_tabs/        Main profile/navigation pages
+assets/       Images and static assets
+bin/          Local workflow helpers
+docs/         Publishing notes
+```
 
 ## License
 
-This work is published under [MIT][mit] License.
+Site content is copyright Nicholas O'Sullivan unless otherwise noted.
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+The Chirpy theme is distributed under its own upstream license.

@@ -2,16 +2,17 @@
 
 This repository is the source for `www.nickosullivan.id.au`.
 
-The live Apache site is served from:
+The local publishing helper can copy the generated `_site` directory to a configured webroot. By default this is set for the current server, but it can be overridden with:
 
 ```bash
-/var/www/html/nickosullivan.id.au
+NICKOSULLIVAN_WEBROOT=/path/to/webroot
+NICKOSULLIVAN_BACKUP_ROOT=/path/to/backups
 ```
 
-The Jekyll source is kept at:
+Example:
 
 ```bash
-/home/localadmin/src/nicksweb.github.io
+NICKOSULLIVAN_WEBROOT=/srv/www/example bin/publish-local --skip-commit
 ```
 
 ## Update the About or Skills Page
@@ -26,7 +27,7 @@ _tabs/skills.md
 Then run:
 
 ```bash
-cd /home/localadmin/src/nicksweb.github.io
+cd /path/to/nicksweb.github.io
 bin/publish-local -m "Update about and skills" --push
 ```
 
@@ -41,7 +42,7 @@ git push origin main
 Create a draft post:
 
 ```bash
-cd /home/localadmin/src/nicksweb.github.io
+cd /path/to/nicksweb.github.io
 bin/new-post "Practical cyber security notes for small organisations"
 ```
 
@@ -97,4 +98,4 @@ If you need to manually trigger the GitHub Pages workflow without changing conte
 bin/publish-local --skip-publish --trigger-pages
 ```
 
-The local Apache publish script is still useful because this server serves the site directly from `/var/www/html/nickosullivan.id.au`.
+The local publish script is still useful when the site is served directly by a web server rather than only by GitHub Pages.
