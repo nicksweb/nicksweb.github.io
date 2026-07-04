@@ -28,7 +28,7 @@ tagline: IT Consultancy and Systems Integration   # it will display as the sub-t
 description: >-                        # used by seo meta and the atom feed
  The Portfolio of Nicholas O'Sullivan, ICT Counsultant, TOwnsville. 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://www.nickosullivan.id.au'
 
 github:
   username: nicksweb             # change to your github username
