@@ -58,6 +58,12 @@ Build and push source changes without publishing to the local webroot:
 bin/publish-local --skip-publish -m "Update site content" --push
 ```
 
+Publish the current build directly to the `gh-pages` branch:
+
+```bash
+bin/publish-gh-pages "Publish current Jekyll build"
+```
+
 Trigger GitHub Actions / GitHub Pages even when there are no content changes:
 
 ```bash

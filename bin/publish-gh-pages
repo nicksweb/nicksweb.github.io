@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+worktree="${NICKOSULLIVAN_GH_PAGES_WORKTREE:-/tmp/nicksweb-gh-pages}"
+message="${1:-Publish current Jekyll build}"
+
+cd "$repo_root"
+
+echo "==> Installing locked Ruby gems if needed"
+bundle config set path vendor/bundle >/dev/null
+bundle install
+
+echo "==> Building Jekyll site"
+JEKYLL_ENV=production bundle exec jekyll build
+touch "$repo_root/_site/.nojekyll"
+
+echo "==> Preparing gh-pages worktree"
+rm -rf "$worktree"
+if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
+  git worktree add "$worktree" origin/gh-pages
+else
+  git worktree add --orphan "$worktree"
+fi
+
+echo "==> Syncing _site to gh-pages"
+rsync -a --delete --exclude .git "$repo_root/_site/" "$worktree/"
+
+cd "$worktree"
+git add -A
+if git diff --cached --quiet; then
+  echo "==> No gh-pages changes to publish"
+else
+  git commit -m "$message"
+  git push origin HEAD:gh-pages
+fi
+
+cd "$repo_root"
+git worktree remove "$worktree"
+
+echo "==> Done"

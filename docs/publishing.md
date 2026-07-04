@@ -72,6 +72,12 @@ Trigger GitHub Actions even when there are no content changes:
 bin/publish-local --skip-publish --trigger-pages
 ```
 
+Publish the generated site directly to the `gh-pages` branch:
+
+```bash
+bin/publish-gh-pages "Publish current Jekyll build"
+```
+
 ## GitHub Pages Build
 
 This repository also has a GitHub Actions workflow at:
@@ -96,6 +102,12 @@ If you need to manually trigger the GitHub Pages workflow without changing conte
 
 ```bash
 bin/publish-local --skip-publish --trigger-pages
+```
+
+If the workflow is unavailable or you want to publish the generated site directly:
+
+```bash
+bin/publish-gh-pages "Publish current Jekyll build"
 ```
 
 The local publish script is still useful when the site is served directly by a web server rather than only by GitHub Pages.
