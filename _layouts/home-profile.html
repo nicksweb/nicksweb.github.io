@@ -57,7 +57,10 @@ refactor: true
   </section>
 
   <section aria-labelledby="recent-articles">
-    <h2 id="recent-articles" class="mb-3">Recent articles</h2>
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h2 id="recent-articles" class="mb-0">Recent articles</h2>
+      <a href="{{ '/posts/' | relative_url }}">View all posts</a>
+    </div>
     <div id="post-list" class="flex-grow-1 px-xl-1">
       {% assign visible_posts = site.posts | where_exp: 'post', 'post.hidden != true' %}
       {% for post in visible_posts limit: 4 %}

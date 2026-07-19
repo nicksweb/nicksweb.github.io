@@ -2,7 +2,7 @@
 title: About
 description: Learn about Nicholas O'Sullivan, a Townsville IT leader with experience in infrastructure, cloud, cyber security and education technology.
 keywords: [Nicholas O'Sullivan, Townsville IT leader, IT manager, cyber security, education technology, cloud infrastructure]
-icon: fas fa-info-circle
+icon: fas fa-user
 order: 1
 ---
 
