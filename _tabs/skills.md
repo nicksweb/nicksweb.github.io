@@ -1,5 +1,7 @@
 ---
 title: Skills
+description: Nicholas O'Sullivan's skills in IT leadership, cyber security, cloud, endpoint management, infrastructure, networking and automation.
+keywords: [IT leadership skills, cyber security, cloud administration, endpoint management, network infrastructure, systems automation]
 icon: fas fa-info-circle
 order: 2
 ---

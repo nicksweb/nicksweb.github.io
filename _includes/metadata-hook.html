@@ -1,0 +1,13 @@
+{% comment %}
+  Chirpy calls this hook at the end of <head>. jekyll-seo-tag handles titles,
+  descriptions, canonical URLs, Open Graph, Twitter cards and JSON-LD; it does
+  not output the optional keywords front matter used by this site.
+{% endcomment %}
+{% if page.keywords %}
+  {% if page.keywords.first %}
+    {% assign seo_keywords = page.keywords | join: ', ' %}
+  {% else %}
+    {% assign seo_keywords = page.keywords %}
+  {% endif %}
+  <meta name="keywords" content="{{ seo_keywords | escape }}">
+{% endif %}

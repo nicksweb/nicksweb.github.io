@@ -24,6 +24,8 @@ fi
 cat > "$post_path" <<POST
 ---
 title: "$title"
+description: "Add a concise, page-specific summary of roughly 120 to 160 characters."
+keywords: [add, relevant, search phrases]
 date: $(date '+%Y-%m-%d %H:%M:%S %z')
 categories: [General]
 tags: [general]

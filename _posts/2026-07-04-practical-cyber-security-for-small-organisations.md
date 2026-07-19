@@ -1,5 +1,7 @@
 ---
 title: Practical cyber security for small organisations
+description: Practical cyber security priorities for small businesses, schools, charities, churches and community organisations in Townsville.
+keywords: [small business cyber security, Townsville cyber security, Microsoft 365 security, MFA, cloud governance, community organisations]
 date: 2026-07-04 21:58:00 +1000
 categories: [General]
 tags: [general, cyber-security, microsoft-365]

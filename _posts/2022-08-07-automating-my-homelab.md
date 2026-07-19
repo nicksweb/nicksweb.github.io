@@ -1,5 +1,7 @@
 ---
 title: Automating my Home Lab
+description: Notes on documenting and automating a Linux homelab with Ansible, shell scripts, backups and reproducible server builds.
+keywords: [homelab automation, Ansible, Linux homelab, shell scripts, server backups, infrastructure as code]
 date: 2022-08-07 06:00:00 +1000
 categories: [Linux, Ansible, Shell]
 tags: [homelab, ansible, github]     # TAG names should always be lowercase
