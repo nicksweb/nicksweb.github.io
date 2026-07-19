@@ -6,11 +6,13 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-I am a Townsville-based IT professional with more than 15 years of experience across infrastructure, cloud platforms, education technology, cyber security, systems administration and practical technology leadership.
+I am a Townsville-based IT professional with 17 years of professional experience across infrastructure, cloud platforms, education technology, cyber security, systems administration and practical technology leadership. This includes seven years operating as a sole trader, followed by roles across Queensland Government education and independent schools.
 
 My work has ranged from running a local IT support business through to state-wide education technology support, school infrastructure planning, Microsoft 365 and Google Workspace administration, network design, endpoint management, security review work and community-sector governance. Since October 2024, I have worked as IT Manager at [The Cathedral School of St Anne & St James](https://www.cathedral.qld.edu.au/).
 
 I care most about technology that is secure, explainable and maintainable. The best systems are not just technically capable; they help people make better decisions, reduce avoidable risk and keep doing the work they are there to do. I am still actively developing my skills and depth, particularly across security, infrastructure leadership, cloud governance and the practical realities of supporting complex school and community environments.
+
+My cyber security experience has developed through hands-on infrastructure and technology leadership rather than a single dedicated cyber security qualification. It is supported by continuing professional development through Charles Sturt University, LinkedIn Learning, the Australian Computer Society and other industry training. I continue to build this capability through practical work, self-directed learning and portfolio projects across identity, cloud governance, endpoint security, networks and operational resilience.
 
 ## Current focus
 
@@ -36,10 +38,22 @@ Suburban Australia began as local technology support work and has evolved into p
 
 ## Qualifications and professional development
 
-- Graduate Diploma of Information Technology with Distinction, CQUniversity.
+### Formal qualifications
+
+- Graduate Diploma of Information Technology (Networking) with Distinction, Central Queensland University.
 - Bachelor of Multimedia Journalism, James Cook University.
 - Certified Technologist with the Australian Computer Society.
-- Ongoing professional development across cyber defence, penetration testing fundamentals, enterprise cyber security, project recovery, Agile delivery, procurement, ITIL v4 and technology leadership.
+
+### Cyber security professional development
+
+- **Next-Gen Network Security** — Certificate of Completion, 9 November 2025. Credential ID: `Z9DnTJaCgs`.
+- **Pen Testing** — Certificate of Completion, 15 September 2024. Credential ID: `Tapw0pwEMN`.
+- **Enterprise Cyber Security Fundamentals** — Certificate of Completion, 15 September 2024. Credential ID: `flLDGdAcwD`.
+
+### Continuing learning
+
+- Continuing professional development through Charles Sturt University, LinkedIn Learning, the Australian Computer Society and other industry training.
+- Ongoing learning across cyber defence, penetration testing fundamentals, enterprise cyber security, cloud governance, project recovery, Agile delivery, procurement, ITIL v4 and technology leadership.
 
 ## Values
 
