@@ -11,7 +11,7 @@ Townsville has had a long and interesting relationship with the local computer s
 
 For many years, buying a computer did not mean scrolling through an interstate website and waiting for a courier. It meant visiting a showroom, talking to somebody who built and repaired computers, and often returning to the same counter when it was time for an upgrade. The better stores combined retail, technical advice and after-sales support in a way that is difficult to reproduce through an online checkout.
 
-Two articles published today by [Townsville Computer Man](https://www.tsvcomputerman.com.au/) prompted me to reflect on that history and on the gap that now exists in our city.
+Two articles published today at [Townsville Computer Man](https://www.tsvcomputerman.com.au/) prompted me to reflect on that history and on the gap that now exists in our city.
 
 ## The stores many locals remember
 
@@ -55,6 +55,6 @@ A major specialist store would not need to displace local repairers or existing 
 
 The companion article, [Why Townsville needs a large specialist computer store](https://www.tsvcomputerman.com.au/news/townsville-needs-a-large-computer-store/), makes a direct invitation to major Australian retailers to examine the region, talk to local businesses and test the demand.
 
-I would like to add my voice to that call. If you would shop at a Computer Alliance, Umart or similar specialist retailer in Townsville, say so. Share the articles, contact the retailers and tell [Townsville Computer Man](https://www.tsvcomputerman.com.au/contact/) what products or services you would use locally. Evidence of genuine demand is far more persuasive than a general feeling that a store would be nice to have.
+I would like to add my voice to that call. If you would shop at a Computer Alliance, Umart or similar specialist retailer in Townsville, say so. Share the articles, contact the retailers and provide feedback to [Townsville Computer Man](https://www.tsvcomputerman.com.au/contact/) what products or services you would use locally. Evidence of genuine demand is far more persuasive than a general feeling that a store would be nice to have.
 
 Townsville has supported specialist computer stores before. The way we buy technology has changed, but the need for useful local stock, sound advice and dependable service has not. Perhaps it is time for the next chapter.
