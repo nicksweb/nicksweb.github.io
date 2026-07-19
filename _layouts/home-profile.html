@@ -1,0 +1,83 @@
+---
+layout: default
+refactor: true
+---
+
+{% include lang.html %}
+
+<article class="px-1">
+  <section class="mb-5">
+    <div class="row align-items-center g-4">
+      <div class="col-12 col-md-auto text-center">
+        <img
+          src="{{ site.avatar }}"
+          alt="Nicholas O'Sullivan"
+          width="180"
+          height="180"
+          class="rounded-circle shadow"
+        >
+      </div>
+      <div class="col text-center text-md-start">
+        <h1 class="display-5 mb-2">Nicholas O'Sullivan</h1>
+        <p class="lead mb-3">IT leader and cyber security professional in Townsville</p>
+        <p>
+          I’m a Townsville-based IT professional with more than 15 years of experience across
+          infrastructure, cloud platforms, education technology, cyber security, systems
+          administration and practical technology leadership.
+        </p>
+        <p class="mb-0">
+          <a class="btn btn-primary me-2 mb-2" href="{{ '/about/' | relative_url }}">About me</a>
+          <a class="btn btn-outline-primary mb-2" href="{{ '/skills/' | relative_url }}">View my skills</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="content mb-5" aria-labelledby="professional-focus">
+    <h2 id="professional-focus">Professional focus</h2>
+    <p>
+      I focus on secure, explainable and maintainable technology: strengthening school technology
+      foundations, improving cloud and identity governance, planning resilient infrastructure and
+      helping organisations understand which technology risks and improvements matter most.
+    </p>
+    <div class="row g-3">
+      <div class="col-md-4">
+        <h3 class="h5">Technology leadership</h3>
+        <p>Strategy, service delivery, infrastructure planning, documentation and practical risk management.</p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="h5">Cyber security</h3>
+        <p>Identity, Microsoft 365, endpoint management, cloud governance and security-minded operations.</p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="h5">Infrastructure</h3>
+        <p>Networks, servers, virtualisation, automation and maintainable systems for complex environments.</p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="recent-articles">
+    <h2 id="recent-articles" class="mb-3">Recent articles</h2>
+    <div id="post-list" class="flex-grow-1 px-xl-1">
+      {% assign visible_posts = site.posts | where_exp: 'post', 'post.hidden != true' %}
+      {% for post in visible_posts limit: 4 %}
+        <article class="card-wrapper card">
+          <a href="{{ post.url | relative_url }}" class="post-preview row g-0">
+            <div class="col-12">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h2 my-2 mt-md-0">{{ post.title }}</h3>
+                <div class="card-text content mt-0 mb-3">
+                  <p>{{ post.description | default: post.excerpt | strip_html | normalize_whitespace | escape }}</p>
+                </div>
+                <div class="post-meta">
+                  <i class="far fa-calendar fa-fw me-1"></i>
+                  {% include datetime.html date=post.date lang=lang %}
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+</article>

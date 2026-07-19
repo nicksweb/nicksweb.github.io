@@ -11,3 +11,44 @@
   {% endif %}
   <meta name="keywords" content="{{ seo_keywords | escape }}">
 {% endif %}
+{% if page.robots %}
+  <meta name="robots" content="{{ page.robots | escape }}">
+{% endif %}
+
+{% if page.layout == 'home' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "@id": {{ site.url | append: "/#profile-page" | jsonify }},
+    "url": {{ site.url | append: "/" | jsonify }},
+    "name": "Nicholas O'Sullivan — IT Leader in Townsville",
+    "description": {{ page.description | jsonify }},
+    "mainEntity": {
+      "@type": "Person",
+      "@id": {{ site.url | append: "/#nicholas-osullivan" | jsonify }},
+      "name": "Nicholas O'Sullivan",
+      "alternateName": "Nick O'Sullivan",
+      "url": {{ site.url | append: "/" | jsonify }},
+      "image": {{ site.avatar | jsonify }},
+      "jobTitle": "IT Manager",
+      "description": {{ site.description | strip_newlines | normalize_whitespace | jsonify }},
+      "knowsAbout": [
+        "IT leadership",
+        "Cyber security",
+        "Education technology",
+        "Cloud platforms",
+        "IT infrastructure",
+        "Systems integration"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Townsville",
+        "addressRegion": "Queensland",
+        "addressCountry": "AU"
+      },
+      "sameAs": {{ site.social.links | jsonify }}
+    }
+  }
+  </script>
+{% endif %}

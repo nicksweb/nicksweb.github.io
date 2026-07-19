@@ -7,8 +7,6 @@ categories: [General]
 tags: [general, townsville, computers, local-business]
 ---
 
-# Townsville computer stores — remembering the past and making the case for what comes next
-
 Townsville has had a long and interesting relationship with the local computer shop.
 
 For many years, buying a computer did not mean scrolling through an interstate website and waiting for a courier. It meant visiting a showroom, talking to somebody who built and repaired computers, and often returning to the same counter when it was time for an upgrade. The better stores combined retail, technical advice and after-sales support in a way that is difficult to reproduce through an online checkout.

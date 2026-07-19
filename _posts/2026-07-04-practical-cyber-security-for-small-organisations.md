@@ -7,8 +7,6 @@ categories: [General]
 tags: [general, cyber-security, microsoft-365]
 ---
 
-# Practical cyber security for small organisations
-
 One of the recurring patterns I see in small organisations is that technology quietly becomes critical before anyone has formally decided who owns it.
 
 Email becomes the front door. Microsoft 365 becomes the filing cabinet. A phone system, Wi-Fi network, website, payment platform, livestreaming setup or booking tool gets added over time. Eventually the organisation depends on systems that were never reviewed as one whole picture.
