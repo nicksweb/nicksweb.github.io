@@ -40,6 +40,9 @@ git worktree prune
 if [[ -e "$worktree" ]]; then
   rm -rf -- "$worktree"
 fi
+# Refresh the remote-tracking branch so the deployment commit is based on the
+# latest published site rather than a stale local reference.
+git fetch origin gh-pages
 if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
   git worktree add "$worktree" origin/gh-pages
 else
