@@ -34,6 +34,39 @@ The Queensland Government already provides [SFIA-aligned digital and ICT role pr
 
 SFIA should not become another block of unexplained codes pasted into an advertisement. A good advertisement still needs to describe the organisation, its environment, the outcomes required and what success looks like. The framework supports that conversation; it does not replace it.
 
+## A Townsville example: the NQ Cowboys IT Support Officer
+
+A current local example is the [NQ Cowboys Group IT Support Officer advertisement on SEEK](https://au.seek.com/NQ-Cowboys-Ltd-jobs/at-this-company?jobId=93507111&type=standard).
+
+![NQ Cowboys Ltd IT Support Officer job advertisement for Townsville](/assets/images/cowboys_job_ad.png)
+_The NQ Cowboys Ltd IT Support Officer listing on SEEK, viewed July 2026. Screenshot supplied for commentary._
+
+The Cowboys Group describes itself as a cornerstone of the North Queensland community with a large geographical footprint and more than 30 years of contribution to the regional economy. The advertised position supports Cowboys Leagues Club and the Group's licensed venues—an environment where technology is directly connected to hospitality operations, staff productivity and the experience of members and guests.
+
+The advertisement does several things well. It uses accessible language, conveys the variety of the work and makes customer service, ownership, curiosity and practical problem-solving central to the role. It also gives candidates useful context that a list of products alone could not provide.
+
+At the same time, it illustrates how broad a regional IT support position can become. The duties span:
+
+- Level 1 and Level 2 user support,
+- hardware, software, network and application troubleshooting,
+- Microsoft 365 and user administration,
+- network and server infrastructure,
+- point-of-sale, payment and venue technology,
+- documentation and asset records,
+- vendor and service-provider coordination,
+- cyber security initiatives and staff awareness, and
+- projects, upgrades, knowledge articles and training.
+
+Those are related responsibilities, but they are not all the same skill. A candidate reading the advertisement may reasonably ask where support ends and ownership begins. Are they following established procedures or expected to design them? Are they monitoring infrastructure or accountable for its availability? Do they assist a service provider, coordinate it, or approve its work? Are cyber security tasks carried out under guidance, or does the officer assess and treat risk?
+
+This is where a light SFIA profile could make a good advertisement even clearer. Without suggesting that the Cowboys Group formally uses SFIA, the work appears to draw on capabilities such as user support, infrastructure operations, asset management, security awareness, supplier coordination and change implementation. Assigning a responsibility level to the most important three or four skills would tell applicants whether the role primarily asks them to assist, apply or enable.
+
+For example, the advertisement explicitly places the position in Level 1 and Level 2 support, but that describes tiers of technical support rather than SFIA's levels of professional responsibility. The two numbering systems are easy to confuse and measure different things. A short capability statement could clarify the expected autonomy, complexity and influence while leaving the advertisement's approachable tone intact.
+
+It may also help the employer test the scope of the position. If the successful person is expected to independently own venue technology services, assure supplier performance, set security requirements or approve network designs, those are materially different expectations from assisting with those activities. Making that distinction visible supports fairer recruitment, better onboarding and a more realistic development pathway.
+
+For me, this local example reinforces that capability frameworks are not only for large Brisbane departments. They can be just as valuable in a Townsville organisation where a small technology team supports a diverse, operationally critical environment.
+
 ## It does not have to be SFIA
 
 SFIA will not be the perfect answer for every organisation. Another established capability framework—or a carefully designed internal model—may align better with an organisation's industry, operating model and workforce practices.
