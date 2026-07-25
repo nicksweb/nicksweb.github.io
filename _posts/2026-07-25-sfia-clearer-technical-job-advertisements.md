@@ -1,7 +1,7 @@
 ---
 title: Why SFIA makes technical job advertisements clearer
-description: How SFIA can improve ICT job advertisements, capability planning and technology service management for Queensland organisations.
-keywords: [SFIA Queensland, technical job advertisements, ICT capability framework, technology service management, network design, IT jobs Brisbane, IT jobs Townsville]
+description: How SFIA clarifies Queensland ICT jobs, including an NQ Cowboys Group IT Support Officer role in Townsville.
+keywords: [SFIA Queensland, technical job advertisements, ICT capability framework, technology service management, network design, IT jobs Brisbane, IT jobs Townsville, NQ Cowboys jobs, North Queensland Toyota Cowboys, NRL technology jobs]
 date: 2026-07-25 08:00:00 +1000
 categories: [General]
 tags: [general, sfia, technology-leadership, service-management, networking]
@@ -34,14 +34,16 @@ The Queensland Government already provides [SFIA-aligned digital and ICT role pr
 
 SFIA should not become another block of unexplained codes pasted into an advertisement. A good advertisement still needs to describe the organisation, its environment, the outcomes required and what success looks like. The framework supports that conversation; it does not replace it.
 
-## A Townsville example: the NQ Cowboys IT Support Officer
+## A Townsville example: the North Queensland Toyota Cowboys Group
 
 A current local example is the [NQ Cowboys Group IT Support Officer advertisement on SEEK](https://au.seek.com/NQ-Cowboys-Ltd-jobs/at-this-company?jobId=93507111&type=standard).
 
-![NQ Cowboys Ltd IT Support Officer job advertisement for Townsville](/assets/images/cowboys_job_ad.png)
+![North Queensland Toyota Cowboys Group IT Support Officer job advertisement for Townsville](/assets/images/cowboys_job_ad.png)
 _The NQ Cowboys Ltd IT Support Officer listing on SEEK, viewed July 2026. Screenshot supplied for commentary._
 
-The Cowboys Group describes itself as a cornerstone of the North Queensland community with a large geographical footprint and more than 30 years of contribution to the regional economy. The advertised position supports Cowboys Leagues Club and the Group's licensed venues—an environment where technology is directly connected to hospitality operations, staff productivity and the experience of members and guests.
+This is the group behind the [North Queensland Toyota Cowboys](https://www.cowboys.com.au/about/), Townsville's National Rugby League (NRL) club. The [newly aligned Cowboys Group](https://www.cowboys.com.au/news/2026/04/22/cowboys-appoint-tim-follett-as-inaugural-group-ceo/) brings together the Cowboys Rugby League Football Club, Cowboys Leagues Club and Cowboys Community Foundation under one executive structure.
+
+That context makes this more than a generic Townsville IT support job. The wider organisation spans professional sport, hospitality, licensed venues and community activity across one of the NRL's largest geographical footprints. The advertised position supports Cowboys Leagues Club and the Group's licensed venues—an environment where technology is directly connected to hospitality operations, staff productivity and the experience of members and guests.
 
 The advertisement is engaging. It uses accessible language, conveys the variety of the work and makes customer service, ownership, curiosity and practical problem-solving central to the role. What it does not provide is any direct SFIA direction—or an equivalent capability framework—to explain the professional level expected.
 
