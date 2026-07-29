@@ -2,12 +2,12 @@
 title: "North Queensland Cyber Watch: ransomware halts a major Queensland sugar mill"
 description: "A ransomware attack disrupted crushing at a major North Queensland sugar producer in June 2026 — a reminder that critical agricultural infrastructure is now a live target."
 keywords: [North Queensland cyber security, ransomware Queensland, agriculture cyber attack, sugar mill ransomware, Mackay cyber incident, critical infrastructure security]
-date: 2026-07-29 09:15:00 +1000
+date: 2026-06-19 09:00:00 +1000
 categories: [General]
 tags: [general, cyber-security, north-queensland-cyber-watch, ransomware, critical-infrastructure]
 ---
 
-This is the first entry in **North Queensland Cyber Watch**, an ongoing series looking at cyber security incidents affecting our region and what organisations here can take from them. North Queensland is not a bystander in the national cyber threat picture — agriculture, education, health, local government, tourism and small business all sit within reach of the same criminal groups targeting capital cities. The intent of this series isn't to alarm anyone or pile on an organisation already having a bad week. It's to turn each incident into a practical prompt: could this happen to us, and are we ready if it did?
+This is the second entry in **North Queensland Cyber Watch**, an ongoing series looking at cyber security incidents affecting our region and what organisations here can take from them. The intent of this series isn't to alarm anyone or pile on an organisation already having a bad week. It's to turn each incident into a practical prompt: could this happen to us, and are we ready if it did?
 
 ## What was reported
 

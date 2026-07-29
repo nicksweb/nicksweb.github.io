@@ -2,12 +2,14 @@
 title: "North Queensland Cyber Watch: Townsville schools caught in the global Canvas breach"
 description: "A global attack on the Canvas learning platform reached Townsville schools in May 2026, exposing student and staff data and underscoring why third-party risk matters for education."
 keywords: [Townsville cyber security, Canvas data breach, Instructure breach, school cyber security Queensland, ShinyHunters, education data breach]
-date: 2026-07-29 09:30:00 +1000
+date: 2026-05-13 09:00:00 +1000
 categories: [General]
 tags: [general, cyber-security, north-queensland-cyber-watch, data-breach, education]
 ---
 
-The second entry in **North Queensland Cyber Watch** looks at an incident much closer to home: a global attack on the Canvas learning management platform that reached at least one Townsville school and the region's Catholic and state education systems.
+This is the first entry in **North Queensland Cyber Watch**, an ongoing series looking at cyber security incidents affecting our region and what organisations here can take from them. North Queensland is not a bystander in the national cyber threat picture — agriculture, education, health, local government, tourism and small business all sit within reach of the same criminal groups targeting capital cities. The intent of this series isn't to alarm anyone or pile on an organisation already having a bad week. It's to turn each incident into a practical prompt: could this happen to us, and are we ready if it did?
+
+This first entry looks at an incident much closer to home: a global attack on the Canvas learning management platform that reached at least one Townsville school and the region's Catholic and state education systems.
 
 {% include embed/youtube.html id='Tlbx1yG0VS0' %}
 
@@ -25,7 +27,7 @@ The list of affected institutions extended well beyond Townsville, and well beyo
 
 ## Why this one matters beyond the headline
 
-This incident is a clean illustration of **third-party and supply-chain risk** — the kind of risk we've written about before in the context of [independent schools and their reliance on outsourced IT and platforms]({% post_url 2026-07-19-cyber-risk-independent-schools-australia %}). Annandale Christian College didn't need a flaw in its own network to be caught up in a major breach; it needed nothing more than a contract with a vendor that was compromised. The same is true for every school, business or charity relying on QLearn, Canvas, a finance platform, a CRM or any cloud service — your data's exposure is only ever as strong as your weakest vendor's security, no matter how well you've secured your own environment.
+This incident is a clean illustration of **third-party and supply-chain risk** — the same risk we look at in our piece on [independent schools and their reliance on outsourced IT and platforms]({% post_url 2026-07-19-cyber-risk-independent-schools-australia %}). Annandale Christian College didn't need a flaw in its own network to be caught up in a major breach; it needed nothing more than a contract with a vendor that was compromised. The same is true for every school, business or charity relying on QLearn, Canvas, a finance platform, a CRM or any cloud service — your data's exposure is only ever as strong as your weakest vendor's security, no matter how well you've secured your own environment.
 
 It's also a reminder that breach response isn't purely technical. Annandale Christian College's public communication — acknowledging the incident, being specific about what was and wasn't affected, and pointing to ongoing forensic work — is exactly the kind of transparent, calm response that preserves trust with families and staff during a stressful period. That's a governance and communications capability as much as an IT one.
 
