@@ -14,22 +14,93 @@ This entry is a hard one to write, because it's close to home. Townsville Christ
 
 ## What was reported
 
-According to reporting by the *Townsville Bulletin* (Cameron Bates, 31 July 2026), Townsville Christian College has confirmed it was the target of a criminal ransomware attack between **28 and 30 June 2026**. An external attacker gained unauthorised access to part of the College's network through an internet-facing remote-access connection, obtained administrative access, and encrypted a number of the College's systems.
+According to [reporting by the *Townsville Bulletin*](https://www.townsvillebulletin.com.au/truecrimeaustralia/police-courts-townsville/townsville-christian-college-hit-by-criminal-ransomware-attack-targeting-sensitive-data/news-story/06f22de126e482a2acb3e05ba9aadda6){:target="_blank" rel="noopener noreferrer"} (Cameron Bates, 31 July 2026), Townsville Christian College has confirmed it was the target of a criminal ransomware attack between **28 and 30 June 2026**. An external attacker gained unauthorised access to part of the College's network through an internet-facing remote-access connection, obtained administrative access, and encrypted a number of the College's systems.
 
 The College's own notice to parents, guardians and staff — issued under the Notifiable Data Breaches scheme in the *Privacy Act 1988* (Cth) — set out what happened, plainly and without spin:
 
-![Facebook post from the Everything Townsville community group sharing the Townsville Christian College data breach notice, with a member reacting to the news](/assets/images/TCC_Facebook_EverythingTvl.PNG)
-_The notice was quickly being shared and discussed in local community groups such as Everything Townsville — a reminder that a breach notification doesn't stay contained to the families who receive it directly._
+<div class="tcc-gallery">
+  <div class="tcc-gallery-main"><a href="/assets/images/TCC_Facebook_EverythingTvl.PNG" id="tcc-gallery-link" target="_blank" rel="noopener noreferrer"><img id="tcc-gallery-image" src="/assets/images/TCC_Facebook_EverythingTvl.PNG" alt="Facebook post from the Everything Townsville community group sharing the Townsville Christian College data breach notice, with a member reacting to the news"></a></div>
+  <p class="tcc-gallery-caption" id="tcc-gallery-caption">The notice was quickly being shared and discussed in local community groups such as Everything Townsville — a reminder that a breach notification doesn't stay contained to the families who receive it directly.</p>
+  <div class="tcc-gallery-thumbs">
+    <a href="/assets/images/TCC_Facebook_EverythingTvl.PNG" class="tcc-gallery-thumb active" data-full="/assets/images/TCC_Facebook_EverythingTvl.PNG" data-alt="Facebook post from the Everything Townsville community group sharing the Townsville Christian College data breach notice, with a member reacting to the news" data-caption="The notice was quickly being shared and discussed in local community groups such as Everything Townsville — a reminder that a breach notification doesn't stay contained to the families who receive it directly." aria-label="View: community reaction on Facebook"><img src="/assets/images/TCC_Facebook_EverythingTvl.PNG" alt="Thumbnail: Facebook post sharing the breach notice"></a>
+    <a href="/assets/images/TCC_Image1.PNG" class="tcc-gallery-thumb" data-full="/assets/images/TCC_Image1.PNG" data-alt="Screenshot of the Townsville Christian College notice to parents, page 1: explaining the cyber security incident and what happened between 28 and 30 June 2026" data-caption="Page 1: explaining the cyber security incident and what happened between 28 and 30 June 2026." aria-label="View: notice page 1"><img src="/assets/images/TCC_Image1.PNG" alt="Thumbnail: notice page 1"></a>
+    <a href="/assets/images/TCC_Image4.PNG" class="tcc-gallery-thumb" data-full="/assets/images/TCC_Image4.PNG" data-alt="Screenshot of the Townsville Christian College notice to parents, page 2: the kinds of information involved and the College's investigation findings" data-caption="Page 2: the kinds of information involved and the College's investigation findings." aria-label="View: notice page 2"><img src="/assets/images/TCC_Image4.PNG" alt="Thumbnail: notice page 2"></a>
+    <a href="/assets/images/TCC_Image2.PNG" class="tcc-gallery-thumb" data-full="/assets/images/TCC_Image2.PNG" data-alt="Screenshot of the Townsville Christian College notice to parents, page 3: what the College is doing in response and what recipients can do to protect themselves" data-caption="Page 3: what the College is doing in response and what recipients can do to protect themselves." aria-label="View: notice page 3"><img src="/assets/images/TCC_Image2.PNG" alt="Thumbnail: notice page 3"></a>
+    <a href="/assets/images/TCC_Image3.PNG" class="tcc-gallery-thumb" data-full="/assets/images/TCC_Image3.PNG" data-alt="Screenshot of the Townsville Christian College notice to parents, page 4: further support resources and how to contact the College" data-caption="Page 4: further support resources and how to contact the College." aria-label="View: notice page 4"><img src="/assets/images/TCC_Image3.PNG" alt="Thumbnail: notice page 4"></a>
+    <a href="/assets/images/TCC_Image5.PNG" class="tcc-gallery-thumb" data-full="/assets/images/TCC_Image5.PNG" data-alt="Screenshot of the Townsville Christian College notice to parents, page 5: closing message, signature from Principal Lynn Ireland, and the College's letterhead" data-caption="Page 5: closing message, signature from Principal Lynn Ireland, and the College's letterhead." aria-label="View: notice page 5"><img src="/assets/images/TCC_Image5.PNG" alt="Thumbnail: notice page 5"></a>
+  </div>
+</div>
 
-![Screenshot of the Townsville Christian College notice to parents, page 1: explaining the cyber security incident and what happened between 28 and 30 June 2026](/assets/images/TCC_Image1.PNG)
+<style>
+.tcc-gallery { max-width: 420px; margin: 1.5rem auto; }
+.tcc-gallery-main {
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--card-bg);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+.tcc-gallery-main img { display: block; width: 100%; height: auto; }
+.tcc-gallery-caption {
+  font-size: 0.85rem;
+  color: var(--text-color);
+  opacity: 0.75;
+  text-align: center;
+  margin: 0.6rem 0 0;
+}
+.tcc-gallery-thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+}
+.tcc-gallery-thumb {
+  display: block;
+  width: 56px;
+  height: 56px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  opacity: 0.6;
+  transition: opacity 0.15s ease, border-color 0.15s ease;
+}
+.tcc-gallery-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.tcc-gallery-thumb:hover,
+.tcc-gallery-thumb:focus-visible,
+.tcc-gallery-thumb.active {
+  opacity: 1;
+  border-color: var(--link-color);
+}
+</style>
 
-![Screenshot of the Townsville Christian College notice to parents, page 2: the kinds of information involved and the College's investigation findings](/assets/images/TCC_Image4.PNG)
+<script>
+(function () {
+  var main = document.getElementById('tcc-gallery-image');
+  var mainLink = document.getElementById('tcc-gallery-link');
+  var caption = document.getElementById('tcc-gallery-caption');
+  var thumbs = document.querySelectorAll('.tcc-gallery-thumb');
+  if (!main || !thumbs.length) { return; }
 
-![Screenshot of the Townsville Christian College notice to parents, page 3: what the College is doing in response and what recipients can do to protect themselves](/assets/images/TCC_Image2.PNG)
+  function show(thumb) {
+    var full = thumb.getAttribute('data-full');
+    main.src = full;
+    main.alt = thumb.getAttribute('data-alt');
+    if (mainLink) { mainLink.href = full; }
+    caption.textContent = thumb.getAttribute('data-caption');
+    thumbs.forEach(function (t) { t.classList.remove('active'); });
+    thumb.classList.add('active');
+  }
 
-![Screenshot of the Townsville Christian College notice to parents, page 4: further support resources and how to contact the College](/assets/images/TCC_Image3.PNG)
-
-![Screenshot of the Townsville Christian College notice to parents, page 5: closing message, signature from Principal Lynn Ireland, and the College's letterhead](/assets/images/TCC_Image5.PNG)
+  thumbs.forEach(function (thumb) {
+    thumb.addEventListener('click', function (e) {
+      e.preventDefault();
+      show(thumb);
+    });
+    thumb.addEventListener('mouseenter', function () { show(thumb); });
+  });
+})();
+</script>
 
 By the College's own account:
 
