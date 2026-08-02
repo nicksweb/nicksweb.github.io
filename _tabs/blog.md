@@ -1,8 +1,8 @@
 ---
 title: Blog
-description: Visit Nicholas O'Sullivan's WordPress blog for additional articles and updates.
-keywords: [Nicholas O'Sullivan blog, WordPress blog, technology articles, Townsville technology]
-icon: fab fa-wordpress
+description: Read Nicholas O'Sullivan's blog posts.
+keywords: [Nicholas O'Sullivan blog, technology articles, Townsville technology]
+icon: fas fa-blog
 order: 4
-redirect_to: https://blog.nickosullivan.id.au
+redirect_to: https://www.nickosullivan.id.au/posts/
 ---
