@@ -9,7 +9,8 @@ tags: [general, cyber-security, north-queensland-cyber-watch, ransomware, data-b
 
 This is the fourth entry in **North Queensland Cyber Watch**, an ongoing series looking at cyber security incidents affecting our region and what organisations here can take from them. The intent of this series isn't to alarm anyone or pile on an organisation already having a bad week. It's to turn each incident into a practical prompt: could this happen to us, and are we ready if it did?
 
-This entry is a hard one to write, because it's close to home. Townsville Christian College is a well-regarded, multi-cultural, co-educational independent school in our own community, and I say the following as someone from the North Queensland education community first, and a cyber security commentator second.
+This entry is a hard one to write, because it's close to home. Townsville Christian College is a well-regarded, multi-cultural, co-educational independent school in our own community, and I say the following as someone from the North Queensland education community first, and a cyber security commentator second. In recent years they moved from a single building located in an industrial part of Townsville to a master-planned site - What an effort for the Church that planted the school.
+
 
 ## What was reported
 
