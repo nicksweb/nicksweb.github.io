@@ -30,7 +30,7 @@
       "name": "Nicholas O'Sullivan",
       "alternateName": "Nick O'Sullivan",
       "url": {{ site.url | append: "/" | jsonify }},
-      "image": {{ site.avatar | jsonify }},
+      "image": {{ site.avatar | absolute_url | jsonify }},
       "jobTitle": "IT Manager",
       "description": {{ site.description | strip_newlines | normalize_whitespace | jsonify }},
       "knowsAbout": [

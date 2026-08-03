@@ -8,6 +8,11 @@ on:
       - .gitignore
       - README.md
       - LICENSE
+  schedule:
+    # 20:00 UTC = 06:00 Australia/Brisbane (no DST). Daily rebuild so that
+    # future-dated posts go live automatically on their scheduled date,
+    # since Jekyll excludes future-dated posts from the build by default.
+    - cron: '0 20 * * *'
 
 permissions:
   contents: write
