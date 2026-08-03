@@ -15,3 +15,6 @@ vendor
 # npm dependencies
 node_modules
 package-lock.json
+
+# sensitive file
+e4b21f9427514b1ba0f46c54827942d6.txt
