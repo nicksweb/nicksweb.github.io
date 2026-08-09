@@ -184,6 +184,7 @@ exclude:
   - tools
   - README.md
   - LICENSE
+  - webroot-htaccess
   - gulpfile.js
   - node_modules
   - package*.json

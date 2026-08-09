@@ -14,8 +14,8 @@ usage() {
   cat <<'USAGE'
 Usage: bin/publish-local [options]
 
-Builds the Jekyll site, publishes _site to the local Apache webroot, and
-optionally commits/pushes source changes.
+Builds the Jekyll site, publishes _site and the version-controlled Apache
+configuration to the local webroot, and optionally commits/pushes source changes.
 
 Options:
   -m, --message "Text"   Commit message for source changes.
@@ -92,6 +92,9 @@ if [[ "$skip_publish" == false ]]; then
 
   echo "==> Publishing _site to $webroot"
   sudo rsync -a "$repo_root/_site/" "$webroot/"
+
+  echo "==> Publishing webroot-htaccess to $webroot/.htaccess"
+  sudo cp "$repo_root/webroot-htaccess" "$webroot/.htaccess"
 fi
 
 if [[ "$skip_commit" == false ]]; then

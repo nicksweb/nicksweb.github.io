@@ -4,6 +4,7 @@ description: Read Nicholas O'Sullivan's articles about IT leadership, cyber secu
 keywords: [Nicholas O'Sullivan posts, IT leadership articles, cyber security articles, infrastructure, homelab, Townsville technology]
 icon: fas fa-newspaper
 order: 3
+post_list: true
 ---
 
 Articles on technology leadership, cyber security, infrastructure, education technology, homelabs and the Townsville technology community.
