@@ -2,7 +2,7 @@
 title: "Queensland is paying for cyber security and AI training right now — here's what's actually on offer"
 description: "A $11.5 million Queensland Government program is funding free AI, cyber security and procurement micro-credentials through UniSC, and TAFE Queensland already runs a separate free cyber security course. What's live now, what's coming, and who it's worth registering for."
 keywords: [free cyber security training queensland, board cyber security awareness course, TAFE cyber security micro-credential, queensland government micro-credentials small business, UniSC business planning course]
-date: 2026-08-12 09:00:00 +1000
+date: 2026-08-10 18:00:00 +1000
 categories: [General]
 tags: [general, cyber-security, governance, small-business]
 image:
