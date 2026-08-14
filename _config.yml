@@ -50,10 +50,11 @@ social:
   name: Nicholas O'Sullivan
   email: me@nickosullivan.id.au             # change to your email address
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/nickswebtsv      # change to your twitter homepage
-    - https://github.com/nicksweb      # change to your github homepage
+    # The first element serves as the copyright owner's link — LinkedIn leads
+    # since that's the profile we want to drive traffic to.
     - https://www.linkedin.com/in/nicholasosullivan/
+    - https://github.com/nicksweb      # change to your github homepage
+    - https://twitter.com/nickswebtsv      # change to your twitter homepage
 
 google_site_verification:               # fill in to your verification string
 
