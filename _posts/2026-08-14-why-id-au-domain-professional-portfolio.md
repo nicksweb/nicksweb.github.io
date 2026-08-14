@@ -5,6 +5,9 @@ keywords: [id.au domain, personal domain Australia, professional portfolio domai
 date: 2026-08-14 13:00:00 +1000
 categories: [General]
 tags: [general, careers, professional-development, domains, email, homelab]
+image:
+  path: /assets/images/id-au-domain.png
+  alt: "VentraIP's page for registering an Australian .id.au personal domain"
 ---
 
 There is a small part of Australia's domain-name system that I think is almost perfect for anyone building a professional identity online — and particularly for people starting or developing a career in technology.
