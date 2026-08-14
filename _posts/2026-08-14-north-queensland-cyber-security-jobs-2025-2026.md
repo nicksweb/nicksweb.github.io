@@ -226,7 +226,7 @@ And as regional organisations continue to mature their security programs, I will
 
 ## About this research
 
-I compiled this article in August 2026 from publicly accessible employer advertisements and archived or search-indexed listings covering parts of 2025 and 2026.
+I compiled this article in August 2026 from publicly accessible employer advertisements and archived or search-indexed listings covering parts of 2025 and 2026. I also follow job listings regularly — not because I'm looking for a new role, but because I like providing support and advice to people in the IT industry who may be starting out or looking to advance their careers.
 
 It is **not a complete census of North Queensland cyber security employment**. Expired advertisements disappear, some positions are repeated across agencies, and job-board keyword searches produce unrelated results. The roles above are examples of notable and representative advertisements, not a ranking or definitive vacancy count.
 
