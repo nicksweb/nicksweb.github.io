@@ -10,15 +10,17 @@ image:
   alt: "Townsville city and Castle Hill, representing the North Queensland technology employment market"
 ---
 
-Cyber security is often described as one of Australia's fastest-growing technology career paths. But what does the market actually look like if you live north of Brisbane?
+I keep hearing that cyber security is one of Australia's fastest-growing technology career paths. That may be true nationally, but it does not answer the question I am more interested in: what does the market actually look like if you live north of Brisbane?
 
 Across 2025 and 2026, employers in North Queensland advertised roles spanning security operations, governance and risk, identity and access management, endpoint security, infrastructure security and broader technology leadership.
 
-The market is considerably smaller than Brisbane, Sydney or Melbourne. The advertisements I could verify nevertheless show real opportunities, particularly for experienced technology professionals who combine security knowledge with infrastructure, risk, identity or operational IT experience.
+So I went looking through current, historical and search-indexed job advertisements to see what employers had actually advertised across Townsville, Cairns, Mackay and the surrounding North Queensland regions.
+
+The short answer is that the market is considerably smaller than Brisbane, Sydney or Melbourne, but the jobs are here. The strongest opportunities appear to be for experienced technology professionals who can combine security knowledge with infrastructure, risk, identity or operational IT experience.
 
 This is not an exhaustive list. Advertisements disappear quickly after closing and historical job-board data is imperfect. These are some of the more interesting and representative positions I could verify across Townsville, Cairns and Mackay.
 
-## Six notable North Queensland advertisements
+## Some of the standout jobs I found
 
 | Employer | Role | Location | Advertised base salary |
 | --- | --- | --- | ---: |
@@ -33,13 +35,13 @@ There were also graduate, consulting, systems administration, infrastructure and
 
 ## 1. Manager, Identity and Access Management — James Cook University
 
-One of the more senior specialist positions was James Cook University's **Manager, Identity and Access Management**, advertised in 2025.
+One of the more senior specialist positions I found was James Cook University's **Manager, Identity and Access Management**, advertised in 2025.
 
 The full-time continuing role, based at JCU's Townsville Bebegu Yumba campus, offered **$130,115 to $137,625 per year plus up to 17% employer superannuation**.
 
 This went well beyond administering user accounts. The manager was to lead the design and improvement of JCU's IAM frameworks, develop its strategic roadmap, oversee IAM technologies and user lifecycle management, and align the capability with university cyber security policy and compliance obligations. The advertisement sought extensive IAM experience in large organisations and a relevant degree or equivalent experience.
 
-It is a useful example of security specialisation developing within a regional organisation. Identity is increasingly a discipline in its own right, rather than another task assigned to a systems administration team.
+This is the kind of advertisement I find particularly interesting because it shows security specialisation developing within a regional organisation. Identity is increasingly becoming a discipline in its own right, rather than simply another responsibility of the systems administration team.
 
 **Source:** [James Cook University advertisement reproduced by Academic Jobs](https://www.academicjobs.com/university-jobs/manager-identity-and-access-management-townsville-queensland/696132)
 
@@ -47,9 +49,9 @@ It is a useful example of security specialisation developing within a regional o
 
 Townsville City Council advertised a permanent **Cyber Security Governance & Assurance Specialist** in July 2026, with applications closing on 4 August. The salary range was **$113,019 to $119,946 plus superannuation**.
 
-Rather than being a security operations or engineering position, the role focused on governance, risk, compliance and assurance. Its duties included maintaining Council's ISO 27001-aligned Information Security Management System, conducting cyber risk assessments, coordinating assurance and audit activity, maintaining policies and producing reporting for leadership.
+Rather than being a security operations or engineering position, this one focused on governance, risk, compliance and assurance. Its duties included maintaining Council's ISO 27001-aligned Information Security Management System, conducting cyber risk assessments, coordinating assurance and audit activity, maintaining policies and producing reporting for leadership.
 
-The advertisement specifically referred to **ISO 27001, the ACSC Essential Eight and the NIST Cybersecurity Framework**. It is worth including because cyber careers are not restricted to penetration testing, firewalls and incident response: governance, risk and compliance — usually shortened to GRC — is a substantial part of the profession.
+The advertisement specifically referred to **ISO 27001, the ACSC Essential Eight and the NIST Cybersecurity Framework**. I think it is an important role to include because cyber careers are not restricted to penetration testing, firewalls and incident response. Governance, risk and compliance — usually shortened to GRC — is a substantial part of the profession.
 
 **Source:** [Townsville City Council — Cyber Security Governance & Assurance Specialist](https://jobs.townsville.qld.gov.au/page.php?AdvertID=918611&pageID=160&windowUID=0)
 
@@ -57,15 +59,15 @@ The advertisement specifically referred to **ISO 27001, the ACSC Essential Eight
 
 Council also advertised a permanent **Cyber Security Operations Officer** in July 2026, with applications closing on 2 August. The advertised salary was **$102,640 to $109,563 plus superannuation**.
 
-This was closer to what people might picture as an operational security role. It involved monitoring and investigating alerts, responding to incidents, working with managed security service providers, reviewing logs and telemetry, supporting threat hunting and coordinating vulnerability remediation.
+This was much closer to what people probably picture when they think about an operational cyber security role. It involved monitoring and investigating alerts, responding to incidents, working with managed security service providers, reviewing logs and telemetry, supporting threat hunting and coordinating vulnerability remediation.
 
-Taken together, Council's advertisements show two distinct security functions:
+Taken together, I think Council's advertisements are particularly interesting. They show two distinct security functions:
 
 - **Cyber operations:** monitoring, detection, vulnerability management and incident response.
 
 - **Cyber governance and assurance:** risk, policy, compliance, audit and security frameworks.
 
-That separation is routine in larger security teams, but notable within a regional Queensland organisation.
+That separation is commonplace in larger security teams, but it is notable to see it so clearly in advertisements from a regional Queensland organisation.
 
 **Source:** [Townsville City Council — Cyber Security Operations Officer](https://jobs.townsville.qld.gov.au/page.php?AdvertID=920074&pageID=160&windowUID=0)
 
@@ -75,7 +77,7 @@ That separation is routine in larger security teams, but notable within a region
 
 In June 2025, the **Port of Townsville advertised a Cyber Security Engineer** as a contract or temporary ICT security position. The surviving listing described the engineer as playing a vital role in protecting the Port from cyber threats and having responsibility for security design. I could not locate a dependable advertised salary, so I have not estimated one.
 
-The role is significant because ports sit at the intersection of conventional enterprise IT and critical operational infrastructure. As industrial and operational technology becomes more connected, regional security professionals may be protecting not only laptops and Microsoft 365 accounts but also systems supporting transport, logistics, utilities and industry.
+I still think the role is worth highlighting because ports sit at the intersection of conventional enterprise IT and critical operational infrastructure. As industrial and operational technology becomes more connected, a security professional in Townsville may be protecting not only laptops and Microsoft 365 accounts but also systems supporting transport, logistics, utilities and industry.
 
 **Source:** [Archived SEEK results containing the Port of Townsville advertisement](https://www.seek.com.au/Queensland-Sugar-jobs/in-Giru-QLD-4809)
 
@@ -85,7 +87,7 @@ Not every cyber security job has “cyber security” in its title. Mackay Regio
 
 The role offered a base salary of **$113,123 to $122,760** and, according to the advertisement, up to 18% superannuation. It covered endpoint security, device management and ICT projects supporting Council's digital workplace.
 
-This is better described as a security-heavy infrastructure role than a dedicated cyber position — precisely why it matters when assessing the regional market. Responsibilities that might sit across separate endpoint, Intune, identity, security and infrastructure teams in a capital-city enterprise can be combined in one regional position.
+I would describe this as a security-heavy infrastructure role rather than a dedicated cyber position, but that is precisely why it matters when looking at the regional market. Responsibilities that might sit across separate endpoint, Intune, identity, security and infrastructure teams in a capital-city enterprise can be combined in one regional position.
 
 **Sources:** [Mackay Regional Council job listing reproduced on LinkedIn](https://au.linkedin.com/jobs/view/senior-ict-endpoint-engineer-at-mackay-regional-council-4438456584) and [SEEK's Mackay Regional Council results](https://au.seek.com/Mackay-Regional-Council-jobs/in-Mackay-QLD-4740)
 
@@ -95,21 +97,23 @@ At the other end of the spectrum was Cairns Regional Council's **Executive Manag
 
 This was not a dedicated cyber role. It was a broad senior leadership position overseeing a team of about 50 across enterprise systems, infrastructure and operations, architecture, cyber security, project delivery and business partnering. The recruitment material explicitly described responsibility for advancing Council's digital, data and cyber agenda.
 
-It illustrates another feature of the regional market: meaningful cyber responsibility often forms part of a wider leadership portfolio. A CIO, ICT Manager, Infrastructure Manager or technology executive may carry substantial security and cyber-risk accountability without having “security” in the title.
+For me, this illustrates another feature of the regional market: meaningful cyber responsibility often forms part of a wider leadership portfolio. A CIO, ICT Manager, Infrastructure Manager or technology executive may carry substantial security and cyber-risk accountability without having “security” anywhere in the title.
 
 **Source:** [Davidson — Executive Manager Information & Technology Services](https://www.davidsonwp.com/job-details/executive-manager-information-technology-services-in-government-defence-jobs-1589004)
 
 ## What about people trying to enter cyber security?
 
-This is where the North Queensland market becomes more difficult. I found substantially fewer advertisements explicitly aimed at junior cyber security analysts than positions seeking experienced technical or specialist staff.
+This is where the North Queensland market becomes more difficult. I found substantially fewer advertisements for jobs explicitly described as junior cyber security analysts or entry-level security officers than positions seeking experienced technical or specialist staff.
 
 There are still pathways. KPMG advertised its **2027 Technology & Digital Graduate Program** in Townsville during 2026, covering work across cyber security, cloud, data, AI and digital transformation. It also advertised a Technology & Digital Vacationer Program, giving university students another route into cyber-adjacent work.
+
+But the broader pattern is worth paying attention to.
 
 **Sources:** [KPMG graduate program listing](https://au.prosple.com/graduate-employers/kpmg-australia/jobs-internships/technology-digital-graduate-program) and [SEEK's Townsville graduate results](https://au.seek.com/IT-graduate-role-jobs/in-Townsville-QLD-4810)
 
 ## The regional market appears to favour experienced IT professionals
 
-A recurring theme was the crossover between traditional IT and cyber security. Employers were looking for capability across areas such as:
+A recurring theme in the advertisements I reviewed was the crossover between traditional IT and cyber security. Employers were looking for capability across areas such as:
 
 - Identity and access management
 - Endpoint security and device management
@@ -119,7 +123,11 @@ A recurring theme was the crossover between traditional IT and cyber security. E
 - ISO 27001, the Essential Eight and security architecture
 - Digital transformation, operational technology and critical infrastructure
 
-That creates several credible career routes:
+That creates some interesting career routes. The regional path into cyber security may not necessarily be:
+
+> University → Junior Cyber Security Analyst → Security Analyst → Senior Security Analyst
+
+It can just as easily look like:
 
 > IT support → systems administration → infrastructure or network engineering → security engineering
 
@@ -127,21 +135,21 @@ That creates several credible career routes:
 
 > Systems or cloud administration → identity and access management → IAM specialist or manager
 
-For experienced regional IT professionals wanting to move further into security, that crossover can be an advantage.
+For experienced regional IT professionals wanting to move further into security, that crossover may actually be an advantage.
 
 ![A cyber security padlock visual representing the specialist controls layered over ordinary business technology.](/assets/images/cyber-security-padlock.jpg)
 
-## How large is the dedicated market?
+## How many dedicated cyber jobs are there?
 
-It is difficult to measure accurately from public job boards after the fact. The snapshots I recorded during this research give some indication: a broad SEEK search showed three Townsville results in April 2026 and eight around July; a March snapshot showed seven results for Cairns and Far North Queensland and two for Mackay.
+This is difficult to measure accurately from public job boards after the fact, but the snapshots I recorded while researching this article give some indication. A broad SEEK search showed three Townsville results in April 2026 and eight around July. A March snapshot showed seven results for Cairns and Far North Queensland and two for Mackay.
 
 Those counts should be treated cautiously. Search results change daily, duplicate advertisements can appear, and keyword searches routinely include jobs that are not really cyber security roles. They are observations, not a census or a time series.
 
-The safer conclusion is that the dedicated regional market remains small, while a less visible amount of security work sits inside infrastructure, networking, cloud, risk and technology-management positions.
+I think the safer conclusion is that the dedicated regional market remains small. That does not mean there is little cyber security work being performed in North Queensland. It means a less visible amount of that work sits inside infrastructure, networking, cloud, risk and technology-management positions.
 
 ## What do North Queensland cyber jobs pay?
 
-The advertisements with disclosed salaries provide a useful, if small, sample:
+The advertisements with disclosed salaries provide a useful, if small, starting point:
 
 - Townsville City Council Cyber Security Operations Officer: **$102,640–$109,563 + super**
 
@@ -155,7 +163,7 @@ The superannuation component matters when comparing public-sector and university
 
 National salary guides are somewhat higher. Robert Half's 2026 Australian Salary Guide lists a Cyber-Security Specialist at **$135,000 at the 25th percentile, $150,000 at the 50th and $180,000 at the 75th**, excluding superannuation, bonuses and other benefits.
 
-That does not establish a North Queensland pay gap. The regional sample is too small and the jobs are not directly comparable. It does provide a benchmark worth tracking as more regional advertisements appear.
+That does not prove North Queensland has a cyber security “pay gap”. The regional sample is too small and the jobs are not directly comparable. It does, however, raise an interesting question worth tracking as more regional advertisements appear.
 
 **Source:** [Robert Half Australia — Cyber-Security Specialist salary](https://www.roberthalf.com/au/en/job-details/cyber-security-specialist)
 
@@ -169,7 +177,7 @@ The occupation is also highly qualified: 41.5% of ICT Security Specialists hold 
 
 ## Where are North Queensland's cyber jobs?
 
-Several sectors stand out from the positions located:
+Based on the positions I could identify, several sectors stand out.
 
 ### Local government
 
@@ -193,7 +201,7 @@ Graduate and consulting programs such as KPMG's Townsville intake offer another 
 
 ## The biggest opportunities may be hidden in the titles
 
-Searching only for “cyber security jobs” probably does not show the whole market. A North Queensland candidate should also watch for titles and terms such as:
+Perhaps the most interesting conclusion from this exercise is that searching only for “cyber security jobs” probably does not show the whole market. Someone wanting to work in cyber security in North Queensland should also watch for titles and terms such as:
 
 - Security Engineer, ICT Security or Information Security
 - Identity and Access Management or IAM
@@ -204,15 +212,15 @@ Searching only for “cyber security jobs” probably does not show the whole ma
 
 The security responsibility may be buried in the position description rather than placed in the title.
 
-## A different-shaped career path
+## The regional career path looks different
 
-There are cyber security careers available without leaving North Queensland, but the market does not look like a smaller copy of Sydney or Brisbane.
+There are clearly cyber security careers available without leaving North Queensland, but the market does not look like a smaller copy of Sydney or Brisbane.
 
 There are fewer dedicated positions. Many of the strongest opportunities favour people who already understand enterprise IT and can apply security principles to identity, networks, endpoints, cloud platforms, governance or critical infrastructure.
 
-For someone starting out, that may mean gaining broad IT experience rather than waiting indefinitely for a role titled **Junior Cyber Security Analyst**. For an experienced systems administrator, network engineer, ICT manager or cloud professional, North Queensland's developing cyber market offers realistic paths into specialisation.
+For someone starting their career, that may mean getting broad IT experience first rather than waiting indefinitely for a role titled **Junior Cyber Security Analyst**. For an experienced systems administrator, network engineer, ICT manager or cloud professional, on the other hand, North Queensland's developing cyber market could provide a very realistic pathway into specialisation.
 
-As regional organisations mature their security programs, it will be worth watching whether more dedicated positions begin to appear.
+And as regional organisations continue to mature their security programs, I will be interested to see whether more dedicated positions begin to appear.
 
 ---
 
