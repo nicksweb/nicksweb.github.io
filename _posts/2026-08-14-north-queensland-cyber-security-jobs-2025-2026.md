@@ -35,7 +35,7 @@ There were also graduate, consulting, systems administration, infrastructure and
 
 ## 1. Manager, Identity and Access Management — James Cook University
 
-One of the more senior specialist positions I found was James Cook University's **Manager, Identity and Access Management**, advertised in 2025.
+One of the more senior specialist positions I found was James Cook University's **Manager, Identity and Access Management**, with applications closing on **21 June 2026**.
 
 The full-time continuing role, based at JCU's Townsville Bebegu Yumba campus, offered **$130,115 to $137,625 per year plus up to 17% employer superannuation**.
 
