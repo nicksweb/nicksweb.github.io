@@ -55,6 +55,10 @@ Suburban Australia began as local technology support work and has evolved into p
 - Continuing professional development through Charles Sturt University, LinkedIn Learning, the Australian Computer Society and other industry training.
 - Ongoing learning across cyber defence, penetration testing fundamentals, enterprise cyber security, cloud governance, project recovery, Agile delivery, procurement, ITIL v4 and technology leadership.
 
+## Writing
+
+I write about IT and cyber security topics relevant to Townsville and North Queensland on this site, including [why I still take on cyber security consulting work around Townsville](/posts/cyber-security-consultant-townsville/), the [North Queensland Cyber Watch series](/tags/north-queensland-cyber-watch/) covering regional incidents, [practical cyber security for small organisations](/posts/practical-cyber-security-for-small-organisations/), and the [history of Townsville Computer Man](/posts/townsville-computer-man-relaunch/), the repair business I started in Year 12 and relaunched in 2026.
+
 ## Values
 
 I try to bring a calm, practical approach to complex technology problems. That means documenting decisions, explaining trade-offs clearly, keeping solutions right-sized, and helping leaders understand what should be improved first.

@@ -37,6 +37,13 @@ github:
 twitter:
   username: nickswebtsv            # change to your twitter username
 
+# Used by jekyll-seo-tag to populate <meta name="author">, twitter:creator and
+# the "author" field of Article/BlogPosting JSON-LD on every page and post.
+# Pointing url at /about/ ties every article back to the canonical Person page.
+author:
+  name: Nicholas O'Sullivan
+  url: 'https://www.nickosullivan.id.au/about/'
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
