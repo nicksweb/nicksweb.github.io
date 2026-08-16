@@ -168,7 +168,7 @@ The Cranbrook proposal may yet return in another form. If it does, the next anno
 
 A press release can announce 81 homes in a morning. Delivering 81 homes is considerably harder.
 
-> **Disclosure:** I am chairperson and a director of Northreach Community Care Ltd, a Townsville community-housing provider. I have also been involved in the proposed Canterbury Road social-housing development mentioned later in this article. My role is recorded on the [ACNC Charity Register](https://www.acnc.gov.au/charity/charities/8556bf76-3aaf-e811-a962-000d3ad24a0d/profile). The views expressed here are my own.
+> **Disclosure:** I am chairperson and a director of Northreach Community Care Ltd, a Townsville community-housing provider. I have also been involved in the proposed Canterbury Road social-housing development mentioned in this article. My role is recorded on the [ACNC Charity Register](https://www.acnc.gov.au/charity/charities/8556bf76-3aaf-e811-a962-000d3ad24a0d/profile). The views expressed here are my own.
 
 ---
 
