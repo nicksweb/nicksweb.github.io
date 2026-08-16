@@ -3,8 +3,8 @@ title: "Announced, welcomed, then refused: what happened to Townsville's $42.1m 
 description: "Townsville's proposed 81-home affordable living precinct was celebrated in April and refused in July. What happened between announcement and outcome?"
 keywords: [Townsville affordable housing, Townsville Affordable Living Precinct, Hurst Constructions Townsville, social housing Townsville, Cranbrook development, Townsville City Council planning]
 date: 2026-08-16 05:00:00 +1000
-categories: [General]
-tags: [general, townsville, housing, planning, local-government, regional-development]
+categories: [Townsville]
+tags: [townsville, affordable-housing, social-housing, community-housing, planning, local-government, regional-development]
 image:
   path: /assets/images/Townsville-Affordable-Living-Precinct.png
   alt: "NAIF project page for the proposed Townsville Affordable Living Precinct"
@@ -21,8 +21,6 @@ Less than three months later, Townsville City Council refused the development ap
 The proposed Townsville Affordable Living Precinct is an interesting planning story in its own right. It also raises a broader question about how we talk about economic development in regional cities like Townsville.
 
 We hear plenty when projects are announced. Who tells us what happened afterwards?
-
-> **Disclosure:** I am chairperson and a director of Northreach Community Care Ltd, a Townsville community-housing provider. I have also been involved in the proposed Canterbury Road social-housing development mentioned later in this article. My role is recorded on the [ACNC Charity Register](https://www.acnc.gov.au/charity/charities/8556bf76-3aaf-e811-a962-000d3ad24a0d/profile). The views expressed here are my own.
 
 ## The April announcement
 
@@ -169,6 +167,8 @@ For a growing regional city with genuine housing and infrastructure pressures, f
 The Cranbrook proposal may yet return in another form. If it does, the next announcement should explain what changed and how the problems identified by Council have been resolved. If it does not, the region deserves to know what replaces those 81 homes in the housing pipeline.
 
 A press release can announce 81 homes in a morning. Delivering 81 homes is considerably harder.
+
+> **Disclosure:** I am chairperson and a director of Northreach Community Care Ltd, a Townsville community-housing provider. I have also been involved in the proposed Canterbury Road social-housing development mentioned later in this article. My role is recorded on the [ACNC Charity Register](https://www.acnc.gov.au/charity/charities/8556bf76-3aaf-e811-a962-000d3ad24a0d/profile). The views expressed here are my own.
 
 ---
 
