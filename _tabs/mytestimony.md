@@ -3,7 +3,7 @@ title: My Testimony
 description: Nicholas O'Sullivan's Christian testimony—a personal story of coming to faith in Jesus and experiencing God's faithfulness through uncertainty, illness, recovery, family and service.
 keywords: [Nicholas O'Sullivan testimony, Christian testimony, faith journey, God's faithfulness, Northreach Baptist Church, multiple sclerosis testimony]
 icon: fas fa-cross
-order: 8
+order: 2
 permalink: /my-testimony/
 redirect_from:
   - /mytestimony/
@@ -113,7 +113,7 @@ I do not have every answer, and this testimony does not end with every valley be
 
 Joshua 1:9 has often expressed the kind of courage I want to carry:
 
-> “Be strong and courageous. Do not be afraid; do not be discouraged...” — Joshua 1:9 (NIV)
+> “Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.” — Joshua 1:9 (NIV)
 
 That courage is not about pretending fear does not exist. It comes from trusting that God is present. In Ephesians 6, Paul writes about putting on the armour of God: truth, the breastplate of righteousness, readiness from the gospel of peace, faith, salvation and the word of God. I cannot stand in my own strength alone. I need the righteousness Jesus gives, the truth of his word and faith that keeps turning back to him.
 
