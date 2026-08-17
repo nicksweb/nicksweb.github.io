@@ -160,4 +160,15 @@ The charts in this article were prepared from the 2024 ADII dashboard exports pu
 
 ---
 
+## Related perspectives
+
+Two shorter companion articles explore practical parts of the same story:
+
+- [From e-waste to access: giving useful technology a second life](https://suburbanau.com/news/digital-inclusion-device-reuse-north-queensland/){:target="_blank" rel="noopener noreferrer"} looks at secure device reuse, community re-housing and responsible recycling.
+- [Before you donate that laptop: the security step digital inclusion depends on](https://suburbansecure.au/news/secure-device-donation-digital-inclusion/){:target="_blank" rel="noopener noreferrer"} explains why data sanitisation, account removal and verification belong in every device-donation process.
+
+The ADII analysis and downloadable source-data archive remain here; the companion articles link back to this post and the original Index findings rather than republishing the data files.
+
+---
+
 *Data source: Thomas, J., McCosker, A., Parkinson, S., Hegarty, K., Featherstone, D., Kennedy, J., Ormond-Parker, L., Morrison, K., Rea, H., & Ganley, L. (2025). [Measuring Australia's Digital Divide: 2025 Australian Digital Inclusion Index](https://digitalinclusionindex.org.au/wp-content/uploads/2025/10/ADII-Report-2025_V6-Remediated.pdf){:target="_blank" rel="noopener noreferrer"}. ARC Centre of Excellence for Automated Decision-Making and Society, RMIT University, Swinburne University of Technology, and Telstra. Charts were created from ADII dashboard data; figures are weighted to the Australian population. ADII data and these chart adaptations are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){:target="_blank" rel="noopener noreferrer"}.*
