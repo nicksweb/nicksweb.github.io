@@ -19,9 +19,9 @@ This is my journey so far.
 
 ## Growing up around faith
 
-I was born and raised in Townsville, in North Queensland. My parents took my sister and me to church most Sundays, and faith was part of the rhythm of our family life. We attended Annandale Christian College for a number of years before I moved to Weir State School and then Kirwan State High School.
+I was born and raised in Townsville, in North Queensland. My parents took my sister and me to church most Sundays, and faith was part of the rhythm of our family life. We attended [Annandale Christian College](https://www.acc.qld.edu.au/) for a number of years before I moved to Weir State School and then Kirwan State High School.
 
-During those school years, I went to the Willows Presbyterian youth group on Friday nights. I looked forward to it every week. There were camps and devotions, movie nights, games, outdoor activities and, most importantly, people who gave their time to help young people learn about Jesus. On Sundays, our family worshipped at Townsville District Baptist Church, now known as Northreach Baptist Church. Of all the churches we attended, that became home.
+During those school years, I went to the [Willows Presbyterian Church](https://willows.org.au/) youth group on Friday nights. I looked forward to it every week. There were camps and devotions, movie nights, games, outdoor activities and, most importantly, people who gave their time to help young people learn about Jesus. On Sundays, our family worshipped at Townsville District Baptist Church, now known as [Northreach Baptist Church](https://northreach.org.au/). Of all the churches we attended, that became home.
 
 One wet and rainy night at a Willows Presbyterian youth camp at Alligator Creek, one of our leaders spoke about Jesus: who he is, the price he paid for us and how he gave himself for our sins. I had heard about Jesus before, but that night the message became personal. I spoke with a leader for what felt like hours, and I accepted Jesus as my Saviour. I believe I was in Year 7, around 2004.
 
@@ -43,7 +43,7 @@ After finishing high school in 2009, I was not sure what I wanted to do. I had t
 
 My path through further study was not exactly direct. I began a Bachelor of Education and left it. I started a Certificate IV in IT at the former Barrier Reef Institute of TAFE and left that too, convinced for a time that I already knew enough and should focus on my business. Looking back, I sometimes wonder what I was thinking. I eventually learned that experience is valuable, but so is doing the work and earning the piece of paper.
 
-In 2011, I enrolled in Multimedia Journalism at James Cook University. My sister was studying medicine at the same time, and having her at university helped me find my feet. We were also part of the JCU Christian Union, which helped keep faith and Christian community present through those years.
+In 2011, I enrolled in Multimedia Journalism at [James Cook University](https://www.jcu.edu.au/). My sister was studying medicine at the same time, and having her at university helped me find my feet. We were also part of the JCU Christian Union, now known as [Christian Students JCU](https://csjcu.afes.org.au/), which helped keep faith and Christian community present through those years.
 
 The degree made sense alongside the work I was already doing. Through GYMP Media and My Suburban News, I filmed events, photographed the V8 Supercars from trackside, attended events with media access and built a local news website that developed a real audience. I enjoyed going out, creating things and putting what I was learning into practice.
 
@@ -85,6 +85,8 @@ _The weight bench Dad modified to help me rebuild my strength safely._
 
 During that season, I came across Colton Dixon's song [Through All of It](https://www.youtube.com/watch?v=G0Dzh3RZn0E). Its acknowledgement that “You have been my God through all of it” put words around something I was beginning to understand. I had known joy and regret, confidence and fear, wins and failures—and God had remained God through all of it.
 
+{% include embed/youtube.html id='G0Dzh3RZn0E' %}
+
 The experience also changed how I saw other people. Before becoming ill, I had little personal understanding of chronic disease, complex treatment or the uncertainty people and their families carry. MS made me more empathetic. It reminded me that a person can look capable while carrying something difficult, and that practical care, patience and prayer all matter.
 
 As I write this, I have had no further MS flare-ups and have changed treatments twice. I do not take that for granted. I thank God for each healthy year, for access to treatment, for the people who have cared for me and for the strength I have been given.
@@ -97,7 +99,7 @@ Some of my earliest memories of serving go back to around 2001, when I helped wi
 
 Those roles may have seemed small, but they taught me that every contribution has value. Whether I was moving a transparency, operating equipment or playing guitar, it was a joy to be part of a team serving Jesus' church. That joy has stayed with me.
 
-For years, much of my service in churches and community organisations has happened through technology. I have served with Stable on the Strand, helped with the Queensland Tropics Keswick Convention website, looked after systems for Northreach Baptist Church and supported other community work. Technology might not look like an obvious ministry, but service is not limited to the person preaching from the front.
+For years, much of my service in churches and community organisations has happened through technology. I have served with [Stable on the Strand, now part of Stable NQ](https://stablenq.com.au/), helped with the [Queensland Tropics Keswick Convention](https://qtkc.org.au/) website, looked after systems for Northreach Baptist Church and supported other community work. Technology might not look like an obvious ministry, but service is not limited to the person preaching from the front.
 
 The Bible describes the church as one body made up of many parts. The body needs feet to walk, hands to work and a mind to think. I have never had the loudest voice in a room, but God has given me practical skills, willing hands and a desire to contribute. If a website, network, camera, computer or other system can help people hear the gospel, receive care or do their work well, then using those skills faithfully matters.
 
