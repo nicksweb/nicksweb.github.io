@@ -97,7 +97,7 @@ As I write this, I have had no further MS flare-ups and have changed treatments 
 
 When I look back, what once seemed like separate parts of my life now appear connected. God has used church, family, study, work, disappointment, illness and recovery to shape me into someone who wants to help.
 
-Some of my earliest memories of serving go back to around 2001, when I helped with the overhead projector at church, moving the transparency slides up and down so the words appeared at the right time. From there, I moved on to operating the PA and the computer used for visuals. In my senior school years, I also had the opportunity to play guitar as part of some of the morning and evening music teams.
+Some of my earliest memories of serving go back to around 2001, when I helped with the overhead projector at church, moving the transparency slides up and down so the words appeared at the right time. From there, I moved on to operating the PA and the computer used for visuals. In my senior school years, I also had the opportunity to play guitar as part of some of the morning and evening music teams. I served in children's and youth ministries for a number of years as well, adapting to the needs of each service and helping wherever I was needed within the church.
 
 Those roles may have seemed small, but they taught me that every contribution has value. Whether I was moving a transparency, operating equipment or playing guitar, it was a joy to be part of a team serving Jesus' church. That joy has stayed with me.
 
