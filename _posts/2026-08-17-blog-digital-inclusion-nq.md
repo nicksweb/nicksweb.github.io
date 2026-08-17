@@ -14,6 +14,8 @@ I've spent my career in public education, and a good part of it working alongsid
 
 The [2025 Australian Digital Inclusion Index (ADII)](https://digitalinclusionindex.org.au/the-2025-findings/){:target="_blank" rel="noopener noreferrer"} — produced by RMIT, Swinburne and Telstra — puts hard numbers behind what many of us in regional education and community work see every day. The Index measures digital inclusion across three dimensions: **Access**, **Affordability** and **Digital Ability**, scored out of 100. Its 2025 report draws on data collected in 2024 and puts the national score at **73.6**.
 
+That timing is worth making explicit: the ADII's nationally representative data is [collected every two years](https://digitalinclusionindex.org.au/how-we-collect-the-data/){:target="_blank" rel="noopener noreferrer"}. Project documentation says the 2026 Mapping the Digital Gap survey data will contribute to the [2027 ADII report](https://www.admscentre.org.au/wp-content/uploads/2025/02/Measuring-First-Nations-Digital-Inclusion_Project-Plan_Web_20250210.pdf){:target="_blank" rel="noopener noreferrer"}. An exact publication date for that report had not been announced at the time of writing.
+
 There is real progress in that result. Since the previous wave in 2023, the national Access score rose 4.8 points to 76.8 and Digital Ability rose 8.7 points to 73.6. Affordability sits lower, at 70.3. One caution matters when reading the trend charts: the way Affordability is calculated changed for the 2024 data, so that part of the Index should not be compared directly with earlier years.
 
 But averages hide people. Here are the five things in the data that I think matter most for our region, and what we can actually do about them.
@@ -138,7 +140,7 @@ Locally, the building blocks are already here:
 - **Libraries** remain the quiet heroes of digital inclusion — free Wi-Fi, public computers, printing, and staff who help without judgment. The ADII shows 12.5% of Australians (and 22% of young people) use the internet at public libraries. Fund them accordingly.
 - **Shopping centres and councils** hosting intergenerational tech help turn everyday spaces into digital-inclusion infrastructure.
 - **Schools and community organisations** remain trusted messengers. The School Student Broadband Initiative is closed to new families, but schools can still identify unmet need, help families contact provider hardship teams and make the scale of that need visible to decision-makers.
-- **The [Regional Tech Hub](https://regionaltechhub.org.au/){:target="_blank" rel="noopener noreferrer"}** offers free, independent phone and internet advice for people living or working in rural, regional and remote Australia.
+- **Your retail telecommunications provider** remains the first point of contact for account enquiries, faults, plan changes, billing and service options — even where the underlying network is supplied by a wholesaler. If a complaint remains unresolved, the [Telecommunications Industry Ombudsman](https://www.tioonline.com.au/){:target="_blank" rel="noopener noreferrer"} provides independent dispute resolution.
 
 If you're reading this and you work in tech, education or community in North Queensland, here's my short list:
 
@@ -149,6 +151,12 @@ If you're reading this and you work in tech, education or community in North Que
 5. **Start talking about AI literacy now** — in staff rooms, in U3A groups, in community centres — before this divide sets like concrete.
 
 The digital divide isn't only a technology problem waiting on better infrastructure. It is also a community problem, and the data shows that change is possible. North Queensland has weathered floods, cyclones and everything in between by looking after each other. Digital inclusion is just the newest version of that same old job.
+
+---
+
+## Download the underlying data
+
+The charts in this article were prepared from the 2024 ADII dashboard exports published with the 2025 report. [Download all seven XLSX data exports as a single ZIP archive](/assets/data/australian-digital-inclusion-index-2025-report-2024-data.zip).
 
 ---
 
