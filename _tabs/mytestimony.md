@@ -4,6 +4,9 @@ description: Nicholas O'Sullivan's Christian testimony—a personal story of com
 keywords: [Nicholas O'Sullivan testimony, Christian testimony, faith journey, God's faithfulness, Northreach Baptist Church, multiple sclerosis testimony]
 icon: fas fa-cross
 order: 8
+permalink: /my-testimony/
+redirect_from:
+  - /mytestimony/
 ---
 
 It has taken me a long time to write this.
