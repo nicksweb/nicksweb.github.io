@@ -65,7 +65,7 @@ _Sophie and me in Townsville._
 
 In 2015, I was diagnosed with optic neuritis in my left eye. Over the following months, about 95 per cent of my vision returned. Then, around June 2016, something much more frightening happened.
 
-I was at home washing up at the sink with Mum when I noticed that I was dropping things I was trying to hold. At first, I thought I might have slept awkwardly. I could still hold a glass and drink, so I tried to brush it off.
+I was at home washing up at the sink with Sophie when I noticed that I was dropping things I was trying to hold. At first, I thought I might have slept awkwardly. I could still hold a glass and drink, so I tried to brush it off.
 
 That Sunday evening, we left for church. By the time we arrived in the car park, I could barely move the left side of my body and could not walk into the building. What had begun with dropping things at the sink had become something that looked very much like a stroke.
 
