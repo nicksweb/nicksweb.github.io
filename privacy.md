@@ -1,17 +1,17 @@
 ---
 layout: page
 title: Privacy and Cookies
-description: How Nicholas O'Sullivan's personal website and archived blog handle visitor information, analytics, cookies and email contact.
+description: How Nicholas O'Sullivan's personal websites handle visitor information, analytics, cookies and email contact.
 permalink: /privacy/
 ---
 
-**Last updated: 9 August 2026**
+**Last updated: 22 August 2026**
 
 This notice explains how Nicholas O'Sullivan handles information associated with these personal publishing sites:
 
 - [www.nickosullivan.id.au](https://www.nickosullivan.id.au/), the current personal and professional website;
 - [nicksweb.github.io](https://nicksweb.github.io/), its GitHub Pages mirror; and
-- [blog.nickosullivan.id.au](https://blog.nickosullivan.id.au/), the archived 2016–2022 blog.
+- [blog.nickosullivan.id.au](https://blog.nickosullivan.id.au/), the personal blog for family life, faith and everyday writing.
 
 These are personal publishing sites. They are distinct from Suburban Australia and its service brands. If you make a business or service enquiry through Suburban Australia, Suburban Secure, Townsville Computer Man or Can They Email As Me?, the [Suburban Australia group Privacy Policy](https://suburbanau.com/privacy-policy/) applies to that interaction.
 
@@ -42,7 +42,7 @@ Personal information is not sold.
 
 ## Analytics and cookies
 
-Google Analytics is configured on the current site and archived blog. You can restrict or delete cookies through your browser settings. Google also provides information about [how it uses information from sites and apps](https://policies.google.com/technologies/partner-sites) and an [Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout).
+Google Analytics is configured on the personal and professional site and the personal blog. You can restrict or delete cookies through your browser settings. Google also provides information about [how it uses information from sites and apps](https://policies.google.com/technologies/partner-sites) and an [Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout).
 
 Blocking analytics or cookies should not prevent you from reading the sites, although some preferences or embedded content may behave differently.
 

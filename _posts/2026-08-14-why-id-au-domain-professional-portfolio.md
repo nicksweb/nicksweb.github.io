@@ -76,11 +76,11 @@ That obscurity is real. I have had to repeat the “ID dot AU” part too. It is
 
 I did not end up using `nickosullivan.id.au` as a static digital résumé. It became the umbrella for quite a few different parts of my online life.
 
-This site is where I write about technology leadership, cyber security, infrastructure and what is happening around North Queensland. [My older blog](https://blog.nickosullivan.id.au/){:target="_blank" rel="noopener noreferrer"} holds years of less formal writing about technology, travel, cars and whatever else I happened to be learning at the time.
+This site is where I write about technology leadership, cyber security, infrastructure and what is happening around North Queensland. [My personal blog](https://blog.nickosullivan.id.au/){:target="_blank" rel="noopener noreferrer"} is where I keep the less formal side of life: family, faith, travel, projects and whatever else I happen to be learning along the way.
 
 One of the better examples is a 2021 post about [servicing my Hyundai Getz](https://blog.nickosullivan.id.au/2021/12/servicing-a-hyundai-getz/){:target="_blank" rel="noopener noreferrer"}. It is not part of a carefully designed technology portfolio. It is simply a practical account of something I worked through, including the fuel-filter mistake that took four attempts and turned out to be a missing O-ring.
 
-![My Hyundai Getz on ramps during the service documented on my older blog.](/assets/images/hyundai-getz-service-blog.png)
+![My Hyundai Getz on ramps during the service documented on my personal blog.](/assets/images/hyundai-getz-service-blog.png)
 _A personal domain does not have to contain only polished career material. My Hyundai Getz service post still attracts readers years later._
 
 That is what I like about owning the domain. It can hold the polished professional material and the ordinary stories. Both say something about how you think, solve problems and explain things to other people.
