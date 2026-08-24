@@ -3,8 +3,8 @@ title: "Free Townsville workshop: AI & Cyber Skills Every Small Business Needs"
 description: "A free practical AI and cyber security workshop for Townsville businesses is being held at Rydges Southbank on Tuesday, 8 September 2026. Lunch is included."
 keywords: [free AI workshop Townsville, free cyber security workshop Townsville, small business AI training Townsville, cyber security training Townsville, AI business workshop September 2026]
 date: 2026-08-21 07:05:00 +1000
-categories: [General]
-tags: [general, cyber-security, small-business, artificial-intelligence, townsville]
+categories: [Cyber Security]
+tags: [cyber-security, small-business, artificial-intelligence, townsville]
 image:
   path: /assets/images/AI_CyberSkills_SBM_Event-8Sept.jpg
   alt: Invitation for the free AI and Cyber Skills Every Small Business Needs workshop at Rydges Southbank Townsville on 8 September 2026.

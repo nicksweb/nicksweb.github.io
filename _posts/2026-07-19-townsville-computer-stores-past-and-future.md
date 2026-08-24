@@ -3,8 +3,8 @@ title: Townsville computer stores — remembering the past and making the case f
 description: Remembering Townsville's specialist computer stores and making the case for Computer Alliance, Umart or another major retailer to open locally.
 keywords: [Townsville computer stores, Computer Alliance Townsville, Umart Townsville, computer parts Townsville, North Queensland technology]
 date: 2026-07-19 15:30:00 +1000
-categories: [General]
-tags: [general, townsville, computers, local-business]
+categories: [North Queensland]
+tags: [townsville, computers, local-business]
 ---
 
 Townsville has had a long and interesting relationship with the local computer shop.

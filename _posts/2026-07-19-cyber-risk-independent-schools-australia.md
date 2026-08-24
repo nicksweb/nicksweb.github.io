@@ -3,8 +3,8 @@ title: What Aon's 2026 risk report tells independent schools about cyber resilie
 description: Aon's 2026 Independent Schools Risk Report highlights rising cyber incidents and why governance, readiness and third-party assurance matter.
 keywords: [independent school cyber security, education cyber risk Australia, school cyber resilience, school board cyber governance, Aon schools risk report]
 date: 2026-07-19 17:30:00 +1000
-categories: [General]
-tags: [general, cyber-security, education, governance]
+categories: [Cyber Security]
+tags: [cyber-security, education, governance]
 ---
 
 Aon's *2026 Independent Schools Risk Report* provides useful insights for Australian independent schools trying to manage a growing and increasingly connected set of risks.

@@ -3,8 +3,8 @@ title: "Agentic AI and your attack surface: what to ask before connecting one"
 description: "Before connecting an AI agent to email, files or business systems, schools, charities and small businesses should ask what it can see, what it can do, and what happens when it gets something wrong."
 keywords: [agentic AI risk, prompt injection, AI least privilege, ASD agentic AI guidance, OWASP LLM top 10, AI security schools charities]
 date: 2026-08-24 09:00:00 +1000
-categories: [General]
-tags: [general, cyber-security, artificial-intelligence]
+categories: [Cyber Security]
+tags: [cyber-security, artificial-intelligence]
 ---
 
 The [last post in this series]({% post_url 2026-08-17-ai-changing-cyber-security-fundamentals-still-matter %}) made the case that AI tools quietly become part of an organisation's attack surface the moment they're connected to real data. Nowhere is that truer than with **agentic AI** — AI systems that don't just answer a question, but can take action on their own.

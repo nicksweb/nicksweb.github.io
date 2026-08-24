@@ -3,8 +3,8 @@ title: "Testing your defences and preparing to fail safely, AI included"
 description: "Vulnerability scanning, penetration testing, human factors and a simple framework for pulling it all together — practical readiness steps for schools, charities and small businesses in the age of AI."
 keywords: [vulnerability scanning, penetration testing, NIST cybersecurity framework, AI red teaming, ASD annual cyber threat report, cyber security checklist]
 date: 2026-08-31 09:00:00 +1000
-categories: [General]
-tags: [general, cyber-security, artificial-intelligence]
+categories: [Cyber Security]
+tags: [cyber-security, artificial-intelligence]
 ---
 
 This is the last post in a short series that started with the [operating principles behind good security decisions]({% post_url 2026-08-10-secure-by-design-least-privilege-defence-in-depth %}), then looked at how [AI is accelerating both attackers and defenders]({% post_url 2026-08-17-ai-changing-cyber-security-fundamentals-still-matter %}) and what to ask before [connecting an AI agent]({% post_url 2026-08-24-agentic-ai-attack-surface-schools-nfps-businesses %}) to anything that matters. This one is about how you actually find out whether any of it is working.

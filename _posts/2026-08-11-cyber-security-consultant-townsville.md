@@ -3,8 +3,8 @@ title: "Why I still take on cyber security consulting work in Townsville, outsid
 description: "I work as a cyber security consultant for small businesses, charities and community organisations around Townsville through Suburban Secure — here's why, and what that actually involves."
 keywords: [cyber security consultant Townsville, Townsville cyber security, Suburban Secure, small business cyber security Townsville, charity cyber security Townsville, Nicholas O'Sullivan]
 date: 2026-08-11 08:30:00 +1000
-categories: [General]
-tags: [general, cyber-security, townsville, local-business, suburban-secure]
+categories: [Cyber Security]
+tags: [cyber-security, townsville, local-business, suburban-secure]
 ---
 
 I get asked a version of this fairly often: I already have a full-time role as IT Manager at a school — why do I still take on cyber security consulting work around Townsville outside that?

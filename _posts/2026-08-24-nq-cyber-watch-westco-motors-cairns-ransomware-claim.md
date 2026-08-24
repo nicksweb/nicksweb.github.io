@@ -3,8 +3,8 @@ title: "North Queensland Cyber Watch: Storm names Westco Motors Cairns in ransom
 description: "The Storm ransomware group has named Westco Motors Cairns on its leak site and published sample documents, but the dealership has not publicly confirmed a breach. What is known, what remains alleged, and what Cairns and Townsville businesses should take from it."
 keywords: [Westco Motors Cairns ransomware, Westco Motors cyber incident, Storm ransomware Australia, Cairns cyber security, Townsville cyber security, North Queensland Cyber Watch, automotive dealership data breach]
 date: 2026-08-24 21:00:00 +1000
-categories: [General]
-tags: [general, cyber-security, north-queensland-cyber-watch, ransomware, data-breach, automotive, cairns]
+categories: [Cyber Security]
+tags: [cyber-security, north-queensland-cyber-watch, ransomware, data-breach, automotive, cairns]
 image:
   path: /assets/images/WestCoMotors_Alleged_CyberIncident.png
   alt: Google Maps photo gallery showing Westco Motors Genuine Parts in Cairns.

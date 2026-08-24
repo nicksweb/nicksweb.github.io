@@ -3,8 +3,8 @@ title: "North Queensland Cyber Watch: Townsville schools caught in the global Ca
 description: "A global attack on the Canvas learning platform reached Townsville schools in May 2026, exposing student and staff data and underscoring why third-party risk matters for education."
 keywords: [Townsville cyber security, Canvas data breach, Instructure breach, school cyber security Queensland, ShinyHunters, education data breach]
 date: 2026-05-13 09:00:00 +1000
-categories: [General]
-tags: [general, cyber-security, north-queensland-cyber-watch, data-breach, education]
+categories: [Cyber Security]
+tags: [cyber-security, north-queensland-cyber-watch, data-breach, education]
 ---
 
 This is the first entry in **North Queensland Cyber Watch**, an ongoing series looking at cyber security incidents affecting our region and what organisations here can take from them. North Queensland is not a bystander in the national cyber threat picture — agriculture, education, health, local government, tourism and small business all sit within reach of the same criminal groups targeting capital cities. The intent of this series isn't to alarm anyone or pile on an organisation already having a bad week. It's to turn each incident into a practical prompt: could this happen to us, and are we ready if it did?

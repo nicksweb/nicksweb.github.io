@@ -3,8 +3,8 @@ title: "The CIA Triad: the foundation every cyber security decision sits on"
 description: "A plain-English guide to the CIA Triad — confidentiality, integrity and availability — and how Australian organisations, from schools to banks, balance all three."
 keywords: [CIA triad, confidentiality integrity availability, cyber security fundamentals, information security basics, cyber security framework Australia]
 date: 2026-07-29 09:00:00 +1000
-categories: [General]
-tags: [general, cyber-security, fundamentals]
+categories: [Cyber Security]
+tags: [cyber-security, fundamentals]
 ---
 
 Almost every meaningful decision in cyber security eventually comes back to the same three words: confidentiality, integrity and availability. Together they form the **CIA Triad**, one of the oldest and still most useful models in information security.

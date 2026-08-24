@@ -27,8 +27,8 @@ title: "$title"
 description: "Add a concise, page-specific summary of roughly 120 to 160 characters."
 keywords: [add, relevant, search phrases]
 date: $(date '+%Y-%m-%d %H:%M:%S %z')
-categories: [General]
-tags: [general]
+categories: [General] # Choose: Cyber Security, Technology & Careers, North Queensland, or General
+tags: [] # Add specific lowercase tags; do not add a catch-all general tag
 ---
 
 Write the post here.

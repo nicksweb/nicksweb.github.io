@@ -4,7 +4,7 @@ description: "Townsville Computer Man has relaunched with a repair-focused servi
 keywords: [Townsville Computer Man, Townsville computer repairs, Nicholas O'Sullivan, Dr+PC, Townsville IT history]
 date: 2026-07-30 19:00:00 +1000
 categories: [General]
-tags: [general, townsville-computer-man, local-business, personal]
+tags: [townsville-computer-man, local-business, personal]
 ---
 
 Townsville Computer Man is back.

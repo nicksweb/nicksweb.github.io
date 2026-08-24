@@ -3,8 +3,8 @@ title: "North Queensland Cyber Watch: ransomware hits Townsville Christian Colle
 description: "Townsville Christian College has confirmed a criminal ransomware attack breached its network in June 2026, potentially exposing sensitive student and family data — and offers a model for how a school should respond when it happens."
 keywords: [Townsville Christian College, ransomware attack school, North Queensland cyber security, notifiable data breach school, independent school cyber security Queensland, ASD ransomware guidance]
 date: 2026-08-02 09:00:00 +1000
-categories: [General]
-tags: [general, cyber-security, north-queensland-cyber-watch, ransomware, data-breach, education]
+categories: [Cyber Security]
+tags: [cyber-security, north-queensland-cyber-watch, ransomware, data-breach, education]
 ---
 
 This is the fourth entry in **North Queensland Cyber Watch**, an ongoing series looking at cyber security incidents affecting our region and what organisations here can take from them. The intent of this series isn't to alarm anyone or pile on an organisation already having a bad week. It's to turn each incident into a practical prompt: could this happen to us, and are we ready if it did?

@@ -3,8 +3,8 @@ title: "Secure by design: the principles behind every good cyber security decisi
 description: "Secure by design, least privilege, defence in depth and failing safely — the operating principles schools, charities and small businesses can use to make sensible security decisions."
 keywords: [secure by design, least privilege, defence in depth, fail securely, cyber security principles, small business cyber security Australia]
 date: 2026-08-10 09:00:00 +1000
-categories: [General]
-tags: [general, cyber-security, fundamentals]
+categories: [Cyber Security]
+tags: [cyber-security, fundamentals]
 ---
 
 The [CIA Triad]({% post_url 2026-07-29-cia-triad-foundations-of-cyber-security %}) explains *what* good security is trying to protect: confidentiality, integrity and availability. It doesn't tell you *how* to get there day to day. That's where a small set of operating principles earns its keep — ideas simple enough to explain to a school board or a charity committee, but rigorous enough to guide a technical build.

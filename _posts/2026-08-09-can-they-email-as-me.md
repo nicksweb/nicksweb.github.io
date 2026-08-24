@@ -3,8 +3,8 @@ title: "Can they email as me? Building a free domain spoofing check"
 description: "Why I built Can They Email As Me?, a free Australian tool that checks whether a domain has SPF, DKIM and enforcing DMARC protections against email spoofing."
 keywords: [can someone spoof my email domain, free email spoofing check, DMARC checker Australia, SPF DKIM DMARC, domain impersonation, small business cyber security]
 date: 2026-08-09 10:30:00 +1000
-categories: [General]
-tags: [general, cyber-security, email-security, projects]
+categories: [Cyber Security]
+tags: [cyber-security, email-security, projects]
 image:
   path: /assets/images/cantheyemailasme.com_product_mockup.png
   alt: Can They Email As Me shown on a laptop, explaining domain spoofing and the roles of SPF, DKIM and DMARC.

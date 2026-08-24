@@ -3,8 +3,8 @@ title: "ASD's frontier AI guidance for boards — it's not just for ASX 200 dire
 description: "ASD and the AICD published guidance this week on frontier AI cyber threats for boards. The questions it raises apply just as directly to school councils, charity boards and small business owners."
 keywords: [ASD frontier AI guidance, board cyber security, school board governance, AICD cyber security, frontier AI threats, cyber governance small business]
 date: 2026-08-06 09:00:00 +1000
-categories: [General]
-tags: [general, cyber-security, artificial-intelligence, governance]
+categories: [Cyber Security]
+tags: [cyber-security, artificial-intelligence, governance]
 ---
 
 The Australian Signals Directorate published something yesterday worth ten minutes of a board meeting's time: [*Frontier AI cyber threat considerations for boards of directors*](https://www.cyber.gov.au/business-government/protecting-business-leaders/cyber-security-for-business-leaders/frontier-ai-cyber-threat-considerations-for-boards-of-directors){:target="_blank" rel="noopener noreferrer"}, developed with the Australian Institute of Company Directors.

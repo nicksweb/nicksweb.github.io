@@ -3,8 +3,8 @@ title: "Five cyber security podcasts I keep coming back to"
 description: "Five cyber security podcasts I recommend for current news, deeper technical discussion and lessons from the incidents that shaped the industry."
 keywords: [best cyber security podcasts, cybersecurity podcasts, information security podcast, cyber security news, cyber security history]
 date: 2026-08-03 11:00:00 +1000
-categories: [General]
-tags: [general, cyber-security, podcasts]
+categories: [Cyber Security]
+tags: [cyber-security, podcasts]
 ---
 
 Cyber security moves quickly, but the problems underneath it often do not. A new breach may involve a different product or technique, yet the questions about trust, access, human behaviour and how an organisation responds are often very familiar.

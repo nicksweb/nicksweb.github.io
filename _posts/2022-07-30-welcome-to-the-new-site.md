@@ -7,7 +7,7 @@ sitemap: false
 robots: noindex, follow
 date: 2022-07-30 06:00:00 +1000
 categories: [General]
-tags: [general]     # TAG names should always be lowercase
+tags: [site-update]
 ---
 
 Recently, I've been venturing into the realm of Ruby with Jekyll - A static site generator. 

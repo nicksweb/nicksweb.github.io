@@ -3,7 +3,7 @@ title: "Announced, welcomed, then refused: what happened to Townsville's $42.1m 
 description: "Townsville's proposed 81-home affordable living precinct was celebrated in April and refused in July. What happened between announcement and outcome?"
 keywords: [Townsville affordable housing, Townsville Affordable Living Precinct, Hurst Constructions Townsville, social housing Townsville, Cranbrook development, Townsville City Council planning]
 date: 2026-08-16 05:00:00 +1000
-categories: [Townsville]
+categories: [North Queensland]
 tags: [townsville, affordable-housing, social-housing, community-housing, planning, local-government, regional-development]
 image:
   path: /assets/images/Townsville-Affordable-Living-Precinct.png

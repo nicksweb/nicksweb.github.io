@@ -3,8 +3,8 @@ title: Why SFIA makes technical job advertisements clearer
 description: How SFIA clarifies Queensland ICT jobs, including an NQ Cowboys Group IT Support Officer role in Townsville.
 keywords: [SFIA Queensland, technical job advertisements, ICT capability framework, technology service management, network design, IT jobs Brisbane, IT jobs Townsville, NQ Cowboys jobs, North Queensland Toyota Cowboys, NRL technology jobs]
 date: 2026-07-25 08:00:00 +1000
-categories: [General]
-tags: [general, sfia, technology-leadership, service-management, networking]
+categories: [Technology & Careers]
+tags: [sfia, technology-leadership, service-management, networking]
 ---
 
 Technical job advertisements often ask for everything at once.

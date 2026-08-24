@@ -3,8 +3,8 @@ title: "What cyber security jobs were advertised across North Queensland in 2025
 description: "A fact-checked look at cyber security and cyber-adjacent jobs advertised in Townsville, Cairns and Mackay during 2025 and 2026, including salaries and career pathways."
 keywords: [cyber security jobs North Queensland, cyber security jobs Townsville, cyber security jobs Cairns, cyber security jobs Mackay, regional Queensland cyber careers, information security jobs]
 date: 2026-08-14 09:30:00 +1000
-categories: [General]
-tags: [general, cyber-security, careers, north-queensland, townsville, cairns, mackay]
+categories: [Technology & Careers]
+tags: [cyber-security, careers, north-queensland, townsville, cairns, mackay]
 image:
   path: /assets/images/townsville-castle-hill-city-view.jpg
   alt: "Townsville city and Castle Hill, representing the North Queensland technology employment market"

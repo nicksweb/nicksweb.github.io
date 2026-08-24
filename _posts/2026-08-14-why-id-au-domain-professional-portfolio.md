@@ -3,8 +3,8 @@ title: "If you work in tech, your own .id.au domain just makes sense"
 description: "Why Australia's little-known .id.au domain is a cheap, practical home for your professional portfolio, personal email, technical writing and online identity."
 keywords: [id.au domain, personal domain Australia, professional portfolio domain, custom email address Australia, technology portfolio website, personal branding IT career]
 date: 2026-08-14 13:00:00 +1000
-categories: [General]
-tags: [general, careers, professional-development, domains, email, homelab]
+categories: [Technology & Careers]
+tags: [careers, professional-development, domains, email, homelab]
 image:
   path: /assets/images/id-au-domain.png
   alt: "VentraIP's page for registering an Australian .id.au personal domain"

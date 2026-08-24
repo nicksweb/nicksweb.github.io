@@ -3,8 +3,8 @@ title: "AI is changing cyber security — but the fundamentals still matter"
 description: "Artificial intelligence is speeding up both attackers and defenders, and quietly expanding what counts as an organisation's attack surface. Schools, charities and small businesses are not exempt."
 keywords: [AI cyber security, artificial intelligence attack surface, AI phishing, ASD AI guidance, cyber risk schools charities]
 date: 2026-08-17 09:00:00 +1000
-categories: [General]
-tags: [general, cyber-security, artificial-intelligence]
+categories: [Cyber Security]
+tags: [cyber-security, artificial-intelligence]
 ---
 
 Artificial intelligence is changing cyber security from both directions at once.

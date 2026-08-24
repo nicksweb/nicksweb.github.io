@@ -3,8 +3,8 @@ title: "North Queensland Cyber Watch: Oz Hair & Beauty confirms customer data wa
 description: "Oz Hair & Beauty has confirmed customer contact and purchase data was accessed in a cyber incident. What Townsville shoppers should know, and why retail data matters."
 keywords: [Oz Hair and Beauty cyber incident, Oz Hair and Beauty data breach, Townsville cyber security, North Queensland Cyber Watch, retail customer data, purchase history privacy, Willows Shopping Centre]
 date: 2026-08-21 06:50:00 +1000
-categories: [General]
-tags: [general, cyber-security, north-queensland-cyber-watch, retail, data-breach, privacy]
+categories: [Cyber Security]
+tags: [cyber-security, north-queensland-cyber-watch, retail, data-breach, privacy]
 image:
   path: /assets/images/OZHairBeauty-Letter-Part1-OnWebsite.png
   alt: First section of Oz Hair & Beauty's official customer notice confirming unauthorised access to its online purchase and order platform.

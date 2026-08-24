@@ -7,7 +7,7 @@ sitemap: false
 robots: noindex, follow
 date: 2022-08-07 15:30:00 +1000
 categories: [General]
-tags: [general]     # TAG names should always be lowercase
+tags: [site-update]
 ---
 
 NickOsullivan.id.au/blog has moved to the new and exciting URL of [blog.nickosullivan.id.au](https://blog.nickosullivan.id.au). 

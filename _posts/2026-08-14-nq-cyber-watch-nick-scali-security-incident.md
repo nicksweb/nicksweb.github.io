@@ -3,8 +3,8 @@ title: "North Queensland Cyber Watch: Nick Scali takes systems offline after cyb
 description: "Nick Scali has disclosed a cyber security incident that disrupted systems and slowed customer service nationally, including around its Townsville, Mackay and Cairns stores."
 keywords: [Nick Scali cyber incident, Nick Scali data breach, North Queensland cyber security, Townsville cyber incident, Mackay cyber security, Cairns cyber security, retail cyber attack Australia]
 date: 2026-08-14 12:30:00 +1000
-categories: [General]
-tags: [general, cyber-security, north-queensland-cyber-watch, retail, business-continuity, data-breach]
+categories: [Cyber Security]
+tags: [cyber-security, north-queensland-cyber-watch, retail, business-continuity, data-breach]
 ---
 
 This is the fifth entry in **North Queensland Cyber Watch**, an ongoing series looking at cyber security incidents that affect our region and what organisations here can take from them.

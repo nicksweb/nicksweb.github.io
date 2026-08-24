@@ -3,8 +3,8 @@ title: "North Queensland Cyber Watch: a quiet auto-forwarding rule becomes a not
 description: "Townsville Catholic Education's 2026 data breach notification shows how ordinary email auto-forwarding rules can expose sensitive data — and the Microsoft 365 and Google Workspace controls that prevent it."
 keywords: [auto forwarding data breach, Microsoft 365 mail flow rules, Google Workspace forwarding controls, notifiable data breach Australia, email security controls, Townsville Catholic Education]
 date: 2026-07-03 09:00:00 +1000
-categories: [General]
-tags: [general, cyber-security, north-queensland-cyber-watch, data-breach, microsoft-365, email-security]
+categories: [Cyber Security]
+tags: [cyber-security, north-queensland-cyber-watch, data-breach, microsoft-365, email-security]
 ---
 
 This third entry in **North Queensland Cyber Watch** is a useful counterweight to the previous two. There was no ransomware group, no dark web leak site, and no headline-grabbing attack here — just an everyday email setting that quietly turned into a notifiable data breach.

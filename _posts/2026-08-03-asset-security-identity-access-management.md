@@ -3,8 +3,8 @@ title: "Asset security and identity: know what you have, and who can reach it"
 description: "You can't protect what you haven't accounted for, and you can't control access to something you haven't classified. A practical look at asset security and identity and access management."
 keywords: [asset security, identity and access management, data classification, IAM lifecycle, access review, cyber security Australia]
 date: 2026-08-03 09:00:00 +1000
-categories: [General]
-tags: [general, cyber-security, fundamentals]
+categories: [Cyber Security]
+tags: [cyber-security, fundamentals]
 ---
 
 Two questions come before almost everything else in cyber security, and they're easy to skip past because they sound too basic to bother with: what do we actually have, and who can actually reach it?

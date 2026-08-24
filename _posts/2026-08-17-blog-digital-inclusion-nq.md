@@ -3,8 +3,8 @@ title: "The digital divide isn't closing on its own: what the 2025 Australian Di
 description: "What Australia's latest digital inclusion data says about access, affordability, digital ability and the emerging AI divide in North Queensland."
 keywords: [digital inclusion North Queensland, Australian Digital Inclusion Index 2025, regional internet access, digital divide Queensland, internet affordability, digital literacy, generative AI divide]
 date: 2026-08-17 12:00:00 +1000
-categories: [General]
-tags: [general, digital-inclusion, north-queensland, education, regional-queensland, artificial-intelligence]
+categories: [North Queensland]
+tags: [digital-inclusion, north-queensland, education, regional-queensland, artificial-intelligence]
 image:
   path: /assets/images/algoleague-4L3XYF8wt7w-unsplash-unsplash-cultural-differences-technology-usage.jpg
   alt: "Two students working side by side on laptop computers"

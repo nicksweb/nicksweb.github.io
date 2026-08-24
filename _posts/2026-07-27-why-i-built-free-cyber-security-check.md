@@ -3,8 +3,8 @@ title: "Why I built a free cyber security check for businesses and charities"
 description: "Suburban Secure's new free check gives Australian businesses, charities and not-for-profits an instant, plain-English view of public email, domain and website security signals."
 keywords: [free cyber security check, charity cyber security, business email spoofing, SPF, DMARC, DKIM, Suburban Secure]
 date: 2026-07-27 21:30:00 +1000
-categories: [General]
-tags: [general, cyber-security, community]
+categories: [Cyber Security]
+tags: [cyber-security, community]
 ---
 
 I have spent much of my working life around organisations that are doing important work without an enormous technology team behind them.
