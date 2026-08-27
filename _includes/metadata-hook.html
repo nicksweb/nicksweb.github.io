@@ -15,24 +15,24 @@
   <meta name="robots" content="{{ page.robots | escape }}">
 {% endif %}
 
-{% if page.layout == 'home' %}
+{% if page.profile_page %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
-    "@id": {{ site.url | append: "/#profile-page" | jsonify }},
-    "url": {{ site.url | append: "/" | jsonify }},
-    "name": "Nicholas O'Sullivan — IT Leader in Townsville",
+    "@id": {{ page.url | absolute_url | append: "#profile-page" | jsonify }},
+    "url": {{ page.url | absolute_url | jsonify }},
+    "name": {{ page.title | jsonify }},
     "description": {{ page.description | jsonify }},
     "mainEntity": {
       "@type": "Person",
-      "@id": {{ site.url | append: "/#nicholas-osullivan" | jsonify }},
-      "name": "Nicholas O'Sullivan",
-      "alternateName": "Nick O'Sullivan",
-      "url": {{ site.url | append: "/" | jsonify }},
+      "@id": {{ site.person.id | jsonify }},
+      "name": {{ site.person.name | jsonify }},
+      "alternateName": {{ site.person.alternate_names | jsonify }},
+      "url": {{ site.person.profile_url | jsonify }},
       "image": {{ site.avatar | absolute_url | jsonify }},
       "jobTitle": "IT Manager",
-      "description": {{ site.description | strip_newlines | normalize_whitespace | jsonify }},
+      "description": {{ site.person.description | jsonify }},
       "knowsAbout": [
         "IT leadership",
         "Cyber security",
@@ -63,7 +63,19 @@
         "url": "https://www.acs.org.au/"
       },
       "sameAs": {{ site.social.links | jsonify }}
-    }
+    },
+    "hasPart": [
+      {% assign profile_posts = site.posts | where_exp: 'post', 'post.hidden != true' %}
+      {% for post in profile_posts limit: 6 %}
+        {
+          "@type": "Article",
+          "headline": {{ post.title | jsonify }},
+          "url": {{ post.url | absolute_url | jsonify }},
+          "datePublished": {{ post.date | date_to_xmlschema | jsonify }},
+          "author": { "@id": {{ site.person.id | jsonify }} }
+        }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
   }
   </script>
 {% endif %}

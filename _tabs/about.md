@@ -1,12 +1,17 @@
 ---
-title: About
-description: Learn about Nicholas O'Sullivan, a Townsville IT leader with experience in infrastructure, cloud, cyber security and education technology.
-keywords: [Nicholas O'Sullivan, Townsville IT leader, IT manager, cyber security, education technology, cloud infrastructure]
+title: About Nicholas “Nick” O'Sullivan
+description: About Nicholas “Nick” O'Sullivan, a Townsville IT and cyber security professional with experience in infrastructure, cloud platforms and education technology.
+keywords: [Nicholas O'Sullivan, Nick O'Sullivan, Nicholas O'Sullivan Townsville, Nick O'Sullivan Townsville, Townsville IT leader, IT manager, cyber security, education technology, cloud infrastructure]
 icon: fas fa-user
 order: 1
+profile_page: true
+seo:
+  type: WebPage
+redirect_from:
+  - /nick-osullivan/
 ---
 
-I am a Townsville-based IT professional with 17 years of professional experience across infrastructure, cloud platforms, education technology, cyber security, systems administration and practical technology leadership. This includes seven years operating as a sole trader, followed by roles across Queensland Government education and independent schools.
+I'm Nicholas O'Sullivan, usually Nick — a Townsville-based IT and cyber security professional with 17 years of experience across infrastructure, cloud platforms, education technology, cyber security, systems administration and practical technology leadership. I was born and raised in Townsville, North Queensland. My professional background includes seven years operating as a sole trader, followed by roles across Queensland Government education and independent schools.
 
 My work has ranged from running a local IT support business through to state-wide education technology support, school infrastructure planning, Microsoft 365 and Google Workspace administration, network design, endpoint management, security review work and community-sector governance. Since October 2024, I have worked as an IT Manager in an independent school environment.
 
@@ -57,7 +62,7 @@ Suburban Australia began as local technology support work and has evolved into p
 
 ## Writing
 
-I write about IT and cyber security topics relevant to Townsville and North Queensland on this site, including [why I still take on cyber security consulting work around Townsville](/posts/cyber-security-consultant-townsville/), the [North Queensland Cyber Watch series](/tags/north-queensland-cyber-watch/) covering regional incidents, [practical cyber security for small organisations](/posts/practical-cyber-security-for-small-organisations/), and the [history of Townsville Computer Man](/posts/townsville-computer-man-relaunch/), the repair business I started in Year 12 and relaunched in 2026.
+I write about IT and cyber security topics relevant to Townsville and North Queensland on this site, including [the personal SEO experiment behind searching for Nick in Townsville](/posts/the-problem-with-being-called-nick-in-townsville/), [why I still take on cyber security consulting work around Townsville](/posts/cyber-security-consultant-townsville/), the [North Queensland Cyber Watch series](/tags/north-queensland-cyber-watch/) covering regional incidents, [practical cyber security for small organisations](/posts/practical-cyber-security-for-small-organisations/), and the [history of Townsville Computer Man](/posts/townsville-computer-man-relaunch/), the repair business I started in Year 12 and relaunched in 2026.
 
 ## Values
 

@@ -44,6 +44,26 @@ author:
   name: Nicholas O'Sullivan
   url: 'https://www.nickosullivan.id.au/about/'
 
+# Canonical identity data used by the ProfilePage markup and the SEO-tag
+# extension in _plugins/person-entity-jsonld.rb. Keep the @id stable even if
+# the About page or site layout changes later.
+person:
+  id: 'https://www.nickosullivan.id.au/#nick'
+  name: Nicholas O'Sullivan
+  alternate_names:
+    - Nick O'Sullivan
+    - Nick OSullivan
+    - Nicholas OSullivan
+  profile_url: 'https://www.nickosullivan.id.au/about/'
+  description: Townsville-based IT and cyber security professional
+
+# Legitimate name variants for the WebSite entity on the home page.
+site_alternate_names:
+  - Nick O'Sullivan
+  - Nick OSullivan
+  - Nicholas OSullivan
+  - nickosullivan.id.au
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
