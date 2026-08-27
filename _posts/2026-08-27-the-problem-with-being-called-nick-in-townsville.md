@@ -6,9 +6,11 @@ date: 2026-08-27 16:45:00 +1000
 categories: [Technology & Careers]
 tags: [townsville, personal-development, search, professional-development, north-queensland]
 image:
-  path: /assets/images/townsville-castle-hill-city-view.jpg
-  alt: "Townsville city and coastline viewed from Castle Hill in North Queensland"
+  path: /assets/images/nickosullivan-nickdametto-1.jpg
+  alt: "Nick Dametto on the left and Nicholas Nick O'Sullivan on the right"
 ---
+
+*Header image: Nick Dametto (left) and Nicholas “Nick” O'Sullivan (right). Nick Dametto image source: [nickdametto.com](https://nickdametto.com/){:target="_blank" rel="noopener noreferrer"}.*
 
 I discovered an amusing problem while working on this website.
 
@@ -27,6 +29,8 @@ That search prompted a more interesting question than how to rank for two words:
 ## To be fair, Google has a point
 
 [Nick Dametto is the Mayor of Townsville](https://www.townsville.qld.gov.au/about-council/mayor-and-councillors/councillor-profiles/mayor-of-townsville){:target="_blank" rel="noopener noreferrer"}. He is a former state MP, a public figure and the subject of regular coverage by Townsville City Council, news organisations, community groups and other websites.
+
+His personal website, [nickdametto.com](https://nickdametto.com/){:target="_blank" rel="noopener noreferrer"}, is an interesting older snapshot of that identity. Its homepage still introduces him as the State Member for Hinchinbrook and reports an August 2024 modification date, so it predates his move into the Mayor's office. Even without reflecting his current role, the site adds another long-standing connection between Nick Dametto and North Queensland.
 
 Each of those pages reinforces the same association: Nick Dametto, Mayor of Townsville.
 
