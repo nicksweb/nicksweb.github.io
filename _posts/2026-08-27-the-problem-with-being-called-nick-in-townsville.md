@@ -80,6 +80,20 @@ I am not going to publish twenty near-identical pages repeating “Townsville IT
 
 Nor am I trying to borrow Mayor Nick Dametto's prominence. He is the amusing catalyst for the story, not a subject to exploit. The official pages about him deserve to rank for his name and office. My task is to make my own identity unambiguous enough that Google can recognise a different Nick when a search becomes more specific.
 
+## Search results are not the whole person
+
+There was an uncomfortable bit of timing while I was working on this experiment. On 27 August 2026, the [*Townsville Bulletin* reported](https://www.townsvillebulletin.com.au/news/police-fine-townsville-mayor-for-public-nuisance-after-pub-crawl-altercation/news-story/b84fbaec850e5aa62874f89f9ed717da){:target="_blank" rel="noopener noreferrer"} that Queensland Police had issued Mayor Dametto a $1,036 public-nuisance infringement notice over an incident at a licensed venue on Magnetic Island. The report also made clear that no criminal charges were laid and the fine does not constitute a criminal offence.
+
+![Screenshot of a Townsville Bulletin report about the public-nuisance infringement notice issued to Townsville Mayor Nick Dametto](/assets/images/Nick-Dametto-Fined-Public-Nuisance.png)
+_*Townsville Bulletin* article by Cameron Bates, published 27 August 2026. [Read the original report](https://www.townsvillebulletin.com.au/news/police-fine-townsville-mayor-for-public-nuisance-after-pub-crawl-altercation/news-story/b84fbaec850e5aa62874f89f9ed717da){:target="_blank" rel="noopener noreferrer"}._
+{: .text-center }
+
+I do not want to turn someone else's difficult headline into an SEO opportunity or a judgment about his character. We all have our own problems, and all of us sometimes get things wrong. The difference is that people in public life can have their worst moments reported, indexed and associated with their name, while most of us are fortunate enough to work through ours away from that level of attention.
+
+That is also part of why I eventually wrote [my testimony](/my-testimony/). It includes poor decisions, anger, illness and seasons when life did not go to plan—not because those moments are the whole story, but because grace, growth and God's faithfulness matter precisely because none of us is perfect. If I hope people will read my life with that perspective, I should extend the same generosity to somebody else.
+
+This does not change the point of the experiment. It strengthens it: a search result can tell us what happened publicly and recently, but it cannot tell us the whole person.
+
 ## How I will know whether it is working
 
 Becoming the first result for *Nick Townsville* would make a funny ending, but it is not the only useful measure—and it may not be the most realistic one.
