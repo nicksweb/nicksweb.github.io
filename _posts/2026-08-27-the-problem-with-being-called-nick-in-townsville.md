@@ -52,6 +52,10 @@ Search engines need context too. A personal domain helps, but `nickosullivan.id.
 - I write about IT infrastructure, education technology and cybersecurity; and
 - my articles and external profiles all refer back to the same identity.
 
+One part of the domain setup that I particularly like is that I also own [nicholasosullivan.id.au](https://nicholasosullivan.id.au/){:target="_blank" rel="noopener noreferrer"}. Rather than hosting a second copy of the site, I use [Cloudflare's alias-domain redirect tooling](https://developers.cloudflare.com/fundamentals/manage-domains/redirect-domain/){:target="_blank" rel="noopener noreferrer"} to return a **301 Moved Permanently** response and send visitors to `nickosullivan.id.au`, preserving the path and query string along the way. The canonical domain then takes them to `www.nickosullivan.id.au`.
+
+It is a small but pretty cool piece of the setup. Someone who tries the full version of my name still reaches the right place, while browsers and search engines are told that there is one permanent home for the site rather than two competing copies.
+
 No single line acts like a magic instruction to Google. The useful part is the consistency between the homepage, [my About page](/about/), article bylines, structured data, internal links and legitimate profiles elsewhere.
 
 ## What I am changing
