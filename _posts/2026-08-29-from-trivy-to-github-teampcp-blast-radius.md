@@ -30,7 +30,7 @@ Bitwarden responded publicly and published a clean 2026.4.1 release. Importantly
 
 That distinction matters. "Bitwarden compromised" sounds like a password-vault breach. That is not what the public evidence says happened. A software-distribution component carrying the Bitwarden name was compromised. That is serious, particularly for CI/CD environments, but it is not evidence that attackers obtained everybody's Bitwarden vault.
 
-Trend Micro's analysis confirms the malicious Bitwarden CLI package used JavaScript/Bun runtime delivery with AES-256-GCM and RSA OAEP-SHA256 encryption, technically consistent with the broader TeamPCP toolchain.
+[Trend Micro's analysis](https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html){:target="_blank" rel="noopener noreferrer"} confirms the malicious Bitwarden CLI package used JavaScript/Bun runtime delivery with AES-256-GCM and RSA OAEP-SHA256 encryption, technically consistent with the broader TeamPCP toolchain.
 
 ## TanStack demonstrated an even more sophisticated route into trusted publishing
 
@@ -38,7 +38,7 @@ Then came TanStack.
 
 On 11 May 2026, TanStack detected malicious releases affecting 42 packages and 84 versions. The attack window was remarkably brief: roughly six minutes between 7:20 and 7:26 p.m. UTC.
 
-TanStack's post-incident analysis is worth reading because the attack did not simply involve somebody stealing a long-lived npm password.
+[TanStack's post-incident analysis](https://tanstack.com/blog/npm-supply-chain-compromise-postmortem){:target="_blank" rel="noopener noreferrer"} is worth reading because the attack did not simply involve somebody stealing a long-lived npm password.
 
 The attacker exploited a dangerous interaction involving GitHub Actions, `pull_request_target`, shared workflow caches, and the trust boundary between a fork and the base repository. A poisoned Actions cache ultimately reached a privileged release workflow. The attacker was then able to obtain a short-lived OpenID Connect token from the runner and abuse the project's legitimate trusted-publishing path.
 
@@ -48,7 +48,7 @@ That is a particularly important lesson. Provenance and trusted publishing are v
 
 ## Mistral AI, OpenSearch, and the expanding blast radius
 
-Around the same period, other projects published advisories concerning malicious releases.
+Around the same period, [other projects published advisories](https://labs.cloudsecurityalliance.org/research/csa-research-note-teampcp-supply-chain-cascade-20260402-csa/){:target="_blank" rel="noopener noreferrer"} concerning malicious releases.
 
 Mistral AI warned that `mistralai==2.4.6` on PyPI was malicious and did not correspond with a legitimate GitHub tag, commit, or release workflow. The legitimate project release remained 2.4.5 at the time of its warning.
 
@@ -60,13 +60,13 @@ By this stage, counting the campaign in terms of one compromised project no long
 
 ## Then poisoned developer tooling reached GitHub itself
 
-On 18 May 2026, the Nx project disclosed that version 18.95.0 of its Nx Console VS Code extension was malicious.
+On 18 May 2026, the [Nx project disclosed](https://nx.dev/blog/nx-console-v18-95-0-postmortem){:target="_blank" rel="noopener noreferrer"} that version 18.95.0 of its Nx Console VS Code extension was malicious.
 
 The exposure window was surprisingly short. The malicious extension was available in Microsoft's VS Code Marketplace for only around 18 minutes and in OpenVSX for roughly 36 minutes before it was removed. That was enough.
 
 The extension looked and behaved like normal Nx Console, but on startup it silently ran a shell command that downloaded and executed a hidden package from a planted commit on the official nrwl/nx GitHub repository, disguised as a routine MCP setup task.
 
-Two days later, GitHub disclosed a compromise involving one of its own employees.
+Two days later, [GitHub disclosed a compromise](https://www.helpnetsecurity.com/2026/05/20/github-breached-teampcp/){:target="_blank" rel="noopener noreferrer"} involving one of its own employees.
 
 ![The GitHub home page, headed "Where the world builds software", displayed on an angled computer monitor](/assets/images/github-internal-repositories-teampcp-breach.jpg)
 _A software supply-chain compromise reached a developer at GitHub, and their trusted tooling became the way into GitHub's own internal repositories. Photo by [Mohammad Rahmani](https://unsplash.com/@afgprogrammer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/q1p2DrLBtko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}._
@@ -83,7 +83,7 @@ That is why this class of attack deserves much more attention than the phrase "m
 
 The European Commission incident is perhaps the clearest demonstration of what happens after the software compromise succeeds.
 
-CERT-EU says the European Commission's Security Operations Centre detected suspicious activity on 24 March 2026 and informed CERT-EU the following day.
+[CERT-EU says](https://cert.europa.eu/blog/european-commission-cloud-breach-trivy-supply-chain){:target="_blank" rel="noopener noreferrer"} the European Commission's Security Operations Centre detected suspicious activity on 24 March 2026 and informed CERT-EU the following day.
 
 Its investigation concluded with high confidence that initial access resulted from the Trivy supply-chain compromise. The Commission had not downloaded malware from a suspicious email or obscure website. It had used Trivy through ordinary software-update channels.
 
@@ -97,7 +97,7 @@ That is the software supply-chain risk distilled into a single incident: trusted
 
 ## OpenAI was caught in the May wave
 
-OpenAI disclosed on 13 May 2026 that two employee devices in its corporate environment had been affected by the TanStack/npm supply-chain attack.
+[OpenAI disclosed on 13 May 2026](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/){:target="_blank" rel="noopener noreferrer"} that two employee devices in its corporate environment had been affected by the TanStack/npm supply-chain attack.
 
 The company said the incident happened during a phased rollout of new supply-chain security controls, and the two affected employee devices had not yet received the updated configurations that would have prevented the download. OpenAI observed activity consistent with the malware's described behaviour, including unauthorised access and credential-focused exfiltration in a limited subset of internal source-code repositories to which the two impacted employees had access.
 
@@ -133,7 +133,7 @@ The problem is not that we trust open-source software. The problem is unexamined
 
 ## What organisations should actually do
 
-The FBI's July 2026 FLASH alert contains specific defensive recommendations. Here are the controls I think matter most, drawing on both that alert and the technical lessons from this campaign.
+The [FBI's July 2026 FLASH alert](https://www.ic3.gov/CSA/2026/260702.pdf){:target="_blank" rel="noopener noreferrer"} contains specific defensive recommendations. Here are the controls I think matter most, drawing on both that alert and the technical lessons from this campaign.
 
 ### Enforce a minimum package age
 
@@ -143,7 +143,7 @@ That is a major cultural shift for development teams accustomed to immediately p
 
 Not every environment can tolerate seven days. Emergency security updates are an obvious exception. But organisations should at least be asking why an unattended build server needs to consume a package that was published six minutes ago.
 
-OpenAI's own incident report confirms that, following the TanStack incident, it introduced `minimumReleaseAge` as one of its new supply-chain security controls.
+[OpenAI's own incident report](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/){:target="_blank" rel="noopener noreferrer"} confirms that, following the TanStack incident, it introduced `minimumReleaseAge` as one of its new supply-chain security controls.
 
 ### Pin GitHub Actions to commit SHAs
 
@@ -163,7 +163,7 @@ The FBI's recommendations include rotating exposed CI/CD, publishing, and cloud 
 
 ### Rotate every secret, and mean it
 
-Aqua's experience highlights an incident-response lesson that is easy to underestimate. After the first Trivy-related incident, credentials were rotated. But not every path to access was invalidated simultaneously. The attacker came back.
+[Aqua's experience](https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know/){:target="_blank" rel="noopener noreferrer"} highlights an incident-response lesson that is easy to underestimate. After the first Trivy-related incident, credentials were rotated. But not every path to access was invalidated simultaneously. The attacker came back.
 
 A compromised build environment needs to be treated differently from an ordinary password reset. You need to understand what the compromised identity could reach, what credentials it could mint, what other identities it could modify, and what persistence it could establish before considering the environment clean.
 
@@ -191,7 +191,7 @@ The FBI specifically recommends auditing all npm package maintainer accounts for
 
 ## The AFP's vague statement makes a lot more sense now
 
-Read in isolation, the AFP's statement about a criminal syndicate compromising a "small number of trusted software components" and somehow affecting more than a thousand organisations seems extraordinary.
+Read in isolation, the [AFP's statement](https://www.afp.gov.au/news-centre/media-release/two-wa-men-charged-following-afp-fbi-wapf-disruption-alleged-global){:target="_blank" rel="noopener noreferrer"} about a criminal syndicate compromising a "small number of trusted software components" and somehow affecting more than a thousand organisations seems extraordinary.
 
 After looking at the public technical record, it does not.
 
@@ -241,6 +241,10 @@ Checkmarx. (2026, March 23; updated July 6). *Update: Ongoing Checkmarx supply c
 OpenAI. (2026, May 13). *Our response to the TanStack npm supply chain attack* [Blog post]. <https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/>
 
 GitHub. (2026, May 20). *Investigating unauthorized access to GitHub's internal repositories* [Statement via X/Twitter thread]. Referenced in Help Net Security report at <https://www.helpnetsecurity.com/2026/05/20/github-breached-teampcp/>
+
+TanStack. (2026, May). *Postmortem: TanStack npm supply-chain compromise* [Blog post]. <https://tanstack.com/blog/npm-supply-chain-compromise-postmortem>
+
+Nx. (2026, May). *Postmortem: Nx Console v18.95.0 supply-chain compromise* [Blog post]. <https://nx.dev/blog/nx-console-v18-95-0-postmortem>
 
 Wiz Research. (2026, March 20). *Trivy compromised by "TeamPCP"* [Blog post]. <https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack>
 
