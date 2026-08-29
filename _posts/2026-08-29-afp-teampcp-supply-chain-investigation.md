@@ -1,10 +1,10 @@
 ---
 title: "The AFP didn't name the software: what was behind the TeamPCP supply-chain attacks"
 description: "The AFP charged two men over a global cybercrime syndicate but never named the compromised software. Lined up against months of public incident reports, the mystery is Trivy, Checkmarx KICS, LiteLLM and the Telnyx Python SDK."
-keywords: [TeamPCP, software supply chain attack, Trivy supply chain attack, AFP cybercrime arrests, Checkmarx KICS, LiteLLM malicious package, Telnyx Python SDK, open source security, CVE-2026-33634, credential theft]
+keywords: [TeamPCP, software supply chain attack, Trivy supply chain attack, AFP cybercrime arrests, Checkmarx KICS, LiteLLM malicious package, Telnyx Python SDK, trusted software compromise, CVE-2026-33634, credential theft]
 date: 2026-08-29 09:00:00 +1000
 categories: [Cyber Security]
-tags: [cyber-security, supply-chain, open-source, data-breach]
+tags: [cyber-security, supply-chain, data-breach]
 image:
   path: /assets/images/teampcp-software-supply-chain-attack-git-commit-history.jpg
   alt: "A code editor showing a Git commit and version-tag history, the kind of release infrastructure the TeamPCP supply-chain attacks abused"
@@ -14,11 +14,13 @@ On 27 August 2026, the Australian Federal Police announced that two Western Aust
 
 The wording was deliberately vague.
 
-The AFP said its investigation began after cyber threat intelligence companies provided information about a group allegedly inserting malicious code into software on an open-source repository. That software was then consumed by developers and distributed further into government, academic and private-sector environments.
+The AFP said its investigation began after multiple cyber threat assessment companies provided information about a syndicate that, in its words, "allegedly inserted malicious code into software available on an open-source repository, which was then unwittingly used by other developers." Police allege the infected software was then distributed into computer systems across government, academia and the private sector.
+
+That "open-source repository" description is the AFP's. As we will see, not every compromised component was open source, and the more useful frame is trust in the software supply chain.
 
 According to the AFP, more than 1,000 organisations may have been affected, more than 500,000 credentials allegedly stolen, and at least 300 GB of data exfiltrated. The estimated remediation cost across affected organisations runs into the hundreds of millions of dollars.
 
-What the AFP did not explain was perhaps the most interesting part: *what open-source software had actually been compromised?*
+What the AFP did not explain was perhaps the most interesting part: *which software had actually been compromised?*
 
 Once you start lining the announcement up against several months of public incident reports, the mystery becomes considerably less mysterious.
 
@@ -89,7 +91,7 @@ That is worth thinking about. Most defenders are conditioned to look for somethi
 
 The significance of stealing developer credentials becomes apparent when you consider what those credentials can control.
 
-![A stylised 3D illustration of a desktop computer running a code editor, surrounded by floating HTML, PHP, JavaScript and CSS icons and a stream of binary](/assets/images/open-source-package-supply-chain-malicious-code.jpg)
+![A stylised 3D illustration of a desktop computer running a code editor, surrounded by floating HTML, PHP, JavaScript and CSS icons and a stream of binary](/assets/images/software-supply-chain-attack-malicious-package-code.jpg)
 _A single set of developer credentials can often publish packages, move Git tags and reach cloud environments. Photo by [Growtika](https://unsplash.com/@growtika?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/a-computer-with-a-keyboard-and-mouse-yGQmjh2uOTg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}._
 
 A GitHub token can potentially modify another repository. A package-registry token can publish another npm or PyPI package. A cloud credential can open a production environment. A CI/CD token can reach artefacts or deployments. A developer's authenticated workstation may have access to several of those things simultaneously.

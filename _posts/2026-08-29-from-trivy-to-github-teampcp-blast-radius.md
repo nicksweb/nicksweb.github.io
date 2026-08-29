@@ -4,7 +4,7 @@ description: "How stolen developer credentials from the Trivy compromise cascade
 keywords: [TeamPCP supply chain attack, GitHub internal repositories breach, TanStack npm attack, Bitwarden CLI npm, Nx Console VS Code extension, European Commission cloud breach, minimum package age, pin GitHub Actions to commit SHA, CI/CD security, trusted publishing OIDC]
 date: 2026-08-29 09:30:00 +1000
 categories: [Cyber Security]
-tags: [cyber-security, supply-chain, open-source, data-breach]
+tags: [cyber-security, supply-chain, data-breach]
 image:
   path: /assets/images/developer-workstation-supply-chain-attack-target.jpg
   alt: "Overhead view of a developer working at a desk with a laptop and two external monitors, the kind of workstation the TeamPCP supply-chain attacks targeted"
@@ -69,13 +69,13 @@ The extension looked and behaved like normal Nx Console, but on startup it silen
 Two days later, GitHub disclosed a compromise involving one of its own employees.
 
 ![The GitHub home page, headed "Where the world builds software", displayed on an angled computer monitor](/assets/images/github-internal-repositories-teampcp-breach.jpg)
-_An open-source supply-chain compromise reached a developer at GitHub, and their trusted tooling became the way into GitHub's own internal repositories. Photo by [Mohammad Rahmani](https://unsplash.com/@afgprogrammer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/q1p2DrLBtko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}._
+_A software supply-chain compromise reached a developer at GitHub, and their trusted tooling became the way into GitHub's own internal repositories. Photo by [Mohammad Rahmani](https://unsplash.com/@afgprogrammer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/q1p2DrLBtko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}._
 
 GitHub said an employee device had installed a poisoned third-party VS Code extension. The attacker subsequently gained access to and exfiltrated internal GitHub source-code repositories. GitHub said the attacker's claim of having obtained approximately 3,800 internal repositories was "directionally consistent" with its own investigation.
 
 Crucially, GitHub said it had found no evidence that customer information outside those internal repositories was accessed. TeamPCP reportedly offered the stolen data for sale on BreachForums for upwards of US$50,000.
 
-Think about that attack path for a moment. An open-source supply-chain compromise eventually reaches a developer at GitHub, and the developer's trusted tooling becomes the way into GitHub's own internal repositories.
+Think about that attack path for a moment. A software supply-chain compromise eventually reaches a developer at GitHub, and the developer's trusted tooling becomes the way into GitHub's own internal repositories.
 
 That is why this class of attack deserves much more attention than the phrase "malicious package" sometimes receives.
 
