@@ -49,6 +49,8 @@ GEM
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
+    jekyll-paginate-v2 (3.0.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.0.0)
@@ -119,6 +121,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer (~> 3.18)
   jekyll-compose
+  jekyll-paginate-v2 (~> 3.0)
   jekyll-theme-chirpy (~> 6.2.3)
   tzinfo (~> 1.2)
   tzinfo-data

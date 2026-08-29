@@ -24,3 +24,7 @@ gem "webrick", "~> 1.7"
 
 # Streamline your writing in Jekyll with some commands.
 gem 'jekyll-compose', group: [:jekyll_plugins]
+
+# Pagination for the /posts/ listing. Drop-in successor to the theme's
+# jekyll-paginate (v1); configured via the `pagination:` block in _config.yml.
+gem 'jekyll-paginate-v2', '~> 3.0', group: [:jekyll_plugins]

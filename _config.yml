@@ -142,7 +142,15 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
 
-paginate: 10
+# Pagination (jekyll-paginate-v2). This block only enables the plugin; a page
+# is paginated only if it also sets `pagination: enabled: true` in its own front
+# matter (currently just /posts/). Change `per_page` to adjust posts per page.
+pagination:
+  enabled: true
+  per_page: 7
+  permalink: "/page/:num/"   # e.g. /posts/page/2/
+  sort_field: "date"
+  sort_reverse: true
 
 # ------------ The following options are not recommended to be modified ------------------
 
