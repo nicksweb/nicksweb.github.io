@@ -43,9 +43,6 @@ Those were only part of the story.
 
 Before going further: the Australian and United States criminal proceedings concern allegations that have not yet been tested at trial. Similarly, while some incidents described below have been directly attributed to TeamPCP by law enforcement or vendors, others are linked by security researchers rather than by the affected company itself. I have tried to keep those distinctions clear throughout.
 
-![The Australian Coat of Arms mounted above the entrance to Parliament House in Canberra, against a clear blue sky](/assets/images/afp-australian-federal-police-teampcp-investigation.jpg)
-_The Australian criminal case is one thread in an investigation that also involved the FBI and the Western Australia Police Force. The charges remain allegations. Photo by [Marcus Reubenstein](https://unsplash.com/@reubenstein?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/a-building-with-a-sign-on-top-of-it-5LtQelYxh_A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}._
-
 ## The first big domino: Trivy
 
 If there is one piece of software that explains how this campaign became so consequential, it is Trivy.

@@ -6,8 +6,8 @@ date: 2026-08-29 09:30:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, supply-chain, open-source, data-breach]
 image:
-  path: /assets/images/teampcp-software-supply-chain-attack-git-commit-history.jpg
-  alt: "A code editor showing a Git commit and version-tag history, the kind of release infrastructure the TeamPCP supply-chain attacks abused"
+  path: /assets/images/developer-workstation-supply-chain-attack-target.jpg
+  alt: "Overhead view of a developer working at a desk with a laptop and two external monitors, the kind of workstation the TeamPCP supply-chain attacks targeted"
 ---
 
 *This is Part 2 of a two-part investigation. [Part 1]({% post_url 2026-08-29-afp-teampcp-supply-chain-investigation %}) traces the AFP's vague announcement back to the compromised software: Trivy, Checkmarx KICS, LiteLLM, and the Telnyx Python SDK.*
@@ -20,7 +20,7 @@ The attackers were not simply compromising software. They were compromising the 
 
 Here is what happened next, and why this campaign deserves much more attention than the phrase "malicious package" sometimes receives.
 
-*Photo by [Yancy Min](https://unsplash.com/@yancymin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-text-description-on-a-computer-screen-842ofHC6MaI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}.*
+*Photo by [ThisisEngineering](https://unsplash.com/@thisisengineering?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/person-using-macbook-pro-on-white-table-uyfohHiTxho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}.*
 
 ## Bitwarden: an important distinction about what was compromised
 
@@ -50,9 +50,6 @@ That is a particularly important lesson. Provenance and trusted publishing are v
 
 Around the same period, other projects published advisories concerning malicious releases.
 
-![A stylised 3D illustration of a desktop computer running a code editor, surrounded by floating HTML, PHP, JavaScript and CSS icons and a stream of binary](/assets/images/open-source-package-supply-chain-malicious-code.jpg)
-_By mid-2026 the campaign had stopped looking like a single compromised project and started looking like an ecosystem event across npm and PyPI. Photo by [Growtika](https://unsplash.com/@growtika?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/a-computer-with-a-keyboard-and-mouse-yGQmjh2uOTg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}._
-
 Mistral AI warned that `mistralai==2.4.6` on PyPI was malicious and did not correspond with a legitimate GitHub tag, commit, or release workflow. The legitimate project release remained 2.4.5 at the time of its warning.
 
 OpenSearch published a critical GitHub security advisory covering malicious npm versions of `@opensearch-project/opensearch`, warning that machines which installed affected releases should be considered compromised.
@@ -71,8 +68,8 @@ The extension looked and behaved like normal Nx Console, but on startup it silen
 
 Two days later, GitHub disclosed a compromise involving one of its own employees.
 
-![Screenshot of a Help Net Security article headed "TeamPCP breached GitHub's internal codebase via poisoned VS Code extension", dated 20 May 2026](/assets/images/teampcp-github-internal-codebase-breach-vs-code-extension.png)
-_GitHub said the attacker's claim of roughly 3,800 internal repositories was "directionally consistent" with its own investigation. Source: [Help Net Security](https://www.helpnetsecurity.com/2026/05/20/github-breached-teampcp/){:target="_blank" rel="noopener noreferrer"}._
+![The GitHub home page, headed "Where the world builds software", displayed on an angled computer monitor](/assets/images/github-internal-repositories-teampcp-breach.jpg)
+_An open-source supply-chain compromise reached a developer at GitHub, and their trusted tooling became the way into GitHub's own internal repositories. Photo by [Mohammad Rahmani](https://unsplash.com/@afgprogrammer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/q1p2DrLBtko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}._
 
 GitHub said an employee device had installed a poisoned third-party VS Code extension. The attacker subsequently gained access to and exfiltrated internal GitHub source-code repositories. GitHub said the attacker's claim of having obtained approximately 3,800 internal repositories was "directionally consistent" with its own investigation.
 
@@ -111,9 +108,6 @@ Again, precision matters. This should not be described as "TeamPCP hacked ChatGP
 ## Why software supply-chain compromise is so difficult to defend against
 
 There is something fundamentally uncomfortable about this type of attack.
-
-![Overhead view of a developer working at a white desk with a laptop and two external monitors, hands on a keyboard and mouse](/assets/images/developer-workstation-supply-chain-attack-target.jpg)
-_A developer workstation can reach source code, cloud environments, package registries and signing processes at once. That makes it a high-value target. Photo by [ThisisEngineering](https://unsplash.com/@thisisengineering?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/person-using-macbook-pro-on-white-table-uyfohHiTxho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}._
 
 Cyber security is built on trust. We trust Microsoft Update to deliver Microsoft software. We trust an npm package bearing the same name we used yesterday. We trust PyPI. We trust a GitHub Action referenced by a familiar version tag. We trust a VS Code extension that has already been installed across developer machines. We trust the vulnerability scanner because its entire purpose is to tell us whether other things are safe.
 
