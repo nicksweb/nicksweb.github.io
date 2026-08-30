@@ -6,7 +6,7 @@ date: 2026-08-30 09:00:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, north-queensland-cyber-watch, data-breach, privacy, fitness]
 image:
-  path: /assets/images/danielle-cerullo-CQfNt66ttZM-unsplash.jpg
+  path: /assets/images/gym-member-database-data-breach-townsville.jpg
   alt: A person standing in a gym surrounded by exercise equipment, the kind of fitness business that runs on a member database of names, contact details and identity documents.
 ---
 
@@ -24,6 +24,9 @@ The [Townsville Bulletin reported on 6 June 2026](https://www.townsvillebulletin
 
 The Queensland Police Service confirmed officers were investigating "a data breach incident at a business on Main Street, Burdell" and said that, due to ongoing investigations, it was unable to comment further. The Bulletin reported that the business is understood to be Strand Fitness North Shore.
 
+![Screenshot of the Townsville Bulletin article headed "Fears Townsville data breach exposes personal details of police officers", by Cameron Bates and Holly Fishlock, dated 6 June 2026.](/assets/images/townsville-bulletin-gym-data-breach-police-officers.png){: width="700" }
+_The Townsville Bulletin's 6 June 2026 report. Screenshot retained for reporting and commentary._
+
 According to a source quoted by the paper, the information that was exposed included **names, occupations, email addresses, phone numbers and addresses**, and it related to "every member of one of the Strand Fitness branches", not only police officers. The source said the data was found on a USB device during a police raid about two weeks earlier, and described the find as deeply concerning, "particularly if it gets in the hands of organised crime".
 
 The Bulletin also reported an internal email from Detective Superintendent Chris Lawson, dated 30 May 2026, which followed a separate email from Acting Senior Sergeant Michelle White about Townsville officers "protecting your personal details". Detective Superintendent Lawson's email said the situation "came about due to a data breach at a local business where personal details obtained by the business were held by a third party not associated with the business", and that "a number of our own employees were identified in the data breach".
@@ -39,6 +42,14 @@ As with the [Westco Motors entry]({% post_url 2026-08-24-nq-cyber-watch-westco-m
 - **Not established publicly:** how the data came to be held by a third party in the first place; who that third party is and what their relationship to the gym was; whether the cause was a criminal hack, an exposed system, a former contractor or staff member, a marketing or CRM supplier, or something else; how many people are affected; how long the data was exposed; and whether copies exist beyond the USB device that was found.
 
 Strand Fitness North Shore is the organisation notifying members, but on the current public record it is as much a victim here as its members are. If the company or Queensland Police publishes more detail, that account should take precedence over anything inferred from the early reporting.
+
+## How much of a story is this, really?
+
+It is worth being honest about the evidence base. Nearly three months on, the [Townsville Bulletin's 6 June report](https://www.townsvillebulletin.com.au/truecrimeaustralia/police-courts-townsville/fears-townsville-data-breach-exposes-personal-details-of-police-officers/news-story/cbfc68baf73a146cefa2e47c0c6bc4fe){:target="_blank" rel="noopener noreferrer"} appears to be the only detailed public account. I could not find follow-up coverage, a public statement from Strand Fitness, a Queensland Police update, or an OAIC notification on the public register that clearly corresponds to this incident. The most colourful details — that the dataset covered *every* member of the branch, that occupations were included, that it surfaced on a USB during an unrelated raid — come from a single unnamed source.
+
+That does not mean it did not happen. Two things in the reporting are more solid than a single anonymous source: Queensland Police confirmed on the record that it was investigating a data breach incident at a Burdell business, and an internal QPS email attributed to a named Detective Superintendent confirmed that employees were identified in a breach at a local business whose data was held by an unassociated third party. A gym also does not issue member notifications, contact former members and tell a newspaper it has notified the OAIC over nothing.
+
+So the fair reading is: a real incident, confirmed at a high level by police and by the affected business, with the specifics still resting on thin, ageing, single-source reporting and no published resolution. That is reason enough to treat it as a useful case study — which is the point of this series — without inflating it into a confirmed mass exposure of every officer in Townsville.
 
 ## A "data breach" is not automatically a "hack"
 
@@ -85,7 +96,7 @@ On 10 August 2026 the [ABC reported](https://www.abc.net.au/news/2026-08-10/ai-a
 
 No member personal data was reported to have been exposed in that incident, and [security commentators framed it](https://www.esecurityplanet.com/threats/news-claude-ai-agent-australian-gym-api-flaw-apac/){:target="_blank" rel="noopener noreferrer"} as a plain authorisation gap rather than a clever exploit. But an API that lets an unrelated user cancel anyone's booking is usually only one design decision away from an API that lets an unrelated user *read* anyone's record. The Australian Signals Directorate has warned that AI agents can take unintended actions and can find and exploit this kind of weakness quickly; a booking system that trusts the client not to misbehave is now being tested by software that does not know it is supposed to play nice.
 
-![A man in a gym checking his phone, the everyday interaction with a booking app that sits on top of a gym's member database and API.](/assets/images/kobe-clata-hXkW6Ji1p8M-unsplash.jpg){: width="700" }
+![A man in a gym checking his phone, the everyday interaction with a booking app that sits on top of a gym's member database and API.](/assets/images/gym-booking-app-api-security.jpg){: width="700" }
 _Photo by [Kobe Clata](https://unsplash.com/@kobe_kian?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/a-man-in-a-gym-looking-at-his-cell-phone-hXkW6Ji1p8M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}._
 
 ## Why officers in a gym database is a worse problem than it looks
