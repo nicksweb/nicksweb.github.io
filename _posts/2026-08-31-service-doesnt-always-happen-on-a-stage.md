@@ -20,7 +20,7 @@ Sometimes it looks like turning up with a toolbox, tracing cables through a buil
 
 That was what serving looked like for me recently.
 
-There was an issue with one of our church projector systems, involving an HDMI-over-Ethernet link that wasn't behaving as it should. So I packed some equipment, headed to church and spent some time working through the problem.
+There was an issue with one of our church projector systems, involving a HDMI-over-Ethernet link that wasn't behaving as it should. So I packed some equipment, headed to church and spent some time working through the problem.
 
 Eventually, I got it going.
 
@@ -79,209 +79,53 @@ The purpose hasn't.
 
 ## Somebody took the time to show me
 
-Looking back, one of the things I appreciate most isn't actually the equipment.
+Looking back, the thing I appreciate most isn't the equipment. It's the people.
 
-It's the people.
+I didn't arrive one Sunday already knowing how to operate an audio system, terminate cables, troubleshoot AV gear or manage a website. People showed me. Volunteers gave up their time, let me stand beside them, explained why something had been wired a particular way, and showed me how to run a cable properly rather than just getting it from one end of a building to the other. They let me operate equipment, and they trusted me enough to make mistakes and learn from them.
 
-I didn't simply arrive one Sunday knowing how to operate an audio system, terminate cables, troubleshoot AV equipment, manage a website or understand the technology sitting behind a modern church.
+Over the years that grew well beyond Sunday services, into websites, computers, networks and other systems to look after, with always something else to learn. Those people weren't running a training program. They were simply serving, and while they did it they took the time to bring somebody younger alongside them.
 
-People showed me.
-
-Volunteers gave up their time and allowed me to stand beside them.
-
-They explained why something had been wired a particular way.
-
-They showed me how to run a cable properly rather than simply getting it from one end of a building to another.
-
-They let me operate equipment.
-
-They trusted me enough to make mistakes and learn from them.
-
-Over the years that expanded beyond Sunday services. There were websites to maintain and, at times, build from the ground up. There were computers, networks and other systems to look after. There was always another opportunity to learn something.
-
-Some of those people probably had no idea how significant that investment would become.
-
-They weren't running a formal training program.
-
-They were simply serving and, while they did it, taking the time to bring somebody younger alongside them.
-
-Years later, many of the skills that began developing through volunteering have crossed into my professional life.
-
-Skills in troubleshooting.
-
-Working methodically.
-
-Audio visual systems.
-
-Networking.
-
-Web development.
-
-Working with other people.
-
-Trying to do something properly rather than simply doing enough to make it work.
-
-God has been extraordinarily good through all of that.
-
-Something that began with the opportunity to move transparencies on an overhead projector became part of a much bigger journey of learning, serving and eventually working professionally with technology.
+Years later, much of what began through volunteering has crossed into my professional life: troubleshooting, working methodically, audio visual systems, networking, web development, working with other people, and trying to do a job properly rather than just enough to make it work. God has been extraordinarily good through all of that. Something that started with moving transparencies on an overhead projector became part of a much bigger journey of learning, serving and eventually working professionally with technology.
 
 You can read more about that journey in [my testimony](/my-testimony/).
 
 ## Using what we have been given
 
-There is a verse in 1 Peter that captures this beautifully:
+There is a verse in 1 Peter that captures this well:
 
 > Each of you should use whatever gift you have received to serve others, as faithful stewards of God's grace in its various forms.
 >
 > 1 Peter 4:10
 
-I love the breadth of that.
+I love the breadth of that. **Whatever gift you have received.** Our gifts aren't all the same, and they aren't supposed to be.
 
-**Whatever gift you have received.**
+Some people teach God's Word from the front. Some sit beside someone who is hurting and know exactly how to listen. Some lead music, some work wonderfully with children, some organise, some cook, some encourage, some arrive early to put out chairs and stay late to pack them away. And some of us apparently enjoy crawling behind projector screens working out why an HDMI signal isn't reaching the other end.
 
-Our gifts aren't all the same, and they aren't supposed to be.
+There is room for all of it. Paul gives us the same picture in 1 Corinthians when he describes the church as one body with many parts: different functions, each contributing to the whole. That is worth remembering in churches where the most visible ministries can look like the most important ones. They aren't.
 
-Some people can stand in front of a congregation and teach God's Word.
-
-Some can sit beside somebody who is hurting and know exactly how to listen.
-
-Some lead music.
-
-Some work wonderfully with children.
-
-Some organise.
-
-Some cook.
-
-Some encourage.
-
-Some arrive early to put out chairs or stay afterwards to pack them away.
-
-And some of us apparently enjoy crawling behind projector screens trying to work out why an HDMI signal isn't reaching the other end.
-
-There is room for all of it.
-
-Paul gives us a similar picture in 1 Corinthians when he describes the church as one body with many parts. We don't all have the same function, but each part contributes to the whole.
-
-That is an important reminder in churches where the most visible ministries can sometimes appear to be the most significant ones.
-
-They aren't.
-
-The goal isn't recognition.
-
-It isn't being able to point at something and say, *I did that.*
-
-The goal is to use what God has entrusted to us in a way that helps His church fulfil its purpose and ultimately brings glory to Him.
-
-If fixing a projector means the congregation can see the words being sung on Sunday, then fix the projector well.
-
-If configuring a website helps somebody discover the church and eventually walk through the doors, build it well.
-
-If running a cable means somebody can clearly hear the gospel being preached, run the cable well.
-
-There is something deeply fulfilling about doing useful work for others.
+The goal isn't recognition, or being able to point at something and say, *I did that.* It is to use what God has entrusted to us in a way that helps His church do what it is here to do. If fixing a projector means the congregation can see the words on Sunday, fix it well. If a website helps someone find the church and walk through the doors, build it well. If a cable means someone can clearly hear the gospel preached, run it well.
 
 ## The privilege of being useful
 
-I think that's one of the things I have come to enjoy most about serving.
+That is one of the things I have come to enjoy most about serving: being useful. Not indispensable — no church should depend on one person knowing how everything works — but useful. There is joy in looking at a problem and saying, *I think I can help with that*, applying something you have learned, and leaving things in a better state than you found them for the next person.
 
-Being useful.
-
-Not indispensable. Churches shouldn't depend entirely on one person knowing how everything works.
-
-But useful.
-
-There is joy in being able to look at a problem and say, *I think I can help with that.*
-
-There is satisfaction in applying something you have learned, working carefully and leaving things in a better state for the next person.
-
-And there is an even greater satisfaction in knowing that the thing you've repaired, configured or built isn't really the end product.
-
-The projector isn't the ministry.
-
-The mixing console isn't the ministry.
-
-The network isn't the ministry.
-
-The website isn't the ministry.
-
-They are tools.
-
-They exist to help people carry out ministry.
-
-They help someone preach.
-
-They help a worship team lead.
-
-They help children learn.
-
-They help people communicate.
-
-They help a church welcome its community.
-
-When you look at it that way, even seemingly ordinary technical work can become an act of service.
+And there is a greater satisfaction in knowing the thing you've repaired or built isn't really the point. The projector isn't the ministry. Neither is the mixing console, the network or the website. They are tools. They help someone preach, a worship team lead, children learn, people communicate and a church welcome its community. Seen that way, even ordinary technical work can become an act of service.
 
 ## Passing it on
 
-Perhaps there is another responsibility that comes with all of this.
+Perhaps there is a responsibility that comes with this. Someone showed me, so I need to be willing to show somebody else.
 
-Someone showed me.
+The best thing to do with the knowledge we accumulate isn't to become the person everybody calls when something breaks. It's to bring other people alongside us: explain what we're doing, give somebody younger a go, let them push the buttons and run the cable, let them make a mistake while we're there to help, and trust them with harder things over time. That investment can reach much further than we ever see.
 
-So I need to be willing to show somebody else.
-
-One of the best things we can do with the knowledge we accumulate isn't simply to become the person everybody calls when something breaks.
-
-It's to bring other people alongside us.
-
-Explain what we're doing.
-
-Give somebody younger an opportunity.
-
-Let them push the buttons.
-
-Let them run the cable.
-
-Let them make a mistake while we're there to help.
-
-Trust them with increasingly difficult things.
-
-That investment might reach much further than we ever see.
-
-I know that because other people did it for me.
-
-Some of the volunteers who patiently showed a young Nicholas how things worked probably couldn't have known where those skills would eventually take me professionally, or that decades later I would still be using them to serve.
-
-But God knew.
-
-And I am enormously thankful for them.
+I know, because other people did it for me. Some of the volunteers who patiently showed a young Nicholas how things worked couldn't have known where those skills would eventually take me, or that decades later I would still be using them to serve. But God knew, and I am enormously thankful for them.
 
 ## Different gifts. One purpose.
 
-So yes, I was pleased when the picture finally appeared on the projector again.
+So yes, I was pleased when the picture finally appeared on the projector again. Problem solved, tools packed away, job done. But the more important thing was the reminder it gave me.
 
-Problem solved.
+God gives us different abilities, places people around us who help develop them, and gives us opportunities to learn, to work and to serve. We get to decide what we do with them. For me, that still sometimes means cables, computers, networks, mixing consoles and projectors — and after all these years, I genuinely enjoy it.
 
-Tools packed away.
-
-Job done.
-
-But perhaps the more important thing was the reminder it gave me.
-
-God gives us different abilities. He places people around us who help develop them. He gives us opportunities to learn, opportunities to work and opportunities to serve.
-
-We get the privilege of deciding what we do with them.
-
-For me, sometimes that service still involves cables, computers, networks, mixing consoles and projectors.
-
-And after all these years, I still genuinely enjoy it.
-
-The technology will keep changing. I'm sure the equipment we're installing today will eventually look just as dated as that overhead projector does now.
-
-But I hope one thing doesn't change.
-
-That we continue to be people willing to use whatever God has placed in our hands to serve one another.
-
-And that, while we're doing it, we take the time to bring somebody else alongside us.
+The technology will keep changing. The gear we install today will look as dated as that overhead projector one day. But I hope one thing doesn't change: that we keep using whatever God has placed in our hands to serve one another, and that while we do it, we bring somebody else alongside us.
 
 **Different gifts. Different roles. One purpose — serving Christ and serving one another.**
 
