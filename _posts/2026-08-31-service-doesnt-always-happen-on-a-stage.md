@@ -20,7 +20,7 @@ Sometimes it looks like turning up with a toolbox, tracing cables through a buil
 
 That was what serving looked like for me recently.
 
-There was an issue with one of our church projector systems, involving a HDMI-over-Ethernet link that wasn't behaving as it should. So I packed some equipment, headed to church and spent some time working through the problem.
+There was an issue with one of our church projector systems at [Northreach Baptist Church](https://www.northreach.org.au), involving a HDMI-over-Ethernet link that wasn't behaving as it should. So I packed some equipment, headed to church and spent some time working through the problem.
 
 Eventually, I got it going.
 
