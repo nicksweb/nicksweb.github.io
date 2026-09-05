@@ -15,7 +15,7 @@ I use Plex at home to manage electronic copies of some of my DVD collection and 
 
 This week, a security update prompted me to check mine. It had been about three months since I last updated it.
 
-On 1 September 2026, [Plex published a security notice](https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319) recommending that server owners update to **Plex Media Server 1.43.3 or newer** as soon as possible. The notice also covers **Plex Desktop 1.115.0**. Plex says these releases address several security issues; at the time of writing, the notice says CVEs have been requested, with more details to follow.
+On 1 September 2026, [Plex published a security notice](https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319) recommending that server owners update to Plex Media Server 1.43.3 or newer as soon as possible. The notice also covers Plex Desktop 1.115.0. Plex says these releases address several security issues; at the time of writing, the notice says CVEs have been requested, with more details to follow.
 
 My server runs in Docker using the LinuxServer image. I backed up the important data, updated from `1.43.1.10611` to `1.43.3.10896`, and checked that Plex and the database were healthy afterwards. The [LinuxServer update instructions](https://github.com/linuxserver/docker-plex#updating-info) cover the container process. It was straightforward once I actually did it.
 
