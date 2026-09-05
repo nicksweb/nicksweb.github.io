@@ -13,7 +13,9 @@ toc: false
 
 *Header photograph: a mobile tower at sunset. Photo by [Charlie Fitzgerald](https://unsplash.com/@chfitz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-sunset-with-a-cell-phone-tower-in-the-foreground-wrJHm8jhO4E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).*
 
-I remember travelling to Ravenswood as a technician and struggling to scrape together a single bar of mobile reception in the township. Getting a connection could mean standing outside and holding the phone towards the sky, hoping it would find enough signal to be useful.
+I remember travelling to Ravenswood as a technician with two phones: my personal phone on Optus and my work phone on Telstra. Neither gave me a connection I could depend on.
+
+The Telstra work phone would lose reception indoors. Even standing outside near the local pub, calls would only connect intermittently. I remember holding the phone towards the sky, trying to scrape together a single bar of reception.
 
 That experience stays with you when you read an announcement about another regional telecommunications upgrade. You think about the people who live there every day, and what it would mean to make a call without first finding the right patch of ground.
 
@@ -51,7 +53,7 @@ There is still plenty here to welcome. A new mobile site addresses a different n
 
 Ravenswood is the project that particularly catches my attention. The government records its new Telstra macro mobile site as completed in **April–June 2024**, with improved handheld coverage as the project objective. A macro site is the larger type of mobile base station used to cover a surrounding area.
 
-On my last visit in 2023, I could not get usable Optus reception in Ravenswood. My experience there predates the reported Telstra completion, and the two networks need to be assessed separately. A Telstra upgrade does not establish what service another provider offers.
+On my last visit in 2023, my personal Optus phone still had no usable reception in Ravenswood. My recollections of both networks come from before the Telstra project's reported completion in 2024.
 
 The Ravenswood result I saw on [Telstra's coverage map](https://www.telstra.com.au/coverage-networks/our-coverage) showed **good 4G coverage**. That is encouraging, although I would like to experience the improvement on a return visit. For the everyday work of making calls, sending messages and getting online, dependable 4G would be a substantial improvement on the reception I remember.
 

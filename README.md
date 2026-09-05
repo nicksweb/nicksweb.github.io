@@ -21,6 +21,19 @@ bin/new-post "Article title"
 
 The new post will be created in `_posts/` with the current date and a URL-friendly slug.
 
+## AI-readable site guide
+
+`llms.txt` provides a curated overview of Nicholas's profile, writing topics,
+related businesses and archived projects. Jekyll renders it as plain text at
+`/llms.txt`, using the canonical URL from `_config.yml`. Each HTML page links to
+the guide through `_includes/metadata-hook.html`.
+
+Review the guide when the site's focus, key articles or brand relationships
+change. Keep it concise, use published sources for descriptions, and distinguish
+active services from archives. The posts listing, feed and sitemap provide
+ongoing discovery without adding every article to this file. Check that all
+internal links resolve in `_site/` after building.
+
 ## Build Locally
 
 Install dependencies and build:

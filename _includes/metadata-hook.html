@@ -3,6 +3,8 @@
   descriptions, canonical URLs, Open Graph, Twitter cards and JSON-LD; it does
   not output the optional keywords front matter used by this site.
 {% endcomment %}
+<link rel="describedby" type="text/plain" href="{{ '/llms.txt' | absolute_url }}">
+
 {% if page.keywords %}
   {% if page.keywords.first %}
     {% assign seo_keywords = page.keywords | join: ', ' %}

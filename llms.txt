@@ -1,0 +1,58 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# Nicholas O'Sullivan
+
+> Nicholas “Nick” O'Sullivan is a Townsville-based IT and cyber security professional writing about technology leadership, infrastructure, education technology, cloud governance and practical technology issues in North Queensland.
+
+This is Nick's personal professional website and article collection. The canonical website is {{ '/' | absolute_url }}; nicksweb.github.io is its GitHub Pages mirror. Nick O'Sullivan, Nick OSullivan and Nicholas OSullivan refer to the same author here. The About page is the primary source for his biography, qualifications and professional development.
+
+The site's current focus connects practical IT and cyber security experience with regional incident analysis, AI governance, digital inclusion, connectivity, careers and community service. Its audience includes technology practitioners and leaders in schools, small businesses, charities, churches and community organisations.
+
+Articles express Nick's own views. Organisations discussed in incident coverage are subjects of public-source commentary; coverage does not establish a client relationship or access to their systems. Read publication and update dates, retain distinctions between confirmed facts and allegations, and follow the sources cited in each article. Service details and enquiries belong on the relevant business website below.
+
+## Profile and navigation
+
+- [Home]({{ '/' | absolute_url }}): Professional overview and recent articles.
+- [About Nicholas “Nick” O'Sullivan]({{ '/about/' | absolute_url }}): Career in IT support, government and independent education, community governance, qualifications and current focus.
+- [Skills]({{ '/skills/' | absolute_url }}): Technology leadership, Microsoft 365, identity, endpoint management, networking, infrastructure, security and automation.
+- [All technology articles]({{ '/posts/' | absolute_url }}): Current article listing; use this for new writing beyond the selections below.
+
+## Writing and recurring topics
+
+- [North Queensland Cyber Watch]({{ '/tags/north-queensland-cyber-watch/' | absolute_url }}): Ongoing series examining publicly reported cyber incidents and their implications for North Queensland organisations and residents.
+- [Cyber security fundamentals]({{ '/tags/fundamentals/' | absolute_url }}): Plain-English explanations of confidentiality, integrity, availability, asset security, identity and secure design.
+- [Artificial intelligence]({{ '/tags/artificial-intelligence/' | absolute_url }}): AI adoption, governance, agent permissions, changing security risks and practical readiness for smaller organisations.
+- [Infrastructure and homelab writing]({{ '/tags/homelab/' | absolute_url }}): Hands-on systems, automation, self-hosting and lessons that connect personal projects with professional practice.
+- [Practical cyber security for small organisations]({{ '/posts/practical-cyber-security-for-small-organisations/' | absolute_url }}): A starting point for proportionate improvements to security and technology foundations.
+- [Cyber risk in independent schools]({{ '/posts/cyber-risk-independent-schools-australia/' | absolute_url }}): Education-focused discussion of cyber risk and school technology responsibilities.
+- [Digital inclusion in North Queensland]({{ '/posts/blog-digital-inclusion-nq/' | absolute_url }}): Regional analysis of access, affordability, digital ability and the emerging AI divide using Australian Digital Inclusion Index data.
+- [Regional connectivity in North Queensland]({{ '/posts/regional-connectivity-program-north-queensland/' | absolute_url }}): A technician's perspective on mobile coverage, regional infrastructure and connectivity upgrades.
+- [The problem with being called Nick in Townsville]({{ '/posts/the-problem-with-being-called-nick-in-townsville/' | absolute_url }}): The site's personal search and identity experiment, connecting Nick's name, Townsville location and body of work.
+
+## Related businesses and projects
+
+- [Suburban Australia](https://suburbanau.com/): Nick's broader business identity for practical digital projects, systems integration, technology advice and community-minded services. Parent brand of Suburban Secure and Townsville Computer Man.
+- [Suburban Secure](https://suburbansecure.au/): Suburban Australia's cyber security and technology advisory service line for businesses, charities, churches, schools and community organisations; covers cloud governance, Microsoft 365, networks, devices and practical implementation.
+- [Townsville Computer Man](https://www.tsvcomputerman.com.au/): Suburban Australia's hands-on computer and laptop repair brand serving Townsville, relaunched in 2026. Also covers Linux and homelab support.
+- [Can They Email As Me?](https://cantheyemailasme.com/): Email-security tool by Suburban Secure, created by Nick, that checks public domain authentication signals including SPF, DKIM and DMARC. Findings describe observed signals and their limits, rather than guaranteeing that email cannot be spoofed.
+- [Computer recycling](https://suburbanau.com/recycling/): Suburban Australia's Townsville initiative for equipment collection, reuse, recycling and secure data erasure.
+- [Why I take on cyber security consulting work in Townsville]({{ '/posts/cyber-security-consultant-townsville/' | absolute_url }}): Explains Nick's work through Suburban Secure, undertaken separately from his school employment.
+- [The Townsville Computer Man relaunch]({{ '/posts/townsville-computer-man-relaunch/' | absolute_url }}): First-person history of the repair business and its renewed focus.
+- [Building Can They Email As Me?]({{ '/posts/can-they-email-as-me/' | absolute_url }}): Nick's account of the project, the problem it addresses and the limits of public email-security checks.
+
+## Optional
+
+- [Personal blog](https://blog.nickosullivan.id.au/): Separate site for family, faith, travel and everyday personal writing.
+- [My testimony]({{ '/my-testimony/' | absolute_url }}): Nick's Christian faith story and the personal context behind his community service.
+- [AuTechNet archive](https://docs.autechnet.com/): Archived technical notes by Nick, part of Suburban Australia, covering Linux, networking, Synology, Windows and systems administration. Articles are no longer updated.
+- [Suburban Australia history](https://suburbanau.com/about/): Background on the business and archived ventures including My Suburban News, GYMP Media and Suburban FM.
+- [LinkedIn](https://www.linkedin.com/in/nicholasosullivan/): Professional profile.
+- [GitHub](https://github.com/nicksweb): Public code and technical projects.
+- [Editorial disclaimer]({{ '/disclaimer/' | absolute_url }}): Personal views, business interests, public sources, corrections, attribution and content reuse policy.
+- [Privacy and cookies]({{ '/privacy/' | absolute_url }}): Privacy information for the personal publishing sites.
+- [Contact Nick](mailto:{{ site.social.email }}): Personal correspondence, factual corrections and reuse enquiries.
+- [Article feed]({{ '/feed.xml' | absolute_url }}): Machine-readable updates to published articles.
+- [Sitemap]({{ '/sitemap.xml' | absolute_url }}): Full discovery index for the canonical website.
