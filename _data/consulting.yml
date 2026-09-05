@@ -1,0 +1,14 @@
+booking_url: https://www.cal.eu/suburbanau
+business_name: Suburban Australia
+business_url: https://suburbanau.com/
+abn: "24 550 297 597"
+# Base64 obscures the address from basic scrapers; it is not encryption.
+# The browser decodes it only after the visitor selects Show email address.
+email_encoded: bWVAbmlja29zdWxsaXZhbi5pZC5hdQ==
+services:
+  - name: Cyber security and Microsoft 365 reviews
+    description: Review identity and administrator access, email security, cloud settings, endpoint management and backup arrangements. Identify practical improvements and put them in an order your organisation can act on.
+  - name: Network and infrastructure advice
+    description: Assess Wi-Fi, networks, servers, virtualisation and device management. Plan upgrades and improvements around the way your organisation works, the equipment you have and the budget available.
+  - name: Technology planning and project support
+    description: Turn a technology problem into a clear scope, priorities and next steps. Get help with systems integration, procurement decisions, vendor coordination, documentation and project delivery.

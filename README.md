@@ -34,6 +34,18 @@ active services from archives. The posts listing, feed and sitemap provide
 ongoing discovery without adding every article to this file. Check that all
 internal links resolve in `_site/` after building.
 
+## Consulting and contact
+
+`_tabs/consulting.html` is the service and contact page at `/consulting/`, with
+redirects from `/contact/` and `/consult/`. Service descriptions, the booking URL,
+ABN and encoded email are maintained in `_data/consulting.yml`. The descriptions
+also populate the Service structured data in `_includes/consulting-schema.html`.
+
+`assets/js/contact.js` reveals the email only after a visitor presses the button,
+and supports copying it. Base64 is a deterrent to basic email scraping, not
+encryption or protection against determined bots. Keep public contact links
+pointing to this page instead of exposing the address in HTML, feeds or `llms.txt`.
+
 ## Build Locally
 
 Install dependencies and build:

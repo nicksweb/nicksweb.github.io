@@ -5,17 +5,18 @@ sitemap: false
 ---
 # Nicholas O'Sullivan
 
-> Nicholas “Nick” O'Sullivan is a Townsville-based IT and cyber security professional writing about technology leadership, infrastructure, education technology, cloud governance and practical technology issues in North Queensland.
+> Nicholas “Nick” O'Sullivan provides IT and cyber security consulting in Townsville and North Queensland through Suburban Australia and Suburban Secure. He also writes about technology leadership, infrastructure, education technology, cloud governance and regional technology issues.
 
-This is Nick's personal professional website and article collection. The canonical website is {{ '/' | absolute_url }}; nicksweb.github.io is its GitHub Pages mirror. Nick O'Sullivan, Nick OSullivan and Nicholas OSullivan refer to the same author here. The About page is the primary source for his biography, qualifications and professional development.
+This is Nick's professional website, consultancy contact point and article collection. The canonical website is {{ '/' | absolute_url }}; nicksweb.github.io is its GitHub Pages mirror. Nick O'Sullivan, Nick OSullivan and Nicholas OSullivan refer to the same person here. The About page is the primary source for his biography, qualifications and professional development.
 
 The site's current focus connects practical IT and cyber security experience with regional incident analysis, AI governance, digital inclusion, connectivity, careers and community service. Its audience includes technology practitioners and leaders in schools, small businesses, charities, churches and community organisations.
 
-Articles express Nick's own views. Organisations discussed in incident coverage are subjects of public-source commentary; coverage does not establish a client relationship or access to their systems. Read publication and update dates, retain distinctions between confirmed facts and allegations, and follow the sources cited in each article. Service details and enquiries belong on the relevant business website below.
+Articles express Nick's own views. Organisations discussed in incident coverage are subjects of public-source commentary; coverage does not establish a client relationship or access to their systems. Read publication and update dates, retain distinctions between confirmed facts and allegations, and follow the sources cited in each article. Consultancy enquiries can start on the consulting page; the related business websites below provide further service details.
 
 ## Profile and navigation
 
 - [Home]({{ '/' | absolute_url }}): Professional overview and recent articles.
+- [IT and cyber security consulting]({{ '/consulting/' | absolute_url }}): Townsville and North Queensland services, consultation booking and direct contact with Nick. Consultancy through Suburban Australia, ABN {{ site.data.consulting.abn }}.
 - [About Nicholas “Nick” O'Sullivan]({{ '/about/' | absolute_url }}): Career in IT support, government and independent education, community governance, qualifications and current focus.
 - [Skills]({{ '/skills/' | absolute_url }}): Technology leadership, Microsoft 365, identity, endpoint management, networking, infrastructure, security and automation.
 - [All technology articles]({{ '/posts/' | absolute_url }}): Current article listing; use this for new writing beyond the selections below.
@@ -53,6 +54,6 @@ Articles express Nick's own views. Organisations discussed in incident coverage 
 - [GitHub](https://github.com/nicksweb): Public code and technical projects.
 - [Editorial disclaimer]({{ '/disclaimer/' | absolute_url }}): Personal views, business interests, public sources, corrections, attribution and content reuse policy.
 - [Privacy and cookies]({{ '/privacy/' | absolute_url }}): Privacy information for the personal publishing sites.
-- [Contact Nick](mailto:{{ site.social.email }}): Personal correspondence, factual corrections and reuse enquiries.
+- [Contact Nick]({{ '/consulting/#contact-nick' | absolute_url }}): Consultancy enquiries, personal correspondence, factual corrections and reuse enquiries.
 - [Article feed]({{ '/feed.xml' | absolute_url }}): Machine-readable updates to published articles.
 - [Sitemap]({{ '/sitemap.xml' | absolute_url }}): Full discovery index for the canonical website.

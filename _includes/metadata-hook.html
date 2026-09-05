@@ -5,6 +5,10 @@
 {% endcomment %}
 <link rel="describedby" type="text/plain" href="{{ '/llms.txt' | absolute_url }}">
 
+{% if page.consulting_page %}
+  {% include consulting-schema.html %}
+{% endif %}
+
 {% if page.keywords %}
   {% if page.keywords.first %}
     {% assign seo_keywords = page.keywords | join: ', ' %}

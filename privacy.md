@@ -5,7 +5,7 @@ description: How Nicholas O'Sullivan's personal websites handle visitor informat
 permalink: /privacy/
 ---
 
-**Last updated: 22 August 2026**
+**Last updated: 5 September 2026**
 
 This notice explains how Nicholas O'Sullivan handles information associated with these personal publishing sites:
 
@@ -13,7 +13,7 @@ This notice explains how Nicholas O'Sullivan handles information associated with
 - [nicksweb.github.io](https://nicksweb.github.io/), its GitHub Pages mirror; and
 - [blog.nickosullivan.id.au](https://blog.nickosullivan.id.au/), the personal blog for family life, faith and everyday writing.
 
-These are personal publishing sites. They are distinct from Suburban Australia and its service brands. If you make a business or service enquiry through Suburban Australia, Suburban Secure, Townsville Computer Man or Can They Email As Me?, the [Suburban Australia group Privacy Policy](https://suburbanau.com/privacy-policy/) applies to that interaction.
+These sites include personal writing, professional information and a consultancy contact page. If you make a business or service enquiry through the consultancy page, Suburban Australia, Suburban Secure, Townsville Computer Man or Can They Email As Me?, the [Suburban Australia group Privacy Policy](https://suburbanau.com/privacy-policy/) applies to that interaction.
 
 ## Information handled
 
@@ -64,7 +64,7 @@ Articles may link to or embed content from other websites, including videos. Loa
 
 ## Access, correction and concerns
 
-You may ask what personal information Nicholas holds about you, request a correction, or raise a privacy concern by emailing [me@nickosullivan.id.au](mailto:me@nickosullivan.id.au). Please provide enough detail to identify the relevant interaction. Identity may need to be verified before information is released or changed.
+You may ask what personal information Nicholas holds about you, request a correction, or raise a privacy concern using the email option on the [contact page](/consulting/#contact-nick). Please provide enough detail to identify the relevant interaction. Identity may need to be verified before information is released or changed.
 
 Privacy concerns will be considered in good faith and a response will be provided within a reasonable period. If the Australian Privacy Act applies to the matter and you are not satisfied with the response, you may be able to contact the [Office of the Australian Information Commissioner](https://www.oaic.gov.au/privacy/privacy-complaints).
 

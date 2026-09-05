@@ -1,0 +1,38 @@
+{% assign consultancy = site.data.consulting %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": {{ '/consulting/#service' | absolute_url | jsonify }},
+  "name": "IT and cyber security consulting in Townsville",
+  "url": {{ '/consulting/' | absolute_url | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "mainEntityOfPage": {{ '/consulting/' | absolute_url | jsonify }},
+  "serviceType": [{% for service in consultancy.services %}{{ service.name | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+  "areaServed": [
+    { "@type": "City", "name": "Townsville" },
+    { "@type": "Place", "name": "North Queensland, Australia" }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "@id": "https://suburbanau.com/#organization",
+    "name": {{ consultancy.business_name | jsonify }},
+    "url": {{ consultancy.business_url | jsonify }},
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "ABN",
+      "value": {{ consultancy.abn | remove: ' ' | jsonify }}
+    },
+    "founder": {
+      "@type": "Person",
+      "@id": {{ site.person.id | jsonify }},
+      "name": {{ site.person.name | jsonify }},
+      "url": {{ site.person.profile_url | jsonify }}
+    }
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": {{ consultancy.booking_url | jsonify }}
+  }
+}
+</script>

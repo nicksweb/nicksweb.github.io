@@ -67,3 +67,5 @@ I write about IT and cyber security topics relevant to Townsville and North Quee
 ## Values
 
 I try to bring a calm, practical approach to complex technology problems. That means documenting decisions, explaining trade-offs clearly, keeping solutions right-sized, and helping leaders understand what should be improved first.
+
+If your organisation needs help with Microsoft 365, cyber security, infrastructure or technology planning, explore my [IT consulting services in Townsville and North Queensland](/consulting/) and book a conversation.

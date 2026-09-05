@@ -31,4 +31,4 @@ If you want the fuller story of what actually pushed me to formalise this rather
 
 I'm not trying to be a Townsville business's ongoing managed IT provider, and I say that upfront to anyone who reaches out. What I am trying to be is the person who can look at the whole picture — network, cloud, devices, email, the website nobody's touched since 2019 — and give a business owner, board or volunteer leader a plain-English answer to "what's actually risky here, and what should we do about it first."
 
-If that's useful to your organisation, the [Townsville-specific page on Suburban Secure](https://suburbansecure.au/cyber-security-townsville/) is the best starting point, or you can just [get in touch directly](https://suburbansecure.au/contact/).
+If that's useful to your organisation, explore my [IT and cyber security consulting services in Townsville](/consulting/) to book a conversation or get in touch directly. The [Townsville-specific page on Suburban Secure](https://suburbansecure.au/cyber-security-townsville/) has more detail about that service.

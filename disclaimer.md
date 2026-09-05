@@ -5,7 +5,7 @@ description: Important context about personal views, general information, older 
 permalink: /disclaimer/
 ---
 
-**Last updated: 22 August 2026**
+**Last updated: 5 September 2026**
 
 ## Personal publication
 
@@ -37,12 +37,12 @@ Any paid sponsorship, affiliate relationship, supplied product or other material
 
 Commentary about organisations and incidents is based on information believed to be lawfully available, such as official notices, public reporting and published guidance. It is not intended to reveal confidential information or describe the non-public security posture of an employer, client or other organisation.
 
-If you believe an article contains a material factual error, exposes information that should not be public, or requires important context, email [me@nickosullivan.id.au](mailto:me@nickosullivan.id.au). Corrections will be considered on their merits.
+If you believe an article contains a material factual error, exposes information that should not be public, or requires important context, use the email option on the [contact page](/consulting/#contact-nick). Corrections will be considered on their merits.
 
 ## Copyright and permission to reuse
 
 Unless a page expressly states otherwise, all original text, photographs, diagrams and other site content are copyright Nicholas O'Sullivan. Site content may be reused only with Nicholas's prior written permission, except to the extent that reuse is permitted by law.
 
-Brief quotations with clear attribution and a link to the original page are welcome where permitted by law. For any other reproduction, adaptation, republication, commercial use or distribution, request permission at [me@nickosullivan.id.au](mailto:me@nickosullivan.id.au).
+Brief quotations with clear attribution and a link to the original page are welcome where permitted by law. For any other reproduction, adaptation, republication, commercial use or distribution, request permission through the [contact page](/consulting/#contact-nick).
 
 Third-party trademarks and material remain the property of their respective owners and may be subject to separate licences or permissions.

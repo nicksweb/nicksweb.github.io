@@ -16,3 +16,25 @@
   height: auto;
   object-fit: contain;
 }
+
+.consulting-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.consulting-contact {
+  border: 1px solid var(--main-border-color);
+}
+
+.consulting-page #contact-nick {
+  scroll-margin-top: 5rem;
+}
+
+.consulting-page #email-address {
+  overflow-wrap: anywhere;
+}
+
+.consulting-page [hidden] {
+  display: none !important;
+}

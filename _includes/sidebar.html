@@ -1,10 +1,9 @@
 <!-- The Side Bar -->
 <!--
-  Project override of the Chirpy theme include. The only change from upstream is
-  the hand-added "Posts" nav item: /posts/ is now a jekyll-paginate-v2 page
+  Project override of the Chirpy theme include. /posts/ is a jekyll-paginate-v2 page
   (a regular page, not a _tabs collection doc), so it is not in `site.tabs` and
-  has to be injected into the nav here, in `order` position (after Skills = 3,
-  before Blog = 5).
+  has to be injected into the nav here, after Consulting = 4 and before Blog = 5.
+  The email icon opens the contact section instead of exposing the address.
 -->
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
@@ -98,10 +97,7 @@
             https://{{ entry.type }}.com/{{ site[entry.type].username }}
           {%- endcapture -%}
         {% when 'email' %}
-          {% assign email = site.social.email | split: '@' %}
-          {%- capture url -%}
-            javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-          {%- endcapture -%}
+          {% assign url = '/consulting/#contact-nick' | relative_url %}
         {% when 'rss' %}
           {% assign url = '/feed.xml' | relative_url %}
         {% else %}
