@@ -49,10 +49,15 @@ The administration recommendations align with the Australian Signals Directorate
 
 There are free and paid tools that can help put this into practice. Remote monitoring and management (RMM) and endpoint management platforms can make software inventory and routine maintenance much more manageable.
 
-| Tool | Where it can help | What to account for |
-| --- | --- | --- |
-| [Tactical RMM](https://docs.tacticalrmm.com/) | Software and hardware inventory, Windows patch management, monitoring and scheduled scripts. | A self-hosted option with sponsorship features, including signed Windows agents and Linux/macOS agents. Budget for maintaining and securing the management server. |
-| [Action1](https://www.action1.com/documentation/software-inventory/) | Software inventory, patch management and vulnerability management. | Its [current licensing documentation](https://www.action1.com/documentation/licensing-and-subscription-allowance/) confirms the first **200 endpoints are free**, without feature limits. Additional endpoints require a subscription; support is an additional consideration on the free tier. |
+**[Tactical RMM](https://docs.tacticalrmm.com/)**
+
+- **Where it can help:** Software and hardware inventory, Windows patch management, monitoring and scheduled scripts.
+- **What to account for:** A self-hosted option with sponsorship features, including signed Windows agents and Linux/macOS agents. Budget for maintaining and securing the management server.
+
+**[Action1](https://www.action1.com/documentation/software-inventory/)**
+
+- **Where it can help:** Software inventory, patch management and vulnerability management.
+- **What to account for:** Its [current licensing documentation](https://www.action1.com/documentation/licensing-and-subscription-allowance/) confirms the first **200 endpoints are free**, without feature limits. Additional endpoints require a subscription; support is an additional consideration on the free tier.
 
 Check coverage for your operating systems and applications before choosing. A workstation inventory does not automatically tell you which Plex version is running inside a Docker container or on a NAS. Those services need to be included in the maintenance process too. Secure the management platform itself with MFA, limited administrator access and updates: it has considerable power over the devices it manages.
 
@@ -66,4 +71,4 @@ That also means checking the existing exposure. Disable Plex's public Remote Acc
 
 A VPN reduces who can reach the service. Plex, the host and the VPN still need patching, and personal media infrastructure should remain separate from privileged work access.
 
-My update was a small home-lab maintenance job. It was also a prompt to ask a useful question at work: **could we identify every device running an affected application today, and who would be responsible for fixing each one?**
+My update was a small home-lab maintenance job. It was also a prompt to ask a useful question at work: **could you identify every device running an affected application today, and who would be responsible for fixing each one?**
