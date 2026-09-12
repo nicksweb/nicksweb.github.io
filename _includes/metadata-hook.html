@@ -5,6 +5,23 @@
 {% endcomment %}
 <link rel="describedby" type="text/plain" href="{{ '/llms.txt' | absolute_url }}">
 
+{% if page.wrap_tables %}
+  <style>
+    .content .table-wrapper > table { width: 100%; }
+    .content .table-wrapper > table th,
+    .content .table-wrapper > table td {
+      white-space: normal;
+      overflow-wrap: break-word;
+      vertical-align: top;
+    }
+    .content .table-wrapper > table th:first-child { width: 35%; }
+    @media (max-width: 575px) {
+      .content .table-wrapper > table th,
+      .content .table-wrapper > table td { padding: 0.5rem 0.6rem; }
+    }
+  </style>
+{% endif %}
+
 {% if page.consulting_page %}
   {% include consulting-schema.html %}
 {% endif %}
