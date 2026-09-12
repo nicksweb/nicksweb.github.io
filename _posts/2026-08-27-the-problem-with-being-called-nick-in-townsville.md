@@ -115,3 +115,5 @@ That is what personal SEO ought to achieve: not internet fame, just a clear trai
 So, Nick Dametto, I'm not actually trying to take your spot.
 
 I'm just trying to convince Google that Townsville has room for more than one Nick.
+
+*12 September 2026: The experiment has taken a detour. Searching for the full version of my name led to [Nicholas Townsville: now I'm competing with a brewery](/posts/nicholas-townsville-competing-with-a-brewery/). There has been little movement for “Nick Townsville” so far; a fuller progress update is still to come.*
