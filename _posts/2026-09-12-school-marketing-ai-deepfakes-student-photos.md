@@ -3,7 +3,7 @@ title: "School marketing in the age of AI: do we need students' faces?"
 description: "Why schools in QLD and across Australia should rethink student photos in public marketing, following eSafety's July advice on AI and deepfakes."
 keywords: [independent schools, QLD, Queensland, Australia, education marketing, school social media, student privacy, AI deepfakes, eSafety Commissioner]
 date: 2026-09-12 21:00:00 +1000
-published: false
+published: true
 categories: [Cyber Security]
 tags: [education, privacy, artificial-intelligence, governance, marketing, social-media, queensland]
 image:
