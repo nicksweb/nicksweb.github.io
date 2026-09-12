@@ -38,3 +38,112 @@
 .consulting-page [hidden] {
   display: none !important;
 }
+
+.photo-gallery {
+  margin: 1.5rem 0;
+}
+
+.photo-gallery figure {
+  margin: 0;
+}
+
+.photo-gallery-stage {
+  aspect-ratio: 4 / 3;
+  max-height: 36rem;
+  overflow: hidden;
+  border: 1px solid var(--main-border-color);
+  border-radius: 10px;
+  background: var(--card-bg);
+}
+
+.photo-gallery-stage [data-gallery-main-link],
+.photo-gallery-stage [data-gallery-main-image] {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: contain;
+}
+
+.photo-gallery figcaption,
+.heritage-video figcaption {
+  margin: 0.75rem 0;
+  font-size: 0.9rem;
+  color: var(--text-muted-color);
+  text-align: center;
+}
+
+.photo-gallery-controls,
+.photo-gallery-thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+}
+
+.photo-gallery-controls[hidden] {
+  display: none;
+}
+
+.photo-gallery-controls button {
+  min-height: 44px;
+  padding: 0.4rem 0.75rem;
+  color: var(--link-color);
+  background: var(--card-bg);
+  border: 1px solid var(--main-border-color);
+  border-radius: 6px;
+}
+
+.photo-gallery [data-gallery-thumb] {
+  display: block;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  border-radius: 6px;
+}
+
+.photo-gallery [data-gallery-thumb] img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+
+.photo-gallery [data-gallery-thumb][aria-current="true"],
+.photo-gallery [data-gallery-thumb]:hover {
+  border-color: var(--link-color);
+}
+
+.photo-gallery a:focus-visible,
+.photo-gallery button:focus-visible {
+  outline: 3px solid var(--link-color);
+  outline-offset: 3px;
+}
+
+.heritage-video {
+  max-width: 26rem;
+  margin: 1.5rem auto;
+}
+
+.heritage-video video {
+  display: block;
+  width: 100%;
+  max-width: 14rem;
+  height: auto;
+  aspect-ratio: 1170 / 2532;
+  object-fit: contain;
+  margin: 0 auto;
+  background: #111;
+  border: 1px solid var(--main-border-color);
+  border-radius: 10px;
+}
+
+@media (max-width: 575px) {
+  .heritage-video video {
+    max-width: 10.5rem;
+  }
+}

@@ -223,6 +223,8 @@ exclude:
   - gulpfile.js
   - node_modules
   - package*.json
+  # Keep working recordings locally; the replacement is published from assets/videos.
+  - assets/images/260911-great-northern-fire-townsville-Fire-Burning.MP4
 
 jekyll-archives:
   enabled: [categories, tags]

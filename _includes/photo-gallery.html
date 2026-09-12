@@ -1,0 +1,18 @@
+{% assign first_photo = include.gallery.images | first %}
+<div class="photo-gallery" id="{{ include.id }}" role="region" aria-label="{{ include.gallery.label | escape }}" data-photo-gallery>
+  <figure>
+    <div class="photo-gallery-stage"><a href="{{ first_photo.file | prepend: '/assets/images/' | relative_url }}" data-gallery-main-link target="_blank" rel="noopener noreferrer"><img data-gallery-main-image src="{{ first_photo.file | prepend: '/assets/images/' | relative_url }}" alt="{{ first_photo.alt | escape }}" w="{{ first_photo.width }}" h="{{ first_photo.height }}"></a></div>
+    <figcaption data-gallery-caption aria-live="polite">{{ first_photo.caption | escape }}</figcaption>
+  </figure>
+  <div class="photo-gallery-controls" data-gallery-controls hidden>
+    <button type="button" data-gallery-previous aria-label="Previous photograph">&larr; Previous</button>
+    <span data-gallery-counter>1 / {{ include.gallery.images.size }}</span>
+    <button type="button" data-gallery-next aria-label="Next photograph">Next &rarr;</button>
+  </div>
+  <div class="photo-gallery-thumbs" aria-label="Choose a photograph">
+    {% for photo in include.gallery.images %}
+    <a href="{{ photo.file | prepend: '/assets/images/' | relative_url }}" data-gallery-thumb data-caption="{{ photo.caption | escape }}" data-width="{{ photo.width }}" data-height="{{ photo.height }}" aria-label="View photograph {{ forloop.index }}: {{ photo.alt | escape }}"{% if forloop.first %} aria-current="true"{% endif %}><img src="{{ photo.file | prepend: '/assets/images/' | relative_url }}" alt="{{ photo.alt | escape }}" w="56" h="56"></a>
+    {% endfor %}
+  </div>
+</div>
+<script src="{{ '/assets/js/photo-gallery.js' | relative_url }}" defer></script>
