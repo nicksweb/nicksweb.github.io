@@ -1,6 +1,15 @@
 # Townsville cyber security articles — editorial notes
 
-Prepared 14 September 2026. Both articles were moved from drafts into `_posts/` for publication on the same day, then revised the same evening with a second research pass.
+Prepared 14 September 2026. Both articles were moved from drafts into `_posts/` for publication on the same day, then revised the same evening with a second research pass, then split the same night into three articles.
+
+## Third-pass restructure (14 September 2026, night): split into three articles
+
+Following editorial feedback (the piece was trying to be a historical record, an SEO landscape piece and an opinion piece at once), the personal-site article was split in two:
+
+- `_posts/2026-09-14-townsville-cyber-security-hub-what-happened.md` (unchanged URL/title) — tightened to a strict primary-source standard, cut from ~2,750 to ~1,000 words of article text (excl. bibliography). Cryptoloc, Cyber Wardens, UniSC, TAFE/JCU training detail, ACS/jobs/commercial-market material and the AI-workshop mention were all removed and moved to the new article. Two new sources were added: AustCyber's own archived (Wayback Machine) job listing for the Townsville node manager role — a genuine two-year, $120–145k pro rata contract with explicit "evaluation and reporting requirements" — and Stone & Chalk's 2022 sector plan, which confirms Townsville was still listed as one of three Queensland nodes that year. An unverifiable ARM Hub "letter of support" citation suggested during planning was dropped: the source PDF no longer exists (ARM Hub rebuilt its site) and could not be confirmed via Wayback Machine (rate-limited during this session). "Promised" was changed to "announced" throughout.
+- `_posts/2026-09-14-cyber-security-townsville-training-jobs-businesses.md` (new) — the current-landscape piece: training (TAFE, JCU, QFS/UniSC microcredentials), jobs and the professional community, the SPNQ/Cryptoloc/Cyber Wardens program-churn story in full, the commercial market (NQIT, Q10, TCC ransomware), and a Jenny Hill → Troy Thompson → Nick Dametto mayoral-transition frame (verified: Hill mayor 2012–Mar 2024; Thompson Mar 2024, resigned 26 Sep 2025 after a credentials review; Dametto won the by-election, sworn in 24 Nov 2025 as the city's 48th mayor). Includes a first-person disclosure that the author knows, through his professional network, North Queensland IT professionals who have completed TAFE Certificate IV cyber units at Pimlico — labelled explicitly as personal knowledge, not public documentation, consistent with the site's primary-source standard for everything else.
+
+Suburban Secure's guide was trimmed to match: its "check older program names" section now summarises rather than re-documents the Cryptoloc/Cyber Wardens/SPNQ detail, linking to the new nick article for the full account, and its TAFE paragraph carries the same "known through the author's network" caveat. Both nick articles cross-link to each other and to the Suburban Secure guide; the guide links to both nick articles.
 
 ## Second-pass revision (14 September 2026, evening)
 
