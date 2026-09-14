@@ -25,15 +25,17 @@ This advisory does not announce a federal ban on school photographs. eSafety exp
 
 Creating sexualised images of children is an abusive use of AI. The responsibility belongs to those who create and circulate that material. Schools can still make considered decisions about the images they make available.
 
-In its [11 September report](https://7news.com.au/news/schools-purge-student-photos-from-social-media-amid-rising-digital-safety-fears-c-22853018){:target="_blank" rel="noopener noreferrer"}, 7NEWS identified **Tyndale Christian School Group** among schools moving early. Tyndale said it had stopped publishing identifiable student photographs on public social media following a broader privacy and digital-safety review. It said the decision was proactive and had not followed a single incident.
+In its [11 September report](https://7news.com.au/news/schools-purge-student-photos-from-social-media-amid-rising-digital-safety-fears-c-22853018){:target="_blank" rel="noopener noreferrer"}, 7NEWS said **Tyndale Christian School Group** had stopped publishing identifiable student photographs on public social media. Tyndale described a proactive privacy and digital-safety review, with no single incident prompting the decision.
 
-**St Hilda's Anglican School for Girls in Western Australia** provides another example. Its [27 January 2026 announcement](https://www.sthildas.wa.edu.au/news/digital-wellbeing/){:target="_blank" rel="noopener noreferrer"} says its public social media will avoid clearly identifiable student images, using alternatives including side profiles, silhouettes, backs of heads and distant group shots. This describes its public social media strategy; it does not establish that every image on its website follows the same approach. [Hope Barr](https://www.linkedin.com/posts/hopebarr_this-week-the-esafety-commissioner-issued-activity-7488776436217106432-pa7T){:target="_blank" rel="noopener noreferrer"}, the school's Head of Marketing and Communications, also explains that families can access a password-protected gallery, with downloads limited to images featuring their daughter.
+**St Hilda's Anglican School for Girls in Western Australia** announced its approach on [27 January 2026](https://www.sthildas.wa.edu.au/news/digital-wellbeing/){:target="_blank" rel="noopener noreferrer"}: avoiding clearly identifiable student images on public social media, with alternatives including side profiles, silhouettes, backs of heads and distant group shots. [Hope Barr](https://www.linkedin.com/posts/hopebarr_this-week-the-esafety-commissioner-issued-activity-7488776436217106432-pa7T){:target="_blank" rel="noopener noreferrer"}, the school's Head of Marketing and Communications, explains that families can access a password-protected gallery, with downloads limited to images featuring their daughter.
+
+In Queensland, **Brigidine College in Brisbane** had also acted before July's advisory. [ABC News reported on 19 April 2026](https://www.abc.net.au/news/2026-04-19/qld-school-restricts-photos-of-students-social-media/106470556){:target="_blank" rel="noopener noreferrer"} that it had restricted recognisable student photographs and reduced images per post. Its approach included side profiles, group shots and photographs from behind. Principal Brendan Cahill linked the change to AI image-manipulation concerns; parental consent remained part of the process.
 
 That gives schools a useful distinction between communicating publicly and sharing family memories. Restricted access reduces the audience; recipients can still copy or reshare images, so expectations and access controls matter.
 
 [Jacob Shultz's earlier provocation about school marketing](https://www.linkedin.com/posts/jacob-shultz_the-end-of-social-media-marketing-for-schools-activity-7336151313166020608-CPFD){:target="_blank" rel="noopener noreferrer"} asked what happens when social media stops being the default. His suggestions included direct relationships through mailing lists, events and spaces schools can manage more carefully.
 
-I think that deserves serious consideration. A school can explain its teaching, show student projects, invite families onto campus and communicate its values without a steady stream of identifiable children's portraits.
+A school can explain its teaching, show student projects, invite families onto campus and communicate its values without a steady stream of identifiable children's portraits.
 
 ![Portrait-format fictional classroom illustration with dogs, a cat, a rabbit and a guinea pig taking the place of students](/assets/images/Back-to-School-Dogs-Kids-Marketing-Portrait-Social-Media.png){: width="480" }
 _A playful back-to-school concept using animals. Clearly fictional illustrations can give a campaign personality without exposing a child's identity._
@@ -50,13 +52,13 @@ Research at [ICCV in 2017](https://arxiv.org/abs/1704.04086){:target="_blank" re
 
 Schools can reduce unnecessary identifying material now and review their approach as technology changes. I have not found a validated percentage reduction in deepfake risk from a half-face crop; it should never become an automatic approval rule.
 
-In Queensland, I have noticed marketing and communications roles advertised in state schools. The people doing that work need clear expectations and support from leadership.
+I have seen the need for scrutiny first-hand. At a school that was not a state high school, I saw a certificate photograph exposing a student's name and student number. I contacted the school privately, and it blurred the image. This shows how a celebratory post can disclose more than intended.
+
+On the few North Queensland state high school pages I have viewed, student images remain common. I have also noticed marketing and communications roles advertised in Queensland state schools. Those staff need clear expectations and leadership support.
 
 The Department of Education already has a [social media promotion procedure](https://ppr.qed.qld.gov.au/pp/social-media-for-school-and-departmental-promotion-procedure){:target="_blank" rel="noopener noreferrer"} covering consent, approvals, training and moderation. Its [consent procedure](https://ppr.qed.qld.gov.au/pp/obtaining-and-managing-student-and-individual-consent-procedure){:target="_blank" rel="noopener noreferrer"} requires consent to be voluntary, informed, specific and current.
 
 As at **12 September 2026**, I could not find an explicit direction to stop identifiable student photographs because of AI deepfakes in those two public procedures or the department's [social media policy](https://ppr.qed.qld.gov.au/pp/social-media-policy){:target="_blank" rel="noopener noreferrer"}. That is a limited observation: the promotion procedure also links to employee-only guides that I could not review.
-
-On the small number of North Queensland state high school pages I have looked at, student images remain common. In one instance, I saw a photograph of a student holding a certificate that exposed their name and student code. I contacted the school privately, and it subsequently blurred the image. That experience shows how a celebratory post can disclose more than intended; it cannot establish how schools generally manage publication.
 
 I would welcome a formal recommendation from Australian education bodies, with independent school associations asking members to agree to a common framework and education departments providing equivalent direction. My preferred starting point would be to use identifiable faces only where necessary and justified, supported by:
 
@@ -66,6 +68,4 @@ I would welcome a formal recommendation from Australian education bodies, with i
 - A scheduled review of public archives, respecting applicable recordkeeping requirements.
 - A named person responsible for training, concerns and responding to image misuse.
 
-Busy leadership teams need important guidance brought into their regular decision-making. A shared framework would give principals, boards and marketing staff an agreed position to work from, with resources to explain changes to families.
-
-For the next school marketing meeting, I would put one practical task on the agenda: redesign an upcoming campaign to communicate its message with less exposure of students' identities, then record when identifiable imagery would be justified in the school's publishing policy.
+A shared framework would give principals, boards and marketing staff an agreed position to explain to families. At the next marketing meeting, redesign one campaign to expose less of students' identities, then record when identifiable imagery would be justified in the school's publishing policy.
