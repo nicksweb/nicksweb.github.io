@@ -12,9 +12,9 @@ image:
   alt: "Townsville's city centre and port below the rocky face of Castle Hill"
 ---
 
-*Updated 14 September 2026: this article has been split in two and tightened to a strict primary-source standard. The current landscape — training, jobs, commercial providers and what's missing today — now has its own companion piece: [Cyber security in Townsville: training, jobs, businesses and what is missing](/posts/cyber-security-townsville-training-jobs-businesses/).*
+*Updated 14 September 2026: this article has been split in two and tightened to a strict primary-source standard. The current landscape (training, jobs, commercial providers and what's missing today) now has its own companion piece: [Cyber security in Townsville: training, jobs, businesses and what is missing](/posts/cyber-security-townsville-training-jobs-businesses/).*
 
-In June 2020, governments announced that Townsville would join Australia's national network of cyber security innovation nodes. Six years later, I wanted to know what became of that specific, named initiative — not cyber security in North Queensland generally, but the funded program itself.
+In June 2020, governments announced that Townsville would join Australia's national network of cyber security innovation nodes. Six years later, I wanted to know what became of that specific, named initiative: not cyber security in North Queensland generally, but the funded program itself.
 
 This is deliberately a narrow piece. I have only included claims I can trace to a primary source: a Council announcement, a government publication, an organisation's own statement, an archived job listing. Where the trail runs out, I say so rather than guess at what filled the gap.
 
@@ -22,7 +22,7 @@ This is deliberately a narrow piece. I have only included claims I can trace to 
 
 The [joint Commonwealth and Queensland announcement on 2 June 2020](https://www.minister.industry.gov.au/ministers/karenandrews/media-releases/austcyber-nodes-strengthen-qld-cyber-economy) proposed Cyber Security Innovation Nodes in Brisbane, Townsville and the Sunshine Coast, delivered by AustCyber in partnership with the Queensland Government and the two regional councils.
 
-[Townsville City Council's announcement the following day](https://www.townsville.qld.gov.au/about-council/news-and-publications/media-releases/2020/june/cyber-security-node-for-townsville) — under then-Mayor Jenny Hill — said the node would put Townsville "at the forefront" of cyber capability development, give local businesses access comparable with the capital cities, and sit alongside Smart Precinct NQ and the North Queensland Regional Data Centre. Council specifically pointed to the Certificate IV in Cyber Security at TAFE Queensland's Pimlico campus as a training pathway.
+[Townsville City Council's announcement the following day](https://www.townsville.qld.gov.au/about-council/news-and-publications/media-releases/2020/june/cyber-security-node-for-townsville), under then-Mayor Jenny Hill, said the node would put Townsville "at the forefront" of cyber capability development, give local businesses access comparable with the capital cities, and sit alongside Smart Precinct NQ and the North Queensland Regional Data Centre. Council specifically pointed to the Certificate IV in Cyber Security at TAFE Queensland's Pimlico campus as a training pathway.
 
 On [17 March 2021, Council announced the node had launched and its inaugural manager had been appointed](https://www.townsville.qld.gov.au/about-council/news-and-publications/media-releases/2021/march/cyber-security-hub-launched-manager-appointed). The stated next steps were training opportunities, forums, seminars, and cyber security health checks for local businesses.
 
@@ -32,7 +32,7 @@ That gives a clear set of commitments to measure against: people trained, busine
 
 It's worth being specific about what "the node" actually was, because press releases can make an initiative sound more abstract than it was.
 
-AustCyber's own job listing for the role — [archived by the Wayback Machine in November 2020](https://web.archive.org/web/20201130045453/https://austcyber.com/news-events/austcyber-cyber-security-innovation-node-manager-qld-townsville-based-position), since removed from AustCyber's current site — describes a genuine, funded position: a two-year AustCyber contract, 15 to 22.5 hours a week, $120,000–$145,000 pro rata. Its responsibilities included establishing an industry advisory group, delivering cyber security events across North Queensland, and — this line matters — "maintain[ing] node activities and deliverables within budgetary and resource constraints and meet[ing] evaluation and reporting requirements."
+AustCyber's own job listing for the role, [archived by the Wayback Machine in November 2020](https://web.archive.org/web/20201130045453/https://austcyber.com/news-events/austcyber-cyber-security-innovation-node-manager-qld-townsville-based-position), since removed from AustCyber's current site, describes a genuine, funded position: a two-year AustCyber contract, 15 to 22.5 hours a week, $120,000–$145,000 pro rata. Its responsibilities included establishing an industry advisory group, delivering cyber security events across North Queensland, and (this line matters) "maintain[ing] node activities and deliverables within budgetary and resource constraints and meet[ing] evaluation and reporting requirements."
 
 AustCyber itself expected reporting against outcomes. I have not found that reporting published anywhere.
 
@@ -62,9 +62,9 @@ Townsville was still being counted as an active node as late as 2022: [Stone & C
 
 After that, the [Department of Industry's account of the Industry Growth Centres Initiative](https://www.industry.gov.au/news/industry-growth-centres-initiative-ends) sets out the relevant dates: AustCyber merged with Stone & Chalk in February 2021, AustCyber's contract with the Australian Government ended in June 2024, and the wider Industry Growth Centres program ended on 31 December 2024. The department lists a national network of innovation nodes among AustCyber's former activities.
 
-None of that establishes a Townsville-specific closure date, or tells us whether the node's local functions — the advisory group, the events, the health checks — continued under a different arrangement, were formally wound up, or simply stopped without an announcement. I have not found a close-out evaluation, a handover notice, or any public reconciliation of what the node delivered against its 2021 commitments.
+None of that establishes a Townsville-specific closure date, or tells us whether the node's local functions (the advisory group, the events, the health checks) continued under a different arrangement, were formally wound up, or simply stopped without an announcement. I have not found a close-out evaluation, a handover notice, or any public reconciliation of what the node delivered against its 2021 commitments.
 
-One thing is worth separating out clearly, because it's easy to conflate. Smart Precinct NQ went through its own, later wind-down: its former chief executive [publicly said in 2026](https://www.linkedin.com/posts/cassandra-cazzulino_a-personal-update-after-five-years-with-activity-7447143735743840257-4wbb) that its operational grant funding would not be renewed, and SPNQ itself [subsequently confirmed](https://au.linkedin.com/company/smart-precinct-nq) that its public programs and events had concluded after a final event on 24 June 2026. **That is a 2026 event affecting a different, broader organisation.** It should not be read as evidence of when the Townsville cyber node itself stopped operating — by the evidence above, that had already faded from public view years earlier. The companion article to this one covers what SPNQ's closure means for the current landscape.
+One thing is worth separating out clearly, because it's easy to conflate. Smart Precinct NQ went through its own, later wind-down: its former chief executive [publicly said in 2026](https://www.linkedin.com/posts/cassandra-cazzulino_a-personal-update-after-five-years-with-activity-7447143735743840257-4wbb) that its operational grant funding would not be renewed, and SPNQ itself [subsequently confirmed](https://au.linkedin.com/company/smart-precinct-nq) that its public programs and events had concluded after a final event on 24 June 2026. **That is a 2026 event affecting a different, broader organisation.** It should not be read as evidence of when the Townsville cyber node itself stopped operating. By the evidence above, that had already faded from public view years earlier. The companion article to this one covers what SPNQ's closure means for the current landscape.
 
 ## Four questions the public record doesn't answer
 
@@ -75,11 +75,11 @@ One thing is worth separating out clearly, because it's easy to conflate. Smart 
 
 ## Where this leaves things
 
-I'm not concluding that the Townsville Cyber Security Innovation Node failed. I don't have the evidence to say that, and an absent report is not proof that the work didn't happen — it may have occurred and simply left a poor public trail.
+I'm not concluding that the Townsville Cyber Security Innovation Node failed. I don't have the evidence to say that, and an absent report is not proof that the work didn't happen; it may have occurred and simply left a poor public trail.
 
 What I can say is that a publicly funded regional initiative, backed by three levels of government and specific enough to have its own job description and budget, does not have a public record six years later that lets a resident answer basic questions about what it delivered. That is the part of this story that remains unresolved, and it's a fair thing to ask Council, the Queensland Government and whoever now holds AustCyber's records to fix.
 
-For what cyber security in Townsville actually looks like today — training, jobs, commercial providers, and what a coordinating role might still be missing — see the companion piece: [Cyber security in Townsville: training, jobs, businesses and what is missing](/posts/cyber-security-townsville-training-jobs-businesses/). For businesses that want practical help right now, I've also written a guide on Suburban Secure: [Where can Townsville small businesses get cyber security help?](https://suburbansecure.au/news/cyber-security-help-townsville-small-business/)
+For what cyber security in Townsville actually looks like today (training, jobs, commercial providers, and what a coordinating role might still be missing), see the companion piece: [Cyber security in Townsville: training, jobs, businesses and what is missing](/posts/cyber-security-townsville-training-jobs-businesses/). For businesses that want practical help right now, I've also written a guide on Suburban Secure: [Where can Townsville small businesses get cyber security help?](https://suburbansecure.au/news/cyber-security-help-townsville-small-business/)
 
 **Disclosure:** I founded Suburban Secure and provide commercial technology and security advice through it. That is one part of the local service market. The publicly funded coordination and industry-development role discussed here has a broader purpose than any individual consultancy.
 
@@ -93,7 +93,7 @@ Townsville City Council. (2020, June 3). [*Cyber security node for Townsville*](
 
 Townsville City Council. (2021, March 17). [*Cyber security hub launched, manager appointed*](https://www.townsville.qld.gov.au/about-council/news-and-publications/media-releases/2021/march/cyber-security-hub-launched-manager-appointed).
 
-AustCyber. (2020, November). [*AustCyber Cyber Security Innovation Node Manager (QLD — Townsville based position)*](https://web.archive.org/web/20201130045453/https://austcyber.com/news-events/austcyber-cyber-security-innovation-node-manager-qld-townsville-based-position) [Job listing; archived via the Wayback Machine, since removed from AustCyber's current site]. Retrieved 14 September 2026.
+AustCyber. (2020, November). [*AustCyber Cyber Security Innovation Node Manager (QLD - Townsville based position)*](https://web.archive.org/web/20201130045453/https://austcyber.com/news-events/austcyber-cyber-security-innovation-node-manager-qld-townsville-based-position) [Job listing; archived via the Wayback Machine, since removed from AustCyber's current site]. Retrieved 14 September 2026.
 
 AustCyber. (2021, August). [*Response to the Strengthening Australia's cyber security regulations and incentives discussion paper*](https://www.homeaffairs.gov.au/reports-and-pubs/files/strengthening-australias-cyber-security-submissions/austcyber.pdf#page=6), p. 5 [Submission to Home Affairs; funding and node-network arrangements].
 
