@@ -32,6 +32,8 @@ Last month I [posted on LinkedIn](https://www.linkedin.com/posts/nicholasosulliv
 
 {% include embed/youtube.html id='4Thhs3X4b9U' %}
 
+I'll admit I've typically been a pfSense/OPNsense person for firewalls, and I'm not walking away from that lightly. But for ease of management, having routing, switching, wireless, security and access control under one unified platform is hard to ignore, and Ubiquiti has been ticking more and more of those boxes with newer features like zone-based firewall rules and BGP routing capability, to name just a couple. That's a big part of why I've been paying attention to this ecosystem, and why training like this matters: the platform is capable enough now that the gap is often the certified skills to run it properly, not the hardware.
+
 That LinkedIn post picked up 9 reactions and around 1,000 impressions, small by internet standards, but it mattered, because it wasn't just me. Through my own organisation, I liaised with several other like-minded entities across the region who supported the same idea: get Leader out of the south-east corner and into North Queensland. I wasn't the driver of that effort, and the other organisations involved are staying anonymous in this story, but I certainly backed it, and it's a genuine example of what can happen when the IT community here decides to pull in the same direction instead of everyone quietly wishing for the same thing on their own.
 
 ![LinkedIn post announcing Leader's official Ubiquiti training week at TecNQ Douglas, Townsville](/assets/images/Ubiquiti-Leader-Training-Announcment-Official.png){: width="500" }
