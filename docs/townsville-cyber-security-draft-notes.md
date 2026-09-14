@@ -1,6 +1,10 @@
 # Townsville cyber security articles — editorial notes
 
-Prepared 14 September 2026. Both articles were moved from drafts into `_posts/` for publication on the same day.
+Prepared 14 September 2026. Both articles were moved from drafts into `_posts/` for publication on the same day, then revised the same evening with a second research pass.
+
+## Second-pass revision (14 September 2026, evening)
+
+New evidence changed the SPNQ and Queensland-programs sections: AustCyber's 2021 Home Affairs submission (funding model), SPNQ's own LinkedIn updates (final event 24 June 2026, "public programs and events have now concluded"), the Cryptoloc contract's termination (Queensland Estimates, 8 August 2025), the Cyber Wardens program's closing notice (funding ended 31 July 2026, COSBOA delivery ceased 11 September 2026), the UniSC microcredential expansion ($11.5m, July 2026), and JCU's confirmation that its Bachelor of Cybersecurity is Singapore-only (the Townsville-relevant degree is the Bachelor of Information Technology). Both companion articles were updated with `last_modified_at` and an inline update note. All of the above were independently re-verified before republishing: the Cyber Wardens redirect, the SPNQ LinkedIn quotes (fetched verbatim), and the Cyber Wardens end dates (corroborated via Cyber Daily and SmartCompany reporting) all checked out unchanged.
 
 - Personal site: `_posts/2026-09-14-townsville-cyber-security-hub-what-happened.md` — approximately 2,000 words plus a 20-entry bibliography, following the site's author/date reference style.
 - Suburban Secure (relative to the personal-site repository root): `../suburbansecure.au/_posts/2026-09-14-cyber-security-help-townsville-small-business.md` — approximately 1,400 words, with sources linked throughout and the existing `body:` front-matter format required by its post layout.

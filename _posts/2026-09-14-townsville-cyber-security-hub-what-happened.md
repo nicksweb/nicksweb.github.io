@@ -1,8 +1,9 @@
 ---
 title: "Townsville was going to be a cyber security hub. What happened?"
-description: "What became of Townsville's cyber security innovation node, how Smart Precinct NQ fits into the story, and who is building North Queensland's capability today."
+description: "Townsville's cyber node, Smart Precinct NQ's wind-down and changing government programs raise a question: who connects North Queensland's cyber capability now?"
 keywords: [Townsville cyber security hub, Townsville Cyber Security Innovation Node, Smart Precinct NQ, AustCyber, cyber security training Townsville, North Queensland cyber security]
 date: 2026-09-14 19:00:00 +1000
+last_modified_at: 2026-09-14 20:15:00 +1000
 categories: [North Queensland]
 tags: [cyber-security, townsville, north-queensland, education, careers, government]
 permalink: /posts/townsville-cyber-security-hub-what-happened/
@@ -11,11 +12,15 @@ image:
   alt: "Townsville's city centre and port below the rocky face of Castle Hill"
 ---
 
+*Updated 14 September 2026 with SPNQ's final-event and program-conclusion notices, the Queensland program history and current training information.*
+
 In June 2020, Townsville was promised a place in Australia's national cyber security innovation network. The ambition was substantial: grow a local industry, connect businesses with expertise, develop training pathways and help North Queensland participate in a sector usually associated with the capital cities.
 
 Six years later, the question is what became of that promise.
 
-The public record gives us part of the answer. AustCyber's government contract ended in 2024. Smart Precinct NQ subsequently faced the non-renewal of operational funding and an announced reduction in its activities. Meanwhile, local education, professional events and national small-business assistance remain available. Those developments need to be considered together, without assuming they amount to a documented closure and replacement of the Townsville node.
+The public record now gives us a clearer answer. AustCyber's Commonwealth contract ended in 2024. Smart Precinct NQ concluded its public programs and events following a final event in June 2026. Queensland's separate small-business cyber programs have also changed repeatedly. Yet education, commercial services and professional activity continue across the region.
+
+The question is who connects those pieces. I have not identified a publicly documented successor carrying the Townsville node's original combination of industry development, training coordination and business assistance. That gap in the public record deserves attention, even where individual services remain useful.
 
 As somebody working in IT and cyber security in Townsville, I am interested in what lasts beyond a launch announcement. A business owner needs to find help. A student needs a route into work. An experienced technician needs opportunities to develop specialist skills without automatically having to leave the region.
 
@@ -33,11 +38,15 @@ On [17 March 2021, Council announced the node's launch and the appointment of it
 
 That gives us a useful set of commitments to revisit. The measure of success would include people trained, businesses helped, professional relationships built and opportunities created. The launch itself was the beginning of that work.
 
+I have not located a public close-out evaluation that reconciles the Townsville node's commitments, spending and outcomes. An absent report is not proof that the work failed. It does limit what a resident can establish about its results and what continued afterwards.
+
 ## Smart Precinct NQ and the cyber node were different things
 
 The organisations and projects in this story are easily collapsed into a single “cyber hub”. That makes the funding story harder to understand.
 
 **Smart Precinct NQ was a broader innovation and entrepreneurship organisation.** Its work covered business development, founders, mentoring and connections between industry, government and research. The cyber node was a specific initiative within that wider regional innovation environment.
+
+[AustCyber's August 2021 submission to Home Affairs](https://www.homeaffairs.gov.au/reports-and-pubs/files/strengthening-australias-cyber-security-submissions/austcyber.pdf#page=6) explains the national funding model. Most of its funding came from Commonwealth grants. It also had contractual arrangements with state and territory governments, including Queensland, and with Townsville and Sunshine Coast councils. AustCyber matched those contributions to deliver the node network. That establishes participation by all three levels of government, without supplying a separate Townsville total.
 
 The [2019 Townsville City Deal progress report](https://www.infrastructure.gov.au/sites/default/files/migrated/cities/city-deals/townsville/files/2019-progress-report.pdf#page=9) records SPNQ's incorporation and a **$1.5 million Townsville City Council commitment** to support business growth and investment. Later, Queensland's [Regional Enablers recipients list](https://advance.qld.gov.au/grants-and-programs/regional-enablers-recipients) recorded **$298,986** for SPNQ's NQ Regional Enablers Program, focused on sustainability and circular-economy innovation.
 
@@ -65,23 +74,37 @@ However, the end of a Commonwealth contract does not, by itself, establish the c
 
 The clearest unanswered question is therefore who took responsibility for the local work: the industry connections, training coordination, business health checks and follow-up originally envisaged.
 
-## What the SPNQ wind-down announcement establishes
+## SPNQ's public programs have concluded
 
 In a [public update in 2026](https://www.linkedin.com/posts/cassandra-cazzulino_a-personal-update-after-five-years-with-activity-7447143735743840257-4wbb), former SPNQ chief executive Cassandra Cazzulino said its operational grant funding would not be renewed. She said the board had advised that the organisation would begin scaling down over the coming months, with the team supporting partners during the transition.
 
-Cazzulino also said SPNQ had supported more than 650 businesses. That is her account of the organisation's broader work, rather than a count of cyber-node clients or an independently audited outcome presented here.
+Cazzulino also reported support for more than 650 businesses. That is an organisation-wide claim, not a count of cyber-node clients.
 
-There is also evidence that warrants care with the word “closed”. [SPNQ's website](https://spnq.org/) remains online, describing programs and hosting its 2024–25 activity report. Queensland's [Regional Enablers providers page](https://innovation.qld.gov.au/grants-and-programs/regional-enablers-providers) lists SPNQ activities for 2026, including a founder showcase and an innovation tour scheduled for May.
+SPNQ's [own subsequent public updates](https://au.linkedin.com/company/smart-precinct-nq) take the story further. It advertised **The Power of Her Story on 24 June 2026** as its final event, including the graduation of its second Female Founders cohort. A later recap described the gathering, and a subsequent update stated that “our public programs and events have now concluded”.
 
-Those listings demonstrate that programs were advertised. They do not establish which activities were delivered, how many staff remain, or what support a business can obtain today.
+The same update said SPNQ was exploring ways to support the ecosystem in future. The precise conclusion is an operating wind-down with public delivery concluded; these posts do not establish legal dissolution or rule out a future role.
 
-The supported account is an **announced scaling-down following the non-renewal of operational funding**, alongside continuing public listings of projects and services. Establishing the present operating position requires more than checking whether the website loads.
+An organisation's website or an old government provider listing can outlast its service delivery. Those pages should not override SPNQ's more recent account of its own position. Nor does the end of its broader programs tell us exactly when each cyber-node function ceased or moved elsewhere.
+
+## Queensland's small-business programs changed too
+
+The statewide history adds another layer of discontinuity. These were separate programs with different purposes, rather than successive names for Townsville's node.
+
+In [June 2024, the Queensland Government announced a $15 million procurement](https://statements.qld.gov.au/statements/100719) for a free small-business cyber security solution, including software and support. The subsequent Cryptoloc contract did not provide an enduring service.
+
+At [estimates on 8 August 2025](https://documents.parliament.qld.gov.au/events/han/2025/2025_08_08EstimatesLGC.pdf#page=11), Minister Steve Minnikin told Parliament that the $15 million contract had been announced on 30 September 2024, an initial **$1.938 million** payment had been made in October, and the contract had been **terminated on 8 January 2025**. He said the department was seeking recovery. The contract's headline value and the initial payment are different figures; that evidence does not establish that $15 million was spent or lost.
+
+[ABC reporting in June 2026](https://www.abc.net.au/news/2026-06-09/cryptoloc-contract-financial-red-flags/106761304), drawing on an internal procurement audit obtained through right-to-information processes, identified weaknesses in financial checking. It adds a procurement-accountability dimension to the question of service continuity.
+
+In [August 2025, Queensland announced a partnership with Cyber Wardens](https://statements.qld.gov.au/statements/103288), a national, Commonwealth-funded training program delivered by COSBOA. But that route also had an end date: the [program's closing notice](https://cyberwardens.com.au/) said Commonwealth funding concluded on **31 July 2026**, with COSBOA delivery to cease on **11 September 2026**. At this article's update, that deadline has passed. The former program address now redirects to a delivery partner's case study; it should not be presented as an open training offer.
+
+These changes do not demonstrate that every program was ineffective. They show why yesterday's announcement is an unreliable guide to the help available today. Each change requires businesses and the people advising them to find the next working entry point.
 
 ## Cyber security training still needs a clear local pathway
 
 Training is one of the most useful ways to test what the original investment left behind.
 
-When I checked [TAFE Queensland's current Certificate IV in Cyber Security page](https://tafeqld.edu.au/course/18/18451/certificate-iv-in-cyber-security), it advertised online study as well as campus options elsewhere in Queensland. Townsville (Pimlico) also appeared in the page's campus-selection information, but I could not identify a dated Pimlico classroom intake in the published offerings.
+When I checked [TAFE Queensland's current Certificate IV in Cyber Security page](https://tafeqld.edu.au/course/18/18451/certificate-iv-in-cyber-security), its advertised study regions were Greater Brisbane, Gold Coast, Sunshine Coast, and Darling Downs and South West. It also offered online study. Townsville (Pimlico) appeared in campus-selection information further down the page, but I could not identify a dated Pimlico classroom intake in the published offerings.
 
 That is an unresolved enrolment question. It does not establish that the qualification has been permanently withdrawn from Townsville. An international timetable alone would also be insufficient evidence about domestic delivery.
 
@@ -89,7 +112,7 @@ For somebody considering the course, the useful enquiry is specific: **is there 
 
 [James Cook University's Bachelor of Information Technology](https://www.jcu.edu.au/courses/bachelor-of-information-technology) provides another pathway. JCU lists Townsville and Cairns among its locations and cybersecurity among the degree's subject areas, alongside networking, cloud computing and software engineering. It also describes an annual IT Design Sprint involving students and industry professionals.
 
-Those are useful parts of the regional picture. They show that education and employer engagement continue, even while the node's own legacy remains unclear.
+That local IT pathway should not be confused with JCU's separately named Bachelor of Cybersecurity. JCU's [published course-transition information](https://www.jcu.edu.au/students/enrolment/trimester-faqs) identifies that degree as available at **JCU Singapore only**. A degree carrying the university's name is not automatically a Townsville course.
 
 Further north, [TAFE Queensland's Cairns campus page](https://tafeqld.edu.au/about/campus-locations/north-queensland/cairns) identifies a cyber security training facility completed in 2023 for introductory and advanced IT security and networking training. That is a concrete example of lasting training infrastructure. Its existence still leaves questions about enrolments, access and employment outcomes, but it gives the community something tangible to assess.
 
@@ -101,6 +124,10 @@ I also [shared an advertised AI and cyber skills workshop for Townsville small b
 
 My earlier [review of cyber security job advertisements across North Queensland]({% post_url 2026-08-14-north-queensland-cyber-security-jobs-2025-2026 %}) found roles across security, identity, risk and infrastructure. It was a sample of advertisements, not a workforce census, but it showed the range of work that can sit behind a regional cyber career.
 
+A further example is Queensland Health's [Senior Director, Digital Health, Information and Technology advertisement in Mount Isa](https://smartjobs.qld.gov.au/jobtools/jncustomep.printJobs?in_full_details=Y&in_organid=14904&in_selectTally=223157428&in_version=), which closed on 8 June 2026. Its portfolio combined ICT operations, cybersecurity, informatics and analytics. This is historical evidence of security responsibilities embedded in a broader regional technology role, rather than a current vacancy or a measure of total demand.
+
+Commercial capability also exists. [NQIT lists managed IT and cyber protection services, with Townsville and Mount Isa locations](https://www.nqit.com.au/services/). [Q10 Systems advertises cyber security services and offices in Townsville and Cairns](https://www.q10systems.com.au/cybersecurity/). These are examples of the market, not endorsements or a complete directory. Their presence matters: winding down an innovation organisation does not mean the region has lost all its practitioners.
+
 The [Townsville Christian College ransomware incident I covered in August]({% post_url 2026-08-02-nq-cyber-watch-tcc-ransomware-attack %}) also illustrates why local capability matters. Schools and other community institutions depend on people who understand both the technology and the consequences of losing access to it. An individual incident cannot tell us whether an innovation program succeeded or failed, but it can remind us what is at stake.
 
 My concern is continuity between these pieces. Who helps a student meet an employer? Who supports the person carrying security responsibilities inside a small organisation? Who follows up with a business after a workshop, when it needs help implementing what it learned?
@@ -111,6 +138,8 @@ Businesses have useful support available now. [Business Queensland](https://www.
 
 The [Australian Cyber Security Centre's Small Business Hub](https://www.cyber.gov.au/business-government/small-business-cyber-security/small-business-hub) brings together a health check, practical guides, questions for service providers and incident-related resources.
 
+Queensland also [announced $11.5 million in July 2026 to expand the UniSC small-business microcredential program](https://statements.qld.gov.au/statements/105704), including new cyber security, AI and procurement courses. That is funding for the broader expansion, not a cyber-only allocation. [Business Queensland's current course information](https://www.business.qld.gov.au/running-business/support-services/micro-credentials) says those new courses are being developed and invites expressions of interest. As with the earlier [announcement I covered]({% post_url 2026-08-10-queensland-free-cyber-security-ai-microcredentials %}), a future course should not be mistaken for a confirmed intake available today.
+
 These services deserve visibility in regional Queensland. A local organisation does not need to invent another national advice library. It could help people find the existing services, work out which one fits and connect the resulting advice with implementation and local skills development.
 
 For owners and managers looking for that practical starting point, I have written a companion guide on Suburban Secure: [Where can Townsville small businesses get cyber security help?](https://suburbansecure.au/news/cyber-security-help-townsville-small-business/)
@@ -118,6 +147,8 @@ For owners and managers looking for that practical starting point, I have writte
 **Disclosure:** I founded Suburban Secure and provide commercial technology and security advice through it. That is one part of the local service market. The publicly funded coordination and industry-development role discussed here has a broader purpose than any individual consultancy.
 
 ## What should a lasting North Queensland cyber capability look like?
+
+The evidence points to a continuity problem: successive programs have changed, while responsibility for connecting the region's remaining capability is difficult to trace. That is my interpretation of the public record, not a finding that every initiative failed.
 
 I would like the next stage of this conversation to start with responsibility and outcomes.
 
@@ -138,7 +169,7 @@ The original ambition was worthwhile. A region with capable people, education pr
 
 ## Bibliography
 
-Public sources were checked on 14 September 2026. This article is based on documentary research; it does not include interviews or direct confirmation from Council, SPNQ or TAFE. Current listings are described as listings, and announced activities are not treated as verified delivery.
+Public sources were checked on 14 September 2026. This article is based on documentary research; it does not include interviews or direct confirmation from Council, SPNQ or TAFE. Provider statements are attributed, and advertised courses and events are distinguished from confirmed delivery. Cyber Wardens' closing notice was available in the search-indexed version of its site; the live address had begun redirecting to a partner case study.
 
 ### Announcements, funding and organisational changes
 
@@ -148,6 +179,8 @@ Townsville City Council. (2020, June 3). [*Cyber security node for Townsville*](
 
 Townsville City Council. (2021, March 17). [*Cyber security hub launched, manager appointed*](https://www.townsville.qld.gov.au/about-council/news-and-publications/media-releases/2021/march/cyber-security-hub-launched-manager-appointed).
 
+AustCyber. (2021, August). [*Response to the Strengthening Australia's cyber security regulations and incentives discussion paper*](https://www.homeaffairs.gov.au/reports-and-pubs/files/strengthening-australias-cyber-security-submissions/austcyber.pdf#page=6), p. 5 [Submission to Home Affairs; funding and node-network arrangements].
+
 Australian Government, Queensland Government, & Townsville City Council. (n.d.). [*Townsville City Deal: Annual progress report 2019*](https://www.infrastructure.gov.au/sites/default/files/migrated/cities/city-deals/townsville/files/2019-progress-report.pdf#page=9), p. 9. Accessed 14 September 2026.
 
 Queensland Government. (2024, September 30). [*Regional Enablers recipients*](https://advance.qld.gov.au/grants-and-programs/regional-enablers-recipients). Advance Queensland.
@@ -156,13 +189,35 @@ Department of Industry, Science and Resources. (n.d.). [*Industry Growth Centres
 
 Cazzulino, C. (2026). [*A personal update: Departure from Smart Precinct NQ and operational funding*](https://www.linkedin.com/posts/cassandra-cazzulino_a-personal-update-after-five-years-with-activity-7447143735743840257-4wbb) [LinkedIn post]. Accessed 14 September 2026.
 
-Smart Precinct NQ. (n.d.). [*Home*](https://spnq.org/) [Program descriptions and link to the 2024–25 activity report]. Accessed 14 September 2026.
+Smart Precinct NQ. (2026). [*Company updates*](https://au.linkedin.com/company/smart-precinct-nq) [LinkedIn posts: final event on 24 June, event recap and subsequent conclusion of public programs]. Accessed 14 September 2026.
 
-Queensland Government. (n.d.). [*Regional Enablers providers*](https://innovation.qld.gov.au/grants-and-programs/regional-enablers-providers) [North Queensland section]. Accessed 14 September 2026.
+### Statewide program changes
 
-### Education and the professional community
+Queensland Government. (2024, June 28). [*Small-business cyber security support announcement*](https://statements.qld.gov.au/statements/100719) [Ministerial statement; $15 million procurement].
+
+Queensland Parliament, Local Government, Small Business and Customer Service Committee. (2025, August 8). [*Estimates hearing transcript*](https://documents.parliament.qld.gov.au/events/han/2025/2025_08_08EstimatesLGC.pdf#page=11), p. 11 [Minister Minnikin's evidence on the Cryptoloc contract].
+
+Walsh, L. (2026, June 9). [*Reporting on financial checks in the Cryptoloc procurement*](https://www.abc.net.au/news/2026-06-09/cryptoloc-contract-financial-red-flags/106761304). ABC News.
+
+Queensland Government. (2025, August 8). [*Cyber Wardens partnership announcement*](https://statements.qld.gov.au/statements/103288) [Ministerial statement].
+
+Council of Small Business Organisations Australia. (2026). [*Cyber Wardens program closing notice*](https://cyberwardens.com.au/) [Funding concluded 31 July; delivery end date 11 September 2026. Search-indexed notice checked 14 September; live URL now redirects].
+
+Queensland Government. (2026, July 29). [*Expansion of small-business microcredentials with UniSC*](https://statements.qld.gov.au/statements/105704) [Ministerial statement; $11.5 million program expansion].
+
+Queensland Government. (n.d.). [*Small business micro-credentials*](https://www.business.qld.gov.au/running-business/support-services/micro-credentials) [Current course availability and expressions of interest]. Business Queensland. Accessed 14 September 2026.
+
+### Education, employment and the professional community
 
 TAFE Queensland. (n.d.). [*Certificate IV in Cyber Security*](https://tafeqld.edu.au/course/18/18451/certificate-iv-in-cyber-security) [Course and delivery information]. Accessed 14 September 2026.
+
+James Cook University. (n.d.). [*Trimester FAQs*](https://www.jcu.edu.au/students/enrolment/trimester-faqs) [Course table identifies Bachelor of Cybersecurity as Singapore-only]. Accessed 14 September 2026.
+
+Queensland Health. (2026). [*Senior Director, Digital Health, Information and Technology*](https://smartjobs.qld.gov.au/jobtools/jncustomep.printJobs?in_full_details=Y&in_organid=14904&in_selectTally=223157428&in_version=) [Mount Isa vacancy QLD/MI683326; closed 8 June 2026]. Smart Jobs and Careers.
+
+NQIT. (n.d.). [*Services*](https://www.nqit.com.au/services/) [Service descriptions and office locations]. Accessed 14 September 2026.
+
+Q10 Systems. (n.d.). [*Cybersecurity*](https://www.q10systems.com.au/cybersecurity/) [Service descriptions and office locations]. Accessed 14 September 2026.
 
 TAFE Queensland. (n.d.). [*Cairns campus*](https://tafeqld.edu.au/about/campus-locations/north-queensland/cairns) [Cyber security training facility]. Accessed 14 September 2026.
 
@@ -181,6 +236,8 @@ IDCARE. (n.d.). [*Small Business Cyber Resilience Service*](https://www.idcare.o
 Australian Signals Directorate, Australian Cyber Security Centre. (n.d.). [*Small business hub*](https://www.cyber.gov.au/business-government/small-business-cyber-security/small-business-hub). Accessed 14 September 2026.
 
 O'Sullivan, N. (2026, August 2). [*North Queensland Cyber Watch: Ransomware hits Townsville Christian College*]({% post_url 2026-08-02-nq-cyber-watch-tcc-ransomware-attack %}).
+
+O'Sullivan, N. (2026, August 10). [*Queensland's free cyber security and AI microcredentials*]({% post_url 2026-08-10-queensland-free-cyber-security-ai-microcredentials %}).
 
 O'Sullivan, N. (2026, August 14). [*What cyber security jobs were advertised across North Queensland in 2025–26?*]({% post_url 2026-08-14-north-queensland-cyber-security-jobs-2025-2026 %}).
 
