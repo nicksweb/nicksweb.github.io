@@ -8,20 +8,18 @@ tags: [networking, infrastructure, education, wi-fi, automation, artificial-inte
 permalink: /posts/uts-network-modernisation-part-two/
 wrap_tables: true
 image:
-  path: /assets/images/Nabil-Bukhari-Extreme-Networks-Extreme-Connect-2026.png
-  width: 848
-  height: 475
+  path: /assets/images/UTS-More-than-wifi7-from-strategy-to-selection-a-modern-campus-for-whats-next.png
+  width: 1536
+  height: 1024
   natural_ratio: true
-  alt: "Extreme Networks CTO Nabil Bukhari makes the case that the company builds the full networking stack, from hardware to AI, at Extreme Connect 2026. Photo: Mitch Wagner for Fierce Network."
+  alt: "More than Wi-Fi 7: from strategy to selection, and a modern campus for what's next. Conceptual series artwork connecting planning, people and campus technology."
 ---
-
-*Header image: Mitch Wagner for [Fierce Network's coverage of Extreme Connect 2026](https://www.fierce-network.com/cloud/extreme-unveils-its-full-stack-ai-networking-vision-and-broad-wi-fi-7-lineup){:target="_blank" rel="noopener noreferrer"}. The photograph shows Extreme's conference presentation.*
 
 UTS's planned network renewal puts a broader question in view: how much has campus networking changed over the past decade? Wi-Fi 7 is an obvious development, but the way a network is managed, secured and supported deserves just as much attention.
 
 **My reading is that the significant shift is towards bringing more operational work into a shared platform:** seeing what is connected, investigating faults, applying policy and managing changes across the environment. UTS's public announcements give us a starting point for that discussion, with some important gaps in the technical detail.
 
-*This is part two of a two-part series. [Part one traces the planning and procurement behind UTS's $20m-plus modernisation](/posts/uts-network-modernisation-part-one/).*
+*More than Wi-Fi 7, Part 2: **A modern campus for what's next**. [Part 1: From strategy to selection](/posts/uts-network-modernisation-part-one/) traces the planning and procurement behind UTS's $20m-plus modernisation.*
 
 ## The earlier network already had serious capabilities
 
@@ -52,6 +50,9 @@ The practical design questions include access-point placement, interference, cli
 I would also keep two AI questions separate. One is what students and researchers need from the network when using AI applications. The other is whether AI helps the operations team manage that network. The fact that an application uses AI does not, by itself, establish a requirement for a particular wireless generation; its traffic, location and responsiveness requirements need to be assessed.
 
 ## More of the operating workflow sits inside the platform
+
+![Extreme Networks CTO Nabil Bukhari speaking at Extreme Connect 2026](/assets/images/Nabil-Bukhari-Extreme-Networks-Extreme-Connect-2026.png){: width="848" height="475" }
+_Extreme Networks CTO Nabil Bukhari makes the case that the company builds the full networking stack, from hardware to AI, at Extreme Connect 2026. Photo: Mitch Wagner for [Fierce Network](https://www.fierce-network.com/cloud/extreme-unveils-its-full-stack-ai-networking-vision-and-broad-wi-fi-7-lineup){:target="_blank" rel="noopener noreferrer"}._
 
 Extreme's [current Platform ONE product description](https://www.extremenetworks.com/platform-one/extreme-platform-one-secure-connectivity-made-simple){:target="_blank" rel="noopener noreferrer"} brings network management, security and AI assistance together. It describes Agent ONE Coworker analysing operational information, highlighting emerging issues, recommending next steps and guiding investigations. The same material describes fabric automation and views spanning multiple parts of the network.
 
@@ -91,7 +92,7 @@ The 2015 case study also presented its network as an investment in the future. E
 
 The lasting benefit I would look for is an environment the university can understand and change: documented decisions, supportable configurations, staff who know how it works, and a practical path through the next upgrade. That is where today's investment can make the next modernisation easier.
 
-**Read [Part 1: Before the rollout, the planning behind UTS's network modernisation](/posts/uts-network-modernisation-part-one/).**
+**Read [Part 1: From strategy to selection](/posts/uts-network-modernisation-part-one/).**
 
 ---
 

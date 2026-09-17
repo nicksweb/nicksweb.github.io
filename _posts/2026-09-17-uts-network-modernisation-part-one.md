@@ -12,14 +12,14 @@ image:
   width: 1536
   height: 1024
   natural_ratio: true
-  alt: "More than Wi-Fi 7: a conceptual illustration of network planning, equipment and a connected university campus."
+  alt: "More than Wi-Fi 7: from strategy to selection, and a modern campus for what's next. Conceptual series artwork connecting planning, people and campus technology."
 ---
 
 The University of Technology Sydney's newly announced **$20 million-plus network modernisation** has a public planning trail stretching back to 2023. Long before the selected vendor was named, UTS was asking what its future network should do, how to approach the market and what its own staff would need to operate it.
 
 That is the part of the story that caught my attention. During my time in statewide systems support for Queensland state education, I was involved in projects deploying equipment across large numbers of schools. The work before deployment could determine how manageable the result would be for years afterwards.
 
-*This is part one of a two-part series. [Part two examines how campus networking has changed, from the earlier UTS environment to Wi-Fi 7 and AI-assisted operations](/posts/uts-network-modernisation-part-two/).*
+*More than Wi-Fi 7, Part 1: **From strategy to selection**. Continue with [Part 2: A modern campus for what's next](/posts/uts-network-modernisation-part-two/), examining the move towards Wi-Fi 7 and AI-assisted operations.*
 
 ## What has been announced
 
@@ -83,7 +83,7 @@ The public record nevertheless offers a useful example for anyone planning a ren
 
 By the time installation begins, many decisions about the network's future support burden have already been made. The next question is what the selected technology changes for the people operating it.
 
-**Continue to [Part 2: From switches and access points to automated campus networks](/posts/uts-network-modernisation-part-two/).**
+**Continue to [Part 2: A modern campus for what's next](/posts/uts-network-modernisation-part-two/).**
 
 ---
 
