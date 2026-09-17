@@ -5,6 +5,13 @@
 {% endcomment %}
 <link rel="describedby" type="text/plain" href="{{ '/llms.txt' | absolute_url }}">
 
+{% if page.image.natural_ratio %}
+  <style>
+    .post-meta .preview-img { aspect-ratio: auto; height: auto; }
+    .post-meta .preview-img img { display: block; height: auto; object-fit: contain; }
+  </style>
+{% endif %}
+
 {% if page.wrap_tables %}
   <style>
     .content .table-wrapper > table { width: 100%; }

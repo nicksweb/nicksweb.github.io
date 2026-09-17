@@ -38,7 +38,7 @@ tail_includes:
         {% endif %}
 
         <div class="mt-3 mb-3">
-          <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }}>
+          <img {{ src }} {{ class }} {{ alt }} w="{{ page.image.width | default: 1200 }}" h="{{ page.image.height | default: 630 }}" {{ lqip }}>
           {%- if page.image.alt -%}
             <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
           {%- endif -%}
