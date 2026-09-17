@@ -1,8 +1,9 @@
 ---
-title: "Before the rollout: UTS's $20m-plus network modernisation (Part 1)"
-description: "UTS's network upgrade has a public planning trail back to 2023. What its strategy, procurement and proof-of-concept work reveal about infrastructure renewal."
+title: "UTS’s network upgrade: the decisions that outlast the rollout (Part 1)"
+description: "UTS’s $20m-plus network renewal shows why procurement, testing and staff capability shape years of service after the equipment is installed."
 keywords: [UTS network modernisation, UTS network upgrade, network procurement, Nexon Asia Pacific, Extreme Networks, education IT, infrastructure planning]
 date: 2026-09-17 22:00:00 +1000
+last_modified_at: 2026-09-17 23:01:53 +1000
 categories: [Technology & Careers]
 tags: [networking, infrastructure, education, procurement, it-leadership]
 permalink: /posts/uts-network-modernisation-part-one/
@@ -15,76 +16,76 @@ image:
   alt: "More than Wi-Fi 7: from strategy to selection, and a modern campus for what's next. Conceptual series artwork connecting planning, people and campus technology."
 ---
 
-The University of Technology Sydney's newly announced **$20 million-plus network modernisation** has a public planning trail stretching back to 2023. Long before the selected vendor was named, UTS was asking what its future network should do, how to approach the market and what its own staff would need to operate it.
+The University of Technology Sydney has committed to a **$20 million-plus network modernisation** with Nexon Asia Pacific and Extreme Networks. The university’s announcement describes campus-wide renewal, Wi-Fi 7 and an 18-month build following design and proof-of-concept work. It is a substantial investment in the infrastructure behind teaching, research and everyday university life. [UTS announcement, published by iTWire](https://itwire.com/it-industry-news/deals/uts-partners-with-nexon-asia-pacific-on-20-million-plus-network-modernisation){:target="_blank" rel="noopener noreferrer"}.
 
-That is the part of the story that caught my attention. During my time in statewide systems support for Queensland state education, I was involved in projects deploying equipment across large numbers of schools. The work before deployment could determine how manageable the result would be for years afterwards.
+What interests me is how much of its eventual success will depend on decisions made before installation: whose requirements shaped the design, what was tested, and whether the people inheriting the network can support it.
 
-*More than Wi-Fi 7, Part 1: **From strategy to selection**. Continue with [Part 2: A modern campus for what's next](/posts/uts-network-modernisation-part-two/), examining the move towards Wi-Fi 7 and AI-assisted operations.*
+During my time in statewide systems support for Queensland state education, I was involved in projects deploying equipment across large numbers of schools. That experience shapes how I read an announcement like this. A rollout hands the support team a set of decisions they will live with long after the project has finished.
 
-## What has been announced
+**The investment should leave the institution better able to operate and change its infrastructure.** UTS’s public procurement trail gives us a useful way to examine how that outcome starts taking shape.
 
-UTS has selected Nexon Asia Pacific for the modernisation, using Extreme Networks technology and Extreme Platform ONE. The university's [announcement published by iTWire on 17 September](https://itwire.com/it-industry-news/deals/uts-partners-with-nexon-asia-pacific-on-20-million-plus-network-modernisation){:target="_blank" rel="noopener noreferrer"} describes a competitive open tender, completed design and proof-of-concept work, and an **18-month build phase**. Managed services, advice and support will continue over a multi-year term.
+*More than Wi-Fi 7, Part 1: **From strategy to selection**. [Part 2: A modern campus for what’s next](/posts/uts-network-modernisation-part-two/) examines what an integrated networking platform changes for the institution and its staff.*
 
-The scope reaches across campuses: wired and wireless access, core and edge infrastructure, data-centre connectivity and security controls. Wi-Fi 7 is included. This is a substantial renewal of the network that supports teaching, research and everyday university operations.
+## In 2023, UTS was defining the service it wanted
 
-The winning technology was already public in August. In its [5 August financial-results announcement](https://investor.extremenetworks.com/news/news-details/2026/Extreme-Networks-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx){:target="_blank" rel="noopener noreferrer"}, Extreme identified UTS as its largest Australian win to date and named Nexon and Platform ONE. September's announcement adds the delivery scope and timetable.
+The [strategy-services tender listed on 2 February 2023](https://www.australiantenders.com.au/tenders/516327/rft-uts-network-strategic-direction-professional-services/){:target="_blank" rel="noopener noreferrer"} sought a vendor-neutral direction for the university’s future network. It described a multi-site environment, growing use of cloud services and support for hybrid teaching.
 
-## The earlier question: what should the network become?
+Its organising principle was **“Wireless by default, Wired by exception”**. Suitable endpoints would move to Wi-Fi, with wired connections retained for demanding uses and systems including IoT, security and audiovisual equipment. Maintaining service levels and training UTS network staff were explicit requirements.
 
-The [UTS strategy tender listed on Australian Tenders on 2 February 2023](https://www.australiantenders.com.au/tenders/516327/rft-uts-network-strategic-direction-professional-services/){:target="_blank" rel="noopener noreferrer"} sought professional help to develop a vendor-neutral network strategy. It described campuses across Ultimo, Moore Park and Botany, increased use of cloud services, and the need to support hybrid teaching.
+The training requirement is easy to overlook alongside the technology. Yet it recognises that the university is buying a service its people must be able to operate. A design has to make sense both to the person using a learning space and to the person diagnosing a fault in it.
 
-Its memorable phrase was **"Wireless by default, Wired by exception"**. The intended direction was to connect suitable endpoints over Wi-Fi while retaining wired connections for demanding uses and systems such as IoT, security and audiovisual equipment. Maintaining service levels and training the university's network staff were also explicit requirements.
+For me, the value of defining that future state is that it gives the institution something against which to judge suppliers. “We want newer equipment” leaves a great deal for a vendor to interpret. Requirements about mobility, service continuity and staff capability create a more useful basis for a decision.
 
-That gives the phrase practical meaning. A preference for wireless still needs a dependable wired foundation and a clear understanding of which devices belong on which connection. It also needs staff who can support the resulting environment.
+## The procurement process protected a separate role for advice
 
-I like that the visible starting point was a description of the service UTS wanted. A requirements document should help an organisation judge competing designs against its own needs. Otherwise, the most persuasive demonstration can end up defining the requirements for everyone else.
+A [second notice, listed on 27 February 2023](https://www.australiantenders.com.au/tenders/519831/rft-uts-network-replacement-procurement-consultancy-services/){:target="_blank" rel="noopener noreferrer"}, sought a consultancy to help with industry engagement and procurement. Its successful respondent would be prohibited from participating in the resulting enterprise-network tenders, as a condition of probity.
 
-## Procurement advice had its own boundary
+That is a concrete boundary: the adviser helping the university approach the market could not then compete to supply the resulting network. It gives the planning story substance beyond the familiar claim that a project followed a competitive process.
 
-On 27 February 2023, a [separate procurement-consultancy notice](https://www.australiantenders.com.au/tenders/519831/rft-uts-network-replacement-procurement-consultancy-services/){:target="_blank" rel="noopener noreferrer"} sought help with industry engagement and the procurement activities arising from the strategy work.
+The public record then jumps forward. Extreme [identified UTS as a win in August 2026](https://investor.extremenetworks.com/news/news-details/2026/Extreme-Networks-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx){:target="_blank" rel="noopener noreferrer"}, naming Nexon and Extreme Platform ONE. September’s UTS announcement describes selection through an open tender and the move into the build.
 
-It included a specific probity condition: the successful consultant could not participate in the enterprise-network tenders resulting from the program. Respondents had to accept that restriction.
+Those documents provide a partial history. They do not establish that every element of the 2023 work continued unchanged into the final contract. What they do show is that requirements and procurement arrangements were receiving public attention years before the rollout announcement.
 
-That is a useful governance detail. The organisation helping UTS approach and assess the market would be excluded from competing for the resulting network supply. It makes the boundary between advice and supply visible at the outset.
+## Every exception becomes somebody’s job
 
-By April, a university spokesperson was describing the existing network as approaching end-of-life and identifying better security, monitoring and automation as objectives, according to [iTnews's contemporary reporting](https://www.itnews.com.au/news/uts-sets-ball-rolling-on-network-replacement-592729){:target="_blank" rel="noopener noreferrer"}. Those operational priorities were present years before the current product announcement.
+My education IT background makes me particularly interested in repeatability. Across many sites, a small configuration difference can become something a technician has to rediscover each time there is a fault. The cost appears later, in slower diagnosis, extra escalation and dependence on whichever person remembers why that site is different.
 
-## What the public chronology tells us
+That is why I would bring the support team into requirements and evaluation early. They can ask whether a replacement device can be configured consistently, whether a remote technician can see enough to diagnose a problem, and whether the documentation explains the exceptions as well as the standard design.
 
-| Date | Public milestone |
-| --- | --- |
-| 2 February 2023 | Strategy-services notice listed, seeking a vendor-neutral future direction. |
-| 27 February 2023 | Procurement-consultancy notice listed, including the restriction on later supply tenders. |
-| 5 April 2023 | UTS explains its replacement objectives to iTnews. |
-| 5 August 2026 | Extreme publicly identifies the UTS win with Nexon and Platform ONE. |
-| 17 September 2026 | UTS's announcement describes the scope and the move into an 18-month build. |
+Standardisation needs room for actual educational requirements. A research facility, an audiovisual system and a student laptop may need different treatment. The useful distinction is between an exception with a documented reason and an exception that exists because nobody had time to resolve it.
 
-These are milestones in the sources linked above, rather than a complete project history. They suggest a progression from strategy to procurement and delivery, but do not establish that every 2023 engagement flowed unchanged into the 2026 contract. The public material does not identify every adviser, decision or revision along the way.
+At procurement scale, these details influence the service the organisation is committing to fund. Installation effort is visible in the project plan. Years of avoidable support work can be much harder to see in the initial comparison.
 
-That distinction matters when discussing a project from outside. We can examine the choices UTS has made public without claiming access to its internal deliberations.
+## A proof of concept should expose the difficult work
 
-## The proof of concept is where supportability becomes real
+UTS says design and proof-of-concept work preceded the build, although its test plan is not public. For an evaluation of this kind, I would want to see the proposed system used by the people expected to support it.
 
-The announcement confirms that design and proof-of-concept work preceded the build. It does not publish the test plan or results.
+Consider an illustrative test: a student’s device joins Wi-Fi but cannot reach a teaching resource. The administrator needs to establish whether the fault involves authentication, access policy, name resolution, an upstream connection or the application. A dashboard showing that the access point is healthy only answers part of the question.
 
-For a project like this, I would want testing to answer operational questions as well as demonstrate connectivity. Can the support team trace a user's problem through the environment? What happens when a component fails? Can a configuration change be reversed? How will the new system coexist with the old one during migration?
+I would ask the support team to work through that scenario with the proposed tools, permissions and documentation. Then I would change something: remove a component, introduce a configuration error, or require a rollback. The exercise should reveal how the team recognises a failure and restores the service.
 
-Those are examples of what I would assess, rather than claims about UTS's tests.
+That also gives training a concrete purpose. Staff need time to understand unfamiliar behaviour, challenge the design and practise recovery while errors are contained. Leaving that learning until production moves the cost onto the people trying to teach and study.
 
-Working across many schools taught me how quickly an exception can become a recurring support cost. A configuration that takes a few extra minutes to understand at one site becomes a much larger burden when the same issue appears across an estate. Repeatable deployment, remote visibility, clear documentation and practical recovery procedures deserve attention before equipment is ordered at scale.
+These are the kinds of tests I would value, rather than a description of UTS’s unpublished evaluation. They turn an attractive feature into evidence about whether the institution can use it.
 
-The people who inherit the service should have a voice in those decisions. They are the ones who will diagnose faults during teaching hours, replace failed equipment and explain outages after the project team has moved on.
+## The handover starts before the project finishes
 
-## An 18-month build still has to fit around a university
+The announced scope includes wired and wireless access, core and edge infrastructure, data-centre connectivity and security controls, followed by managed services and support over a multi-year term. That makes the operating relationship part of the purchase. [UTS announcement](https://itwire.com/it-industry-news/deals/uts-partners-with-nexon-asia-pacific-on-20-million-plus-network-modernisation){:target="_blank" rel="noopener noreferrer"}.
 
-An institution keeps operating while its infrastructure changes. From an operator's perspective, the next stage needs manageable migration steps, agreed acceptance criteria, a way back when a change fails and a clear handover into ongoing support. The published announcement does not give UTS's detailed migration sequence.
+For a university, I would want responsibility to remain clear through migration and into normal service. When a teaching space cannot connect, who investigates first? What can the university’s own team inspect or change? Who approves a change that affects several buildings? How does knowledge move from the implementation team to the people taking the next support call?
 
-The public record nevertheless offers a useful example for anyone planning a renewal: define the future service, put suitable procurement arrangements around the decision, and test how the proposed design will work in practice. Those activities deserve space in the budget and timetable alongside the equipment itself.
+These decisions need to fit around an institution that keeps operating throughout the build. Migration windows, acceptance criteria, recovery plans and staff availability belong in the delivery plan alongside the equipment schedule.
 
-By the time installation begins, many decisions about the network's future support burden have already been made. The next question is what the selected technology changes for the people operating it.
+## What should remain when the rollout is over?
 
-**Continue to [Part 2: A modern campus for what's next](/posts/uts-network-modernisation-part-two/).**
+The people using the network will experience the investment through ordinary moments: a class starting on time, a researcher reaching the resources they need, a fault resolved without repeated calls. The people supporting it will experience the quality of the decisions made much earlier.
+
+That is where I think this story leads. Requirements, independent advice, testing and training are investments in the institution’s ability to run the service. Their value lasts beyond the installation date.
+
+For any organisation planning a renewal, I would put those outcomes into the brief and make the supplier demonstrate how they will be delivered. The handover should leave behind a network the organisation understands, people equipped to support it and a practical path for making the next change.
+
+**[Part 2: A modern campus for what’s next](/posts/uts-network-modernisation-part-two/) explores what happens when more of that operational knowledge and control sits inside a supplier’s platform.**
 
 ---
 
-*Source note: This article is analysis of public procurement notices, the UTS-attributed announcement reproduced by iTWire, Extreme's investor release and the linked reporting. Personal observations draw on my education IT experience; they do not describe involvement in the UTS project.*
+*This is analysis of the linked public material, informed by my education IT experience. I was not involved in the UTS project; the support scenarios describe how I would evaluate a deployment.*
