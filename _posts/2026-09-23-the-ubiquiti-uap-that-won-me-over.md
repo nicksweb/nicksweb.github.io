@@ -13,7 +13,7 @@ image:
 
 The original **Ubiquiti UniFi AP**, usually called the **UAP**, is the product that won me over to Ubiquiti. It was a modest white access point, but around 2015 and 2016 it helped me make a case for something much bigger: a network that a not-for-profit organisation could actually depend on and keep improving.
 
-I recently dusted off a [network upgrade proposal I wrote at the time](#the-case-for-an-upgrade). The writing is passionate, and I can still see why. For me, this was about more than buying new Wi-Fi equipment. People were trying to run a busy site on a network that had grown one device and one workaround at a time.
+I recently dusted off the [network upgrade proposal I wrote at the time]({% post_url 2026-09-23-network-upgrade-proposal-from-the-archive %}). The writing is passionate, and I can still see why. For me, this was about more than buying new Wi-Fi equipment. People were trying to run a busy site on a network that had grown one device and one workaround at a time.
 
 ## The case for an upgrade
 
