@@ -1,6 +1,6 @@
 ---
 title: Skills
-description: Nicholas O'Sullivan's skills in IT leadership, cyber security, cloud, endpoint management, infrastructure, networking and automation.
+description: Nicholas O'Sullivan's IT leadership, cyber security and infrastructure skills, with ACS Certified Technologist and Ubiquiti URSCA credentials.
 keywords: [IT leadership skills, cyber security, cloud administration, endpoint management, network infrastructure, systems automation]
 icon: fas fa-laptop-code
 order: 3
@@ -8,6 +8,26 @@ order: 3
 
 > Practical technology leadership across infrastructure, cloud, endpoint management, cyber security, service management and community-focused systems improvement.
 {: .prompt-tip }
+
+## Certifications and professional development
+
+Formal recognition and continued learning support my practical work across IT and cyber security.
+
+<div class="credential-grid">
+  <section class="credential-card" aria-labelledby="ursca-credential">
+    <div class="credential-badge"><img src="{{ '/assets/images/NOS-URSCA-badge.png' | relative_url }}" alt="Ubiquiti URSCA Routing, Switching and Cybersecurity badge" width="180" height="180"></div>
+    <h3 id="ursca-credential">UniFi Routing, Switching &amp; Cybersecurity Admin</h3>
+    <p>Ubiquiti Academy certification completed in September 2026 through Leader's three-day course in Townsville, covering network design, routing, switching, network services and cyber security.</p>
+    <p><a href="{{ '/assets/data/NOS-URSCA-Certificate.png' | relative_url }}">View my URSCA certificate</a></p>
+    <p><a href="{% post_url 2026-09-23-ubiquiti-routing-switching-and-cybersecurity-admin %}">Read my training reflections</a></p>
+  </section>
+  <section class="credential-card" aria-labelledby="acs-credential">
+    <div class="credential-badge"><img src="{{ '/assets/images/acs_technologist.png' | relative_url }}" alt="ACS Certified Technologist badge" width="183" height="178"></div>
+    <h3 id="acs-credential">ACS Certified Technologist</h3>
+    <p>Certified Technologist with the Australian Computer Society, alongside my practical experience in technology leadership, infrastructure and cyber security.</p>
+    <p><a href="{{ '/about/' | relative_url }}">More about my professional background</a></p>
+  </section>
+</div>
 
 Leadership and delivery
 -------

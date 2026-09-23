@@ -3,6 +3,45 @@
 
 @import 'main';
 
+.credential-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.credential-card {
+  min-width: 0;
+  padding: 1.25rem;
+  border: 1px solid var(--main-border-color);
+  border-radius: 10px;
+  background: var(--card-bg);
+}
+
+.credential-card .credential-badge {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+}
+
+.credential-card .credential-badge img {
+  display: block;
+  width: auto;
+  height: 160px;
+  max-width: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+
+.credential-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.credential-card p:last-child {
+  margin-bottom: 0;
+}
+
 /* Show complete post-list images instead of forcing the theme's 40:21 crop. */
 #post-list .post-preview .preview-img {
   width: 100%;
