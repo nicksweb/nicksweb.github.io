@@ -15,9 +15,11 @@ I've just finished three days of Ubiquiti training here in Townsville, completin
 
 It was a worthwhile few days of professional development. While this sort of training has obvious value for managed service providers (MSPs), I found it equally relevant to people managing networks within schools, businesses and other organisations.
 
-## From the old 24V access points to UniFi gateways
+## Where my Ubiquiti story began
 
-My experience with Ubiquiti goes back more than a decade, starting with wireless access points in a church setting. Yes, the ones that needed 24V passive PoE. Since then, I've worked with the EdgeRouter Lite-3 and, more recently, the UDM Pro Max.
+My experience with Ubiquiti goes back around a decade, to a church network upgrade built around the original **UniFi AP (UAP)**. According to [Ubiquiti's original datasheet](https://dl.ui.com/guides/UniFi/UniFi_Datasheet.pdf), it was a 2.4 GHz, 802.11 b/g/n access point with a radio rate of up to 300 Mbps and 24V passive PoE. It was a robust and affordable option for the time, and it became the product that made me appreciate what Ubiquiti could offer an organisation with a limited budget. I've written more about [that first UAP deployment and the network proposal behind it]({% post_url 2026-09-23-the-ubiquiti-uap-that-won-me-over %}).
+
+Since then, I've worked with the EdgeRouter Lite-3 and, more recently, the UDM Pro Max.
 
 I've also used plenty of other systems along the way, including pfSense and OPNsense. Those platforms have been a significant part of my networking experience, but Ubiquiti is a system I've increasingly landed on for its reliability in my own use, its feature set and the convenience of managing networking through one platform.
 
