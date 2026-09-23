@@ -40,6 +40,8 @@ _The UniFi product family as shown in a period datasheet. The original UAP is on
 
 The proposal compared a managed access point option with a cheaper collection of consumer devices. The managed option listed nine APs and a controller among its proposed costs. The appeal was not simply the price of each unit. It was being able to configure, monitor and refresh the wireless network as one system, while planning separate access for staff and visitors.
 
+At the time also, the NBN hadn't quite made it to Townsville and most organisations had only about 10 - 20 Mbps of connectivity with ADSL. 
+
 ## EdgeSwitches were part of the design
 
 For the network underneath the Wi-Fi, I chose **Ubiquiti EdgeSwitches** for the core and building switches. Their graphical interface was a pleasure to configure, and the feature set gave us room to design a more organised network.
