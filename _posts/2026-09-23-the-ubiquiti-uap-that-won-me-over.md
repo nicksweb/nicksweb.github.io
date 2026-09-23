@@ -21,6 +21,10 @@ The organisation had a main building, a hall and other spaces that needed to wor
 
 The wireless network had the same pattern. Different consumer access points had been added in different rooms, without central management or a consistent approach to coverage. In the foyer and children's area, the connection dropped often enough to disrupt the check-in system. Staff sometimes found a 4G mobile connection more dependable. At busy times, the ADSL service also struggled to carry the load.
 
+![Image of the initial network that required the upgrade. ]({{ '/assets/images/NFP-Cabinet-Network.png' | relative_url }}){: width="999" height="852" }
+_An image of the original network in-place before Ubiquiti and Edge Switching was deployed._
+
+
 Those details mattered more to me than any specification sheet. If a child's check-in depended on mobile data because the site's Wi-Fi could not be trusted, the network needed a proper plan.
 
 The proposal asked for consistent access points, separate staff and guest networks, managed switching, improved cabling and labelling, better documentation and a backup connection. It also considered storage, authentication and a way to log support requests. These were recommendations in the document, not a claim that every item was installed exactly as proposed.
@@ -33,9 +37,6 @@ The original UAP was a **2.4 GHz 802.11 b/g/n** access point with a **300 Mbps m
 
 ![Cover of the original UniFi access point datasheet, showing the controller interface and several AP models]({{ '/assets/images/UAP-DataSheet.png' | relative_url }}){: width="999" height="852" }
 _The UniFi product family as shown in a period datasheet. The original UAP is one of the round access points pictured._
-
-![Image of the initial network that required the upgrade. ]({{ '/assets/images/NFP-Cabinet-Network.png' | relative_url }}){: width="999" height="852" }
-_An image of the original network in-place before Ubiquiti and Edge Switching was deployed._
 
 The proposal compared a managed access point option with a cheaper collection of consumer devices. The managed option listed nine APs and a controller among its proposed costs. The appeal was not simply the price of each unit. It was being able to configure, monitor and refresh the wireless network as one system, while planning separate access for staff and visitors.
 
