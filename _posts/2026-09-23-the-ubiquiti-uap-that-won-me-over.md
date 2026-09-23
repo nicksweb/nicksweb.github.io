@@ -34,6 +34,9 @@ The original UAP was a **2.4 GHz 802.11 b/g/n** access point with a **300 Mbps m
 ![Cover of the original UniFi access point datasheet, showing the controller interface and several AP models]({{ '/assets/images/UAP-DataSheet.png' | relative_url }}){: width="999" height="852" }
 _The UniFi product family as shown in a period datasheet. The original UAP is one of the round access points pictured._
 
+![Image of the initial network that required the upgrade. ]({{ '/assets/images/NFP-Cabinet-Network.png' | relative_url }}){: width="999" height="852" }
+_An image of the original network in-place before Ubiquiti and Edge Switching was deployed._
+
 The proposal compared a managed access point option with a cheaper collection of consumer devices. The managed option listed nine APs and a controller among its proposed costs. The appeal was not simply the price of each unit. It was being able to configure, monitor and refresh the wireless network as one system, while planning separate access for staff and visitors.
 
 ## EdgeSwitches were part of the design
