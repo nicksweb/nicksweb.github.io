@@ -1,6 +1,6 @@
 ---
 title: Skills
-description: Nicholas O'Sullivan's IT leadership, cyber security and infrastructure skills, with ACS Certified Technologist and Ubiquiti URSCA credentials.
+description: Nicholas O'Sullivan's IT leadership, cyber security and infrastructure skills, with ACS Certified Technologist and Ubiquiti URSCA and UWA credentials.
 keywords: [IT leadership skills, cyber security, cloud administration, endpoint management, network infrastructure, systems automation]
 icon: fas fa-laptop-code
 order: 3
@@ -83,6 +83,13 @@ Formal recognition and continued learning support my practical work across IT an
     <p>Ubiquiti Academy certification completed in September 2026 through Leader's three-day course in Townsville, covering network design, routing, switching, network services and cyber security.</p>
     <p><a href="{{ '/assets/data/NOS-URSCA-Certificate.png' | relative_url }}">View my URSCA certificate</a></p>
     <p><a href="{% post_url 2026-09-23-ubiquiti-routing-switching-and-cybersecurity-admin %}">Read my training reflections</a></p>
+  </section>
+  <section class="credential-card" aria-labelledby="uwa-credential">
+    <div class="credential-badge"><img src="{{ '/assets/images/NOS-UWA-badge.png' | relative_url }}" alt="Ubiquiti Academy UniFi Wireless Admin badge" width="180" height="180"></div>
+    <h3 id="uwa-credential">UniFi Wireless Admin</h3>
+    <p>Ubiquiti Academy certification completed in September 2026 through Leader's two-day course in Townsville, covering RF fundamentals, wireless design, site surveys and UniFi deployment.</p>
+    <p><a href="{{ '/assets/data/NOS-UWA-Certificate.png' | relative_url }}">View my UWA certificate</a></p>
+    <p><a href="{% post_url 2026-09-25-ubiquiti-unifi-wireless-admin %}">Read my wireless training reflections</a></p>
   </section>
   <section class="credential-card" aria-labelledby="acs-credential">
     <div class="credential-badge"><img src="{{ '/assets/images/acs_technologist.png' | relative_url }}" alt="ACS Certified Technologist badge" width="183" height="178"></div>
