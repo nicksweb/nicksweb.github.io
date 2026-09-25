@@ -2,7 +2,7 @@
 title: "The Friday afternoon call: why a school cyber audit is not a response plan (Part 1)"
 description: "A recent Perth school breach shows why schools need independent assurance and someone able to act between audits, including after hours."
 keywords: [school cyber security incident, school data breach Australia, managed detection and response schools, school cyber security audit, St James Anglican School cyber attack, education incident response]
-date: 2026-09-26 09:00:00 +1000
+date: 2026-09-26 07:00:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, education, governance, incident-response]
 wrap_tables: true
@@ -16,7 +16,7 @@ I have no inside knowledge of the incident, and this post does not speculate on 
 
 It is also not an isolated case. Closer to home, this site has covered the [Canvas-related breach affecting Townsville schools]({% post_url 2026-05-13-nq-cyber-watch-townsville-schools-canvas-breach %}) and [Townsville Catholic Education's auto-forwarding breach]({% post_url 2026-07-03-nq-cyber-watch-tce-auto-forwarding-breach %}). Each incident had a different cause, but the question for school leaders is the same: **when something is found, who is able to act, and how quickly?**
 
-This is the first part of a four-part series, *Cyber security audits vs managed security: what Australian school boards need to know*. It sets out the problem and the terms. [Part 2]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-two %}) covers board governance and legal obligations, [Part 3]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-three %}) compares costs over three years, and [Part 4]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-four %}) looks at how Australian education systems are actually organising security operations.
+This is the first part of a four-part series, *Cyber security audits vs managed security: what Australian school boards need to know*. It sets out the problem and the terms. [Part 2](/posts/school-cyber-audits-vs-managed-security-part-two/) covers board governance and legal obligations, [Part 3](/posts/school-cyber-audits-vs-managed-security-part-three/) compares costs over three years, and [Part 4](/posts/school-cyber-audits-vs-managed-security-part-four/) looks at how Australian education systems are actually organising security operations.
 
 ## Incidents rarely arrive at a convenient time
 
@@ -109,7 +109,7 @@ You do not need a new contract to reduce the Friday afternoon risk. Most of thes
 
 That will not make a school secure on its own. It does mean the first hour of an incident is spent acting, not searching for phone numbers.
 
-**[Part 2: What school boards need to see]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-two %}) looks at governance, legal obligations and the evidence a governing body should expect.**
+**[Part 2: What school boards need to see](/posts/school-cyber-audits-vs-managed-security-part-two/) looks at governance, legal obligations and the evidence a governing body should expect.**
 
 ---
 

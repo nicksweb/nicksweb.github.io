@@ -2,7 +2,7 @@
 title: "How Australian education runs security operations, and what boards should ask next (Part 4)"
 description: "WA Education, Brisbane Catholic Education and independent schools show different ways to combine assessment, a SOC and managed response, and what schools still own."
 keywords: [education security operations centre, Brisbane Catholic Education Sentinel SOC, school managed detection and response, independent school cyber security model, school MSP incident response, school board cyber questions]
-date: 2026-09-26 09:30:00 +1000
+date: 2026-09-26 07:15:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, education, governance, incident-response]
 wrap_tables: true

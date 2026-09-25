@@ -2,7 +2,7 @@
 title: "What school boards need to see: cyber governance, legal duties and evidence (Part 2)"
 description: "How Australian school boards and councils can oversee cyber risk: which privacy and governance obligations apply, and the evidence worth asking for."
 keywords: [school board cyber governance, APP 11 schools, notifiable data breaches schools, ACNC governance standard 5 cyber, Essential Eight schools, school council cyber risk oversight]
-date: 2026-09-26 09:10:00 +1000
+date: 2026-09-26 07:05:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, education, governance, privacy]
 wrap_tables: true
@@ -114,7 +114,7 @@ At the next meeting, a governing body could reasonably ask management for:
 
 None of these requires a new supplier. They do show whether current arrangements amount to an operating capability or only to a set of documents.
 
-**[Part 3: Pricing cyber assurance and managed security]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-three %}) puts illustrative numbers on assessment and managed services and compares them over three years.**
+**[Part 3: Pricing cyber assurance and managed security](/posts/school-cyber-audits-vs-managed-security-part-three/) puts illustrative numbers on assessment and managed services and compares them over three years.**
 
 ---
 

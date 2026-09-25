@@ -2,7 +2,7 @@
 title: "Pricing cyber assurance and managed security for a school: a three-year comparison (Part 3)"
 description: "Illustrative Australian budgets for school cyber assessments and managed detection and response, with a three-year cost model and break-even test."
 keywords: [school cyber security audit cost, penetration testing cost Australia, MDR pricing Australia, managed SOC cost schools, SIEM costs education, cyber security budget schools]
-date: 2026-09-26 09:20:00 +1000
+date: 2026-09-26 07:10:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, education, governance, procurement]
 wrap_tables: true
@@ -158,7 +158,7 @@ The comparison is not really "audit or managed security." Both columns above kee
 
 For some schools, a full managed programme will be justified. For others, a narrower service such as identity monitoring, an incident retainer with pre-authorised actions and a tested after-hours escalation may close most of the gap at a fraction of the cost. The right answer depends on the school's exposure, existing licences and internal capability.
 
-**[Part 4: How Australian education systems run security operations]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-four %}) looks at real operating models, what each leaves the school to handle, and a concrete action for the next board meeting.**
+**[Part 4: How Australian education systems run security operations](/posts/school-cyber-audits-vs-managed-security-part-four/) looks at real operating models, what each leaves the school to handle, and a concrete action for the next board meeting.**
 
 ---
 
