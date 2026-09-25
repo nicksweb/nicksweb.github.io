@@ -36,10 +36,13 @@ internal links resolve in `_site/` after building.
 
 ## Consulting and contact
 
-`_tabs/consulting.html` is the service and contact page at `/consulting/`, with
+`_tabs/consulting.md` is the service and contact page at `/consulting/`, with
 redirects from `/contact/` and `/consult/`. Service descriptions, the booking URL,
 ABN and encoded email are maintained in `_data/consulting.yml`. The descriptions
 also populate the Service structured data in `_includes/consulting-schema.html`.
+
+The page copy is Markdown; `_layouts/consulting.html` provides the page wrapper
+and `_includes/consulting-email.html` holds the interactive email controls.
 
 `assets/js/contact.js` reveals the email only after a visitor presses the button,
 and supports copying it. Base64 is a deterrent to basic email scraping, not

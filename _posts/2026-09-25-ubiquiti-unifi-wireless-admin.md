@@ -13,7 +13,7 @@ image:
 
 I've completed **UniFi Wireless Admin (UWA)**, a two-day Ubiquiti course delivered by Leader in Townsville. After the three days I spent on [routing, switching and cyber security]({% post_url 2026-09-23-ubiquiti-routing-switching-and-cybersecurity-admin %}), it was good to get back into a classroom and spend time on wireless design.
 
-The lesson I took away is straightforward: **design Wi-Fi around the experience of the people and devices using it**. A phone needs to keep working as someone walks between rooms. A check-in tablet needs a reliable connection at the front desk. A room full of people needs enough capacity, not just a strong signal icon.
+The lesson I took away is straightforward: **design Wi-Fi around the experience of the people and devices using it**. A phone needs to keep working as someone walks between rooms. A check-in tablet needs a reliable connection at the front desk. A room full of students in a classroom needs enough capacity, not just a strong signal icon.
 
 ## What the two days covered
 

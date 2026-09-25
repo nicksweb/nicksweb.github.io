@@ -56,6 +56,24 @@
   object-fit: contain;
 }
 
+/* Keep Bootstrap buttons inside article content consistent with the homepage.
+   Chirpy adds a link underline and an !important orange hover colour here. */
+.consulting-page a.btn {
+  border-bottom-color: var(--bs-btn-border-color);
+
+  &:hover,
+  &:focus-visible {
+    color: var(--bs-btn-hover-color) !important;
+    border-bottom-color: var(--bs-btn-hover-border-color);
+  }
+
+  &:active,
+  &.active {
+    color: var(--bs-btn-active-color) !important;
+    border-bottom-color: var(--bs-btn-active-border-color);
+  }
+}
+
 .consulting-actions {
   display: flex;
   flex-wrap: wrap;
