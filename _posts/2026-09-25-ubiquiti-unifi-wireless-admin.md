@@ -17,7 +17,7 @@ The lesson I took away is straightforward: **design Wi-Fi around the experience 
 
 ## What the two days covered
 
-[Leader's UWA course outline](https://leader-academy.com.au/courses/unifi-wireless-admin) moves from radio-frequency fundamentals and 802.11 networking into wireless LAN planning and deployment. It covers propagation, attenuation, channels, channel widths, interference, signal-to-noise ratio, site surveys, airtime and capacity. There is also practical work with UniFi controllers and access points, followed by an exam.
+[Leader's UWA course outline](https://leader-academy.com.au/courses/unifi-wireless-admin) moves from radio-frequency fundamentals and 802.11 networking into wireless LAN planning and deployment. It covers propagation, attenuation, channels, channel widths, interference, signal-to-noise ratio, site surveys, airtime and capacity. There is also practical work with UniFi controllers and access points, followed by an exam. There's a lot more, but that content is best for the course. Ubiquit already publish lots of useful information on deploying Wi-Fi environments at scale. 
 
 That theory matters when planning Wi-Fi at scale. Adding access points wherever a floor plan has a blank space might provide coverage, but it does not tell you whether clients can send data back, whether neighbouring APs interfere with one another, or how devices behave as they move.
 
