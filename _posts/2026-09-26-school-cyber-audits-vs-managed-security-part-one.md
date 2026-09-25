@@ -3,6 +3,7 @@ title: "The Friday afternoon call: why a school cyber audit is not a response pl
 description: "A recent Perth school breach shows why schools need independent assurance and someone able to act between audits, including after hours."
 keywords: [school cyber security incident, school data breach Australia, managed detection and response schools, school cyber security audit, St James Anglican School cyber attack, education incident response]
 date: 2026-09-26 07:00:00 +1000
+last_modified_at: 2026-09-26 08:40:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, education, governance, incident-response]
 wrap_tables: true
@@ -40,7 +41,9 @@ The questions come quickly:
 - Who decides whether this is a notifiable data breach, and when does that assessment start?
 - Who talks to families, and who approves what they are told?
 
-None of this is unusual. Attackers have long favoured weekends and holidays because fewer people are watching. Suppliers can discover a problem at any hour, and school timetables do not stop incidents from starting in the holidays. A school that can only respond during business hours, and only when one or two key people are available, carries a gap that no annual report will close.
+The timing is not just bad luck. In a [2025 survey by Semperis](https://www.semperis.com/press-release/semperis-study-reveals-majority-ransomware-attacks-continue-during-holidays-weekends/){:target="_blank" rel="noopener noreferrer"}, 52% of organisations surveyed across ten countries, including Australia, said they had been targeted by ransomware on holidays or weekends. In the same survey, 78% said they cut security operations staffing by half or more during those periods. Semperis sells identity recovery products, so read the figures as a vendor survey, but the pattern fits with the reduced staffing it describes.
+
+Schools have a particular version of this problem: long holiday periods when key staff are away. A school that can only respond during business hours, and only when one or two key people are available, carries a gap that no annual report will close.
 
 ## A good audit can still leave that gap open
 
@@ -52,17 +55,21 @@ This is not an argument against audits. Independent assessment tells a board wha
 
 An assessment is still evidence about a scope at a point in time. It does not watch the tenant at 2am on a Saturday. It does not revoke a session token when a teacher's password is phished. It does not decide whether to take a system offline during exams.
 
-The direction across the industry is towards **continuous risk management, supported by periodic independent testing**. Buying a managed service does not replace prevention, governance or assurance either. The two answer different questions, and boards need evidence that both are working.
+Assessment findings also only help if they are fixed. Western Australia's Auditor General makes this point bluntly. Its [2025 information systems audit of 53 state government entities](https://audit.wa.gov.au/reports-and-publications/reports/state-government-2025-information-systems-audit-results/){:target="_blank" rel="noopener noreferrer"} found that almost two thirds of findings were unresolved from previous years, including 57% of significant findings. Those entities were being audited every year. The gap was in what happened afterwards.
+
+Common frameworks treat protection, detection and response as ongoing functions. [NIST's Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework){:target="_blank" rel="noopener noreferrer"} organises cyber security into six functions: Govern, Identify, Protect, Detect, Respond and Recover. An annual assessment mostly tests the first three. The other three need people and processes that run continuously. Buying a managed service does not replace prevention, governance or assurance either. The two answer different questions, and boards need evidence that both are working.
 
 ## The sector context
 
-Aon's *2026 Independent Schools Risk Report* ranked cyber risk first among participating schools, and one in four participating schools reported experiencing a cyber attack. I covered the report in more detail in [What Aon's 2026 risk report tells independent schools about cyber resilience]({% post_url 2026-07-19-cyber-risk-independent-schools-australia %}).
+Aon's [*2026 Independent Schools Risk Report*](https://schoolsriskreport.aon.com.au/){:target="_blank" rel="noopener noreferrer"} ranked cyber risk first among participating schools, and 25% of participating schools reported cyber attacks, up from 20% in 2024. I covered the report in more detail in [What Aon's 2026 risk report tells independent schools about cyber resilience]({% post_url 2026-07-19-cyber-risk-independent-schools-australia %}).
 
-The usual caution applies. The survey covered 306 independent schools, and Aon notes that the findings are not representative of every Australian independent school. It measures reported experience and priorities. It does not measure how many schools use managed detection and response, and it is not a school's probability of being breached. What it does do is confirm that cyber risk is a leading concern in the sector.
+The usual caution applies. The survey covered 306 independent schools, and Aon notes that the findings are not representative of every Australian independent school. It measures reported experience and priorities. It does not measure how many schools use managed detection and response, and it is not a school's probability of being breached.
+
+Regulator data points the same way. The OAIC received **81 notifications from the education sector** under the Notifiable Data Breaches scheme in 2025, the fifth highest of any sector. Across all sectors, 716 of the 1,205 notifications were attributed to malicious or criminal attacks. [OAIC 2025 statistics](https://www.oaic.gov.au/news/media-centre/data-breach-notifications-increase-to-all-time-high-in-2025,-new-ndb-stats-show){:target="_blank" rel="noopener noreferrer"}.
 
 ## Getting the terms straight
 
-Much of the confusion in board papers and supplier proposals comes from terms being used interchangeably. They are not the same thing.
+Board papers and supplier proposals sometimes use these terms interchangeably. They are not the same thing.
 
 | Approach | Main question it answers | Principal limitation |
 |---|---|---|
@@ -84,17 +91,17 @@ I wrote about the difference between scanning, penetration testing and tested re
 
 Schools are not uniquely vulnerable, but several features make detection and response harder to scope than in a typical small business. These are practical scoping considerations, not a claim that every school has the same risk profile.
 
-**Identity turnover.** Every year brings a new intake and a graduating cohort. Add relief teachers, contractors, volunteers, coaches, role changes and accounts that quietly survive after someone leaves. Identity is often where incidents start, and it changes constantly.
+**Identity turnover.** Every year brings a new intake and a graduating cohort. Add relief teachers, contractors, volunteers, coaches, role changes and accounts that quietly survive after someone leaves. That matters because stolen or misused credentials are a leading way in. Verizon's [2025 Data Breach Investigations Report](https://www.verizon.com/about/news/2025-data-breach-investigations-report){:target="_blank" rel="noopener noreferrer"} found credential abuse was the most common initial attack vector, at 22% of breaches, just ahead of vulnerability exploitation at 20%.
 
 **BYOD and mixed devices.** Personal laptops, shared classroom devices, Chromebooks, tablets and specialist equipment often cannot run the chosen endpoint agent. Whatever cannot be monitored needs to be documented as a blind spot, not assumed to be covered.
 
-**EdTech dependencies.** Learning platforms, student information systems, parent portals, payment services, wellbeing applications and their integrations all hold or move school data. Some incidents begin inside a supplier's environment, not the school's.
+**EdTech dependencies.** Learning platforms, student information systems, parent portals, payment services, wellbeing applications and their integrations all hold or move school data. The same Verizon report found third-party involvement in breaches had doubled to 30%. Some incidents begin inside a supplier's environment, not the school's.
 
 **Consequential information.** Schools hold health information, safeguarding records, disability and learning-support information, family circumstances, financial details and government identifiers. The St James reporting is a reminder that this can include medical records and photographs going back many years.
 
 **Continuity.** Attendance, emergency communications, payroll, teaching, examinations and boarding must keep working during an incident. Containment decisions have real consequences for students and staff, which is why someone needs pre-agreed authority to make them.
 
-Supplier assessments help with the EdTech problem. [Safer Technologies 4 Schools (ST4S)](https://st4s.edu.au/general-information/){:target="_blank" rel="noopener noreferrer"} provides assessment evidence used across government, Catholic and independent education. Its findings should inform a school's decision about a particular product, configuration and use. They do not replace that decision. I covered how to turn that evidence into an accountable approval in [How independent schools should govern technology approvals]({% post_url 2026-09-12-privacy-act-reforms-independent-schools-governance %}).
+Supplier assessments help with the EdTech problem. [Safer Technologies 4 Schools (ST4S)](https://st4s.edu.au/general-information/){:target="_blank" rel="noopener noreferrer"} is administered by Education Services Australia on behalf of state and territory governments and the Catholic and independent school sectors. It assesses digital products against criteria covering areas such as data protection, organisational security, privacy controls and data breach response. In my view, its findings should inform a school's decision about a particular product, configuration and use, not replace that decision. I covered how to turn that evidence into an accountable approval in [How independent schools should govern technology approvals]({% post_url 2026-09-12-privacy-act-reforms-independent-schools-governance %}).
 
 ## Before the next Friday afternoon
 

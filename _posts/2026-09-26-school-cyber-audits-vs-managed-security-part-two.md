@@ -3,6 +3,7 @@ title: "What school boards need to see: cyber governance, legal duties and evide
 description: "How Australian school boards and councils can oversee cyber risk: which privacy and governance obligations apply, and the evidence worth asking for."
 keywords: [school board cyber governance, APP 11 schools, notifiable data breaches schools, ACNC governance standard 5 cyber, Essential Eight schools, school council cyber risk oversight]
 date: 2026-09-26 07:05:00 +1000
+last_modified_at: 2026-09-26 08:40:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, education, governance, privacy]
 wrap_tables: true
@@ -51,19 +52,19 @@ For the broader privacy reform picture, see [Privacy Act reforms in 2026: what i
 
 ### A Queensland note
 
-Many readers here are in Queensland, so this is worth stating plainly. Queensland government agencies, including state schools through the Department of Education, became subject to the state's **mandatory data breach notification scheme** on 1 July 2025 under the *Information Privacy Act 2009* (Qld). Commonwealth NDB obligations should not simply be copied into a state-school governance description; the scheme, regulator and processes differ. [Queensland OIC guidance](https://www.oic.qld.gov.au/government/privacy/mandatory-data-breach-scheme){:target="_blank" rel="noopener noreferrer"}.
+Many readers here are in Queensland, so this is worth stating plainly. Queensland government agencies, including the Department of Education, which operates the state's public schools, became subject to the state's **mandatory data breach notification scheme** on 1 July 2025 under the *Information Privacy Act 2009* (Qld). Commonwealth NDB obligations should not simply be copied into a state-school governance description; the scheme, regulator and processes differ. [Queensland OIC guidance](https://www.oic.qld.gov.au/government/privacy/mandatory-data-breach-scheme){:target="_blank" rel="noopener noreferrer"}.
 
 ### Charities and companies limited by guarantee
 
-Many independent schools are companies limited by guarantee registered with the ACNC. For these entities, [ACNC guidance](https://www.acnc.gov.au/for-charities/manage-your-charity/other-regulators/companies-limited-guarantee){:target="_blank" rel="noopener noreferrer"} explains that certain civil statutory directors' duties under the Corporations Act are replaced by ACNC governance requirements, although some Corporations Act obligations remain. Governance Standard 5 covers the [duties of Responsible People](https://www.acnc.gov.au/for-charities/manage-your-charity/governance-hub/5-duties-responsible-people/duties-responsible-people){:target="_blank" rel="noopener noreferrer"}, including acting with reasonable care and diligence.
+Some independent schools are structured as companies limited by guarantee and registered with the ACNC. For those entities, [ACNC guidance](https://www.acnc.gov.au/for-charities/manage-your-charity/other-regulators/companies-limited-guarantee){:target="_blank" rel="noopener noreferrer"} explains that certain civil statutory directors' duties under the Corporations Act are replaced by ACNC governance requirements, although some Corporations Act obligations remain. Governance Standard 5 covers the [duties of Responsible People](https://www.acnc.gov.au/for-charities/manage-your-charity/governance-hub/5-duties-responsible-people/duties-responsible-people){:target="_blank" rel="noopener noreferrer"}, including acting with reasonable care and diligence.
 
 That does not lower the standard. It means the correct source of the duty should be cited when a board paper describes the governing body's responsibilities.
 
 ## Enforcement examples, used carefully
 
-In February 2026, the Federal Court ordered FIIG Securities to pay a **$2.5 million penalty** over cyber security failures, following action by ASIC. ASIC's findings included failures to allocate adequate resources to qualified people, implement multi-factor authentication for remote access, keep key systems patched, have qualified personnel monitoring threat alerts, provide staff training, and maintain an incident response plan tested at least annually. [ASIC's media release](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-021mr-asic-action-sees-fiig-securities-ordered-to-pay-25-million-over-cyber-security-failures){:target="_blank" rel="noopener noreferrer"}.
+In February 2026, following action by ASIC, FIIG Securities was ordered to pay a **$2.5 million penalty** over cyber security failures, plus $500,000 towards ASIC's costs. According to ASIC, a 2023 cyber attack on FIIG resulted in about 385 GB of confidential data being stolen, affecting around 18,000 clients. ASIC's findings included failures to allocate adequate resources to qualified people, implement multi-factor authentication for remote access, keep key systems patched, have qualified personnel monitoring threat alerts, provide staff training, and maintain an incident response plan tested at least annually. [ASIC's media release](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-021mr-asic-action-sees-fiig-securities-ordered-to-pay-25-million-over-cyber-security-failures){:target="_blank" rel="noopener noreferrer"}.
 
-Several of those findings describe operating failures, not policy gaps. Nobody was watching the alerts, and nobody had tested the response plan. This connects directly to the gap between audit and operation in Part 1.
+Several of those findings describe operating failures, not policy gaps. ASIC found FIIG did not have qualified IT personnel monitoring threat alerts, or an incident response plan tested at least annually. This connects directly to the gap between audit and operation in Part 1.
 
 The case concerned **financial services licensing obligations**. It was not a finding of personal liability against school directors, and it should not be presented that way. It is useful as an illustration of what regulators may treat as inadequate in practice.
 
@@ -71,7 +72,7 @@ Similarly, Essential Eight alignment is not the same as legal compliance, and AS
 
 ## From receiving reports to overseeing outcomes
 
-Many boards receive a cyber update that is either too technical to act on or too reassuring to test. A better approach is a small set of measures, each backed by evidence that shows whether the arrangement is working.
+A cyber update to a board can easily be too technical to act on or too reassuring to test. A small set of measures, each backed by evidence that shows whether the arrangement is working, gives the board something it can oversee.
 
 These are recommended governance measures, not prescribed statutory metrics:
 
@@ -91,15 +92,16 @@ A few practical notes:
 - **Live dashboards need honest labels.** Any dashboard should show when it was last refreshed and what it does not cover. It cannot give complete real-time visibility of risk.
 - **"After hours" belongs on the dashboard.** If containment times are only measured during business hours, the Friday afternoon risk will not appear in the board report.
 - **Accepted risks should expire.** Exceptions should have an owner and a review date, not remain accepted indefinitely.
+- **Track closure, not just findings.** Western Australia's Auditor General found that almost two thirds of the information systems findings in its [2025 audit of 53 state government entities](https://audit.wa.gov.au/reports-and-publications/reports/state-government-2025-information-systems-audit-results/){:target="_blank" rel="noopener noreferrer"} were unresolved from previous years. That included 57% of significant findings. Access management and endpoint security were the weakest areas, with fewer than a quarter of entities meeting the benchmark in each. An annual audit that repeats last year's findings is telling the board something important.
 
 ## Insurance renewals need evidence too
 
-Cyber insurance proposal forms increasingly ask detailed questions about MFA, endpoint protection, backups, patching, testing and incident response. [Chubb's published proposal material](https://www.chubb.com/content/dam/chubb-sites/chubb-com/au-en/business/technology-liability-insurance/documents/pdf/chubb-premiertech-proposal-form.pdf){:target="_blank" rel="noopener noreferrer"} shows the level of control questioning involved. That particular form targets technology businesses, not schools, but the questions are representative.
+Cyber insurance proposal forms can ask detailed questions about MFA, endpoint protection, backups, patching, testing and incident response. [Chubb's published proposal form](https://www.chubb.com/content/dam/chubb-sites/chubb-com/au-en/business/technology-liability-insurance/documents/pdf/chubb-premiertech-proposal-form.pdf){:target="_blank" rel="noopener noreferrer"} is one example of that level of questioning. That particular form targets technology businesses, not schools, so check your own insurer's proposal form for the questions that apply to you.
 
 Two practical points follow:
 
 - **Keep evidence that supports each declaration.** If the renewal says MFA is enforced for all staff, keep the report that shows it, and record the exceptions.
-- **Do not assume managed security guarantees cover or lowers premiums.** Some insurers may view it favourably. That depends on the insurer and the policy, and suppliers who promise premium reductions deserve scepticism.
+- **Do not assume managed security guarantees cover or lowers premiums.** That is a matter for the insurer and the policy. Ask the broker or insurer directly, and treat a supplier's promise of premium reductions with scepticism.
 
 Check whether the policy requires a specific incident response panel or insurer notification before engaging a provider. That belongs on the Friday afternoon call list.
 
@@ -114,7 +116,7 @@ At the next meeting, a governing body could reasonably ask management for:
 
 None of these requires a new supplier. They do show whether current arrangements amount to an operating capability or only to a set of documents.
 
-**[Part 3: Pricing cyber assurance and managed security](/posts/school-cyber-audits-vs-managed-security-part-three/) puts illustrative numbers on assessment and managed services and compares them over three years.**
+**[Part 3: Pricing cyber assurance and managed security](/posts/school-cyber-audits-vs-managed-security-part-three/) builds assessment and managed-service budgets from published prices and compares them over three years.**
 
 ---
 

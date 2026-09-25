@@ -3,6 +3,7 @@ title: "How Australian education runs security operations, and what boards shoul
 description: "WA Education, Brisbane Catholic Education and independent schools show different ways to combine assessment, a SOC and managed response, and what schools still own."
 keywords: [education security operations centre, Brisbane Catholic Education Sentinel SOC, school managed detection and response, independent school cyber security model, school MSP incident response, school board cyber questions]
 date: 2026-09-26 07:15:00 +1000
+last_modified_at: 2026-09-26 08:40:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, education, governance, incident-response]
 wrap_tables: true
@@ -16,11 +17,11 @@ There is no single right model. A state department, a Catholic system and a sing
 
 ## State departments: central capability, local responsibilities
 
-Western Australia provides a documented example. A Department of Education [role advertisement](https://search.jobs.wa.gov.au/index.php?AdvertID=384350){:target="_blank" rel="noopener noreferrer"} describes a departmental Security Operations Centre supporting cyber security controls. It includes operations roles responsible for identifying, assessing, mitigating and monitoring incidents.
+Western Australia shows central capability and independent audit working side by side. The Office of Digital Government's [Cyber Security Unit](https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/office-of-digital-government/cyber-security-unit){:target="_blank" rel="noopener noreferrer"} leads and coordinates whole-of-government cyber security, and lists establishing the WA Government Cyber Security Operations Centre among its key initiatives. Separately, the Auditor General audits agencies' information systems each year. The Department of Education was among the 53 entities covered by the [2025 information systems audit](https://audit.wa.gov.au/reports-and-publications/reports/state-government-2025-information-systems-audit-results/){:target="_blank" rel="noopener noreferrer"}.
 
-That establishes an internal SOC capability in one jurisdiction. It does not establish identical arrangements, or 24/7 coverage, in every Australian education department.
+That audit's overall results are a useful caution for any central model, although they are not specific to the Department of Education. Access management and endpoint security were the weakest categories, with fewer than a quarter of entities meeting the benchmark in each. Almost two thirds of findings were unresolved from previous years. A central SOC and an annual audit were both in place across government. Fixing the findings still depended on each entity.
 
-A central model typically works like this:
+The public material does not show whether the same arrangements, or 24/7 coverage, apply in other Australian education departments. In a central model, I would expect responsibilities to divide roughly like this:
 
 - **Central security leadership** owns standards, risk, detection engineering and major-incident coordination.
 - **A departmental or contracted SOC** monitors shared identity, endpoints, networks and cloud services.
@@ -42,7 +43,7 @@ BCE identified the need for a dedicated SOC that could monitor and respond aroun
 - **ongoing posture review** to keep protections current
 - **regular security and cost reporting**, including a forecast of Azure spend.
 
-The case study quotes BCE's Manager, Information Systems, saying the organisation can now respond quickly to security alerts. It also reports reduced time and cost in responding to threats and more accurate event information.
+The case study quotes Jeff Peters, BCE's Manager, Information Systems: "Our cybersecurity capabilities have been greatly enhanced. We are now able to respond quickly to security alerts and keep our environment secure." It also reports reduced time and cost in responding to threats and more accurate event information, but gives no figures.
 
 This is a **supplier-published case study**. It shows an operating approach, but it does not independently quantify return on investment or prove current coverage. Its value for this series is the sequence. **A review found a problem that another review could not fix. The organisation needed ongoing capacity to deal with identity events as they happened.** The regular cost reporting also reflects the SIEM cost concerns raised in Part 3.
 
@@ -58,9 +59,9 @@ When a system provides shared services to many schools, an incident can cross th
 
 ## Independent and multi-campus schools: keep ownership, buy specialist capacity
 
-Most independent schools do not have a security team. They may have a small IT team, an MSP, or both. For these schools, I think a **hybrid arrangement** is usually worth evaluating:
+Independent schools already rely heavily on outside providers. In Aon's 2026 survey, **81% of participating independent schools outsourced an IT function**, up from 77% in 2024 ([Aon 2026 Independent Schools Risk Report](https://schoolsriskreport.aon.com.au/){:target="_blank" rel="noopener noreferrer"}). A school may have a small IT team, an MSP, or both. For these schools, I think a **hybrid arrangement** is worth evaluating:
 
-- **An internal executive owns cyber risk.** This is often the business manager or a deputy principal, supported by the IT leader.
+- **An internal executive owns cyber risk.** For example, the business manager or a deputy principal, supported by the IT leader.
 - **Existing IT staff or an MSP** implement changes and maintain services.
 - **An MDR provider** supplies specialist monitoring and defined after-hours response.
 - **Independent assessors** test the resulting controls.
@@ -80,7 +81,7 @@ The table below makes the trade-offs concrete. The final column matters most, be
 | Breach inside an EdTech supplier | Reviews supplier evidence and contracts. | May detect related account misuse or ingest supplier alerts. | Supplier cooperation, data mapping, breach assessment and notifications. |
 | Ransomware affecting shared services | Tests controls and recovery assumptions. | Attempts early detection and containment. | Tested backups, restoration capacity and incident leadership. |
 
-The EdTech row is a common way for the Friday afternoon call to begin. The school learns about the incident from a supplier email, not its own monitoring. No provider can tell the school which of its data sat in that platform unless the school has already mapped it. My earlier post on [governing technology approvals]({% post_url 2026-09-12-privacy-act-reforms-independent-schools-governance %}) covers keeping a service register that makes this possible.
+The EdTech row deserves particular attention. Verizon's 2025 Data Breach Investigations Report found [third-party involvement in breaches had doubled to 30%](https://www.verizon.com/about/news/2025-data-breach-investigations-report){:target="_blank" rel="noopener noreferrer"}, and the [Canvas-related incident affecting Townsville schools]({% post_url 2026-05-13-nq-cyber-watch-townsville-schools-canvas-breach %}) is a local example. In that situation, the school may learn about the incident from a supplier email, not its own monitoring. No provider can tell the school which of its data sat in that platform unless the school has already mapped it. My earlier post on [governing technology approvals]({% post_url 2026-09-12-privacy-act-reforms-independent-schools-governance %}) covers keeping a service register that makes this possible.
 
 ## Not every breach is an attack
 
@@ -88,7 +89,7 @@ It would be easy to read this series as "buy MDR and you are covered." The Towns
 
 In June 2026, [TCE published an eligible data breach notification](https://www.tsv.catholic.edu.au/about/eligible-data-breach-notification/){:target="_blank" rel="noopener noreferrer"} after finding that a limited number of staff had been auto-forwarding corporate email to personal accounts. TCE reported the matter to the OAIC and said it did not believe there was malicious intent. I covered the incident and the tenant controls that prevent it in [A quiet auto-forwarding rule becomes a notifiable data breach]({% post_url 2026-07-03-nq-cyber-watch-tce-auto-forwarding-breach %}).
 
-Endpoint MDR would not necessarily have caught that. There was no malware and no intruder, only a mail setting that stayed on for too long. The lessons are about **ongoing configuration, access and information governance**. Someone has to review tenant settings, offboarding and data flows continually, as well as watch for attacks. That work might sit with the MSP, the internal team or a broader managed security service. It needs an owner either way.
+Endpoint MDR would not necessarily have caught that. By TCE's account there was no malicious intent, only mail settings that stayed in place, in some cases after staff had left. The lessons are about **ongoing configuration, access and information governance**. Someone has to review tenant settings, offboarding and data flows continually, as well as watch for attacks. That work might sit with the MSP, the internal team or a broader managed security service. It needs an owner either way.
 
 ## Key takeaways from the series
 
