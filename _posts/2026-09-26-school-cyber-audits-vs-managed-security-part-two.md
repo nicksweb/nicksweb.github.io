@@ -1,9 +1,9 @@
 ---
 title: "What school boards need to see: cyber governance, legal duties and evidence (Part 2)"
 description: "How Australian school boards and councils can oversee cyber risk: which privacy and governance obligations apply, and the evidence worth asking for."
-keywords: [school board cyber governance, APP 11 schools, notifiable data breaches schools, ACNC governance standard 5 cyber, Essential Eight schools, school council cyber risk oversight]
+keywords: [school board cyber governance, APP 11 schools, notifiable data breaches schools, ACNC governance standard 5 cyber, CIS Controls schools, Essential Eight replacement, school council cyber risk oversight]
 date: 2026-09-26 07:05:00 +1000
-last_modified_at: 2026-09-26 08:40:00 +1000
+last_modified_at: 2026-09-26 11:39:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, education, governance, privacy]
 wrap_tables: true
@@ -42,7 +42,7 @@ Cyber governance articles often blur the rules that apply to schools. These are 
 | **APP 11** | Covered entities must take reasonable steps to protect personal information, including technical and organisational measures. An audit report is evidence of an activity, not a statutory safe harbour. |
 | **Notifiable Data Breaches** | Covered entities must assess a suspected eligible breach expeditiously and take reasonable steps to complete the assessment within 30 days. Where there are reasonable grounds to believe an eligible breach has occurred, notification is required as soon as practicable, subject to exceptions. |
 | **Director and charity governance duties** | Duties depend on legal structure and registration. Ordinary company-director rules should not be applied to every school council or charity. |
-| **Essential Eight** | A baseline of preventative controls, with an appropriate target maturity and supporting evidence. Detection, response, recovery and governance measures are still needed. |
+| **Security frameworks** | Frameworks such as the CIS Controls or ASD's guidance help organise and evidence "reasonable steps". None is a legal safe harbour on its own. |
 
 Sources: [OAIC on children, young people and education](https://www.oaic.gov.au/privacy/your-privacy-rights/more-privacy-rights/children-and-young-people){:target="_blank" rel="noopener noreferrer"}, [APP 11 guidelines](https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-11-app-11-security-of-personal-information){:target="_blank" rel="noopener noreferrer"}, [NDB assessment and notification](https://www.oaic.gov.au/privacy/notifiable-data-breaches/preventing-preparing-for-and-responding-to-data-breaches/data-breach-preparation-and-response/part-4-notifiable-data-breach-ndb-scheme){:target="_blank" rel="noopener noreferrer"}.
 
@@ -68,7 +68,19 @@ Several of those findings describe operating failures, not policy gaps. ASIC fou
 
 The case concerned **financial services licensing obligations**. It was not a finding of personal liability against school directors, and it should not be presented that way. It is useful as an illustration of what regulators may treat as inadequate in practice.
 
-Similarly, Essential Eight alignment is not the same as legal compliance, and ASD does not impose a universal requirement for independent Essential Eight certification. Particular government policies, funding arrangements, regulators or contracts may require assessment. [ASD Essential Eight maturity model](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/essential-eight/essential-eight-maturity-model){:target="_blank" rel="noopener noreferrer"}.
+## A note on frameworks: the Essential Eight is changing
+
+For years, "what's our Essential Eight maturity level?" has been the default cyber question in many Australian board papers. That is changing.
+
+In June 2026, ASD began [consulting on the evolution of the Essential Eight](https://www.cyber.gov.au/about-us/view-all-content/news/consultation-on-evolution-of-essential-eight){:target="_blank" rel="noopener noreferrer"} into a new **Essentials series**. The first chapter is *Essentials for enterprise IT*, with more chapters to follow. [iTnews reported](https://www.itnews.com.au/news/asd-to-retire-essential-eight-cyber-security-framework-within-next-two-years-626851){:target="_blank" rel="noopener noreferrer"} that ASD plans to begin deprecating the Essential Eight in about 12 months and retire it in about 24, with the two running side by side in the meantime. The reason given was that the Essential Eight was designed before cloud was the norm, and its controls don't map cleanly onto SaaS and shared-responsibility environments. That describes most schools today, with identity, email, learning platforms and student records largely in the cloud.
+
+For a governing body, I think this means three things:
+
+- **Don't make a maturity level the headline measure.** Report on the outcomes in the table below: coverage, identity protection, containment time and whether findings are actually being closed.
+- **Existing work isn't wasted.** ASD says organisations already using the Essential Eight can expect strong alignment between the new guidance and their existing controls and investments. MFA, patching, restricted admin privileges and tested backups remain the basics.
+- **Pick a framework that fits the environment you actually run.** The [CIS Controls](https://www.cisecurity.org/controls/cis-controls-list){:target="_blank" rel="noopener noreferrer"} I referred to in Part 1 cover cloud, identity, monitoring and incident response. Their IG1 "essential cyber hygiene" group is a sensible starting point, and ASD's Essentials series is worth following as it matures.
+
+Whichever framework a school uses, alignment is not the same as legal compliance. Particular government policies, funding arrangements, regulators or contracts may still require a specific assessment.
 
 ## From receiving reports to overseeing outcomes
 
@@ -116,7 +128,7 @@ At the next meeting, a governing body could reasonably ask management for:
 
 None of these requires a new supplier. They do show whether current arrangements amount to an operating capability or only to a set of documents.
 
-**[Part 3: Pricing cyber assurance and managed security](/posts/school-cyber-audits-vs-managed-security-part-three/) builds assessment and managed-service budgets from published prices and compares them over three years.**
+**[Part 3: Paying for improvement, not another report](/posts/school-cyber-audits-vs-managed-security-part-three/) looks at how to judge cyber security spending by what measurably improves between audits.**
 
 ---
 

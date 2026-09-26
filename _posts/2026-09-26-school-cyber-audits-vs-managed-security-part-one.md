@@ -3,7 +3,7 @@ title: "The Friday afternoon call: why a school cyber audit is not a response pl
 description: "A recent Perth school breach shows why schools need independent assurance and someone able to act between audits, including after hours."
 keywords: [school cyber security incident, school data breach Australia, managed detection and response schools, school cyber security audit, St James Anglican School cyber attack, education incident response]
 date: 2026-09-26 07:00:00 +1000
-last_modified_at: 2026-09-26 08:40:00 +1000
+last_modified_at: 2026-09-26 11:39:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, education, governance, incident-response]
 wrap_tables: true
@@ -17,7 +17,7 @@ I have no inside knowledge of the incident, and this post does not speculate on 
 
 It is also not an isolated case. Closer to home, this site has covered the [Canvas-related breach affecting Townsville schools]({% post_url 2026-05-13-nq-cyber-watch-townsville-schools-canvas-breach %}) and [Townsville Catholic Education's auto-forwarding breach]({% post_url 2026-07-03-nq-cyber-watch-tce-auto-forwarding-breach %}). Each incident had a different cause, but the question for school leaders is the same: **when something is found, who is able to act, and how quickly?**
 
-This is the first part of a four-part series, *Cyber security audits vs managed security: what Australian school boards need to know*. It sets out the problem and the terms. [Part 2](/posts/school-cyber-audits-vs-managed-security-part-two/) covers board governance and legal obligations, [Part 3](/posts/school-cyber-audits-vs-managed-security-part-three/) compares costs over three years, and [Part 4](/posts/school-cyber-audits-vs-managed-security-part-four/) looks at how Australian education systems are actually organising security operations.
+This is the first part of a four-part series, *Cyber security audits vs managed security: what Australian school boards need to know*. It sets out the problem and the terms. [Part 2](/posts/school-cyber-audits-vs-managed-security-part-two/) covers board governance and legal obligations, [Part 3](/posts/school-cyber-audits-vs-managed-security-part-three/) looks at what schools should expect to get for their security spend, and [Part 4](/posts/school-cyber-audits-vs-managed-security-part-four/) looks at how Australian education systems are actually organising security operations.
 
 ## Incidents rarely arrive at a convenient time
 
@@ -36,6 +36,7 @@ The questions come quickly:
 
 - Does our managed service provider cover this, or only business-hours support?
 - Do we have an incident response retainer, and what is the number?
+- When did we last review our conditional access policies in M365? 
 - Does our cyber insurance policy require us to use a particular panel firm, and have we notified the insurer?
 - Who can authorise disabling the principal's account, isolating the finance system or taking the parent portal offline?
 - Who decides whether this is a notifiable data breach, and when does that assessment start?
@@ -57,7 +58,9 @@ An assessment is still evidence about a scope at a point in time. It does not wa
 
 Assessment findings also only help if they are fixed. Western Australia's Auditor General makes this point bluntly. Its [2025 information systems audit of 53 state government entities](https://audit.wa.gov.au/reports-and-publications/reports/state-government-2025-information-systems-audit-results/){:target="_blank" rel="noopener noreferrer"} found that almost two thirds of findings were unresolved from previous years, including 57% of significant findings. Those entities were being audited every year. The gap was in what happened afterwards.
 
-Common frameworks treat protection, detection and response as ongoing functions. [NIST's Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework){:target="_blank" rel="noopener noreferrer"} organises cyber security into six functions: Govern, Identify, Protect, Detect, Respond and Recover. An annual assessment mostly tests the first three. The other three need people and processes that run continuously. Buying a managed service does not replace prevention, governance or assurance either. The two answer different questions, and boards need evidence that both are working.
+The [CIS Critical Security Controls](https://www.cisecurity.org/controls/cis-controls-list){:target="_blank" rel="noopener noreferrer"} are a practical way to see the difference. Of the 18 Controls in version 8.1, Penetration Testing is only one (Control 18). Others describe work that never finishes: Continuous Vulnerability Management (7), Audit Log Management (8), Network Monitoring and Defense (13) and Incident Response Management (17). CIS also groups its safeguards into [Implementation Groups](https://www.cisecurity.org/controls/implementation-groups){:target="_blank" rel="noopener noreferrer"}. IG1 is described as "essential cyber hygiene", which gives a school a realistic place to start.
+
+Buying a managed service does not replace prevention, governance or assurance either. Assessment and ongoing operation answer different questions, and boards need evidence that both are working.
 
 ## The sector context
 
@@ -89,19 +92,28 @@ I wrote about the difference between scanning, penetration testing and tested re
 
 ## Why schools are harder than they look
 
-Schools are not uniquely vulnerable, but several features make detection and response harder to scope than in a typical small business. These are practical scoping considerations, not a claim that every school has the same risk profile.
+Schools are not uniquely vulnerable, but three things make detection and response harder to scope:
 
-**Identity turnover.** Every year brings a new intake and a graduating cohort. Add relief teachers, contractors, volunteers, coaches, role changes and accounts that quietly survive after someone leaves. That matters because stolen or misused credentials are a leading way in. Verizon's [2025 Data Breach Investigations Report](https://www.verizon.com/about/news/2025-data-breach-investigations-report){:target="_blank" rel="noopener noreferrer"} found credential abuse was the most common initial attack vector, at 22% of breaches, just ahead of vulnerability exploitation at 20%.
+- **Identities change constantly.** New intakes, graduating cohorts, relief teachers, contractors and volunteers all come and go. Verizon's [2025 Data Breach Investigations Report](https://www.verizon.com/about/news/2025-data-breach-investigations-report){:target="_blank" rel="noopener noreferrer"} found credential abuse was the most common way in, at 22% of breaches.
+- **Suppliers hold much of the data.** The same report found third-party involvement in breaches had doubled to 30%. [ST4S](https://st4s.edu.au/general-information/){:target="_blank" rel="noopener noreferrer"} assessments help, but the school still makes the decision. I covered that in [How independent schools should govern technology approvals]({% post_url 2026-09-12-privacy-act-reforms-independent-schools-governance %}).
+- **The information is sensitive.** Health, safeguarding, family and financial records, sometimes going back many years, as the St James reporting shows.
 
-**BYOD and mixed devices.** Personal laptops, shared classroom devices, Chromebooks, tablets and specialist equipment often cannot run the chosen endpoint agent. Whatever cannot be monitored needs to be documented as a blind spot, not assumed to be covered.
+### The device nobody manages
 
-**EdTech dependencies.** Learning platforms, student information systems, parent portals, payment services, wellbeing applications and their integrations all hold or move school data. The same Verizon report found third-party involvement in breaches had doubled to 30%. Some incidents begin inside a supplier's environment, not the school's.
+One scenario deserves particular attention because it sits in the gap between audit and monitoring.
 
-**Consequential information.** Schools hold health information, safeguarding records, disability and learning-support information, family circumstances, financial details and government identifiers. The St James reporting is a reminder that this can include medical records and photographs going back many years.
+A student's laptop or a staff member's phone joins the school Wi-Fi. The school doesn't manage it, and it doesn't run the school's endpoint agent. It may already be compromised, perhaps by a "free AI assistant" app that turned out to be malware. From inside the network, it starts scanning for file shares, printers, management interfaces and other internal services. It may also try the saved school credentials it has already harvested.
 
-**Continuity.** Attendance, emergency communications, payroll, teaching, examinations and boarding must keep working during an incident. Containment decisions have real consequences for students and staff, which is why someone needs pre-agreed authority to make them.
+This is not far-fetched. ESET has [reported fake generative AI apps in mobile app stores](https://www.welivesecurity.com/en/cybersecurity/beware-fake-ai-tools-masking-very-real-malware-threat/){:target="_blank" rel="noopener noreferrer"}, many carrying malware designed to steal credentials and other data. Verizon's 2025 report found that [46% of systems compromised by infostealers that held corporate logins were non-managed devices](https://www.verizon.com/business/resources/infographics/2025-dbir-infographic.pdf){:target="_blank" rel="noopener noreferrer"}, most likely BYOD or personal devices.
 
-Supplier assessments help with the EdTech problem. [Safer Technologies 4 Schools (ST4S)](https://st4s.edu.au/general-information/){:target="_blank" rel="noopener noreferrer"} is administered by Education Services Australia on behalf of state and territory governments and the Catholic and independent school sectors. It assesses digital products against criteria covering areas such as data protection, organisational security, privacy controls and data breach response. In my view, its findings should inform a school's decision about a particular product, configuration and use, not replace that decision. I covered how to turn that evidence into an accountable approval in [How independent schools should govern technology approvals]({% post_url 2026-09-12-privacy-act-reforms-independent-schools-governance %}).
+Endpoint monitoring won't see that device, because there is no agent on it. What can help:
+
+- **Segmentation**, so the BYOD network cannot reach internal services at all.
+- **Network monitoring** on the segments where unmanaged devices connect.
+- **Conditional access policies** that limit what an unmanaged device can do with a school account.
+- **Identity alerts** for sign-ins from unfamiliar devices or locations.
+
+An annual penetration test might find that the BYOD network can reach something it shouldn't. Only ongoing monitoring will notice the day a device actually starts trying. I wrote more about AI tools as a new attack surface in [Agentic AI and your attack surface]({% post_url 2026-08-24-agentic-ai-attack-surface-schools-nfps-businesses %}).
 
 ## Before the next Friday afternoon
 

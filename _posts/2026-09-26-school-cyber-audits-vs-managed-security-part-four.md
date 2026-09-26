@@ -3,13 +3,13 @@ title: "How Australian education runs security operations, and what boards shoul
 description: "WA Education, Brisbane Catholic Education and independent schools show different ways to combine assessment, a SOC and managed response, and what schools still own."
 keywords: [education security operations centre, Brisbane Catholic Education Sentinel SOC, school managed detection and response, independent school cyber security model, school MSP incident response, school board cyber questions]
 date: 2026-09-26 07:15:00 +1000
-last_modified_at: 2026-09-26 08:40:00 +1000
+last_modified_at: 2026-09-26 11:39:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, education, governance, incident-response]
 wrap_tables: true
 ---
 
-*This is the final part of* Cyber security audits vs managed security: what Australian school boards need to know. *[Part 1]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-one %}) set out the gap between assessment and response, [Part 2]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-two %}) covered governance and legal obligations, and [Part 3]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-three %}) compared costs over three years.*
+*This is the final part of* Cyber security audits vs managed security: what Australian school boards need to know. *[Part 1]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-one %}) set out the gap between assessment and response, [Part 2]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-two %}) covered governance and legal obligations, and [Part 3]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-three %}) argued for judging security spend by what measurably improves between audits.*
 
 The earlier parts were mostly about principles and numbers. This one looks at how Australian education organisations actually organise security operations, and what each model still leaves the school to handle.
 
@@ -45,7 +45,7 @@ BCE identified the need for a dedicated SOC that could monitor and respond aroun
 
 The case study quotes Jeff Peters, BCE's Manager, Information Systems: "Our cybersecurity capabilities have been greatly enhanced. We are now able to respond quickly to security alerts and keep our environment secure." It also reports reduced time and cost in responding to threats and more accurate event information, but gives no figures.
 
-This is a **supplier-published case study**. It shows an operating approach, but it does not independently quantify return on investment or prove current coverage. Its value for this series is the sequence. **A review found a problem that another review could not fix. The organisation needed ongoing capacity to deal with identity events as they happened.** The regular cost reporting also reflects the SIEM cost concerns raised in Part 3.
+This is a **supplier-published case study**. It shows an operating approach, but it does not independently quantify return on investment or prove current coverage. Its value for this series is the sequence. **A review found a problem that another review could not fix. The organisation needed ongoing capacity to deal with identity events as they happened.** The ongoing posture reviews are also the kind of year-round improvement work described in Part 3.
 
 For diocesan and system-level governance, the important thing is explicit ownership of:
 
@@ -62,10 +62,10 @@ When a system provides shared services to many schools, an incident can cross th
 Independent schools already rely heavily on outside providers. In Aon's 2026 survey, **81% of participating independent schools outsourced an IT function**, up from 77% in 2024 ([Aon 2026 Independent Schools Risk Report](https://schoolsriskreport.aon.com.au/){:target="_blank" rel="noopener noreferrer"}). A school may have a small IT team, an MSP, or both. For these schools, I think a **hybrid arrangement** is worth evaluating:
 
 - **An internal executive owns cyber risk.** For example, the business manager or a deputy principal, supported by the IT leader.
-- **Existing IT staff or an MSP** implement changes and maintain services.
+- **A partner, or an internal team with enough capacity, drives the improvement work.** That means closing the last audit's findings through projects such as MFA, conditional access and administrator role changes, and reviewing issues as they arise.
 - **An MDR provider** supplies specialist monitoring and defined after-hours response.
-- **Independent assessors** test the resulting controls.
-- **Leadership practises decisions** involving disruption, privacy, parents and insurers.
+- **Independent assessors** test the resulting controls and confirm what has actually closed since the last audit.
+- **Leadership practises decisions** involving disruption, privacy, parents and insurers, for example through a tabletop exercise.
 
 The contract then needs to answer the Friday afternoon question in writing: what can the provider do on its own authority, what needs a call first, and who takes that call when the IT manager is on leave?
 
@@ -76,7 +76,7 @@ The table below makes the trade-offs concrete. The final column matters most, be
 | Education situation | Assessment contribution | Managed-service contribution | Remaining school responsibility |
 |---|---|---|---|
 | Compromised staff account during the holidays | Tests authentication and access design. | Detects suspicious activity and may revoke sessions or disable access. | Pre-authorised action, escalation and continuity arrangements. |
-| Student BYOD outside endpoint-agent coverage | Tests segmentation and access boundaries. | Monitors available identity, network and SaaS signals. | Device policy, privacy boundaries and documented blind spots. |
+| Compromised BYOD device scanning internal services | Tests whether the BYOD network can reach internal services. | Network monitoring and identity alerts can spot the activity; there is no endpoint agent on the device. | Segmentation, conditional access for unmanaged devices, device policy and documented blind spots. |
 | Vulnerable classroom software during exams | Identifies exposure and attack paths. | Tracks exposure and suspicious activity. | A named owner decides remediation timing and interim controls. |
 | Breach inside an EdTech supplier | Reviews supplier evidence and contracts. | May detect related account misuse or ingest supplier alerts. | Supplier cooperation, data mapping, breach assessment and notifications. |
 | Ransomware affecting shared services | Tests controls and recovery assumptions. | Attempts early detection and containment. | Tested backups, restoration capacity and incident leadership. |
@@ -98,16 +98,17 @@ Endpoint MDR would not necessarily have caught that. By TCE's account there was 
 - **Outsourcing needs active oversight.** The school still owns the risk and retains responsibilities the provider cannot carry.
 - **Identity, SaaS and student information deserve attention** alongside endpoints.
 - **Legal obligations depend on the entity and jurisdiction.** Check what applies to your school.
-- **Financial comparisons should be complete.** Include internal effort, integration, logs, remediation and the risk that remains.
+- **Judge spending by what improves.** Findings should close and stay closed. The same findings every year are a warning sign, not a formality.
+- **Report outcomes, not maturity levels.** With the Essential Eight being replaced by ASD's Essentials series, coverage, closure and containment times make better board measures.
 - **Incidents do not keep school hours.** Plan for the Friday afternoon and the school holidays, not only for the working week.
 
 ## One action for the next board meeting
 
 If a governing body takes only one thing from this series, I would suggest this request:
 
-> At the next governing-body meeting, ask management to show which critical services are monitored, who can contain an incident after hours, and when those arrangements were last tested.
+> At the next governing-body meeting, ask management to show which critical services are monitored, who can contain an incident after hours, when those arrangements were last tested, and which findings from the last audit have actually been closed.
 
-The answer should be a coverage map, a named person or provider with documented authority, and a date. If any of those are missing, the board has found something worth funding before the next Friday afternoon call.
+The answer should be a coverage map, a named person or provider with documented authority, a date, and a list of closed findings. If any of those are missing, the board has found something worth funding before the next Friday afternoon call.
 
 If your school, not-for-profit or business in North Queensland wants a second opinion on its current arrangements, you can [get in touch through my consulting page](/consulting/).
 

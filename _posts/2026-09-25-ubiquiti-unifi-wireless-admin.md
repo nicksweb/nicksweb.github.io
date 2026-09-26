@@ -13,11 +13,11 @@ image:
 
 I've completed **UniFi Wireless Admin (UWA)**, a two-day Ubiquiti course delivered by Leader in Townsville. After the three days I spent on [routing, switching and cyber security]({% post_url 2026-09-23-ubiquiti-routing-switching-and-cybersecurity-admin %}), it was good to get back into a classroom and spend time on wireless design.
 
-The lesson I took away is straightforward: **design Wi-Fi around the experience of the people and devices using it**. A phone needs to keep working as someone walks between rooms. A check-in tablet needs a reliable connection at the front desk. A room full of students in a classroom needs enough capacity, not just a strong signal icon.
+The lesson I took away is straightforward: **design Wi-Fi around the experience of the people and devices using it**. A phone needs to keep working as someone walks between rooms. A check-in tablet needs a reliable connection at the front desk. Students in a classroom need enough Wi-Fi capacity, not just a strong signal icon.
 
 ## What the two days covered
 
-[Leader's UWA course outline](https://leader-academy.com.au/courses/unifi-wireless-admin) moves from radio-frequency fundamentals and 802.11 networking into wireless LAN planning and deployment. It covers propagation, attenuation, channels, channel widths, interference, signal-to-noise ratio, site surveys, airtime and capacity. There is also practical work with UniFi controllers and access points, followed by an exam. There's a lot more, but that content is best for the course. Ubiquit already publish lots of useful information on deploying Wi-Fi environments at scale. 
+[Leader's UWA course outline](https://leader-academy.com.au/courses/unifi-wireless-admin) moves from radio-frequency fundamentals and 802.11 networking into wireless LAN planning and deployment. It covers propagation, attenuation, channels, channel widths, interference, signal-to-noise ratio, site surveys, airtime and capacity. There is also practical work with UniFi controllers and access points, followed by an exam. There's a lot more, but that content is best for the course. Ubiquiti already publish lots of useful information on deploying Wi-Fi environments at scale. 
 
 That theory matters when planning Wi-Fi at scale. Adding access points wherever a floor plan has a blank space might provide coverage, but it does not tell you whether clients can send data back, whether neighbouring APs interfere with one another, or how devices behave as they move.
 

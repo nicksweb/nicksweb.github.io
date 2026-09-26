@@ -1,194 +1,98 @@
 ---
-title: "Pricing cyber assurance and managed security for a school: a three-year comparison (Part 3)"
-description: "Australian school cyber assessment and managed detection costs built from published prices, with a three-year cost model and a break-even test."
-keywords: [school cyber security audit cost, penetration testing cost Australia, MDR pricing Australia, managed SOC cost schools, SIEM costs education, cyber security budget schools]
+title: "Paying for improvement, not another report: getting results from school cyber security spend (Part 3)"
+description: "Why schools should judge cyber security spending by what measurably improves between audits, with indicative costs for testing, workshops and managed support."
+keywords: [school cyber security audit cost, penetration testing cost Australia, school cyber security improvement, conditional access schools, cyber tabletop exercise schools, managed security schools]
 date: 2026-09-26 07:10:00 +1000
-last_modified_at: 2026-09-26 08:40:00 +1000
+last_modified_at: 2026-09-26 11:39:00 +1000
 categories: [Cyber Security]
 tags: [cyber-security, education, governance, procurement]
 wrap_tables: true
 ---
 
-*This is Part 3 of* Cyber security audits vs managed security: what Australian school boards need to know. *[Part 1]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-one %}) explained the gap between assessment and response. [Part 2]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-two %}) covered governance and legal obligations.*
+*This is Part 3 of* Cyber security audits vs managed security: what Australian school boards need to know. *[Part 1]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-one %}) explained the gap between assessment and response. [Part 2]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-two %}) covered governance, legal obligations and the evidence a board should expect.*
 
-Sooner or later a business manager will ask what all of this costs, and whether the school is paying twice for overlapping services.
+Sooner or later a business manager will ask what all of this costs. It is a fair question, but I think there is a better one to ask alongside it:
 
-Reliable figures are harder to find than they should be. Many providers quote only after scoping, and published prices cover different scopes. So this post keeps two things separate:
+> **What will be measurably better at our next audit because of this spend?**
 
-- **Published evidence:** prices that suppliers and Microsoft publish, and cost data from ASD, IBM and the OAIC. Each one is linked.
-- **My assumptions:** effort-day estimates and model inputs, labelled so you can replace them with your own numbers or with quotes.
+A cyber security audit is a snapshot. It is useful because it tells you where you stand. But an organisation that commissions the same audit every year and gets much the same findings back is not showing that it is improving. It is showing that it can afford an audit.
 
-All figures are **Australian dollars, excluding GST**, unless stated otherwise. Where a source publishes prices in US dollars, I have converted them at the [Reserve Bank of Australia rate](https://www.rba.gov.au/statistics/frequency/exchange-rates.html){:target="_blank" rel="noopener noreferrer"} for 25 September 2026: **A$1 = US$0.7019**.
+## When the audit says the same thing every year
 
-## The example school
+This is not a hypothetical problem. Western Australia's Auditor General reviews the information systems of state government entities every year. In its [2025 results](https://audit.wa.gov.au/reports-and-publications/reports/state-government-2025-information-systems-audit-results/){:target="_blank" rel="noopener noreferrer"}, almost two thirds of findings across 53 entities were unresolved from previous years, including 57% of significant findings. Access management and endpoint security were the weakest areas, with fewer than a quarter of entities meeting the benchmark in each.
 
-To keep the comparison meaningful, assume:
+Those entities were audited every year. The audits did their job: they found the problems. What was missing was the capacity, ownership and follow-through to fix them.
 
-- a multi-campus school with approximately **1,000 managed endpoints**
-- shared identity services, such as Microsoft 365 or Google Workspace
-- a defined sample of campuses and cloud environments for assessment.
+In my experience, schools are no different. The findings that recur are usually the unglamorous ones: MFA gaps, too many standing administrator accounts, legacy sign-in methods still allowed, devices that don't meet policy, and email settings nobody has reviewed. Each one needs someone to plan the change, work through the exceptions, communicate with staff and see it through. That is project work, and a report alone does not deliver it.
 
-A department-wide or diocesan-wide engagement is a different exercise and needs separate scoping.
+## Schools want to improve
 
-## Point-in-time assessment
+Schools do want to improve. Aon's [*2026 Independent Schools Risk Report*](https://schoolsriskreport.aon.com.au/){:target="_blank" rel="noopener noreferrer"} found 76% of participating schools had documented preventative cyber measures in place, up from 66% in 2024.
 
-### What published prices tell us
+Sector bodies are responding too. Independent Schools NSW (ISNSW) offers [cyber security services for independent schools](https://www.isnsw.edu.au/services/technology-services/cyber-security-services-for-independent-schools/tabletop-workshop){:target="_blank" rel="noopener noreferrer"}, including a Cyber Security Tabletop Workshop. It is pitched at helping schools:
 
-Assessment is mostly priced by effort. Two published Australian price points let us estimate a day rate:
+- experience real-world challenges in a safe environment
+- identify and mitigate risks
+- help leaders act decisively during a crisis
+- build collaboration and confidence across teams
+- show their community a commitment to security.
 
-- One Australian penetration testing firm [publishes fixed-fee packages](https://www.cliffside.com.au/testing-assurance/penetration-testing/pricing/){:target="_blank" rel="noopener noreferrer"} of $5,900 for three testing days, $9,500 for five and $18,500 for ten, ex GST, with retesting of critical and high findings within 90 days included. That works out to roughly **$1,850–1,970 per testing day**.
-- Another Australian provider's [published pricing guide](https://vapt.com.au/blog/penetration-test-cost-australia/){:target="_blank" rel="noopener noreferrer"} gives an indicative **$8,000–18,000 for a cloud security review of one platform, based on 4–8 days of effort**. That implies about **$2,000–2,250 per day**.
+That is exactly the Friday afternoon scenario from Part 1, practised before it happens.
 
-So in the budget below I use a band of **$1,850–2,250 per day**. The day counts are **my planning assumptions** for a school of this size, not supplier figures. Ask each supplier to state its own day count for every component, which also makes proposals easier to compare.
+The question for a board is whether its spending turns that appetite into change it can see.
 
-| Component and assumed scope | Assumed days | At $1,850–2,250/day |
-|---|---:|---:|
-| Physical-access and wireless testing across two sampled campuses | 5–12 | $9,250–27,000 |
-| Internal/external network and identity attack-path testing | 4–9 | $7,400–20,250 |
-| Cloud posture review: one AWS, Azure **or** GCP environment | 4–8 | $7,400–18,000 |
-| Microsoft 365 or Google Workspace tenant review | 3–5 | $5,550–11,250 |
-| Governance, policies, privacy, supplier processes and maturity assessment | 5–11 | $9,250–24,750 |
-| Consolidated reporting, board briefing and bounded retesting | 2–4 | $3,700–9,000 |
-| **Total: one cloud platform plus core SaaS tenant** | **23–49** | **about $43,000–110,000** |
-| **Total: AWS, Azure and GCP, plus core SaaS tenant** | **31–65** | **about $57,000–146,000** |
+## What an engaged partner should deliver between audits
 
-The cloud review row can be checked against the published $8,000–18,000 range above, and it lands close to it. The other rows depend on my day estimates, so treat them as a starting point for scoping, not a benchmark.
+In my view, the most valuable arrangement is not a bigger audit. It is a provider, or an internal team with enough capacity, that stays engaged through the year. That means two things.
 
-A few things to watch when comparing proposals:
+**Reviewing issues as they arrive.** New alerts, new suppliers, a staff member who has set up mail forwarding, a BYOD device behaving strangely on the network. These get looked at when they happen, not saved up for the next audit.
 
-- **Reporting and retesting may already be included.** The first published package above includes retesting, for example. Remove any overlap before adding component prices together.
-- **Azure infrastructure and Microsoft 365 are different scopes.** So are Google Cloud and Google Workspace. A proposal that says "cloud review" should say which.
-- **"Physical testing" needs a definition.** Inspecting access controls and attempting a physical intrusion require very different effort and approvals.
-- **Sampling two campuses does not mean every campus was tested.** The report should say what was not examined.
-- **Some costs sit outside this budget.** Travel, extensive application testing, large cloud estates, certification and remediation projects all add to it.
+**Driving the improvement projects.** Someone owns the plan for fixing last year's findings, manages the change with staff, and reports progress. Typical projects in a Microsoft 365 or Google Workspace school include:
 
-## Managed security services
+| Project | What "done" looks like | Evidence at the next audit |
+|---|---|---|
+| MFA for all staff, and students where appropriate | Near-complete coverage, with named exceptions that expire | MFA registration and enforcement reports |
+| Modern conditional access policies | Legacy authentication blocked; admin and sensitive apps require a compliant device; unmanaged devices limited | Policy export and sign-in logs showing policies applying |
+| Role-based access control for administrators | Fewer standing global admins; roles matched to tasks; just-in-time elevation where licensed | Before-and-after role assignment reports |
+| Tenant hygiene | External auto-forwarding disabled, alerts on forwarding rules, offboarding checks | Tenant configuration report |
+| BYOD and network segmentation | Unmanaged devices cannot reach internal services | Retest result from the next assessment |
+| Monitoring and response | Alerts triaged, including after hours, with defined authority to act | Monthly report of alerts, containment times and actions taken |
 
-### What published prices tell us
+Every row produces evidence. That is the point. At the next audit, the board should be able to see which findings closed, which were retested, and which recurred. If a provider can't describe what it will change in your environment before the next audit, and how you will measure it, keep looking.
 
-Managed detection and response pricing is less transparent than testing. Many providers only quote after scoping. One MDR vendor [publishes list prices](https://www.huntress.com/pricing){:target="_blank" rel="noopener noreferrer"} at a 100-unit example volume, with volume discounts above that:
+The tenant hygiene row is not theoretical. Townsville Catholic Education's [auto-forwarding breach]({% post_url 2026-07-03-nq-cyber-watch-tce-auto-forwarding-breach %}) came down to email forwarding settings that can be controlled at the tenant level.
 
-| Published service (US list price, 100-unit example) | USD per month | AUD per month at RBA rate |
-|---|---:|---:|
-| Managed EDR, per endpoint | US$7.99 | about A$11.38 |
-| Managed identity threat detection and response, per identity | US$3.60 | about A$5.13 |
-| Managed SIEM, per log source | US$3.50 | about A$4.99 |
+## What it costs, roughly
 
-The same page says the price includes the vendor's 24/7 SOC, but **not deployment, integration or day-to-day operational management**, which partners provide.
+I don't want to turn this into a pricing exercise, because the right figure depends heavily on scope. A few reference points help set expectations (ex GST):
 
-Applied to the example school, managed EDR alone would cost about **A$11,400 a month** for 1,000 endpoints at the 100-endpoint rate, before volume discounts. That figure excludes identity monitoring, log sources, deployment and partner management.
+| Service | Indicative cost | Source |
+|---|---|---|
+| Fixed-scope penetration test | $5,900 for 3 testing days to $18,500 for 10 | [One Australian firm's published packages](https://www.cliffside.com.au/testing-assurance/penetration-testing/pricing/){:target="_blank" rel="noopener noreferrer"} |
+| Comprehensive, multi-area assessment programme | Around $120,000 | A premium package I've seen priced; not publicly listed |
+| Cyber tabletop workshop for school leadership | About $10,000, less for NSW member schools | [ISNSW tabletop workshop](https://www.isnsw.edu.au/services/technology-services/cyber-security-services-for-independent-schools/tabletop-workshop){:target="_blank" rel="noopener noreferrer"} |
+| Managed endpoint detection and response | US$7.99 per endpoint per month (about A$11.38) at a 100-endpoint example, excluding deployment and partner management | [One vendor's published list price](https://www.huntress.com/pricing){:target="_blank" rel="noopener noreferrer"} |
 
-Two school-specific points follow from how this is priced:
+*The AUD conversion uses the [RBA rate](https://www.rba.gov.au/statistics/frequency/exchange-rates.html){:target="_blank" rel="noopener noreferrer"} for 25 September 2026 (A$1 = US$0.7019).*
 
-- **Identity pricing may count students.** A school can have far more student accounts than staff accounts. Ask whether per-identity pricing covers every account or only staff, and which accounts are actually monitored.
-- **The cheapest visible endpoint price is not the operating budget.** Integration, partner management and response authority are often priced separately.
+The spread between the first two rows is the main thing to notice. A $120,000 assessment that produces much the same report next year is expensive. A smaller assessment, paired with a partner who spends the year closing its findings, may deliver far more for the same money.
 
-### SIEM costs need particular scrutiny
+A tabletop workshop is also one of the cheapest ways to find out whether the Friday afternoon plan actually works.
 
-Log-based services can grow expensive quietly. Microsoft's [Sentinel billing documentation](https://learn.microsoft.com/en-us/azure/sentinel/billing){:target="_blank" rel="noopener noreferrer"} describes ingestion-based charging, commitment tiers, retention charges and additional infrastructure costs. Its [pricing page](https://www.microsoft.com/en-au/security/pricing/microsoft-sentinel/){:target="_blank" rel="noopener noreferrer"} describes commitment tiers from 100 GB a day, with savings of up to 52% compared with pay-as-you-go rates. It also describes a free ingestion allowance of up to 5 MB per user per day for certain Microsoft 365 security logs with eligible licences.
+## Questions to ask before you sign
 
-Before signing, ask for:
+Whether you're buying an audit, a managed service or both, these questions get to what you're actually paying for:
 
-- the ingestion allowance included, and the overage rate
-- the searchable retention period and archive access costs
-- who pays for Azure or cloud consumption, and whether a forecast is provided
-- exit and export costs if the school changes provider.
+1. **What will you have changed in our environment by the next audit, and how will we measure it?**
+2. **Who drives the remediation projects: you, our IT team or our MSP?** And who is accountable if they stall?
+3. **Will you report on findings closed and retested, not only findings raised?**
+4. **Can you act, or only notify?** Alert notification is not authority to act. If the contract only allows the provider to email the IT manager, the school has bought detection, not response.
+5. **What is outside scope?** Finding a vulnerability is not patching it, an incident retainer is not unlimited forensic work, and endpoint monitoring is not identity, SaaS and cloud coverage.
 
-### What is rarely published
-
-I could not find published Australian prices for incident response retainers or virtual CISO services. Providers generally quote these based on response times, prepaid hours and organisation size. They need a quote, and the retainer terms matter as much as the price. Check the response time, the hours included, the rate for additional work, and whether the insurer must approve the provider.
-
-### Five distinctions to check in every proposal
-
-Proposals are much easier to compare when these are checked explicitly:
-
-1. **Finding a vulnerability is not patching it.**
-2. **Containing an endpoint is not rebuilding it.**
-3. **An incident retainer is not unlimited forensic work.**
-4. **Endpoint monitoring is not identity, SaaS and cloud coverage.**
-5. **Alert notification is not authority to act.**
-
-The last point matters most for the Friday afternoon scenario. If the contract only allows the provider to email the IT manager, the school has bought detection, not response.
-
-## A three-year comparison
-
-This is an **explicitly hypothetical** comparison. Both options keep the same annual independent assessment. The difference is who operates detection and response between assessments.
-
-**Assumptions** (replace these with your own figures or quotes):
-
-- **1,000 managed endpoints**, with scope and prices fixed for three years.
-- **$60,000 a year for independent assessment** in both options. That is about 27–32 testing days at the published day rates above, within the budget range.
-- **$60,000 a year of internal staff time** for security coordination in both options. This is my assumption. Use your school's actual allocation.
-- **$36,000 a year for standalone endpoint protection** (about $3 per endpoint per month) in the internal option. Check whether your existing Microsoft or Google education licences already include it.
-- **$18,000 a month for the managed bundle.** This is about A$11,400 for published managed EDR list pricing plus about $6,600 for identity monitoring, log sources and partner management. The bundle replaces the standalone endpoint protection.
-- **$30,000 for onboarding.** This is my assumption, reflecting that published list prices exclude deployment and integration.
-
-| Cost over three years | Assessment + business-hours internal operation | Assessment + managed operation |
-|---|---:|---:|
-| Independent assessments: $60,000 × 3 | $180,000 | $180,000 |
-| Standalone endpoint protection: $36,000 × 3 | $108,000 | Included below |
-| Managed service: $18,000 × 36 months | — | $648,000 |
-| Internal coordination: $60,000 × 3 | $180,000 | $180,000 |
-| Onboarding | — | $30,000 |
-| **Scoped three-year programme cost** | **$468,000** | **$1,038,000** |
-
-The managed option costs an additional **$570,000 over three years**, or **$190,000 a year**.
-
-Internal coordination does not disappear under a managed model. Someone still needs to own the risk, manage the provider, approve changes and make decisions during an incident. That is why the line appears in both columns.
-
-This is a scoped programme comparison, not whole-of-organisation total cost of ownership. A full TCO would also include shared infrastructure, backup services, remediation projects, training, procurement effort, insurance, incident costs and transition costs. Licence price changes, enrolment growth and log-volume growth should be modelled separately.
-
-## Is it worth it? Testing the break-even
-
-A board should not accept "cyber is important" as a financial justification. It also should not reject a proposal because the benefit is harder to count than the cost.
-
-A simple framework:
-
-> **Expected annual loss** = the sum of each incident scenario's annual frequency × its expected financial impact.
-
-Estimate expected loss before and after the proposed controls. The difference is the annual benefit.
-
-Using the example above, here is how the result changes with different assumptions:
-
-| Assumed annual reduction in expected loss | Three-year benefit | Benefit less additional programme cost |
-|---|---:|---:|
-| $100,000 | $300,000 | **–$270,000** |
-| $200,000 | $600,000 | **$30,000** |
-| $400,000 | $1,200,000 | **$630,000** |
-
-The model breaks even at an **annual expected-loss reduction of $190,000**. If quotes come in at $30,000 a month instead of $18,000, the additional three-year cost becomes $1,002,000 and break-even rises to about **$334,000 a year**. These are arithmetic on assumptions, not measured MDR outcomes.
-
-### What the published cost data says
-
-No published source gives a reliable cost for a school incident, but three Australian data points help test whether a scenario is realistic:
-
-- **ASD's reported costs:** in [ASD's Annual Cyber Threat Report 2024–25 fact sheet for businesses](https://www.cyber.gov.au/sites/default/files/2025-10/Annual%20Cyber%20Threat%20Report%202024-25%20factsheet%20for%20businesses%20and%20organisations.pdf){:target="_blank" rel="noopener noreferrer"}, the average self-reported cost per cybercrime report was **$80,850**. By business size it was $56,600 for small businesses, $97,200 for medium businesses and $202,700 for large businesses. These are costs reported to ReportCyber, which covers everything from fraud to major compromise.
-- **IBM's breach study:** IBM's 2026 *Cost of a Data Breach* study put the average Australian breach at **AUD 4.22 million**, [as reported by SecurityBrief](https://securitybrief.com.au/story/australia-breach-costs-hit-aud-4-22-million-ibm-says){:target="_blank" rel="noopener noreferrer"}. The study measures organisations' full breach costs and is not specific to schools.
-- **OAIC notifications:** the education sector made **81 notifications** under the Notifiable Data Breaches scheme in 2025, the fifth highest of any sector, out of 1,205 notifications overall. [OAIC 2025 statistics](https://www.oaic.gov.au/news/media-centre/data-breach-notifications-increase-to-all-time-high-in-2025,-new-ndb-stats-show){:target="_blank" rel="noopener noreferrer"}.
-
-Set against the break-even, the $190,000 a year in this model is more than twice ASD's average cost per business report. It is far below IBM's average breach. Which reference is closer depends on the school's scenarios. A breach exposing medical records, bank details and photographs of students going back a decade, like the incident discussed in [Part 1]({% post_url 2026-09-26-school-cyber-audits-vs-managed-security-part-one %}), is not a typical ReportCyber report. That is why the scenarios need to be the school's own.
-
-IBM's Australian figures also bear on detection speed. Breaches that took more than 200 days to identify and contain averaged AUD 5.17 million, compared with AUD 3.26 million for those handled within 200 days. That is an association, not proof that any particular service will reduce costs. It does support asking how quickly a school would notice a problem.
-
-Do not read a school's breach probability directly from a survey. Aon's "one in four" figure describes what participating independent schools reported. It is not the probability for any particular school.
-
-Some consequences matter even where they are hard to price reliably:
-
-- harm to students and families whose information is exposed
-- disruption to teaching, assessment and examinations
-- loss of access to safeguarding and wellbeing information when it is needed
-- loss of community confidence.
-
-A board can weigh those consequences openly alongside the financial model. They do not need to be forced into a precise dollar figure.
-
-## What this means in practice
-
-The comparison is not really "audit or managed security." Both columns above keep the audit. The real question is whether the school's current internal arrangements can detect and contain an incident outside business hours, and what it would cost to change that.
-
-For some schools, a full managed programme will be justified. For others, a narrower arrangement may close much of the gap for less. That could be identity monitoring, an incident retainer with pre-authorised actions and a tested after-hours escalation. The published unit prices above make it possible to price those options separately rather than only as a bundle.
+A provider with good answers to the first three is selling improvement. One that can only answer the last two is selling a service. Both have their place, but a school should know which one it is buying.
 
 **[Part 4: How Australian education systems run security operations](/posts/school-cyber-audits-vs-managed-security-part-four/) looks at real operating models, what each leaves the school to handle, and a concrete action for the next board meeting.**
 
 ---
 
-*Published prices are as displayed on the linked pages when checked on 26 September 2026 and may change. Links to suppliers are included as evidence of published pricing, not as recommendations. Effort-day counts and model inputs are my own planning assumptions. This is general information, not financial advice.*
+*Published prices are as displayed on the linked pages when checked on 26 September 2026 and may change. Links to suppliers are included as reference points, not recommendations. This is general information, not financial advice.*
