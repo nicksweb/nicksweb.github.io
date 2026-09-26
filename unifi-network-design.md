@@ -1,14 +1,17 @@
 ---
 layout: consulting
-title: Ubiquiti UniFi Network Design & Review in Townsville
-description: Independent Ubiquiti UniFi network and Wi-Fi design, quote reviews and pre-deployment configuration in Townsville from a UniFi-certified systems designer.
-keywords: [Ubiquiti consultant Townsville, UniFi network design, UniFi Wi-Fi design Townsville, Ubiquiti certified, UniFi quote review, network design review, Wi-Fi design North Queensland, UniFi health check, Nick O'Sullivan]
+title: Ubiquiti UniFi Network Design & Review Across Australia
+description: Independent Ubiquiti UniFi network and Wi-Fi design, quote reviews and health checks for organisations across Australia, from a UniFi-certified systems designer based in Townsville.
+keywords: [Ubiquiti consultant Australia, UniFi network design Australia, UniFi consultant, Ubiquiti consultant Townsville, UniFi Wi-Fi design, Ubiquiti certified, UniFi quote review, network design review, Wi-Fi design North Queensland, UniFi health check, Nick O'Sullivan]
 permalink: /consulting/unifi-network-design/
 redirect_from:
   - /unifi/
   - /ubiquiti/
 consulting_page: true
-service_name: Ubiquiti UniFi network design and review in Townsville
+service_name: Ubiquiti UniFi network design and review across Australia
+area_served:
+  - "@type": Country
+    name: Australia
 service_data: unifi_services
 toc: false
 image:
@@ -23,7 +26,7 @@ seo:
 Independent UniFi network design and quote reviews, so the network you pay for suits your building, your people and the devices they use.
 {: .lead }
 
-I'm Nicholas O'Sullivan, usually Nick. I'm a Townsville-based IT professional, certified by Ubiquiti Academy in **UniFi Routing, Switching & Cybersecurity Admin** and **UniFi Wireless Admin**. I design, plan and review UniFi networks for businesses, schools, churches and community organisations across North Queensland.
+I'm Nicholas O'Sullivan, usually Nick. I'm a Townsville-based IT professional, certified by Ubiquiti Academy in **UniFi Routing, Switching & Cybersecurity Admin** and **UniFi Wireless Admin**. From Townsville, I design, plan and review UniFi networks for businesses, schools, churches and community organisations across Australia.
 
 I'm not a cabling installer. My work happens before and around the installation: working out what the network needs to do, designing it, checking what has been proposed, and configuring and testing equipment before it goes live.
 
@@ -130,7 +133,7 @@ Tell me about your site, what the network needs to do and where your project is 
 
 {% include consulting-email.html %}
 
-Scope, availability and fees are agreed before work begins. Quote reviews and design work can often start from floor plans and existing documentation, with site visits across Townsville and North Queensland as needed. See my [general consulting services]({{ '/consulting/' | relative_url }}) for Microsoft 365, cyber security and technology planning.
+Scope, availability and fees are agreed before work begins. I'm based in Townsville and work with organisations Australia-wide. Quote reviews, design work and health checks can be done remotely from floor plans, existing documentation and secure access to your UniFi console. Site visits are available in North Queensland, and elsewhere by arrangement. See my [general consulting services]({{ '/consulting/' | relative_url }}) for Microsoft 365, cyber security and technology planning.
 {: .mt-3 .mb-0 }
 
 </div>

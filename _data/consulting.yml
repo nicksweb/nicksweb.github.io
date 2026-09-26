@@ -26,4 +26,4 @@ unifi_services:
   - name: UniFi network health check
     description: A review of an existing UniFi network covering firmware, administrator access and multi-factor authentication, console ownership, backups, VLANs, firewall rules, threat management and Wi-Fi settings. Findings are prioritised so your organisation can act on them.
   - name: Post-installation validation
-    description: A walk of the finished site with real client devices, checking signal quality, roaming and throughput against the design. Any adjustments are documented, so you know what changed and why.
+    description: A walk of the finished site with real client devices, in person or by guiding your installer through a WiFiman survey, checking signal quality, roaming and throughput against the design. Any adjustments are documented, so you know what changed and why.
