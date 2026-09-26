@@ -80,14 +80,14 @@ Formal recognition and continued learning support my practical work across IT an
   <section class="credential-card" aria-labelledby="ursca-credential">
     <div class="credential-badge"><img src="{{ '/assets/images/NOS-URSCA-badge.png' | relative_url }}" alt="Ubiquiti URSCA Routing, Switching and Cybersecurity badge" width="180" height="180"></div>
     <h3 id="ursca-credential">UniFi Routing, Switching &amp; Cybersecurity Admin</h3>
-    <p>Ubiquiti Academy certification completed in September 2026 through Leader's three-day course in Townsville, covering network design, routing, switching, network services and cyber security.</p>
+    <p>Ubiquiti Academy certification on the current UniFi platform, covering network design, routing, switching, network services and cyber security.</p>
     <p><a href="{{ '/assets/data/NOS-URSCA-Certificate.png' | relative_url }}">View my URSCA certificate</a></p>
     <p><a href="{% post_url 2026-09-23-ubiquiti-routing-switching-and-cybersecurity-admin %}">Read my training reflections</a></p>
   </section>
   <section class="credential-card" aria-labelledby="uwa-credential">
     <div class="credential-badge"><img src="{{ '/assets/images/NOS-UWA-badge.png' | relative_url }}" alt="Ubiquiti Academy UniFi Wireless Admin badge" width="180" height="180"></div>
     <h3 id="uwa-credential">UniFi Wireless Admin</h3>
-    <p>Ubiquiti Academy certification completed in September 2026 through Leader's two-day course in Townsville, covering RF fundamentals, wireless design, site surveys and UniFi deployment.</p>
+    <p>Ubiquiti Academy certification on the current UniFi platform, covering RF fundamentals, wireless design, site surveys and deployment of the latest UniFi access points.</p>
     <p><a href="{{ '/assets/data/NOS-UWA-Certificate.png' | relative_url }}">View my UWA certificate</a></p>
     <p><a href="{% post_url 2026-09-25-ubiquiti-unifi-wireless-admin %}">Read my wireless training reflections</a></p>
   </section>

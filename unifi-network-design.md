@@ -92,7 +92,7 @@ Over the years, I've worked with Ubiquiti, Cisco and Aruba equipment, as well as
 
 ## Certified in UniFi networking and Wi-Fi
 
-In September 2026, I completed two Ubiquiti Academy certifications through Leader's classroom training in Townsville.
+I hold two Ubiquiti Academy certifications on the current UniFi platform, from cloud gateways and switching through to the latest Wi-Fi 7 access points.
 
 <div class="credential-grid">
   <section class="credential-card" aria-labelledby="ursca-credential">
