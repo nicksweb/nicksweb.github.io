@@ -10,5 +10,20 @@ services:
     description: Review identity and administrator access, email security, cloud settings, endpoint management and backup arrangements. Identify practical improvements and put them in an order your organisation can act on.
   - name: Network and infrastructure advice
     description: Assess Wi-Fi, networks, servers, virtualisation and device management. Plan upgrades and improvements around the way your organisation works, the equipment you have and the budget available.
+    url: /consulting/unifi-network-design/
+    link_text: Ubiquiti UniFi network design and quote reviews
   - name: Technology planning and project support
     description: Turn a technology problem into a clear scope, priorities and next steps. Get help with systems integration, procurement decisions, vendor coordination, documentation and project delivery.
+# Rendered on /consulting/unifi-network-design/ and used as that page's
+# Service structured data.
+unifi_services:
+  - name: Quote and proposal review
+    description: An independent review of a UniFi quote or network proposal before you commit. I check the design against your building and the way it is used, identify gaps in security, capacity and documentation, and give you clear questions to take back to your provider.
+  - name: UniFi network and Wi-Fi design
+    description: A design built around your site, including access point placement and a channel plan in UniFi Design Center, network segmentation and firewall zones, switching and PoE requirements, and an equipment list your installer can quote and work from.
+  - name: Pre-deployment configuration and cut-over planning
+    description: Gateways, switches and access points configured and tested in a controlled environment before they reach your site, with a cut-over plan and rollback steps. The aim is a changeover measured in minutes rather than a day without a network.
+  - name: UniFi network health check
+    description: A review of an existing UniFi network covering firmware, administrator access and multi-factor authentication, console ownership, backups, VLANs, firewall rules, threat management and Wi-Fi settings. Findings are prioritised so your organisation can act on them.
+  - name: Post-installation validation
+    description: A walk of the finished site with real client devices, checking signal quality, roaming and throughput against the design. Any adjustments are documented, so you know what changed and why.

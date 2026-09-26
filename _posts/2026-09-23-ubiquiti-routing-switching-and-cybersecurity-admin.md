@@ -65,3 +65,5 @@ Among the people I know who completed the course, a common takeaway was greater 
 I'm especially pleased that we could do this in Townsville. As I wrote in [the backstory to this training week]({% post_url 2026-09-14-ubiquiti-training-townsville-tecnq-leader %}), local interest and support helped bring the opportunity to North Queensland.
 
 Thank you to Leader for delivering the training, and to the Townsville IT community for helping bring it here. Being able to invest in proper professional development locally makes a real difference. I'd love to see more of it.
+
+If you're planning a UniFi network or weighing up a quote, I now offer [independent UniFi network design and quote reviews]({{ '/consulting/unifi-network-design/' | relative_url }}).

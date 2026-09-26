@@ -1,14 +1,24 @@
 {% assign consultancy = site.data.consulting %}
+{% comment %}
+  Pages set consulting_page: true to output this Service. A service page can
+  override the name with service_name and list its offerings in the site data
+  key named by service_data; otherwise the general consulting services are used.
+{% endcomment %}
+{% assign service_page_url = page.url | absolute_url %}
+{% assign service_list = consultancy.services %}
+{% if page.service_data %}
+  {% assign service_list = consultancy[page.service_data] %}
+{% endif %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": {{ '/consulting/#service' | absolute_url | jsonify }},
-  "name": "IT and cyber security consulting in Townsville",
-  "url": {{ '/consulting/' | absolute_url | jsonify }},
+  "@id": {{ service_page_url | append: '#service' | jsonify }},
+  "name": {{ page.service_name | default: 'IT and cyber security consulting in Townsville' | jsonify }},
+  "url": {{ service_page_url | jsonify }},
   "description": {{ page.description | jsonify }},
-  "mainEntityOfPage": {{ '/consulting/' | absolute_url | jsonify }},
-  "serviceType": [{% for service in consultancy.services %}{{ service.name | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+  "mainEntityOfPage": {{ service_page_url | jsonify }},
+  "serviceType": [{% for service in service_list %}{{ service.name | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
   "areaServed": [
     { "@type": "City", "name": "Townsville" },
     { "@type": "Place", "name": "North Queensland, Australia" }

@@ -18,3 +18,7 @@ package-lock.json
 
 # sensitive file
 e4b21f9427514b1ba0f46c54827942d6.txt
+
+# private course notes (also excluded from the Jekyll build in _config.yml)
+assets/data/260921-Ubiquiti-Routing-Switching-Cybersecurity-Admin.pdf
+assets/data/2026-09-24-Ubiquiti-Wireless-Admin.pdf

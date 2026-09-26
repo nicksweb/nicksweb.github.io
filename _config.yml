@@ -225,6 +225,9 @@ exclude:
   - package*.json
   # Keep working recordings locally; the replacement is published from assets/videos.
   - assets/images/260911-great-northern-fire-townsville-Fire-Burning.MP4
+  # Private course notes kept for reference only; never publish them.
+  - assets/data/260921-Ubiquiti-Routing-Switching-Cybersecurity-Admin.pdf
+  - assets/data/2026-09-24-Ubiquiti-Wireless-Admin.pdf
 
 jekyll-archives:
   enabled: [categories, tags]

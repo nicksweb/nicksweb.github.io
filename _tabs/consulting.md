@@ -35,7 +35,9 @@ You might need a review of your Microsoft 365 environment, advice before replaci
 ### {{ service.name }}
 
 {{ service.description }}
-
+{% if service.url %}
+[{{ service.link_text }}]({{ service.url | relative_url }})
+{% endif %}
 {% endfor %}
 
 ## Working together

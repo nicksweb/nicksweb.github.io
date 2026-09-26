@@ -58,3 +58,5 @@ The course confirmed lessons I've picked up while working with Aruba, Cisco and 
 ![Ubiquiti Academy certificate recognising Nicholas O'Sullivan as a UniFi Wireless Admin]({{ '/assets/data/NOS-UWA-Certificate.png' | relative_url }}){: width="948" height="728" }
 
 [View the full-size UWA certificate]({{ '/assets/data/NOS-UWA-Certificate.png' | relative_url }}). I've also added the badge to my [Skills page]({{ '/skills/' | relative_url }}). For the wider certification pathway, see [Ubiquiti's official training page](https://www.ui.com/training).
+
+If you're planning Wi-Fi for a business, school or community building, see my [UniFi network design and review service]({{ '/consulting/unifi-network-design/' | relative_url }}).
