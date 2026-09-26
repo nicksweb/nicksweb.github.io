@@ -69,7 +69,7 @@ I don't want to turn this into a pricing exercise, because the right figure depe
 | Service | Indicative cost | Source |
 |---|---|---|
 | Fixed-scope penetration test | $5,900 for 3 testing days to $18,500 for 10 | [One Australian firm's published packages](https://www.cliffside.com.au/testing-assurance/penetration-testing/pricing/){:target="_blank" rel="noopener noreferrer"} |
-| Comprehensive, multi-area assessment programme | Around $120,000 | A premium package I've seen priced; not publicly listed |
+| Comprehensive, multi-area assessment programme | Around $120,000 | Industry estimate for a premium engagement; these are rarely publicly priced |
 | Cyber tabletop workshop for school leadership | About $10,000, less for NSW member schools | [ISNSW tabletop workshop](https://www.isnsw.edu.au/services/technology-services/cyber-security-services-for-independent-schools/tabletop-workshop){:target="_blank" rel="noopener noreferrer"} |
 | Managed endpoint detection and response | US$7.99 per endpoint per month (about A$11.38) at a 100-endpoint example, excluding deployment and partner management | [One vendor's published list price](https://www.huntress.com/pricing){:target="_blank" rel="noopener noreferrer"} |
 
