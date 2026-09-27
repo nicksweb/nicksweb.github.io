@@ -68,6 +68,8 @@ I write about IT and cyber security topics relevant to Townsville and North Quee
 
 I also occasionally post technical videos on my YouTube channel, [TechnologyLowdown](https://www.youtube.com/TechnologyLowdown).
 
+My earlier sports writing included covering rugby union games and writing cycling posts for [The Roar, where my author profile is under nicksweb](https://www.theroar.com.au/author/nicksweb/).
+
 ## Values
 
 I try to bring a calm, practical approach to complex technology problems. That means documenting decisions, explaining trade-offs clearly, keeping solutions right-sized, and helping leaders understand what should be improved first.

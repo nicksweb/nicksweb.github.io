@@ -1,6 +1,6 @@
 ---
 title: "Nick and Nicholas Townsville: the Google experiment is moving"
-description: "Nicholas Townsville reaches page one in my Google check, Nick reaches page two, and 28 days of search data show which local stories people are finding."
+description: "Nicholas Townsville on page one, Nick Townsville around pages one and two: my latest Google checks and 28 days of data on the stories people find."
 keywords: [Nick Townsville, Nicholas Townsville, Nick O'Sullivan Townsville, Nicholas O'Sullivan, personal SEO, Google Search Console, Townsville technology]
 date: 2026-09-27 10:00:00 +1000
 categories: [Technology & Careers]
@@ -16,19 +16,19 @@ A month ago, I wrote about [the problem with being called Nick in Townsville](/p
 
 Then I tried my full name and discovered [I was competing with a brewery](/posts/nicholas-townsville-competing-with-a-brewery/).
 
-There is now some progress to report. In my latest checks, **Nicholas Townsville puts the original article on the first page**, while **Nick Townsville brings it up on the second page**. Google's AI Overview also includes me among the possible matches for Nicholas Townsville.
+There is now some progress to report. In my latest checks, **Nicholas Townsville puts the original article on the first page**, while **Nick Townsville has appeared near the bottom of page one or the top of page two**. Google's AI Overview also includes me among the possible matches for Nicholas Townsville.
 
 Selwyn Nicholas Brewing is still above me in the screenshot. They retain the considerable advantage of being able to offer visitors a beer. But the IT bloke is becoming easier to find.
 
 Some of the most interesting discoveries in the wider website statistics have very little to do with searching for my name.
 
-## Nicholas on page one, Nick on page two
+## Nicholas on page one, Nick between pages one and two
 
 In the [12 September update](/posts/nicholas-townsville-competing-with-a-brewery/), I recorded this website appearing around fourth for *Nicholas Townsville*. The new screenshot shows the original August article directly below Selwyn Nicholas Brewing in the visible organic results.
 
 That is an encouraging change from the earlier check. It is also interesting that Google has chosen the article about being called **Nick**, even though the search uses **Nicholas**.
 
-For *Nick Townsville*, my latest check found the same article on the second page. There is still some distance to go, but it is a useful milestone for the search that started this experiment.
+For *Nick Townsville*, the position has varied between checks: sometimes the same article appears near the bottom of the first page, sometimes near the top of the second. It is not consistently on page one yet, but it is a useful milestone for the search that started this experiment.
 
 ![My article, The problem with being called Nick in Townsville, appearing in Google results for Nick Townsville](/assets/images/nick-townsville-second-page-google.png)
 *The listing from my second-page check of “Nick Townsville”. This crop shows the result itself, rather than the full page or pagination.*
@@ -77,7 +77,7 @@ The biggest contributor was [my article remembering Townsville's Great Northern 
 
 The daily impression peak in the export is labelled **12 September**, with **2,679 impressions** across the property. The fire and the article's publication were on 11 September in Townsville. The timing and page totals point to a strong connection with interest in that story, although the export does not break each day's traffic down by page.
 
-That article was a personal account of a familiar Townsville building and my walk to work. People finding it through searches about the hotel, its history and photographs is a reminder that local memories can be useful to somebody else.
+That article was a personal account of a familiar Townsville building and my walk to work. Seeing people find it through searches about the hotel, its history and photographs is a reminder that local memories can be useful to somebody else.
 
 Other writing is finding an audience too. The [Townsville gym data-breach article](/posts/nq-cyber-watch-townsville-gym-data-breach-police-officers/) recorded **386 impressions and 11 clicks**, while [my look back at Townsville computer stores](/posts/townsville-computer-stores-past-and-future/) recorded **347 impressions and 8 clicks**.
 
@@ -114,13 +114,15 @@ I have also updated [my About.me profile](https://about.me/nicholasosullivan). I
 
 My YouTube channel, [TechnologyLowdown](https://www.youtube.com/TechnologyLowdown), is another part of that picture. I occasionally post technical videos there, sharing some of my interest in technology in a different format.
 
+There is an older chapter on [my author profile at The Roar](https://www.theroar.com.au/author/nicksweb/), under the name **nicksweb**. I used to cover rugby union games and write cycling posts there. Before this website's discussions about networks, cyber security and Google rankings, some of my writing was about what happened on the field or out on the road.
+
 Keeping those introductions consistent remains part of the work. The About.me update is a recent addition; these figures cannot establish whether it has influenced any ranking. There have been several changes and new articles during the month, so I cannot isolate one edit as the cause of the progress.
 
 The two earlier SEO stories are being found in their own right: the August article recorded **57 impressions and 5 clicks**, and the brewery follow-up recorded **126 impressions and 3 clicks**. Those page totals include all the searches that brought them into view, not just the two Townsville name searches.
 
 ## Where the experiment goes next
 
-The next useful check is whether the name searches keep showing this site, whether *Nick Townsville* reaches the first page in my checks, and whether relevant articles continue attracting readers after the hotel-related spike has passed.
+The next useful check is whether the name searches keep showing this site, whether *Nick Townsville* appears on the first page more consistently, and whether relevant articles continue attracting readers after the hotel-related spike has passed.
 
 I will compare another full reporting period, watch the more specific versions of my name, and keep writing about the Townsville technology and community subjects I can contribute to. Someone finding an answer in an old technical note is every bit as useful an outcome as someone finding my About page.
 
