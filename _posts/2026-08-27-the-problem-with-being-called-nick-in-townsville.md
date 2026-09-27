@@ -117,3 +117,5 @@ So, Nick Dametto, I'm not actually trying to take your spot.
 I'm just trying to convince Google that Townsville has room for more than one Nick.
 
 *12 September 2026: The experiment has taken a detour. Searching for the full version of my name led to [Nicholas Townsville: now I'm competing with a brewery](/posts/nicholas-townsville-competing-with-a-brewery/). There has been little movement for “Nick Townsville” so far; a fuller progress update is still to come.*
+
+*27 September 2026: [The first month of search progress](/posts/nick-nicholas-townsville-google-search-progress/) now has screenshots and 28 days of Search Console data: a first-page appearance for “Nicholas Townsville”, a second-page appearance for “Nick Townsville” in my checks, and inclusion in an AI Overview.*

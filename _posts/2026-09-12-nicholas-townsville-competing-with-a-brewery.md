@@ -81,3 +81,5 @@ Until then, Selwyn Nicholas has given me another story to tell, and possibly a r
 For now, I will keep working on the website. The occasional Great Northern Super Crisp can stay an occasional Great Northern Super Crisp.
 
 I had hoped using my full name might make this easier. I had not accounted for the Nicholas with a taproom.
+
+*27 September 2026: There is now [a follow-up with search screenshots and the first month of numbers](/posts/nick-nicholas-townsville-google-search-progress/). The brewery is still ahead in my latest “Nicholas Townsville” screenshot, but the original article is appearing directly below it.*

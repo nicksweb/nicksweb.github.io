@@ -62,7 +62,11 @@ Suburban Australia began as local technology support work and has evolved into p
 
 ## Writing
 
+You can also find me on [About.me](https://about.me/nicholasosullivan), alongside the work and writing collected here.
+
 I write about IT and cyber security topics relevant to Townsville and North Queensland on this site, including [the personal SEO experiment behind searching for Nick in Townsville](/posts/the-problem-with-being-called-nick-in-townsville/), [why I still take on cyber security consulting work around Townsville](/posts/cyber-security-consultant-townsville/), the [North Queensland Cyber Watch series](/tags/north-queensland-cyber-watch/) covering regional incidents, [practical cyber security for small organisations](/posts/practical-cyber-security-for-small-organisations/), and the [history of Townsville Computer Man](/posts/townsville-computer-man-relaunch/), the repair business I started in Year 12 and relaunched in 2026.
+
+I also occasionally post technical videos on my YouTube channel, [TechnologyLowdown](https://www.youtube.com/TechnologyLowdown).
 
 ## Values
 
