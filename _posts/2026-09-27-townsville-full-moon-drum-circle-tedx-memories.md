@@ -47,7 +47,15 @@ Working in IT, that was the sort of practical lesson that stuck with me. Eleven 
 
 It was quite a day to be involved in, with people from our own community sharing what they had built, experienced and learned.
 
-And here we are in 2026, with Alex still bringing people together around a circle of drums.
+A lot has changed since then. Luke handed the CEO role to Kelly Vohs in January 2025, but [his return as interim CEO was announced in February 2026](https://www.capitalbrief.com/article/luke-anear-returns-as-safetycultures-ceo-6009b37c-d2f1-4381-893b-c3fd27be450f/). The company's [August 2026 announcement of its new name, Mitti](https://markets.financialcontent.com/wral/article/bizwire-2026-8-11-safetyculture-becomes-mitti-unveiling-a-platform-built-for-the-future-of-frontline-work), identifies him as founder and CEO.
+
+The Townsville part of that story matters to me. I remember the talk of the city remaining a central home for the business. My understanding, from a source in the industry, is that SafetyCulture no longer has a local presence in Townsville.
+
+The office closure is publicly documented: [Knight Frank reported in March 2026 that SafetyCulture closed its Townsville office in 2024](https://www.knightfrank.com.au/blog/amp/2026/03/03/poa-to-bring-new-life-to-vacant-building-in-townsvilles-cbd?host=www.knightfrank.com.au). Paradise Outdoor Advertising (POA) purchased the former premises at 221–229 Sturt Street from investor SJL Developments for its own Townsville headquarters.
+
+It is good to see another business putting that building to use. It also leaves me thinking about what stays local as a business grows. Building something in Townsville that reaches the world is an achievement. Keeping opportunities here for the people who want to build their careers in North Queensland matters too.
+
+Thinking back over those eleven years also makes me appreciate the continuity of Alex's work. Here we are in 2026, and he is still bringing people together around a circle of drums on The Strand.
 
 In Council's announcement, he put it simply:
 
