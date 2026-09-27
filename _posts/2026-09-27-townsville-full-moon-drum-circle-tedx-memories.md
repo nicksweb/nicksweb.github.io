@@ -19,7 +19,11 @@ It was a lovely experience. There was something quite special about being able t
 
 I thought about that evening again when I read [Townsville City Council's announcement that it is extending its support for the Full Moon Drum Circle](https://www.townsville.qld.gov.au/about-council/news-and-publications/media-releases/2026/september/council-extends-20-plus-years-of-drum-circle-support). Published on 24 September 2026, the news is that Council has renewed its partnership with The Rhythm Connection for another two years, keeping the event free for residents and visitors.
 
-That is good news for Townsville, and for families like ours who have enjoyed being part of it.
+In the same announcement, Mayor Nick Dametto said:
+
+> “It brings together people from all walks of life in one of Townsville’s most iconic locations, creating a great atmosphere and strengthening community connections.”
+
+That fits what we experienced as a family. I'm glad Council is continuing to support it.
 
 Alex's [The Rhythm Connection](https://therhythmconnection.com/) has been bringing people together through music for years. He has been playing hand drums since 1997, and the Full Moon Drum Circle has been running on The Strand since 2001. Its home is the Gregory Street Amphitheatre, a place where people can stop, listen and join in.
 
