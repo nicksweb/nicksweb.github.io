@@ -226,6 +226,8 @@ And as regional organisations continue to mature their security programs, I will
 
 ## About this research
 
+**October follow-up:** [Cyber security careers in Townsville: local opportunities and the next step]({% post_url 2026-10-02-cyber-security-careers-townsville-local-opportunities %}) looks at Council's October operations advertisement, a recent education IT role and the case for stronger regional career pathways.
+
 I compiled this article in August 2026 from publicly accessible employer advertisements and archived or search-indexed listings covering parts of 2025 and 2026. I also follow job listings regularly — not because I'm looking for a new role, but because I like providing support and advice to people in the IT industry who may be starting out or looking to advance their careers.
 
 It is **not a complete census of North Queensland cyber security employment**. Expired advertisements disappear, some positions are repeated across agencies, and job-board keyword searches produce unrelated results. The roles above are examples of notable and representative advertisements, not a ranking or definitive vacancy count.
