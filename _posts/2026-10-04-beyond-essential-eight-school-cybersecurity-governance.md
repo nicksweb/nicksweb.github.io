@@ -3,6 +3,8 @@ title: "Beyond the Essential Eight: cybersecurity governance for Australian scho
 description: "A practical approach to school cybersecurity governance: connect purpose, risk and accountability to NIST CSF 2.0, the Essential Eight and security investment."
 keywords: [cybersecurity governance Australian schools, Essential Eight schools, school cyber security strategy, NIST CSF schools, school board cybersecurity, information security governance]
 date: 2026-10-04 09:00:00 +1000
+redirect_from:
+  - /posts/beyond-essential-8/
 categories: [Cyber Security]
 tags: [cyber-security, education, governance, essential-eight, risk-management]
 wrap_tables: true
