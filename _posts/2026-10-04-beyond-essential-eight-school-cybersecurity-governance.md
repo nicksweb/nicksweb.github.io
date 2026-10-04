@@ -9,9 +9,11 @@ categories: [Cyber Security]
 tags: [cyber-security, education, governance, essential-eight, risk-management]
 wrap_tables: true
 image:
-  path: /assets/images/group-huddled-around-ipad.jpg
-  alt: "Three adults reviewing information together on a tablet outdoors"
+  path: /assets/images/cdc-gsRi9cWCIB0-unsplash.jpg
+  alt: "Children sitting together in a classroom, with several raising their hands during a lesson"
 ---
+
+*Featured photo by [CDC](https://unsplash.com/@cdc) on [Unsplash](https://unsplash.com/photos/gsRi9cWCIB0).*
 
 A school does not exist to achieve a cybersecurity maturity score. It exists to educate students, support their wellbeing and serve its community.
 
