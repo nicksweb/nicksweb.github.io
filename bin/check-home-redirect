@@ -1,0 +1,73 @@
+#!/usr/bin/env python3
+"""Exercise the real .htaccess in an isolated Apache instance; no live changes."""
+import http.client
+from pathlib import Path
+import shutil
+import socket
+import subprocess
+import tempfile
+import time
+
+repo = Path(__file__).resolve().parent.parent
+apache = shutil.which('apache2')
+if not apache:
+    raise SystemExit('Apache is required for this integration check.')
+with tempfile.TemporaryDirectory(prefix='nick-seo-apache-') as directory:
+    root = Path(directory)
+    web = root / 'public'
+    web.mkdir()
+    (web / 'index.html').write_text('homepage')
+    (web / 'consulting').mkdir()
+    (web / 'consulting/index.html').write_text('consulting')
+    shutil.copyfile(repo / 'webroot-htaccess', web / '.htaccess')
+    with socket.socket() as sock:
+        sock.bind(('127.0.0.1', 0))
+        port = sock.getsockname()[1]
+    config = root / 'httpd.conf'
+    modules = ['mpm_event', 'authz_core', 'dir', 'mime', 'rewrite', 'headers']
+    config.write_text('\n'.join([
+        f'ServerRoot "{root}"', f'Listen 127.0.0.1:{port}',
+        'ServerName www.nickosullivan.id.au', f'PidFile "{root}/httpd.pid"',
+        f'ErrorLog "{root}/error.log"',
+        *[f'LoadModule {module}_module /usr/lib/apache2/modules/mod_{module}.so' for module in modules],
+        'TypesConfig /etc/mime.types', f'DocumentRoot "{web}"',
+        'DirectoryIndex index.html',
+        f'<Directory "{web}">', 'Require all granted', 'AllowOverride All', '</Directory>'
+    ]) + '\n')
+    process = subprocess.Popen([apache, '-f', str(config), '-DFOREGROUND'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    try:
+        for _ in range(100):
+            try:
+                with socket.create_connection(('127.0.0.1', port), timeout=0.1):
+                    break
+            except OSError:
+                if process.poll() is not None:
+                    raise RuntimeError(process.stderr.read().decode())
+                time.sleep(0.05)
+        cases = [
+            ('/', 'www.nickosullivan.id.au', True, 200, None),
+            ('/?q=index.html', 'www.nickosullivan.id.au', True, 200, None),
+            ('/index.html', 'www.nickosullivan.id.au', True, 301, 'https://www.nickosullivan.id.au/'),
+            ('/index.html?utm_source=test&x=1', 'www.nickosullivan.id.au', True, 301, 'https://www.nickosullivan.id.au/?utm_source=test&x=1'),
+            ('/INDEX.HTML', 'www.nickosullivan.id.au', True, 301, 'https://www.nickosullivan.id.au/'),
+            ('/index.html', 'nickosullivan.id.au', False, 301, 'https://www.nickosullivan.id.au/'),
+            ('/', 'nickosullivan.id.au', False, 301, 'https://www.nickosullivan.id.au/'),
+            ('/', 'www.nickosullivan.id.au', False, 301, 'https://www.nickosullivan.id.au/'),
+            ('/consulting/', 'www.nickosullivan.id.au', True, 200, None),
+            ('/posts/beyond-essential-8/', 'www.nickosullivan.id.au', True, 301, 'https://www.nickosullivan.id.au/posts/beyond-essential-eight-school-cybersecurity-governance/'),
+        ]
+        for path, host, https, status, location in cases:
+            headers = {'Host': host}
+            if https:
+                headers['X-Forwarded-Proto'] = 'https'
+            connection = http.client.HTTPConnection('127.0.0.1', port, timeout=3)
+            connection.request('GET', path, headers=headers)
+            response = connection.getresponse()
+            actual = (response.status, response.getheader('Location'))
+            response.read()
+            connection.close()
+            assert actual == (status, location), (path, host, actual, status, location)
+        print(f'PASS: {len(cases)} Apache requests, including internal DirectoryIndex, query preservation, host/scheme redirects and the existing article redirect.')
+    finally:
+        process.terminate()
+        process.communicate(timeout=5)

@@ -4,6 +4,7 @@ description: "A global attack on the Canvas learning platform reached Townsville
 keywords: [Townsville cyber security, Canvas data breach, Instructure breach, school cyber security Queensland, ShinyHunters, education data breach]
 date: 2026-05-13 09:00:00 +1000
 categories: [Cyber Security]
+cyber_regions: [townsville]
 tags: [cyber-security, north-queensland-cyber-watch, data-breach, education]
 ---
 

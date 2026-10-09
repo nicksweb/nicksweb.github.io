@@ -1,0 +1,8 @@
+---
+layout: null
+permalink: /cyber-security/incidents.csv
+sitemap: false
+---
+"id","date","date_basis","organisation","location","scope","industry","incident_type","status","evidence","account_date","source_name","source_url","article_url"
+{% for incident in site.data.cyber_incidents %}"{{ incident.id | replace: '"', '""' }}","{{ incident.date | replace: '"', '""' }}","{{ incident.date_basis | replace: '"', '""' }}","{{ incident.organisation | replace: '"', '""' }}","{{ incident.location | replace: '"', '""' }}","{{ incident.scope | replace: '"', '""' }}","{{ incident.industry | replace: '"', '""' }}","{{ incident.incident_type | replace: '"', '""' }}","{{ incident.status | replace: '"', '""' }}","{{ incident.evidence | replace: '"', '""' }}","{{ incident.as_of }}","{{ incident.source_name | replace: '"', '""' }}","{{ incident.source_url | absolute_url | replace: '"', '""' }}","{{ incident.article | absolute_url | replace: '"', '""' }}"
+{% endfor %}

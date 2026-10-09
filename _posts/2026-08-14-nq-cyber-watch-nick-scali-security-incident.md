@@ -4,6 +4,7 @@ description: "Nick Scali has disclosed a cyber security incident that disrupted 
 keywords: [Nick Scali cyber incident, Nick Scali data breach, North Queensland cyber security, Townsville cyber incident, Mackay cyber security, Cairns cyber security, retail cyber attack Australia]
 date: 2026-08-14 12:30:00 +1000
 categories: [Cyber Security]
+cyber_regions: [townsville, cairns, mackay]
 tags: [cyber-security, north-queensland-cyber-watch, retail, business-continuity, data-breach]
 ---
 

@@ -4,6 +4,7 @@ description: "Serving Townsville police officers were caught up in a data breach
 keywords: [Townsville gym data breach, Strand Fitness North Shore data breach, Townsville police officers data breach, Burdell data breach, North Queensland Cyber Watch, gym management software breach, Xplor Resamania breach, fitness app API security, OAIC notifiable data breach]
 date: 2026-08-30 09:00:00 +1000
 categories: [Cyber Security]
+cyber_regions: [townsville]
 tags: [cyber-security, north-queensland-cyber-watch, data-breach, privacy, fitness]
 image:
   path: /assets/images/gym-member-database-data-breach-townsville.jpg

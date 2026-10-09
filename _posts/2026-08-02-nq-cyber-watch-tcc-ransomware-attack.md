@@ -4,6 +4,7 @@ description: "Townsville Christian College has confirmed a criminal ransomware a
 keywords: [Townsville Christian College, ransomware attack school, North Queensland cyber security, notifiable data breach school, independent school cyber security Queensland, ASD ransomware guidance]
 date: 2026-08-02 09:00:00 +1000
 categories: [Cyber Security]
+cyber_regions: [townsville]
 tags: [cyber-security, north-queensland-cyber-watch, ransomware, data-breach, education]
 ---
 

@@ -34,6 +34,15 @@ Articles express Nick's own views. Organisations discussed in incident coverage 
 - [Regional connectivity in North Queensland]({{ '/posts/regional-connectivity-program-north-queensland/' | absolute_url }}): A technician's perspective on mobile coverage, regional infrastructure and connectivity upgrades.
 - [The problem with being called Nick in Townsville]({{ '/posts/the-problem-with-being-called-nick-in-townsville/' | absolute_url }}): The site's personal search and identity experiment, connecting Nick's name, Townsville location and body of work.
 
+## Regional cyber security research
+
+- [Cyber security hub]({{ '/cyber-security/' | absolute_url }}): Curated regional research, practical governance, credentials, careers and consulting links.
+- [Cairns guide]({{ '/cyber-security/cairns/' | absolute_url }}): FNQ customer data, the Westco Motors allegation and training pathways.
+- [Mackay guide]({{ '/cyber-security/mackay/' | absolute_url }}): Industrial dependencies, sugar, supplier access and operational resilience.
+- [Rockhampton guide]({{ '/cyber-security/rockhampton/' | absolute_url }}): Central Queensland services, capability and evidence gaps.
+- [Regional incident tracker]({{ '/cyber-security/incident-tracker/' | absolute_url }}): Sourced historical evidence snapshots; distinguishes confirmed incidents, reporting and claims. Not an incident census or city risk ranking.
+- [Media and commentary]({{ '/media/' | absolute_url }}): Biographies, areas of commentary, research and contact information.
+
 ## Related businesses and projects
 
 - [Suburban Australia](https://suburbanau.com/): Nick's broader business identity for practical digital projects, systems integration, technology advice and community-minded services. Parent brand of Suburban Secure and Townsville Computer Man.

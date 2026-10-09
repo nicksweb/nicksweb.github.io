@@ -17,6 +17,12 @@ The short version: local capability hasn't disappeared. Training pathways exist,
 
 It's also worth naming the political backdrop, since it changes the "who's responsible" question. Jenny Hill was mayor when the node was announced in 2020. She was succeeded in March 2024 by Troy Thompson, who [resigned in September 2025](https://www.abc.net.au/news/2025-09-26/townsville-mayor-troy-thompson-resigns/105820030) after a review found he had misrepresented his military and academic history. Nick Dametto won the resulting by-election and [was sworn in as Townsville's 48th mayor on 24 November 2025](https://www.townsville.qld.gov.au/about-council/news-and-publications/media-releases/2025/november/dametto-sworn-in-as-citys-48th-mayor). Three mayors, one council, and (as far as I can establish) no public statement from any of them about the cyber node specifically. That leaves a fair, open question for the current Council: does it see a role for itself in regional cyber capability, or was that always meant to be AustCyber's job?
 
+## Using this guide
+
+For the wider regional picture, start with my [cyber security research hub](/cyber-security/) and the [Regional Queensland Cyber Security Incident Tracker](/cyber-security/incident-tracker/). This page remains the Townsville landscape guide; the companion guides examine [Cairns](/cyber-security/cairns/), [Mackay](/cyber-security/mackay/) and [Rockhampton](/cyber-security/rockhampton/) on their own terms.
+
+The [October Townsville careers update]({% post_url 2026-10-02-cyber-security-careers-townsville-local-opportunities %}) follows the jobs discussion below. It records opportunities at the time of writing, so check the original advertisements for current availability.
+
 ## Training pathways
 
 Training was part of the original 2020 proposition, and Council specifically named [TAFE Queensland's Certificate IV in Cyber Security at Pimlico](https://tafeqld.edu.au/course/18/18451/certificate-iv-in-cyber-security) as the local pathway. Checking TAFE's current course page, its advertised study regions are Greater Brisbane, Gold Coast, Sunshine Coast, and Darling Downs and South West, plus online study. Townsville (Pimlico) appears in the page's campus-selection information, but I could not identify a dated, publicly advertised Pimlico classroom intake.
@@ -54,6 +60,12 @@ Winding down a grant-funded coordination body doesn't mean Townsville has lost i
 The [Townsville Christian College ransomware incident I covered in August]({% post_url 2026-08-02-nq-cyber-watch-tcc-ransomware-attack %}) is a reminder of why that local capability matters: schools and other community institutions depend on people who understand both the technology and the consequences of losing access to it.
 
 I should disclose my own position here: I founded [Suburban Secure](https://suburbansecure.au/), and provide commercial cyber security and IT advice to Townsville small businesses, charities and community organisations through it, one part of that same commercial market, not a neutral outside observer of it. I've written more about [why I still take on that consulting work]({% post_url 2026-08-11-cyber-security-consultant-townsville %}).
+
+## Incidents and the questions they leave
+
+Townsville's published incident record includes quite different problems: [a global learning platform breach]({% post_url 2026-05-13-nq-cyber-watch-townsville-schools-canvas-breach %}), [corporate email forwarded to personal accounts]({% post_url 2026-07-03-nq-cyber-watch-tce-auto-forwarding-breach %}), [the Townsville Christian College ransomware attack]({% post_url 2026-08-02-nq-cyber-watch-tcc-ransomware-attack %}) and [third-party-held gym member information]({% post_url 2026-08-30-nq-cyber-watch-townsville-gym-data-breach-police-officers %}). Those accounts do not establish a local incident rate, and they should not be treated as four versions of the same attack.
+
+They do give local organisations useful questions: who holds our information, who controls access, what leaves the environment, and how would we keep working during an outage? The [tracker](/cyber-security/incident-tracker/) keeps the source, reporting date and evidence limits beside each account.
 
 ## Where to get help now
 

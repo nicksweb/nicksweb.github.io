@@ -4,6 +4,7 @@ description: "A ransomware attack disrupted crushing at a major North Queensland
 keywords: [North Queensland cyber security, ransomware Queensland, agriculture cyber attack, sugar mill ransomware, Mackay cyber incident, critical infrastructure security]
 date: 2026-06-19 09:00:00 +1000
 categories: [Cyber Security]
+cyber_regions: [mackay]
 tags: [cyber-security, north-queensland-cyber-watch, ransomware, critical-infrastructure]
 ---
 

@@ -4,6 +4,7 @@ description: "Townsville Catholic Education's 2026 data breach notification show
 keywords: [auto forwarding data breach, Microsoft 365 mail flow rules, Google Workspace forwarding controls, notifiable data breach Australia, email security controls, Townsville Catholic Education]
 date: 2026-07-03 09:00:00 +1000
 categories: [Cyber Security]
+cyber_regions: [townsville]
 tags: [cyber-security, north-queensland-cyber-watch, data-breach, microsoft-365, email-security]
 ---
 

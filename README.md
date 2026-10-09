@@ -49,6 +49,19 @@ and supports copying it. Base64 is a deterrent to basic email scraping, not
 encryption or protection against determined bots. Keep public contact links
 pointing to this page instead of exposing the address in HTML, feeds or `llms.txt`.
 
+## Regional cyber security research
+
+The `/cyber-security/` hub is maintained in `_tabs/cyber-security.md`. Regional
+guides and the incident tracker live in `cyber-security/`; tracker rows and the
+CSV export share `_data/cyber_incidents.yml`. The media profile is `media.md`.
+Cyber posts receive contextual links through `_includes/cyber-related.html`;
+use region tags or explicit `cyber_regions` front matter to select the guides.
+
+See [the rollout and maintenance notes](docs/regional-cyber-rollout.md) for the
+index.html investigation, validation commands, Search Console scorecard and
+remaining editorial/outreach work. Outreach drafts are local documentation,
+not automatically sent or published.
+
 ## Build Locally
 
 Install dependencies and build:

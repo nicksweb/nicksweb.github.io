@@ -12,6 +12,26 @@
   </style>
 {% endif %}
 
+{% if page.show_page_title %}
+  <style>
+    /* Chirpy normally hides tab titles on mobile; these guides need a full heading. */
+    h1.dynamic-title { display: block; }
+  </style>
+{% endif %}
+
+{% if page.incident_tracker %}
+  <style>
+    .incident-table { overflow-x: auto; margin: 1.5rem 0; }
+    .incident-table:focus-visible { outline: 2px solid var(--link-color); }
+    .incident-table .table-wrapper { overflow: visible; margin-bottom: 0; }
+    .incident-table .table-wrapper > table { min-width: 1050px; width: 100%; }
+    .incident-table .table-wrapper th, .incident-table .table-wrapper td { white-space: normal; vertical-align: top; min-width: 100px; }
+    .incident-table td:nth-child(6) { min-width: 230px; }
+    .incident-table caption { caption-side: top; color: var(--text-color); }
+    .incident-table tr:target { background: var(--blockquote-bg); }
+  </style>
+{% endif %}
+
 {% if page.wrap_tables %}
   <style>
     .content .table-wrapper > table { width: 100%; }
@@ -86,6 +106,11 @@
           "@type": "CollegeOrUniversity",
           "name": "James Cook University"
         }
+      ],
+      "hasCredential": [
+        { "@type": "EducationalOccupationalCredential", "name": "Graduate Diploma of Information Technology (Networking) with Distinction", "credentialCategory": "Graduate diploma", "recognizedBy": { "@type": "CollegeOrUniversity", "name": "Central Queensland University" } },
+        { "@type": "EducationalOccupationalCredential", "name": "Bachelor of Multimedia Journalism", "credentialCategory": "Bachelor degree", "recognizedBy": { "@type": "CollegeOrUniversity", "name": "James Cook University" } },
+        { "@type": "EducationalOccupationalCredential", "name": "Certified Technologist", "recognizedBy": { "@type": "Organization", "name": "Australian Computer Society" } }
       ],
       "memberOf": {
         "@type": "Organization",

@@ -15,6 +15,11 @@ Header always unset X-Powered-By
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
+# Only redirect a client request, never Apache's internal DirectoryIndex lookup.
+# Keep query strings and consolidate host/scheme in the same permanent redirect.
+RewriteCond %{THE_REQUEST} \s/+index\.html(?:[?\s]) [NC]
+RewriteRule ^index\.html$ https://www.nickosullivan.id.au/ [R=301,L,NC]
+
 # Preserve the original article URL after giving it a descriptive slug.
 RewriteRule ^posts/beyond-essential-8/?$ https://www.nickosullivan.id.au/posts/beyond-essential-eight-school-cybersecurity-governance/ [R=301,L]
 

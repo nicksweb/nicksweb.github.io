@@ -1,0 +1,16 @@
+{% if page.tags contains 'cyber-security' %}
+  <aside class="content border-top pt-3 mt-4" aria-labelledby="regional-cyber-reading">
+    <h2 id="regional-cyber-reading" class="h5">Regional context and further reading</h2>
+    <p>Find related research and practical resources in my <a href="{{ '/cyber-security/' | relative_url }}">regional Queensland cyber security hub</a>.</p>
+    {% for region in site.data.cyber_regions %}
+      {% if page.cyber_regions contains region.key or page.tags contains region.key %}
+        {% unless page.url == region.url %}
+          <p>For the wider local picture, read the <a href="{{ region.url | relative_url }}">{{ region.name }} cyber security guide</a>.</p>
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+    {% if page.tags contains 'north-queensland-cyber-watch' %}
+      <p>The <a href="{{ '/cyber-security/incident-tracker/' | relative_url }}">regional incident tracker</a> collects the sources and evidence limits behind this series.</p>
+    {% endif %}
+  </aside>
+{% endif %}

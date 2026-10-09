@@ -1,6 +1,7 @@
 ---
 layout: consulting
-title: IT & Cyber Security Consulting in Townsville
+title: Cyber Security Consultant Townsville & North Queensland
+heading: Cyber Security & IT Consulting in Townsville
 description: Work with Nick O'Sullivan for IT and cyber security consulting in Townsville and North Queensland. Microsoft 365, networks and technology planning. Book a consultation.
 keywords: [IT consultant Townsville, cyber security consulting Townsville, Nick O'Sullivan, North Queensland IT consulting, Microsoft 365 review, network infrastructure advice, technology planning]
 icon: fas fa-comments
@@ -39,6 +40,28 @@ You might need a review of your Microsoft 365 environment, advice before replaci
 [{{ service.link_text }}]({{ service.url | relative_url }})
 {% endif %}
 {% endfor %}
+
+## What a useful review should give you
+
+A review should help you decide what to do next. That means understanding which systems and information matter, who can access them, how recovery would work and which improvements deserve attention first. The scope might be one Microsoft 365 tenant, a network proposal or a broader technology plan; we agree that before work starts.
+
+My [cyber security research and resources](/cyber-security/) explain the thinking behind this work, including [the Townsville cyber security landscape](/posts/cyber-security-townsville-training-jobs-businesses/) and [why school governance needs to reach beyond the Essential Eight](/posts/beyond-essential-eight-school-cybersecurity-governance/). The [regional incident tracker](/cyber-security/incident-tracker/) collects the public reporting behind my Cyber Watch series.
+
+This is my personal professional site. [Suburban Secure](https://suburbansecure.au/) is the business service for independent cyber security advice and reviews. The regional articles here are research and commentary, with my commercial interest disclosed.
+
+## Common questions
+
+### Can you work with our existing IT provider?
+
+Yes. An independent review or second opinion can give your internal team or existing provider a clearer set of priorities. We agree responsibilities and access as part of the scope.
+
+### Do you work outside Townsville?
+
+I'm based in Townsville and welcome enquiries from North Queensland. The location, systems involved and need for on-site work determine what is practical. My research and writing also cover other parts of regional Queensland.
+
+### Is this an emergency incident response service?
+
+Consulting enquiries and scheduled reviews are the purpose of this page. For an active incident, use [ASD's reporting and assistance channels](https://www.cyber.gov.au/submit-a-report) and your established incident response contacts.
 
 ## Working together
 

@@ -1,0 +1,47 @@
+---
+layout: page
+title: Regional Queensland Cyber Security Incident Tracker
+description: A sourced index of regional cyber incidents and national platform incidents with Queensland connections, distinguishing confirmed facts, reporting and allegations.
+seo:
+  type: CollectionPage
+show_page_title: true
+permalink: /cyber-security/incident-tracker/
+incident_tracker: true
+---
+
+<p>This tracker brings together the public reporting behind <a href="{{ '/tags/north-queensland-cyber-watch/' | relative_url }}">North Queensland Cyber Watch</a>. I'm Nicholas O'Sullivan, a Townsville IT professional. The purpose is to make the sources, regional connections and gaps in the evidence easier to find.</p>
+<p><strong>Collection assembled 9 October 2026.</strong> Each entry shows the date of the account it summarises. These are historical evidence snapshots, not a claim that every investigation has been checked again today. A later company statement may change the picture.</p>
+<p><a href="#method">How to read the tracker</a> · <a href="{{ '/cyber-security/incidents.csv' | relative_url }}" download>Download the collection as CSV</a> · <a href="{{ '/cyber-security/' | relative_url }}">Regional guides and resources</a></p>
+
+<div class="incident-table" role="region" aria-label="Regional cyber security incidents" tabindex="0">
+<table>
+  <caption>Cyber Watch source index: {{ site.data.cyber_incidents.size }} entries. Scroll horizontally on smaller screens.</caption>
+  <thead><tr><th scope="col">Date and basis</th><th scope="col">Organisation</th><th scope="col">Location and scope</th><th scope="col">Industry</th><th scope="col">Incident type</th><th scope="col">Evidence status</th><th scope="col">Source</th><th scope="col">Article</th></tr></thead>
+  <tbody>
+  {% for incident in site.data.cyber_incidents %}
+    <tr id="{{ incident.id }}">
+      <td>{{ incident.date | escape }}<br><small>{{ incident.date_basis | escape }}</small></td>
+      <th scope="row">{{ incident.organisation | escape }}</th>
+      <td>{{ incident.location | escape }}<br><small>{{ incident.scope | escape }}</small></td>
+      <td>{{ incident.industry | escape }}</td>
+      <td>{{ incident.incident_type | escape }}</td>
+      <td><strong>{{ incident.status | escape }}</strong><br>{{ incident.evidence | escape }}<br><small>Account dated {{ incident.as_of | date: '%-d %B %Y' }}</small></td>
+      <td><a href="{{ incident.source_url | relative_url }}">{{ incident.source_name | escape }}</a></td>
+      <td><a href="{{ incident.article | relative_url }}">Read the {{ incident.id | replace: '-', ' ' | escape }} account</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+
+<h2 id="method">How to read the tracker</h2>
+<p><strong>Confirmed</strong> means the organisation's notice confirms the described incident, within the limits stated. <strong>Reported</strong> identifies attributed journalism, including statements quoted by a publication. <strong>Claimed</strong> identifies an allegation, including a threat actor's claim, that the cited account has not established as a confirmed breach. An incident can be confirmed while its cause, attribution or alleged data theft remains unconfirmed.</p>
+<p>The date column identifies whether it is an incident window, disclosure date or report date. It does not silently substitute an article's publication date for the day an attack happened. Month-only dates mean this collection does not establish a more precise date.</p>
+<p>One row represents an incident covered by this series, not one victim, one city or one successful attack. National and global platform incidents are labelled separately from incidents at regional organisations. A retailer having a regional store does not establish how many local customers were affected. Repeated reporting about the same incident belongs in the existing row.</p>
+<p>The initial collection covers Townsville, Cairns and Mackay connections. It has no dedicated incident entry yet for Rockhampton, Mount Isa or the Whitsundays. Missing entries reflect the limits of this collection, not evidence that those places have had no incidents. It cannot support a city risk ranking, a trend in attack frequency or an estimate of total regional losses.</p>
+
+<h2>Sources, updates and corrections</h2>
+<p>The table links to company notices where the articles provide them and to attributed reporting otherwise. Some reporting requires a subscription; the College notice is a retained image already reproduced in its article. The linked articles carry fuller context. No stolen datasets or criminal leak sites are linked here.</p>
+<p>For a correction or a new public source, <a href="{{ '/consulting/#contact-nick' | relative_url }}">contact me</a> with the entry, the source and what it changes. Please do not send personal records or stolen material. Updates should retain the distinction between the original account and later findings.</p>
+<p>When citing an entry, link to its organisation row using the permanent fragment, for example <a href="#mackay-sugar">Mackay Sugar</a>, and include the account date and your access date. Cite the original source for the underlying incident facts. This index is compiled by Nicholas O'Sullivan; see the <a href="{{ '/disclaimer/' | relative_url }}">editorial disclaimer</a> for disclosure and reuse information.</p>
+<p>Read the <a href="{{ '/posts/cyber-security-townsville-training-jobs-businesses/' | relative_url }}">Townsville</a>, <a href="{{ '/cyber-security/cairns/' | relative_url }}">Cairns</a>, <a href="{{ '/cyber-security/mackay/' | relative_url }}">Mackay</a> and <a href="{{ '/cyber-security/rockhampton/' | relative_url }}">Rockhampton</a> guides for regional context.</p>

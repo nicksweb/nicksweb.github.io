@@ -1,0 +1,99 @@
+#!/usr/bin/env ruby
+# Run after a production build: bundle exec ruby bin/check-regional-seo
+require 'nokogiri'
+require 'json'
+require 'yaml'
+require 'csv'
+require 'uri'
+require 'pathname'
+
+ROOT = Pathname.new(File.expand_path('../_site', __dir__))
+ORIGIN = 'https://www.nickosullivan.id.au'
+PERSON = "#{ORIGIN}/#nick"
+PATHS = %w[/ /about/ /consulting/ /media/ /cyber-security/ /cyber-security/cairns/ /cyber-security/mackay/ /cyber-security/rockhampton/ /cyber-security/incident-tracker/ /posts/cyber-security-townsville-training-jobs-businesses/]
+
+def assert(condition, message)
+  abort "FAIL: #{message}" unless condition
+end
+
+def file_for(path)
+  candidate = ROOT.join(URI::DEFAULT_PARSER.unescape(path).delete_prefix('/'))
+  candidate.directory? ? candidate.join('index.html') : candidate
+end
+
+def document(path)
+  file = file_for(path)
+  assert(file.file?, "Missing generated file for #{path}")
+  Nokogiri::HTML(file.read)
+end
+
+def structured(doc)
+  doc.css('script[type="application/ld+json"]').map { |tag| JSON.parse(tag.text) }
+end
+
+PATHS.each do |path|
+  doc = document(path)
+  canonical = doc.css('link[rel="canonical"]')
+  assert(canonical.length == 1 && canonical.first['href'] == ORIGIN + path, "Canonical: #{path}")
+  assert(doc.css('h1').length == 1, "Exactly one page H1: #{path}")
+  assert(!doc.at_css('meta[name="description"]')['content'].empty?, "Description: #{path}")
+  assert(!doc.at_css('meta[name="robots"]')&.[]('content').to_s.include?('noindex'), "Indexable: #{path}")
+  structured(doc)
+  doc.css('a[href], img[src]').each do |element|
+    link = element['href'] || element['src']
+    uri = URI.join(ORIGIN + path, link)
+    next unless uri.host == 'www.nickosullivan.id.au'
+    target = file_for(uri.path)
+    assert(target.file?, "Broken local link on #{path}: #{link}")
+    if uri.fragment && target.extname == '.html'
+      fragment = URI::DEFAULT_PARSER.unescape(uri.fragment)
+      assert(Nokogiri::HTML(target.read).xpath('//*[@id=$id]', nil, id: fragment).any?, "Missing fragment on #{path}: #{link}")
+    end
+  end
+end
+
+home = document('/')
+consulting = document('/consulting/')
+assert(home.at_css('title').text.include?('Nicholas “Nick”'), 'Homepage identity title')
+assert(consulting.at_css('title').text.include?('Cyber Security Consultant Townsville'), 'Commercial title')
+assert(consulting.at_css('h1').text == 'Cyber Security & IT Consulting in Townsville', 'Consulting H1')
+%w[/ /about/ /media/].each do |path|
+  profile = structured(document(path)).find { |node| node['@type'] == 'ProfilePage' }
+  assert(profile && profile.dig('mainEntity', '@id') == PERSON, "Profile identity: #{path}")
+  assert(profile.dig('mainEntity', 'hasCredential').length == 3, "Supported credentials: #{path}")
+end
+service = structured(consulting).find { |node| node['@type'] == 'Service' }
+assert(service.dig('provider', 'founder', '@id') == PERSON, 'Service founder identity')
+post_count = 0
+ROOT.glob('posts/*/index.html').each do |file|
+  doc = Nokogiri::HTML(file.read)
+  structured(doc).each do |node|
+    next unless %w[BlogPosting Article].include?(node['@type'])
+    assert(node.dig('author', '@id') == PERSON, "Article author identity: #{file}")
+    post_count += 1
+  end
+end
+{
+  '/posts/nq-cyber-watch-westco-motors-cairns-ransomware-claim/' => '/cyber-security/cairns/',
+  '/posts/nq-cyber-watch-sugar-mill-ransomware/' => '/cyber-security/mackay/',
+  '/posts/nq-cyber-watch-townsville-gym-data-breach-police-officers/' => '/posts/cyber-security-townsville-training-jobs-businesses/'
+}.each do |article, region|
+  links = document(article).css('aside[aria-labelledby="regional-cyber-reading"] a').map { |a| a['href'] }
+  assert(links.include?(region) && links.include?('/cyber-security/') && links.include?('/cyber-security/incident-tracker/'), "Regional navigation: #{article}")
+end
+incidents = YAML.load_file(File.expand_path('../_data/cyber_incidents.yml', __dir__))
+csv = CSV.read(ROOT.join('cyber-security/incidents.csv'), headers: true).reject { |row| row['id'].nil? }
+assert(csv.length == incidents.length, 'CSV entry count')
+tracker = document('/cyber-security/incident-tracker/')
+assert(tracker.css('tbody tr').length == incidents.length, 'Tracker entry count')
+incidents.each do |incident|
+  row = csv.find { |entry| entry['id'] == incident['id'] }
+  assert(row && row['status'] == incident['status'] && row['account_date'] == incident['as_of'], "CSV evidence matches: #{incident['id']}")
+  assert(tracker.at_css("tr##{incident['id']}"), "Citable incident anchor: #{incident['id']}")
+end
+sitemap = Nokogiri::XML(ROOT.join('sitemap.xml').read)
+urls = sitemap.xpath('//*[local-name()="loc"]').map(&:text)
+PATHS.each { |path| assert(urls.include?(ORIGIN + path), "Sitemap missing #{path}") }
+assert(!urls.include?(ORIGIN + '/index.html'), 'Duplicate homepage in sitemap')
+assert(!urls.include?(ORIGIN + '/cyber-security/incidents.csv'), 'CSV should not appear as an HTML landing page in sitemap')
+puts "PASS: #{PATHS.length} core pages, #{post_count} article author identities, #{incidents.length} tracker/CSV entries, local links, fragments, canonical URLs and sitemap."

@@ -4,6 +4,7 @@ description: "Oz Hair & Beauty has confirmed customer contact and purchase data 
 keywords: [Oz Hair and Beauty cyber incident, Oz Hair and Beauty data breach, Townsville cyber security, North Queensland Cyber Watch, retail customer data, purchase history privacy, Willows Shopping Centre]
 date: 2026-08-21 06:50:00 +1000
 categories: [Cyber Security]
+cyber_regions: [townsville]
 tags: [cyber-security, north-queensland-cyber-watch, retail, data-breach, privacy]
 image:
   path: /assets/images/OZHairBeauty-Letter-Part1-OnWebsite.png

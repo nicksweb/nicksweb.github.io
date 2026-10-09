@@ -70,6 +70,8 @@ I also occasionally post technical videos on my YouTube channel, [TechnologyLowd
 
 My earlier sports writing included covering rugby union games and writing cycling posts for [The Roar, where my author profile is under nicksweb](https://www.theroar.com.au/author/nicksweb/).
 
+My [regional cyber security hub](/cyber-security/) brings the research together, with guides for Townsville, Cairns, Mackay and Rockhampton and a sourced incident tracker. For interview requests, background or event biographies, see [media and cyber security commentary](/media/).
+
 ## Values
 
 I try to bring a calm, practical approach to complex technology problems. That means documenting decisions, explaining trade-offs clearly, keeping solutions right-sized, and helping leaders understand what should be improved first.
