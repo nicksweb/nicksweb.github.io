@@ -11,6 +11,8 @@ image:
   alt: Rows of empty classroom chairs with fold-down desks in late-afternoon light from a bank of windows, the kind of room whose students and families a school holds records about.
 ---
 
+> **Update, 13 October 2026:** The school has since confirmed a cyber incident. A spokesperson [told Cyber Daily](https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims){:target="_blank" rel="noopener noreferrer"} that it is investigating "a cyber incident involving an unauthorised party accessing a part of our systems", that parents and staff have been informed, and that the Australian Cyber Security Centre has been notified. Whether any personal information was taken has not been established publicly. The [follow-up entry]({% post_url 2026-10-13-nq-cyber-watch-allsouls-st-gabriels-confirms-cyber-incident %}) covers what the school has said. The rest of this post is unchanged and reflects what was public on 10 October 2026.
+
 This entry in **North Queensland Cyber Watch**, the series looking at cyber security incidents that affect our region and what organisations here can take from them, needs a careful first sentence, because it is early and it is thin.
 
 What has actually happened is that a criminal ransomware group has **named All Souls St Gabriels School**, the independent Anglican boarding and day school in Charters Towers, on its leak site, as [recorded by CyberStack's Australia desk](https://cyberstack.org/n/all-souls-st-gabriels-gentlemen-20261009){:target="_blank" rel="noopener noreferrer"}. That is a claim by criminals, not a confirmed breach. When I last checked, on the evening of 10 October 2026, the school had said nothing publicly about it, I could find no police or regulator statement, and I could find no news outlet that had reported it. All Souls St Gabriels School is **not accused of any wrongdoing**, and on the current public record it is as much a potential victim as its students, families and staff are.
@@ -120,3 +122,5 @@ Office of the Australian Information Commissioner. (n.d.). *Notifiable Data Brea
 Australian Signals Directorate, Australian Cyber Security Centre. (n.d.). *Essential Eight explained*. <https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/essential-eight/essential-eight-explained>
 
 IDCARE. (n.d.). *Get support*. <https://www.idcare.org/>
+
+Hollingworth, D. (2026, October 13). *Exclusive: All Souls St Gabriels School investigating cyber incident in wake of ransomware claims*. Cyber Daily. <https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims> (added with the 13 October 2026 update).
