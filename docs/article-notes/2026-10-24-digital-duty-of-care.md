@@ -4,6 +4,8 @@ Article: `_posts/2026-10-24-digital-duty-of-care-bill-australian-schools.md`.
 
 Prepared 24 October 2026, Australia/Brisbane. Initially prepared as an unpublished draft; the user subsequently authorised publication and requested an Unsplash image.
 
+At the user's request, the published article was shortened from approximately 1,990 to 915 words, retaining the bill's qualifications, David Nichols's credit, the author's school experience, ST4S, and the monitoring/wellbeing example. Repeated explanations, the extended app scenario and the governance table were removed.
+
 ## Source and status checks
 
 - The user supplied the text of a friend's LinkedIn post and the department's 20 October announcement, then identified the author as David Nichols and provided the direct post URL. The article credits and links to David's post as its starting point, without implying endorsement of the resulting article: https://www.linkedin.com/feed/update/urn:li:activity:7519518787344171008/
@@ -16,7 +18,7 @@ Prepared 24 October 2026, Australia/Brisbane. Initially prepared as an unpublish
 ## Personal experience and examples
 
 - The reference to Queensland state schools, independent-school IT, infrastructure, cloud platforms, device management and vendor coordination comes from the existing `_tabs/about.md`.
-- The app review and monitoring-alert examples are explicitly hypothetical. They do not describe incidents at the author's employer or make claims about particular students, staff or products.
+- The monitoring-alert scenario is explicitly illustrative. It does not describe an incident at the author's employer or make claims about particular students or staff.
 - The user subsequently supplied experience of consulting application risk review registers in state schools and considering filtering/monitoring tools that make information available to wellbeing teams. These experiences are incorporated without naming schools, claiming a particular vendor was deployed, or inventing an incident or outcome.
 - The user suggested ST4S in the independent-school context. Its public documentation confirms wider participation across government, Catholic and independent sectors and New Zealand. The article explains its assessment and catalogue roles without implying automatic approval for every use or universal public access to reports.
 - The technical explanation distinguishes DNS domain filtering from search-term capture: a DNS-only log does not contain Google search queries. The article avoids an unnecessary OSI-layer reference and does not imply all filtering products or deployments have the same visibility.
@@ -32,7 +34,7 @@ Prepared 24 October 2026, Australia/Brisbane. Initially prepared as an unpublish
 - Visually checked before publication: a red illuminated Internet sign with an at symbol outside a building, reflected in a window. The uploaded image is used unchanged, with descriptive alt text.
 - The photographer and photo-page credit links supplied by the user are included in the article.
 
-## Sources linked in the article
+## Sources consulted
 
 - Department introduction announcement, 20 October 2026: https://www.infrastructure.gov.au/department/media/news/digital-duty-care-bill-introduced
 - Department overview: https://www.infrastructure.gov.au/media-communications/internet/online-safety/digital-duty-care
