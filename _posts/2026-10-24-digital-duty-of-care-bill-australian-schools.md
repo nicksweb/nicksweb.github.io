@@ -20,7 +20,7 @@ Before students sign in, though, someone needs to understand what they are being
 
 Those questions are a useful way into Australia's proposed digital duty of care.
 
-A friend's recent LinkedIn post prompted me to look more closely at the proposal and what schools might take from it. I support the principle that providers should take responsibility for foreseeable harm through their services. I also think the legislation deserves careful scrutiny. Schools can strengthen their own decisions about technology while that debate continues.
+A recent [LinkedIn post by my friend David Nichols](https://www.linkedin.com/feed/update/urn:li:activity:7519518787344171008/) prompted me to look more closely at the proposal and what schools might take from it. I support the principle that providers should take responsibility for foreseeable harm through their services. I also think the legislation deserves careful scrutiny. Schools can strengthen their own decisions about technology while that debate continues.
 
 The government says it introduced the **Online Safety Amendment (Digital Duty of Care) Bill 2026** on **15 October 2026**. The department's [20 October announcement](https://www.infrastructure.gov.au/department/media/news/digital-duty-care-bill-introduced) describes proposed requirements covering services including games, social media and AI chatbots, with penalties of up to $109.2 million for non-compliance. These are proposed obligations, rather than a standard schools should describe as already in force.
 
