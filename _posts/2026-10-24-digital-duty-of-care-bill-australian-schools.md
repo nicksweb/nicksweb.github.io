@@ -13,7 +13,7 @@ image:
 
 *Photo by [Leon Seibert](https://unsplash.com/@yapics?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/internet-led-signage-beside-building-near-buildings-2m71l9fA6mg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).*
 
-A recent [LinkedIn post by my friend David Nichols](https://www.linkedin.com/feed/update/urn:li:activity:7519518787344171008/) raised a useful question: what can schools do now about the responsibilities Australia's proposed digital duty of care would place on online platforms?
+A recent [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7519518787344171008/) by David Nichols, a current member of [MITIE's Steering Committee](https://www.mitie.edu.au/page-18370), raised a useful question: what can schools do now about the responsibilities Australia's proposed digital duty of care would place on online platforms?
 
 I support making providers answerable for foreseeable harm through their services. Schools can apply that principle when choosing technology, while still scrutinising how the legislation would work.
 

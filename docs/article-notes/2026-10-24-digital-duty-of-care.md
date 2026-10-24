@@ -17,6 +17,8 @@ At the user's request, the published article was shortened from approximately 1,
 
 ## Personal experience and examples
 
+- David Nichols is listed on MITIE's 2026–2027 Steering Committee page, checked 24 October 2026: https://www.mitie.edu.au/page-18370. The article uses that official committee title for the requested role context. The user's removal of “my friend” from the opening credit is preserved.
+
 - The reference to Queensland state schools, independent-school IT, infrastructure, cloud platforms, device management and vendor coordination comes from the existing `_tabs/about.md`.
 - The monitoring-alert scenario is explicitly illustrative. It does not describe an incident at the author's employer or make claims about particular students or staff.
 - The user subsequently supplied experience of consulting application risk review registers in state schools and considering filtering/monitoring tools that make information available to wellbeing teams. These experiences are incorporated without naming schools, claiming a particular vendor was deployed, or inventing an incident or outcome.
