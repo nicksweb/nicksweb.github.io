@@ -25,12 +25,12 @@ Prepared 24 October 2026, Australia/Brisbane. Initially prepared as an unpublish
 
 ## Featured image
 
-- Photographer: Jackson Schaal, https://unsplash.com/@jackson_schaal
-- Photo: https://unsplash.com/photos/person-using-laptop-nOtIXZGMaOs
-- Asset: `assets/images/jackson-schaal-nOtIXZGMaOs-unsplash-digital-duty-of-care.jpg`
-- Downloaded from the photo page's linked Unsplash image CDN at 1600 pixels wide; visually checked before use. The image shows people around a laptop with stationery and coffee, without visible faces. It is illustrative, not a photograph of the author's school or an incident.
-- The photo page identifies it as free under the Unsplash License, checked 24 October 2026: https://unsplash.com/license
-- Photographer and photo-page attribution are included in the article. No Unsplash API key was found in the checked workspace, environment or common configuration locations; the public photo page and download were used.
+- Photographer: Leon Seibert, https://unsplash.com/@yapics
+- Photo: https://unsplash.com/photos/internet-led-signage-beside-building-near-buildings-2m71l9fA6mg
+- Asset: `assets/images/leon-seibert-2m71l9fA6mg-unsplash.jpg`
+- The user supplied this image and its attribution after initial publication and requested its use. It replaces the initial Jackson Schaal laptop photograph.
+- Visually checked before publication: a red illuminated Internet sign with an at symbol outside a building, reflected in a window. The uploaded image is used unchanged, with descriptive alt text.
+- The photographer and photo-page credit links supplied by the user are included in the article.
 
 ## Sources linked in the article
 

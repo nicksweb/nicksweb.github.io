@@ -8,11 +8,11 @@ categories: [Cyber Security]
 tags: [education, online-safety, artificial-intelligence, privacy, governance, australia]
 wrap_tables: true
 image:
-  path: /assets/images/jackson-schaal-nOtIXZGMaOs-unsplash-digital-duty-of-care.jpg
-  alt: "An overhead view of people at a table with a laptop, notebook and coffee"
+  path: /assets/images/leon-seibert-2m71l9fA6mg-unsplash.jpg
+  alt: "A red illuminated Internet sign with an at symbol outside a building, reflected in a window"
 ---
 
-*Photo by [Jackson Schaal](https://unsplash.com/@jackson_schaal) on [Unsplash](https://unsplash.com/photos/person-using-laptop-nOtIXZGMaOs).*
+*Photo by [Leon Seibert](https://unsplash.com/@yapics?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/internet-led-signage-beside-building-near-buildings-2m71l9fA6mg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).*
 
 A classroom app can begin with a very reasonable request: a teacher has found something that could help students learn. It works in a browser, the demonstration looks useful, and getting a class started appears straightforward.
 
