@@ -1,8 +1,10 @@
 ---
 title: "North Queensland Cyber Watch: All Souls St Gabriels School confirms a cyber incident after ransomware claim"
-description: "Days after The Gentlemen listed the Charters Towers school on its leak site, All Souls St Gabriels School has confirmed an unauthorised party accessed part of its systems. What the school has now said, what is still only the group's claim, and what families should do while the investigation runs."
+description: "All Souls St Gabriels School confirmed a cyber incident to Cyber Daily. ABC reporting corroborates the investigation, specialist response and ACSC notification; theft of personal information remains unconfirmed in those reports."
 keywords: [All Souls St Gabriels School cyber incident, Charters Towers school cyber attack, The Gentlemen ransomware, North Queensland Cyber Watch, school ransomware claim update, QLD school data breach, boarding school cyber incident, school incident response]
 date: 2026-10-13 19:00:00 +1000
+redirect_from:
+  - /posts/nq-cyber-watch-allsouls-st-gabriels-confirms-cyber-incident-copy/
 categories: [Cyber Security]
 cyber_regions: [charters-towers]
 tags: [cyber-security, north-queensland-cyber-watch, ransomware, education]
@@ -11,13 +13,21 @@ image:
   alt: A woman at a kitchen table on the phone while working on a laptop, the everyday setting in which parents and staff receive a school's update about a cyber incident.
 ---
 
+> **Updated 28 October 2026:** ABC reporting now corroborates the school’s cyber-incident investigation and response, as detailed below. The cited reports do not establish whether personal information was stolen. This article was first published on 13 October; the original reporting and tracker checks below are dated accordingly.
+
 This is an update to the [earlier North Queensland Cyber Watch entry]({% post_url 2026-10-10-nq-cyber-watch-allsouls-st-gabriels-ransomware-claim %}) on All Souls St Gabriels School in Charters Towers, which a criminal ransomware group, The Gentlemen, had listed as a victim on its leak site. When I wrote that entry on 10 October 2026, the only evidence was the listing itself. That has now changed in one important respect: the school has spoken on the record.
 
 According to [Cyber Daily's report of 13 October 2026](https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims){:target="_blank" rel="noopener noreferrer"}, a spokesperson for the school said it is investigating "a cyber incident involving an unauthorised party accessing a part of our systems". That is a confirmed cyber incident. It is **not**, on the current public record, a confirmed data theft: the school says its investigation into the impact is ongoing, and that external forensic experts are assessing the online claims. All Souls St Gabriels School is **not accused of any wrongdoing**; it is the target of a crime.
 
 *Photo by [Vitaly Gariev](https://unsplash.com/@silverkblack?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/woman-talking-on-phone-while-working-on-laptop-at-table-j5B2A4R4NKU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}.*
 
-## What has been reported
+## ABC corroborates the school’s investigation
+
+[ABC North Queensland’s 15 October briefing](https://www.abc.net.au/news/2026-10-15/north-queensland-local-news-briefing/107268408){:target="_blank" rel="noopener noreferrer"}, produced by **James Tugwell**, reports that All Souls St Gabriels School is investigating a cyber incident following The Gentlemen’s claim. The ABC reports that parents and staff were informed late the previous week, cyber and forensic specialists were engaged to establish whether personal information was affected, and the Australian Cyber Security Centre was alerted. The school said it would contact affected people directly.
+
+This provides further corroboration of the school’s investigation and response already reported by Cyber Daily. It does **not** independently verify the ransomware group’s claims about stolen data or establish the extent of any impact on personal information.
+
+## What was reported on 13 October 2026
 
 [Cyber Daily's article](https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims){:target="_blank" rel="noopener noreferrer"}, by David Hollingworth and published on 13 October 2026, is the first news report I have found on this incident. It reports that The Gentlemen listed the school in an October 9 leak post, that the group has not shared how much data it says it took or what it is demanding, and that the group is threatening to publish within four days.
 
@@ -36,10 +46,10 @@ When I checked the school's [homepage](https://www.allsouls.qld.edu.au/){:target
 
 ## What is reported, claimed and still unknown
 
-The line between these three categories has moved since the earlier entry, so it is worth redrawing it carefully.
+The following distinction reflects Cyber Daily’s 13 October report and the ABC’s 15 October corroboration. Neither report establishes the extent of any personal-information impact.
 
-- **Reported:** The school has confirmed, in a statement to [Cyber Daily](https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims){:target="_blank" rel="noopener noreferrer"}, a cyber incident in which an unauthorised party accessed part of its systems. It says it has secured its systems, engaged cyber security and forensic experts, told parents and staff, and notified the ACSC. Public trackers including [ransomware.live](https://www.ransomware.live/id/QWxsIFNvdWxzIFN0IEdhYnJpZWxzIFNjaG9vbEB0aGVnZW50bGVtZW4=){:target="_blank" rel="noopener noreferrer"} continue to index the leak-site listing.
-- **Claimed by the group:** that it holds data belonging to the school, and (as [Cyber Daily reports](https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims){:target="_blank" rel="noopener noreferrer"}) that it will publish within four days. Those are **the group's claims**. The school has not confirmed that any data was taken, and it has [described the information](https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims){:target="_blank" rel="noopener noreferrer"} as "said to belong to our school", which is careful language for a reason.
+- **Reported:** The school has confirmed, in a statement to [Cyber Daily](https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims){:target="_blank" rel="noopener noreferrer"}, a cyber incident in which an unauthorised party accessed part of its systems. It says it has secured its systems, engaged cyber security and forensic experts, told parents and staff, and notified the ACSC. [ABC North Queensland’s 15 October briefing](https://www.abc.net.au/news/2026-10-15/north-queensland-local-news-briefing/107268408){:target="_blank" rel="noopener noreferrer"} corroborates the investigation, specialist engagement, community notification and ACSC notification. Public trackers including [ransomware.live](https://www.ransomware.live/id/QWxsIFNvdWxzIFN0IEdhYnJpZWxzIFNjaG9vbEB0aGVnZW50bGVtZW4=){:target="_blank" rel="noopener noreferrer"} continue to index the leak-site listing.
+- **Claimed by the group:** that it holds data belonging to the school, and (as [Cyber Daily reports](https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims){:target="_blank" rel="noopener noreferrer"}) that it would publish within four days of that October report. Those are **the group's claims**. The school has not confirmed that any data was taken, and it has [described the information](https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims){:target="_blank" rel="noopener noreferrer"} as "said to belong to our school", which is careful language for a reason.
 - **Not established publicly:** whether any personal information was copied or stolen; what kinds of records, if any, were involved; how many students, families or staff might be affected; how the unauthorised party got in and when; whether systems were encrypted; whether a ransom has been demanded or discussed; whether the group has published anything; and whether the school has notified, or will need to notify, the Office of the Australian Information Commissioner.
 
 The confirmed part is narrower than a headline might suggest. "An unauthorised party accessing a part of our systems" confirms that the incident is real. It does not confirm the group's account of what it took. Leak-site claims are sometimes inflated, and organisations often need weeks of forensic work before they can say with confidence what was and was not accessed. Until the school says otherwise, both things are true at once: there was an intrusion, and the scale of any data loss is unknown.
@@ -83,11 +93,13 @@ ASD's Australian Cyber Security Centre publishes the [Essential Eight](https://w
 
 If your organisation wants an independent, practical look at incident readiness, communications planning, remote access, identity and Microsoft 365 hygiene, [Suburban Secure works with organisations in Townsville](https://suburbansecure.au/cyber-security-townsville/){:target="_blank" rel="noopener noreferrer"} and [Cairns](https://suburbansecure.au/cyber-security-cairns/){:target="_blank" rel="noopener noreferrer"}. The review is designed as an independent second opinion: the findings belong to the organisation, and the organisation chooses who acts on them.
 
-The accurate headline is still narrow, but it has moved. All Souls St Gabriels School has **confirmed a cyber incident** in which an unauthorised party accessed part of its systems, and it has told families, engaged forensic experts and notified the ACSC. The Gentlemen **claims** to hold the school's data and threatens to publish it. Whether any personal information was taken has not been established publicly, and the school says it will contact affected people directly if it was.
+The accurate headline is still narrow, but it has moved. All Souls St Gabriels School has **confirmed a cyber incident** in which an unauthorised party accessed part of its systems, and it has told families, engaged forensic experts and notified the ACSC. The ABC’s 15 October report corroborates the school’s investigation and response. The Gentlemen’s claims about holding the school’s data remain unverified in the cited reports, and the school says it will contact affected people directly if personal information is involved.
 
 ---
 
 ## References
+
+Tugwell, J. (Producer). (2026, October 15). *North Queensland local news briefing: Thursday, October 15, 2026*, “School investigates cyber incident”. ABC News. <https://www.abc.net.au/news/2026-10-15/north-queensland-local-news-briefing/107268408> (added 28 October 2026).
 
 Hollingworth, D. (2026, October 13). *Exclusive: All Souls St Gabriels School investigating cyber incident in wake of ransomware claims*. Cyber Daily. <https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims>
 

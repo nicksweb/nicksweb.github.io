@@ -1,6 +1,6 @@
 ---
 title: "North Queensland Cyber Watch: The Gentlemen claims a Charters Towers school as a ransomware victim"
-description: "A ransomware group has listed All Souls St Gabriels School in Charters Towers as a victim on its leak site. The school has not confirmed anything publicly. What is reported, what is claimed, and what a listing like this means for a boarding school's families."
+description: "The original All Souls St Gabriels ransomware claim, updated with the school’s confirmation and ABC reporting. A cyber incident is confirmed; theft of personal information remains unconfirmed in the cited reports."
 keywords: [All Souls St Gabriels School ransomware, Charters Towers cyber attack, The Gentlemen ransomware, North Queensland Cyber Watch, school ransomware claim, QLD school data breach, ransomware leak site claim, boarding school data]
 date: 2026-10-10 09:00:00 +1000
 categories: [Cyber Security]
@@ -11,7 +11,11 @@ image:
   alt: Rows of empty classroom chairs with fold-down desks in late-afternoon light from a bank of windows, the kind of room whose students and families a school holds records about.
 ---
 
+> **Update, 28 October 2026 — ABC corroborates the incident investigation:** [ABC North Queensland’s 15 October briefing](https://www.abc.net.au/news/2026-10-15/north-queensland-local-news-briefing/107268408){:target="_blank" rel="noopener noreferrer"}, produced by James Tugwell, reports that the school is investigating a cyber incident, has engaged cyber and forensic specialists, informed parents and staff, and alerted the Australian Cyber Security Centre. It says anyone found to be affected will be contacted directly. This corroborates the school’s response reported by Cyber Daily; it does **not** verify The Gentlemen’s data-theft claims. See the [updated follow-up article]({% post_url 2026-10-13-nq-cyber-watch-allsouls-st-gabriels-confirms-cyber-incident %}) for the confirmed information.
+
 > **Update, 13 October 2026:** The school has since confirmed a cyber incident. A spokesperson [told Cyber Daily](https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims){:target="_blank" rel="noopener noreferrer"} that it is investigating "a cyber incident involving an unauthorised party accessing a part of our systems", that parents and staff have been informed, and that the Australian Cyber Security Centre has been notified. Whether any personal information was taken has not been established publicly. The [follow-up entry]({% post_url 2026-10-13-nq-cyber-watch-allsouls-st-gabriels-confirms-cyber-incident %}) covers what the school has said. The rest of this post is unchanged and reflects what was public on 10 October 2026.
+
+## Original report — 10 October 2026
 
 This entry in **North Queensland Cyber Watch**, the series looking at cyber security incidents that affect our region and what organisations here can take from them, needs a careful first sentence, because it is early and it is thin.
 
@@ -124,3 +128,5 @@ Australian Signals Directorate, Australian Cyber Security Centre. (n.d.). *Essen
 IDCARE. (n.d.). *Get support*. <https://www.idcare.org/>
 
 Hollingworth, D. (2026, October 13). *Exclusive: All Souls St Gabriels School investigating cyber incident in wake of ransomware claims*. Cyber Daily. <https://www.cyberdaily.au/security/14287-exclusive-all-souls-st-gabriels-school-investigating-cyber-incident-in-wake-of-ransomware-claims> (added with the 13 October 2026 update).
+
+Tugwell, J. (Producer). (2026, October 15). *North Queensland local news briefing: Thursday, October 15, 2026*, “School investigates cyber incident”. ABC News. <https://www.abc.net.au/news/2026-10-15/north-queensland-local-news-briefing/107268408> (added 28 October 2026).

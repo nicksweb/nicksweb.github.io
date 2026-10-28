@@ -20,6 +20,9 @@ RewriteEngine On
 RewriteCond %{THE_REQUEST} \s/+index\.html(?:[?\s]) [NC]
 RewriteRule ^index\.html$ https://www.nickosullivan.id.au/ [R=301,L,NC]
 
+# Consolidate the accidentally published duplicate with the follow-up article.
+RewriteRule ^posts/nq-cyber-watch-allsouls-st-gabriels-confirms-cyber-incident-copy(?:/index\.html)?/?$ https://www.nickosullivan.id.au/posts/nq-cyber-watch-allsouls-st-gabriels-confirms-cyber-incident/ [R=301,L]
+
 # Preserve the original article URL after giving it a descriptive slug.
 RewriteRule ^posts/beyond-essential-8/?$ https://www.nickosullivan.id.au/posts/beyond-essential-eight-school-cybersecurity-governance/ [R=301,L]
 
