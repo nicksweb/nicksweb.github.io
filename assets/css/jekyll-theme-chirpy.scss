@@ -204,3 +204,17 @@
     max-width: 10.5rem;
   }
 }
+
+/* Preserve chart labels and legends on posts that request the complete image. */
+article header .preview-img.contain-image {
+  aspect-ratio: auto;
+  height: auto;
+}
+
+article header .preview-img.contain-image img,
+article header img.preview-img.contain-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
