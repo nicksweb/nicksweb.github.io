@@ -37,6 +37,8 @@ Before that, I worked in regional and North Queensland state school environments
 
 I have served with [Northreach Community Care](https://northreach.org.au) and Northreach Baptist Church in governance and technology-focused roles, including infrastructure improvement, Microsoft 365 administration, SSO, network management, AV support, CCTV, monitoring, endpoint security and operational documentation.
 
+My volunteering has also included media and promotions for Stable in Townsville. In 2026, Sophie, our daughter Madeline and I helped with a [family photoshoot for Stable in the City](/posts/stable-in-the-city-2026-townsville-family-photoshoot/), dressing as Mary and Joseph to help promote the Christmas event.
+
 ### Suburban Australia
 
 Suburban Australia began as local technology support work and has evolved into practical digital projects, systems integration and security-minded technology advice. Its dedicated service line, [Suburban Secure](https://suburbansecure.au), focuses on helping organisations improve Microsoft 365 security, network foundations, device management, online platforms, data governance and cyber resilience without unnecessary complexity.
