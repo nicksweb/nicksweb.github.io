@@ -84,6 +84,8 @@ That is where I think this story leads. Requirements, independent advice, testin
 
 For any organisation planning a renewal, I would put those outcomes into the brief and make the supplier demonstrate how they will be delivered. The handover should leave behind a network the organisation understands, people equipped to support it and a practical path for making the next change.
 
+For organisations closer to home, I offer [IT consulting in Townsville and North Queensland](/consulting/), including requirements planning and second opinions on network proposals. The principles discussed here can inform a smaller project too; this article is commentary on UTS's public announcement, not a project I delivered.
+
 **[Part 2: A modern campus for what’s next](/posts/uts-network-modernisation-part-two/) explores what happens when more of that operational knowledge and control sits inside a supplier’s platform.**
 
 ---

@@ -98,6 +98,8 @@ The results also need an owner after handover. An initial improvement means less
 
 UTS’s modernisation will eventually become the environment another generation has to replace. The strongest outcome would be a university with clearer knowledge of its services, better tools, capable staff and greater confidence in making that next change.
 
+If your organisation is weighing equipment, management platforms or ongoing support costs, my [technology planning and IT consulting service](/consulting/) can help turn those questions into a project brief. For a practical starting point, read [when to engage an IT consultant]({% post_url 2026-11-14-when-to-use-it-consultant-townsville %}).
+
 That is the thread joining these two articles. Good procurement establishes what the institution needs to be able to do. A successful platform investment gives its people the means to keep doing it.
 
 **Read [Part 1: From strategy to selection](/posts/uts-network-modernisation-part-one/).**

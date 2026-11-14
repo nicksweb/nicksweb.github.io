@@ -233,6 +233,7 @@ exclude:
   - assets/data/2026-09-24-Ubiquiti-Wireless-Admin.pdf
   # Search Console working exports; the article publishes selected findings.
   - assets/data/blog-stats
+  - assets/stats
 
 jekyll-archives:
   enabled: [categories, tags]

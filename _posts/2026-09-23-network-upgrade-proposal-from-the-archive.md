@@ -15,6 +15,8 @@ Around 2016, I wrote the proposal below for a not-for-profit organisation that h
 
 I've removed names, locations and branding, and lightly edited the text for reading online. The findings, options and prices reflect what I proposed at the time. They are **historical estimates, not current prices or a record of everything ultimately installed**. Some terminology and assumptions also reflect the technology available then.
 
+For help assessing a current proposal, see my [IT consulting and network planning services in Townsville](/consulting/). I also explain how I now approach [NBN transitions and fibre backbone decisions]({% post_url 2026-11-14-nbn-fibre-backbone-connectivity-planning %}).
+
 ---
 
 ## Summary

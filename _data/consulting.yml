@@ -6,14 +6,18 @@ abn: "24 550 297 597"
 # The browser decodes it only after the visitor selects Show email address.
 email_encoded: bWVAbmlja29zdWxsaXZhbi5pZC5hdQ==
 services:
-  - name: Cyber security and Microsoft 365 reviews
-    description: Review identity and administrator access, email security, cloud settings, endpoint management and backup arrangements. Identify practical improvements and put them in an order your organisation can act on.
+  - name: NBN and business connectivity planning
+    description: Work through internet service options, FTTN-to-FTTP transitions and the effect on your firewall, phones and internal network. Plan for current needs and future growth, coordinating requirements with your internet provider.
+  - name: Firewall rebuilds and migration planning
+    description: Review the existing configuration, prepare the replacement and plan the cutover, validation and recovery steps. Agree a realistic interruption window around the services your organisation depends on.
   - name: Network and infrastructure advice
-    description: Assess Wi-Fi, networks, servers, virtualisation and device management. Plan upgrades and improvements around the way your organisation works, the equipment you have and the budget available.
+    description: Assess Wi-Fi, switching, servers and the fibre backbone between buildings. Plan structured cabling requirements with your installer and compare equipment options, including Aruba and Ubiquiti, against capacity, support and budget.
     url: /consulting/unifi-network-design/
     link_text: Ubiquiti UniFi network design and quote reviews
   - name: Technology planning and project support
     description: Turn a technology problem into a clear scope, priorities and next steps. Get help with systems integration, procurement decisions, vendor coordination, documentation and project delivery.
+  - name: Cyber security and Microsoft 365 reviews
+    description: Review identity and administrator access, email security, cloud settings, endpoint management and backup arrangements. Identify practical improvements and put them in an order your organisation can act on.
 # Rendered on /consulting/unifi-network-design/ and used as that page's
 # Service structured data.
 unifi_services:
