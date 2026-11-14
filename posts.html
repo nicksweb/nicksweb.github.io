@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Posts
+title: Articles
 description: Read Nicholas O'Sullivan's articles about IT leadership, cyber security, infrastructure, homelabs and technology in Townsville.
 keywords: [Nicholas O'Sullivan posts, IT leadership articles, cyber security articles, infrastructure, homelab, Townsville technology]
 icon: fas fa-newspaper
@@ -17,7 +17,14 @@ pagination:
 
 {% include lang.html %}
 
-<p>Articles on technology leadership, cyber security, infrastructure, education technology, homelabs and the Townsville technology community.</p>
+<p>Practical technology advice, regional cyber security reporting and reflections from my work in Townsville.</p>
+
+<nav class="article-browse" aria-label="Browse articles">
+  <a href="{{ '/categories/' | relative_url }}">Browse categories</a>
+  <a href="{{ '/tags/' | relative_url }}">Browse topics</a>
+  <a href="{{ '/archives/' | relative_url }}">Browse by date</a>
+</nav>
+<p>For family stories and everyday life, visit my <a href="https://blog.nickosullivan.id.au/">personal blog on a separate site</a>.</p>
 
 {%- comment -%}
   jekyll-paginate-v2 has no "hidden" filter, so drop Chirpy `hidden: true`

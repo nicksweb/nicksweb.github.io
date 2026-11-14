@@ -9,9 +9,13 @@ icon: fas fa-shield-alt
 order: 3.5
 ---
 
-Cyber security looks different when you're the person responsible for keeping a school, small business or community organisation working. There may be no dedicated security team. The person reviewing a suspicious email might also be fixing the Wi-Fi, preparing a budget and explaining to the board why an old server needs replacing.
+Practical reading for people responsible for technology in a business, school or community organisation. I'm Nick O'Sullivan, a Townsville-based IT consultant. Here I bring together advice, regional research and reporting on cyber incidents.
 
-I'm Nicholas O'Sullivan, usually Nick, an IT and cyber security professional based in Townsville. This is where I bring together my regional research, incident reporting and practical writing about the systems people depend on. My starting point is fairly simple: understand what matters, know who is responsible, and check that the controls actually work.
+## Where would you like to start?
+
+- **Improve your organisation's security:** [start with practical steps for small teams](/posts/practical-cyber-security-for-small-organisations/).
+- **Understand local incidents:** [explore the regional incident tracker](/cyber-security/incident-tracker/).
+- **Get help with your own systems:** [see my consulting services](/consulting/).
 
 ## Start with your region
 
@@ -49,9 +53,7 @@ The [Townsville cyber security hub history](/posts/townsville-cyber-security-hub
 
 ## The experience behind the writing
 
-My background spans more than 17 years in IT, including small business support, state and independent education, infrastructure, cloud platforms and community governance. I hold a Graduate Diploma of Information Technology (Networking) with Distinction from Central Queensland University and a Bachelor of Multimedia Journalism from James Cook University, and am an ACS Certified Technologist. My cyber security capability has developed through practical work and continuing professional development.
-
-[About me](/about/) sets out that background and its limits. [My technical skills](/skills/) provide more detail. For an interview, background discussion or event biography, see [media and cyber security commentary](/media/).
+My background spans more than 17 years in IT, including small business, education and community organisations. [About me](/about/) explains that experience; [my skills and qualifications](/skills/) provide the technical detail. For an interview or event biography, see [media and commentary](/media/).
 
 ## Research and consulting
 

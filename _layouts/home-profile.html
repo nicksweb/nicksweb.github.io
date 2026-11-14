@@ -6,99 +6,44 @@ refactor: true
 {% include lang.html %}
 
 <article class="px-1">
-  <section class="mb-5">
-    <div class="row align-items-center g-4">
-      <div class="col-12 col-md-auto text-center">
-        <img
-          src="{{ site.avatar | relative_url }}"
-          alt="Nicholas O'Sullivan"
-          width="180"
-          height="180"
-          class="rounded-circle shadow"
-        >
+  <section class="mb-5 home-intro">
+    <div class="row align-items-center gx-4">
+      <div class="col-12 col-md-auto">
+        <img src="{{ site.avatar | relative_url }}" alt="Nicholas O'Sullivan" width="144" height="144" class="rounded-circle shadow home-portrait">
       </div>
-      <div class="col text-center text-md-start">
-        <h1 class="display-5 mb-2">Nicholas “Nick” O'Sullivan</h1>
-        <p class="lead mb-3">IT consultant in Townsville · Networks, technology planning &amp; cyber security</p>
-        <p>
-          I'm Nicholas O'Sullivan, usually Nick — a Townsville-based IT consultant with more
-          than 17 years of experience across infrastructure, cloud platforms, education
-          technology, cyber security, systems administration and practical technology leadership.
-        </p>
-        <p>
-          I help businesses, schools, charities and community organisations plan NBN upgrades,
-          firewall migrations and reliable networks, compare technology options and improve
-          Microsoft 365 and cyber security through Suburban Australia and Suburban Secure.
-        </p>
+      <div class="col">
+        <h1 class="mb-2">Nicholas “Nick” O'Sullivan</h1>
+        <p class="lead mb-3">IT consultant in Townsville</p>
+        <p>I help businesses, schools and community organisations improve unreliable systems, plan upgrades and make better technology decisions.</p>
+        <p>Whether you need a second opinion or help with a project, I'll explain the options and costs clearly.</p>
         <p class="mb-0">
-          <a class="btn btn-primary me-2 mb-2" href="{{ '/consulting/' | relative_url }}">IT consulting in Townsville</a>
-          <a class="btn btn-outline-primary me-2 mb-2" href="{{ '/about/' | relative_url }}">About me</a>
-          <a class="btn btn-outline-primary mb-2" href="{{ '/skills/' | relative_url }}">View my skills</a>
+          <a class="btn btn-primary me-2 mb-2" href="{{ '/consulting/#contact-nick' | relative_url }}">Discuss your project</a>
+          <a class="btn btn-outline-primary mb-2" href="{{ '/consulting/' | relative_url }}">How I can help</a>
         </p>
       </div>
     </div>
   </section>
 
-  <section class="content mb-5" aria-labelledby="professional-focus">
-    <h2 id="professional-focus">Professional focus</h2>
-    <p>
-      I focus on secure, explainable and maintainable technology: strengthening school technology
-      foundations, improving cloud and identity governance, planning resilient infrastructure and
-      helping organisations understand which technology risks and improvements matter most.
-    </p>
-    <div class="row g-3">
-      <div class="col-md-4">
-        <h3 class="h5">Technology leadership</h3>
-        <p>Strategy, service delivery, infrastructure planning, documentation and practical risk management.</p>
-      </div>
-      <div class="col-md-4">
-        <h3 class="h5">Cyber security</h3>
-        <p>Identity, Microsoft 365, endpoint management, cloud governance and security-minded operations.</p>
-      </div>
-      <div class="col-md-4">
-        <h3 class="h5">Infrastructure</h3>
-        <p>Networks, servers, virtualisation, automation and maintainable systems for complex environments.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="content mb-5" aria-labelledby="consulting-experience">
-    <h2 id="consulting-experience">Practical experience for your next IT decision</h2>
-    <p>
-      My work includes helping organisations transition from FTTN to FTTP, planning fibre
-      backbones and rebuilding firewalls with carefully prepared cutovers. I compare options
-      against the organisation's needs and budget, including when Aruba or Ubiquiti equipment
-      is the better fit for a particular brief.
-    </p>
+  <section class="content mb-5" aria-labelledby="how-i-help">
+    <h2 id="how-i-help">Practical help with your technology</h2>
     <ul>
-      <li><a href="{{ '/posts/nbn-fibre-backbone-connectivity-planning/' | relative_url }}">NBN transitions and fibre backbone planning</a></li>
-      <li><a href="{{ '/posts/firewall-migration-planning-minimal-downtime/' | relative_url }}">Firewall migrations with minimal downtime</a></li>
-      <li><a href="{{ '/posts/when-to-use-it-consultant-townsville/' | relative_url }}">When to engage an IT consultant</a></li>
+      <li><strong>Reliable connections:</strong> plan internet upgrades, improve Wi-Fi and connect your buildings.</li>
+      <li><strong>Safer systems:</strong> protect accounts and information, review backups and make sense of security alerts.</li>
+      <li><strong>Better decisions:</strong> compare quotes, choose suitable equipment and plan improvements around your budget.</li>
     </ul>
-    <p><a href="{{ '/consulting/#contact-nick' | relative_url }}">Discuss your project with me</a></p>
+    <p><a href="{{ '/consulting/' | relative_url }}">Explore IT consulting services</a></p>
   </section>
 
-  <section class="content mb-5" aria-labelledby="townsville-writing">
-    <h2 id="townsville-writing">Technology in Townsville and regional Queensland</h2>
-    <p>
-      I write from the perspective of someone working in information technology in Townsville:
-      regional cyber security incidents, digital inclusion, education technology, infrastructure
-      and the practical constraints local organisations face. My
-      <a href="{{ '/cyber-security/' | relative_url }}">cyber security research and resources</a>
-      bring together regional guides, North Queensland Cyber Watch and practical writing on governance.
-      The <a href="{{ '/cyber-security/incident-tracker/' | relative_url }}">regional incident tracker</a>
-      keeps the sources and the limits of each report in one place.
-    </p>
-    <p>
-      For interviews, background or event biographies, see my
-      <a href="{{ '/media/' | relative_url }}">media and commentary profile</a>.
-    </p>
+  <section class="content mb-5" aria-labelledby="experience">
+    <h2 id="experience">Experience you can explore</h2>
+    <p>I've spent more than 17 years working in IT across small business, education and community organisations. My work includes <a href="{{ '/posts/nbn-fibre-backbone-connectivity-planning/' | relative_url }}">planning moves to fibre internet</a> and <a href="{{ '/posts/firewall-migration-planning-minimal-downtime/' | relative_url }}">replacing firewalls with minimal interruption</a>.</p>
+    <p><a href="{{ '/about/' | relative_url }}">Get to know me and my background</a>, or explore <a href="{{ '/cyber-security/' | relative_url }}">cyber security resources for your organisation</a>.</p>
   </section>
 
   <section aria-labelledby="recent-articles">
     <div class="d-flex justify-content-between align-items-center mb-3">
       <h2 id="recent-articles" class="mb-0">Recent articles</h2>
-      <a href="{{ '/posts/' | relative_url }}">View all posts</a>
+      <a href="{{ '/posts/' | relative_url }}">Browse all articles</a>
     </div>
     <div id="post-list" class="flex-grow-1 px-xl-1">
       {% assign visible_posts = site.posts | where_exp: 'post', 'post.hidden != true' %}

@@ -6,8 +6,7 @@ icon: fas fa-laptop-code
 order: 3
 ---
 
-> Practical technology leadership across infrastructure, cloud, endpoint management, cyber security, service management and community-focused systems improvement.
-{: .prompt-tip }
+This page lists the systems, tools and qualifications behind my work. For a plain-English overview of how I can help your organisation, start with [IT consulting](/consulting/). You can also read [about my background](/about/).
 
 Leadership and delivery
 -------
@@ -98,3 +97,13 @@ Formal recognition and continued learning support my practical work across IT an
     <p><a href="{{ '/about/' | relative_url }}">More about my professional background</a></p>
   </section>
 </div>
+
+### Further cyber security training
+
+These are certificates of completion supporting my continuing professional development:
+
+- **Next-Gen Network Security** — 9 November 2025. Credential ID: `Z9DnTJaCgs`.
+- **Pen Testing** — 15 September 2024. Credential ID: `Tapw0pwEMN`.
+- **Enterprise Cyber Security Fundamentals** — 15 September 2024. Credential ID: `flLDGdAcwD`.
+
+I continue learning through Charles Sturt University, LinkedIn Learning, the Australian Computer Society and other industry training, across security, technology leadership, procurement and service delivery.

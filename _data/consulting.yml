@@ -6,22 +6,21 @@ abn: "24 550 297 597"
 # The browser decodes it only after the visitor selects Show email address.
 email_encoded: bWVAbmlja29zdWxsaXZhbi5pZC5hdQ==
 services:
-  - name: NBN and business connectivity planning
-    description: Work through internet service options, FTTN-to-FTTP transitions and the effect on your firewall, phones and internal network. Plan for current needs and future growth, coordinating requirements with your internet provider.
-  - name: Firewall rebuilds and migration planning
-    description: Review the existing configuration, prepare the replacement and plan the cutover, validation and recovery steps. Agree a realistic interruption window around the services your organisation depends on.
-  - name: Network and infrastructure advice
-    description: Assess Wi-Fi, switching, servers and the fibre backbone between buildings. Plan structured cabling requirements with your installer and compare equipment options, including Aruba and Ubiquiti, against capacity, support and budget.
+  - name: Planning your move to fibre internet
+    description: Understand your NBN upgrade options and what needs to change inside your organisation. I help plan the service transition with your provider, including the effect on phones, internet access and existing equipment.
+  - name: Making your network more reliable
+    description: Improve Wi-Fi and connections between buildings, plan cabling requirements with your installer, or replace a firewall with a carefully prepared changeover. I help you choose equipment that suits your needs and budget.
     url: /consulting/unifi-network-design/
-    link_text: Ubiquiti UniFi network design and quote reviews
-  - name: Technology planning and project support
-    description: Turn a technology problem into a clear scope, priorities and next steps. Get help with systems integration, procurement decisions, vendor coordination, documentation and project delivery.
-  - name: Cyber security and Microsoft 365 reviews
-    description: Review identity and administrator access, email security, cloud settings, endpoint management and backup arrangements. Identify practical improvements and put them in an order your organisation can act on.
-  - name: Security monitoring and log analysis
-    description: Plan and integrate security analysis using tools such as Wazuh and Splunk. Bring relevant logs together, review detection coverage, tune alerts and develop reporting that helps your team investigate findings and prioritise action.
+    link_text: UniFi network design and quote reviews
+  - name: Checking a quote or planning an upgrade
+    description: Get a second opinion before committing, or turn a technology problem into a clear project. I explain the alternatives, costs and priorities so you can decide what to do now and what can wait.
+  - name: Protecting your accounts and information
+    description: Review Microsoft 365, administrator access, email security and backups. Understand who can reach your systems, what happens if something goes wrong and which improvements deserve attention first.
+  - name: Making sense of security alerts
+    id: cyber-security-analysis-and-monitoring
+    description: Bring security information together using tools such as Wazuh and Splunk. I help connect log sources, check detection coverage, tune alerts and build reports so your team knows what needs investigation and action.
     url: /posts/ai-security-log-analysis-graylog-wazuh/
-    link_text: My approach to security log analysis and tested alerts
+    link_text: How I approach security log analysis
 # Rendered on /consulting/unifi-network-design/ and used as that page's
 # Service structured data.
 unifi_services:

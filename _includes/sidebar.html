@@ -1,10 +1,6 @@
 <!-- The Side Bar -->
-<!--
-  Project override of the Chirpy theme include. /posts/ is a jekyll-paginate-v2 page
-  (a regular page, not a _tabs collection doc), so it is not in `site.tabs` and
-  has to be injected into the nav here, after Consulting = 4 and before Blog = 5.
-  The email icon opens the contact section instead of exposing the address.
--->
+<!-- Primary destinations are defined in _data/navigation.yml. Supporting
+     pages remain linked from About and Articles; existing URLs are retained. -->
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
@@ -30,52 +26,23 @@
   </header>
   <!-- .profile-wrapper -->
 
-  <nav class="flex-column flex-grow-1 w-100 ps-0">
+  {% assign section = page.url | split: '/' | slice: 1 | first %}
+  {% case section %}
+    {% when nil %}{% assign section = 'home' %}
+    {% when 'posts', 'categories', 'tags', 'archives', 'blog' %}{% assign section = 'articles' %}
+    {% when 'skills', 'my-testimony', 'media' %}{% assign section = 'about' %}
+  {% endcase %}
+  {% if page.url == '/' %}{% assign section = 'home' %}{% endif %}
+  <nav aria-label="Main navigation" class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
-      <!-- home -->
-      <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
-        <a href="{{ '/' | relative_url }}" class="nav-link">
-          <i class="fa-fw fas fa-home"></i>
-          <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
-        </a>
-      </li>
-      <!-- the real tabs -->
-      {% assign posts_url = page.url | remove: 'index.html' %}
-      {% assign posts_active = false %}
-      {% if posts_url == '/posts/' or posts_url contains '/posts/page/' %}
-        {% assign posts_active = true %}
-      {% endif %}
-      {% assign posts_nav_done = false %}
-      {% for tab in site.tabs %}
-        {% unless posts_nav_done %}
-          {% if tab.order >= 5 %}
-            <li class="nav-item{% if posts_active %}{{ " active" }}{% endif %}">
-              <a href="{{ '/posts/' | relative_url }}" class="nav-link">
-                <i class="fa-fw fas fa-newspaper"></i>
-                <span>{{ site.data.locales[include.lang].tabs.posts | default: "Posts" | upcase }}</span>
-              </a>
-            </li>
-            {% assign posts_nav_done = true %}
-          {% endif %}
-        {% endunless %}
-        <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
-          <a href="{{ tab.url | relative_url }}" class="nav-link">
-            <i class="fa-fw {{ tab.icon }}"></i>
-            {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
-
-            <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+      {% for item in site.data.navigation %}
+        <li class="nav-item{% if section == item.key %} active{% endif %}">
+          <a href="{{ item.url | relative_url }}" class="nav-link"{% if section == item.key %} aria-current="{% if page.url == item.url %}page{% else %}location{% endif %}"{% endif %}>
+            <i class="fa-fw {{ item.icon }}" aria-hidden="true"></i>
+            <span>{{ item.label | upcase }}</span>
           </a>
         </li>
-        <!-- .nav-item -->
       {% endfor %}
-      {% unless posts_nav_done %}
-        <li class="nav-item{% if posts_active %}{{ " active" }}{% endif %}">
-          <a href="{{ '/posts/' | relative_url }}" class="nav-link">
-            <i class="fa-fw fas fa-newspaper"></i>
-            <span>{{ site.data.locales[include.lang].tabs.posts | default: "Posts" | upcase }}</span>
-          </a>
-        </li>
-      {% endunless %}
     </ul>
   </nav>
 

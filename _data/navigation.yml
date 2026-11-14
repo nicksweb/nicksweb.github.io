@@ -1,0 +1,24 @@
+- key: home
+  label: Home
+  url: /
+  icon: fas fa-home
+- key: consulting
+  label: IT Consulting
+  url: /consulting/
+  icon: fas fa-comments
+- key: cyber-security
+  label: Cyber Resources
+  url: /cyber-security/
+  icon: fas fa-shield-alt
+- key: articles
+  label: Articles
+  url: /posts/
+  icon: fas fa-newspaper
+- key: about
+  label: About
+  url: /about/
+  icon: fas fa-user
+- key: contact
+  label: Contact
+  url: /consulting/#contact-nick
+  icon: fas fa-envelope

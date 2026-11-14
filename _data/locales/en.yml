@@ -16,7 +16,9 @@ tabs:
   archives: Archives
   about: About
   consulting: IT Consulting
-  cyber-security: Cyber security
+  cyber-security: Cyber Resources
+  posts: Articles
+  blog: Personal blog
 
 # the text displayed in the search bar & search results
 search:
