@@ -18,6 +18,10 @@
   label: About
   url: /about/
   icon: fas fa-user
+- key: my-testimony
+  label: My Testimony
+  url: /my-testimony/
+  icon: fas fa-cross
 - key: contact
   label: Contact
   url: /consulting/#contact-nick
