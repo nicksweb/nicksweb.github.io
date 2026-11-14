@@ -19,7 +19,7 @@ seo:
 
 {% assign consultancy = site.data.consulting %}
 
-I help businesses, schools and community organisations improve unreliable systems, plan upgrades and make better technology decisions.
+I help businesses, schools and community organisations make confident IT decisions, improve security and deliver upgrades with minimal disruption.
 {: .lead }
 
 I'm Nick O'Sullivan, an IT consultant based in Townsville. Whether you need a second opinion or help with a project, I'll explain the options and costs clearly. You can work with me alongside your existing IT provider.
@@ -64,7 +64,14 @@ Value for money includes ongoing costs and support. I can help compare an Aruba 
 
 1. **Tell me what you need.** Share the problem, any quotes and your timing or budget constraints.
 2. **Agree the work.** We confirm the scope, fees, availability and who is responsible for each part.
-3. **Review the outcome.** We go through the findings or completed work, documentation and next steps.
+3. **Plan and deliver agreed changes.** We confirm approvals, timing, testing and a way back if the change does not work as expected.
+4. **Review the outcome.** We go through the findings or completed work, documentation and next steps.
+
+### Change management that fits your organisation
+
+My approach draws on ITIL service management practices: understand the impact, assess the risks, agree who approves the change and schedule it around the people who rely on the service. The process should fit the size and risk of the work.
+
+For a firewall migration or internet upgrade, that means agreeing the expected interruption, communicating with staff and suppliers, preparing a rollback plan, and checking that essential services work afterwards. Documentation and handover help your team support the result.
 
 I bring more than 17 years of IT experience across small business, education and community organisations, supported by ACS Certified Technologist and Ubiquiti networking credentials. [Read about my background and qualifications](/about/).
 
@@ -101,7 +108,7 @@ You can also [message me on LinkedIn](https://www.linkedin.com/in/nicholasosulli
 
 </div>
 
-I provide consultancy through [{{ consultancy.business_name }}]({{ consultancy.business_url }}), with specialist security services through [Suburban Secure](https://suburbansecure.au/). For computer repairs and everyday support, visit [Townsville Computer Man](https://www.tsvcomputerman.com.au/). My [cyber resources and articles](/cyber-security/) are available here too.
+This site introduces my experience, approach and writing. [Suburban Secure](https://suburbansecure.au/) brings that work together as technology reviews, cyber security improvements and implementation projects, through [{{ consultancy.business_name }}]({{ consultancy.business_url }}). For computer repairs and everyday support, visit [Townsville Computer Man](https://www.tsvcomputerman.com.au/).
 
 **Consultancy business:** Nicholas O'Sullivan  
 **ABN:** {{ consultancy.abn }}
