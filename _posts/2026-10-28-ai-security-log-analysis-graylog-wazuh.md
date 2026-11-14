@@ -76,6 +76,10 @@ Keep firewall changes, account disabling, deletion and production configuration 
 
 My first pilot would be one log source, one detection question and one weekly summary. Measure time saved, missed detections, false positives and whether every conclusion can be traced to evidence. Expand when the results justify it. This builds on the [earlier discussion of agentic AI and least privilege]({% post_url 2026-08-24-agentic-ai-attack-surface-schools-nfps-businesses %}).
 
+## Applying this in your organisation
+
+If your team needs help connecting log sources, reviewing detection coverage or turning alerts into useful investigation and reporting workflows, see my [security monitoring and IT consulting services in Townsville](/consulting/#cyber-security-analysis-and-monitoring). We can scope the work around your existing tools and the people responsible for reviewing findings.
+
 ## Sources
 
 - [ASD Annual Cyber Threat Report 2025–26](https://www.cyber.gov.au/publication/annual-cyber-threat-report-2025-26), printed pages 47–48, and [medium-business guidance](https://www.cyber.gov.au/publication/defending-against-ai-enabled-cyber-attacks-guidance-for-medium-sized-businesses).

@@ -85,9 +85,15 @@ I bring more than 17 years of experience across small business IT, Queensland ed
 
 My consultancy engagements are undertaken separately from my school employment. Availability, on-site requirements and delivery responsibilities are agreed around each project.
 
-## Cyber security remains part of the work
+## Cyber security analysis and monitoring
 
 Technology changes should account for administrator access, network separation, backups and recovery. I review these alongside connectivity and operational requirements, including Microsoft 365 identity and email security.
+
+I also help organisations integrate security analysis into their IT environment using tools such as **Wazuh and Splunk**. An engagement can cover identifying useful log sources, bringing together firewall, server and endpoint events, reviewing detection coverage, tuning alerts and building reports that explain what needs attention.
+
+The aim is to give your team evidence it can investigate and act on. We agree which systems are in scope, test the path from an event to an alert, and document who reviews findings and handles escalation. Platform choice takes account of your existing tools, available integrations, licensing, storage and the people who will operate it.
+
+Read my [practical approach to security log analysis with Graylog and Wazuh]({% post_url 2026-10-28-ai-security-log-analysis-graylog-wazuh %}), including testing detections and checking the evidence behind reports. Consulting can help establish or improve that workflow; ongoing monitoring responsibilities and response arrangements are agreed as part of the scope.
 
 My [cyber security research and resources](/cyber-security/) explain the thinking behind this work, including [the Townsville cyber security landscape](/posts/cyber-security-townsville-training-jobs-businesses/) and [why school governance needs to reach beyond the Essential Eight](/posts/beyond-essential-eight-school-cybersecurity-governance/). The [regional incident tracker](/cyber-security/incident-tracker/) collects the public reporting behind my Cyber Watch series.
 

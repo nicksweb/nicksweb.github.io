@@ -18,6 +18,10 @@ services:
     description: Turn a technology problem into a clear scope, priorities and next steps. Get help with systems integration, procurement decisions, vendor coordination, documentation and project delivery.
   - name: Cyber security and Microsoft 365 reviews
     description: Review identity and administrator access, email security, cloud settings, endpoint management and backup arrangements. Identify practical improvements and put them in an order your organisation can act on.
+  - name: Security monitoring and log analysis
+    description: Plan and integrate security analysis using tools such as Wazuh and Splunk. Bring relevant logs together, review detection coverage, tune alerts and develop reporting that helps your team investigate findings and prioritise action.
+    url: /posts/ai-security-log-analysis-graylog-wazuh/
+    link_text: My approach to security log analysis and tested alerts
 # Rendered on /consulting/unifi-network-design/ and used as that page's
 # Service structured data.
 unifi_services:
