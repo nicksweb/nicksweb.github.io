@@ -50,6 +50,12 @@ But a sample is only a sample. It cannot establish the full extent of access or 
 
 **There is no evidence in the material reviewed for this article that Calvary received a private sample.** This is an explanation of how these incidents can unfold, not an account of private discussions at the college.
 
+## What other Qilin investigations show
+
+For school IT teams wanting to understand the activity behind these threats, Cisco Talos's October 2025 analysis, [*Uncovering Qilin attack methods exposed through multiple cases*](https://blog.talosintelligence.com/uncovering-qilin-attack-methods-exposed-through-multiple-cases/){:target="_blank" rel="noopener noreferrer"}, is worth reading. Its incident responders documented a VPN without multi-factor authentication, abuse of the legitimate file-transfer application Cyberduck to move data out, and attempts to disable endpoint security tools. Talos was careful about uncertainty: it could not definitively establish a single initial intrusion route.
+
+My takeaway for schools is to check how remote access is protected, which file-transfer and remote-support tools are authorised, and who notices if security software is disabled. Familiar software can still be used to move information somewhere it should not go. These findings come from other Qilin investigations; they do not establish how the Calvary incident occurred.
+
 ## If information is released, what can an organisation do?
 
 For any school or organisation in this position, restoring systems is only part of the response. If information has been copied, bringing a server back online cannot retrieve those copies.
