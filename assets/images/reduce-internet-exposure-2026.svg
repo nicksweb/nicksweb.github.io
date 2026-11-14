@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Reduce what the internet can reach</title>
+<desc id="desc">Inventory each public service and establish its purpose and owner. Remove services without a purpose, restrict services needed only by staff, and retain necessary public services with support, patching and monitoring. Verify access and test recovery after changes.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7ca7bf"/></marker></defs>
+<rect width="1200" height="630" rx="20" fill="#102b41"/>
+<g font-family="Arial, sans-serif">
+<text x="60" y="64" fill="#80d8cf" font-size="18" font-weight="700" letter-spacing="2">PRACTICAL CYBER SECURITY</text>
+<text x="60" y="120" fill="white" font-size="43" font-weight="700">Reduce what the internet can reach</text>
+<text x="60" y="160" fill="#c6d8e5" font-size="22">Give every exposed service a purpose, an owner and a decision.</text>
+<rect x="300" y="200" width="600" height="72" rx="12" fill="#23465e" stroke="#7ca7bf"/>
+<text x="600" y="230" text-anchor="middle" fill="white" font-size="24" font-weight="700">Inventory and review</text>
+<text x="600" y="255" text-anchor="middle" fill="#d5e5ef" font-size="18">Who needs this service, and does it still receive fixes?</text>
+<g fill="none" stroke="#7ca7bf" stroke-width="3" marker-end="url(#arrow)">
+<path d="M600 272 V300 H230 V327"/><path d="M600 272 V327"/><path d="M600 272 V300 H970 V327"/>
+</g>
+<rect x="60" y="335" width="340" height="160" rx="12" fill="#e5f4f2"/>
+<rect x="430" y="335" width="340" height="160" rx="12" fill="#e7eff8"/>
+<rect x="800" y="335" width="340" height="160" rx="12" fill="#f2eaf7"/>
+<g text-anchor="middle" fill="#102b41">
+<text x="230" y="375" font-size="28" font-weight="700">REMOVE</text>
+<text x="230" y="412" font-size="21">No current purpose</text>
+<text x="230" y="451" font-size="18">Retire safely and preserve</text><text x="230" y="477" font-size="18">required records</text>
+<text x="600" y="375" font-size="28" font-weight="700">RESTRICT</text>
+<text x="600" y="412" font-size="21">Staff or administrators only</text>
+<text x="600" y="451" font-size="18">Use controlled access</text><text x="600" y="477" font-size="18">and maintain the access gateway</text>
+<text x="970" y="375" font-size="28" font-weight="700">RETAIN AND PROTECT</text>
+<text x="970" y="412" font-size="21">Public access is necessary</text>
+<text x="970" y="451" font-size="18">Support, patch, separate</text><text x="970" y="477" font-size="18">and monitor</text>
+</g>
+<text x="600" y="547" text-anchor="middle" fill="white" font-size="22">Verify external access • Test legitimate use • Exercise recovery</text>
+<text x="600" y="590" text-anchor="middle" fill="#afc8d9" font-size="16">Nicholas O’Sullivan · Implementation guide informed by ASD guidance · October 2026</text>
+</g></svg>
