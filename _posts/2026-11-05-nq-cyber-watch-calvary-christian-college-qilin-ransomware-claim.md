@@ -11,6 +11,8 @@ image:
   alt: Low wooden bookshelves in a school library, with a hat and pencil cases on top.
 ---
 
+> **Update, 14 November 2026:** The college has since confirmed a cyber incident. Read the [deadline-day follow-up, including practical advice and the school-year review]({% post_url 2026-11-14-nq-cyber-watch-calvary-qilin-deadline-school-year %}). The account below preserves the position on 5 November.
+
 Calvary Christian College in Mount Louisa has been named on the Qilin ransomware group's leak site. The listing was [recorded by ransomware.live](https://www.ransomware.live/id/Q2FsdmFyeSBDaHJpc3RpYW4gQ29sbGVnZUBxaWxpbg){:target="_blank" rel="noopener noreferrer"} on the evening of 5 November 2026.
 
 At the time of the checks for this article, the college had not published an incident notice on its website. **This is a claim by a criminal group. It does not establish that the school was breached or that anyone's information was taken.**
