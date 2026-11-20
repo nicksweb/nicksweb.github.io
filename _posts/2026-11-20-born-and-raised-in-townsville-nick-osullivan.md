@@ -52,8 +52,10 @@ Finding the right opportunity locally can take patience. Nick knows that from hi
 
 “It's not always easy finding the right job in IT in Townsville, but occasionally the right opportunity will present itself. When it's tough, that's when you learn to dig in and get through it.”
 
-![Nick O'Sullivan wearing a jacket and bow tie](/assets/images/IMG_0629.JPG){: width="2316" height="3088" .w-50 .normal }
-*Nick O'Sullivan, a Townsville local whose interest in computers grew into a career in IT.*
+<figure class="article-portrait">
+  <img src="/assets/images/IMG_0629.JPG" alt="Nick O'Sullivan wearing a jacket and bow tie" width="2316" height="3088">
+  <figcaption>Nick O'Sullivan, a Townsville local whose interest in computers grew into a career in IT.</figcaption>
+</figure>
 
 ## Getting involved and keeping in touch
 
@@ -85,7 +87,9 @@ His Christian faith is also central to his life. Sundays are for church and reme
 
 “I've been through some tough times, and without my family and knowing there's a Saviour, it would have been very hard to get to where I am today.”
 
-He has shared more of that journey in [his testimony](/my-testimony/), including the people and experiences that have helped shape his faith.
+He has shared more of that journey in his testimony, including the people and experiences that have helped shape his faith and the ways God has carried him through difficult times.
+
+**[Read Nick's full testimony: his journey of faith in Jesus](/my-testimony/).**
 
 There is still plenty he enjoys about life here: a ride on the mountain bike, a walk by the river, time with family and the chance to catch up with someone he has known for years. Townsville has changed since those early rides from the suburbs to the Strand, and so has Nick's life, but there is a lot here that remains familiar.
 

@@ -122,6 +122,24 @@
   object-fit: contain;
 }
 
+.article-portrait {
+  width: 100%;
+  max-width: 24rem;
+  margin: 1.5rem auto;
+}
+
+.article-portrait .img-link,
+.article-portrait img {
+  display: block;
+  width: 100%;
+}
+
+.article-portrait img {
+  height: auto;
+  margin: 0;
+}
+
+.article-portrait figcaption,
 .photo-gallery figcaption,
 .heritage-video figcaption {
   margin: 0.75rem 0;
